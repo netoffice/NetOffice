@@ -1,0 +1,13 @@
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.tlb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\ExcelApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\LateBindingApi.Core.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\OfficeApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\VBIDEApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\obj\Debug\COMAddinClassicExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\obj\Debug\COMAddinClassicExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\ExcelApi.xml
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\VBIDEApi.xml
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinClassicExample\bin\Debug\OfficeApi.xml

@@ -1,0 +1,16 @@
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\Example5.exe
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\Example5.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\ExcelApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\LateBindingApi.Core.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\OfficeApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\VBIDEApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\Example5.FinishDialog.resources
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\Example5.Form1.resources
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\Example5.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\Example05.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\Example5.exe
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\obj\Debug\Example5.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\ExcelApi.xml
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\OfficeApi.xml
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\Example5\bin\Debug\VBIDEApi.xml

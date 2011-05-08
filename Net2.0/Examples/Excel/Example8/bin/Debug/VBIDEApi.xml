@@ -1,0 +1,2438 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VBIDEApi</name>
+    </assembly>
+    <members>
+        <member name="T:LateBindingApi.VBIDEApi.VBProject">
+            <summary>
+             CoClass VBProject SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBProject">
+            <summary>
+             DispatchInterface _VBProject SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBProject_Old">
+            <summary>
+             DispatchInterface _VBProject_Old SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._ProjectTemplate">
+            <summary>
+             DispatchInterface _ProjectTemplate SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._ProjectTemplate.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._ProjectTemplate.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._ProjectTemplate.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._ProjectTemplate.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._ProjectTemplate.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject_Old.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject_Old.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.HelpFile">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.HelpContextID">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.Description">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.Mode">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.References">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.Name">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.Protection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.Saved">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject_Old.VBComponents">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject.SaveAs(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProject.MakeCompiledFile">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject.Type">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject.FileName">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProject.BuildFileName">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProject.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProject.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProject.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:VBIDEApi.Utils.ProjectInfo">
+            <summary>
+            necessary factory info, used from LateBindingApi.Core.Factory while Initialize()
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.ReferencesEvents">
+            <summary>
+             CoClass ReferencesEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._ReferencesEvents">
+            <summary>
+             Interface _ReferencesEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._ReferencesEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._ReferencesEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._ReferencesEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ReferencesEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ReferencesEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ReferencesEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ReferencesEvents.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ReferencesEvents.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.ReferencesEvents._ItemAddedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.ReferencesEvents.ItemAddedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.ReferencesEvents._ItemRemovedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.ReferencesEvents.ItemRemovedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_RefKind">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_RefKind.vbext_rk_TypeLib">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_RefKind.vbext_rk_Project">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.CodePanes">
+            <summary>
+             CoClass CodePanes SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._CodePanes">
+            <summary>
+             DispatchInterface _CodePanes SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePanes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePanes.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePanes.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePanes.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePanes.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePanes.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePanes.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePanes.Current">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePanes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePanes.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePanes.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePanes.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePanes.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._Components">
+            <summary>
+             DispatchInterface _Components SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.Remove(LateBindingApi.VBIDEApi.Component)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Component">LateBindingApi.VBIDEApi.Component Component</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.Add(LateBindingApi.VBIDEApi.Enums.vbext_ComponentType)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="ComponentType">LateBindingApi.VBIDEApi.Enums.vbext_ComponentType ComponentType</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Components.Import(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Components.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Components.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Components.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Components.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_VBAMode">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_VBAMode.vbext_vm_Run">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_VBAMode.vbext_vm_Break">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_VBAMode.vbext_vm_Design">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbextFileTypes">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeForm">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeModule">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeClass">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeProject">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeExe">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeFrx">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeRes">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeUserControl">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypePropertyPage">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeDocObject">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeBinary">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeGroupProject">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeDesigners">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._Properties">
+            <summary>
+             DispatchInterface _Properties SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Properties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Properties.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Properties.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Properties.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Properties.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Properties.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Properties.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Properties.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.VBComponents">
+            <summary>
+             CoClass VBComponents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBComponents">
+            <summary>
+             DispatchInterface _VBComponents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBComponents_Old">
+            <summary>
+             DispatchInterface _VBComponents_Old SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.Remove(LateBindingApi.VBIDEApi.VBComponent)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.Add(LateBindingApi.VBIDEApi.Enums.vbext_ComponentType)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="ComponentType">LateBindingApi.VBIDEApi.Enums.vbext_ComponentType ComponentType</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents_Old.Import(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponents_Old.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponents_Old.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponents_Old.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents.AddCustom(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="ProgId">string ProgId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponents.AddMTDesigner(System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">Int32 index</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponents.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponents.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBComponent">
+            <summary>
+             DispatchInterface _VBComponent SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBComponent_Old">
+            <summary>
+             DispatchInterface _VBComponent_Old SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent_Old.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent_Old.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent_Old.Export(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent_Old.DesignerWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent_Old.Activate">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.Saved">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.Name">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.Designer">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.CodeModule">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.Type">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.HasOpenDesigner">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent_Old.Properties">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponent.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBComponent.DesignerID">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBProjectsEvents">
+            <summary>
+             Interface _VBProjectsEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjectsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjectsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjectsEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_CodePaneview">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_CodePaneview.vbext_cv_ProcedureView">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_CodePaneview.vbext_cv_FullModuleView">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._CommandBarControlEvents">
+            <summary>
+             Interface _CommandBarControlEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CommandBarControlEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CommandBarControlEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CommandBarControlEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBComponentsEvents">
+            <summary>
+             Interface _VBComponentsEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponentsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponentsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBComponentsEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.CodePane">
+            <summary>
+             CoClass CodePane SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._CodePane">
+            <summary>
+             DispatchInterface _CodePane SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePane.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePane.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePane.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePane.GetSelection(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="StartLine">ref Int32 StartLine</param>
+            <param name="StartColumn">ref Int32 StartColumn</param>
+            <param name="EndLine">ref Int32 EndLine</param>
+            <param name="EndColumn">ref Int32 EndColumn</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePane.SetSelection(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="StartLine">Int32 StartLine</param>
+            <param name="StartColumn">Int32 StartColumn</param>
+            <param name="EndLine">Int32 EndLine</param>
+            <param name="EndColumn">Int32 EndColumn</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodePane.Show">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.Window">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.TopLine">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.CountOfVisibleLines">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.CodeModule">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodePane.CodePaneView">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePane.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePane.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePane.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePane.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodePane.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Addins">
+            <summary>
+             CoClass Addins SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._AddIns">
+            <summary>
+             DispatchInterface _AddIns SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._AddIns.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._AddIns.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._AddIns.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._AddIns.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._AddIns.Update">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._AddIns.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._AddIns.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._AddIns.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Addins.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Addins.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Addins.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Addins.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Addins.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Components">
+            <summary>
+             CoClass Components SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Components.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Components.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Components.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Components.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Components.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Properties">
+            <summary>
+             CoClass Properties SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Properties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Properties.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Properties.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Properties.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.CommandBarEvents">
+            <summary>
+             CoClass CommandBarEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CommandBarEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CommandBarEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CommandBarEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CommandBarEvents.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CommandBarEvents.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.CommandBarEvents._ClickEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.CommandBarEvents.ClickEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._CodeModule">
+            <summary>
+             DispatchInterface _CodeModule SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.get_Lines(System.Int32,System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="StartLine">Int32 StartLine</param>
+            <param name="Count">Int32 Count</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.get_ProcStartLine(System.String,LateBindingApi.VBIDEApi.Enums.vbext_ProcKind)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="ProcName">string ProcName</param>
+            <param name="ProcKind">LateBindingApi.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.get_ProcCountLines(System.String,LateBindingApi.VBIDEApi.Enums.vbext_ProcKind)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="ProcName">string ProcName</param>
+            <param name="ProcKind">LateBindingApi.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.get_ProcBodyLine(System.String,LateBindingApi.VBIDEApi.Enums.vbext_ProcKind)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="ProcName">string ProcName</param>
+            <param name="ProcKind">LateBindingApi.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.get_ProcOfLine(System.Int32,LateBindingApi.VBIDEApi.Enums.vbext_ProcKind)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Line">Int32 Line</param>
+            <param name="ProcKind">LateBindingApi.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.AddFromString(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="String">string String</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.AddFromFile(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.InsertLines(System.Int32,System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Line">Int32 Line</param>
+            <param name="String">string String</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.DeleteLines(System.Int32,System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="StartLine">Int32 StartLine</param>
+            <param name="Count">Int32 Count</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.ReplaceLine(System.Int32,System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Line">Int32 Line</param>
+            <param name="String">string String</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.CreateEventProc(System.String,System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="EventName">string EventName</param>
+            <param name="ObjectName">string ObjectName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._CodeModule.Find(System.String,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Target">string Target</param>
+            <param name="StartLine">ref Int32 StartLine</param>
+            <param name="StartColumn">ref Int32 StartColumn</param>
+            <param name="EndLine">ref Int32 EndLine</param>
+            <param name="EndColumn">ref Int32 EndColumn</param>
+            <param name="WholeWord">bool WholeWord</param>
+            <param name="MatchCase">bool MatchCase</param>
+            <param name="PatternSearch">bool PatternSearch</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodeModule.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodeModule.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodeModule.Name">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodeModule.CountOfLines">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodeModule.CountOfDeclarationLines">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._CodeModule.CodePane">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._Windows_old">
+            <summary>
+             DispatchInterface _Windows_old SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows_old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows_old.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows_old.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows_old.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Windows_old.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Windows_old.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Windows_old.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_ProjectType">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProjectType.vbext_pt_HostProject">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProjectType.vbext_pt_StandAlone">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Reference">
+            <summary>
+             DispatchInterface Reference SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Reference.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Reference.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Reference.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Name">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Guid">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Major">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Minor">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.FullPath">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.BuiltIn">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.IsBroken">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Type">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Reference.Description">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.VBE">
+            <summary>
+             DispatchInterface VBE SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Application">
+            <summary>
+             DispatchInterface Application SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Application.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Application.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Application.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Application.Version">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBE.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBE.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBE.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.VBProjects">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.CommandBars">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.CodePanes">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.Windows">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.Events">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.ActiveVBProject">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.SelectedVBComponent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.MainWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.ActiveWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.ActiveCodePane">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.VBE.Addins">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_WindowType">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_CodeWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Designer">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Browser">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Watch">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Locals">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Immediate">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_ProjectWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_PropertyWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Find">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_FindReplace">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Toolbox">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_LinkedWindowFrame">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_MainWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowType.vbext_wt_ToolWindow">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._dispVBProjectsEvents">
+            <summary>
+             DispatchInterface _dispVBProjectsEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.ItemAdded(LateBindingApi.VBIDEApi.VBProject)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBProject">LateBindingApi.VBIDEApi.VBProject VBProject</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.ItemRemoved(LateBindingApi.VBIDEApi.VBProject)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBProject">LateBindingApi.VBIDEApi.VBProject VBProject</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.ItemRenamed(LateBindingApi.VBIDEApi.VBProject,System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBProject">LateBindingApi.VBIDEApi.VBProject VBProject</param>
+            <param name="OldName">string OldName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBProjectsEvents.ItemActivated(LateBindingApi.VBIDEApi.VBProject)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBProject">LateBindingApi.VBIDEApi.VBProject VBProject</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Events">
+            <summary>
+             DispatchInterface Events SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Events.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Events.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Events.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Events.get_ReferencesEvents(LateBindingApi.VBIDEApi.VBProject)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBProject">LateBindingApi.VBIDEApi.VBProject VBProject</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Events.get_CommandBarEvents(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="CommandBarControl">object CommandBarControl</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_ProjectProtection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProjectProtection.vbext_pp_none">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProjectProtection.vbext_pp_locked">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_WindowState">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowState.vbext_ws_Normal">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowState.vbext_ws_Minimize">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_WindowState.vbext_ws_Maximize">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.VBComponent">
+            <summary>
+             CoClass VBComponent SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponent.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponent.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBComponent.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._References">
+            <summary>
+             DispatchInterface _References SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.AddFromGuid(System.String,System.Int32,System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Guid">string Guid</param>
+            <param name="Major">Int32 Major</param>
+            <param name="Minor">Int32 Minor</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.AddFromFile(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._References.Remove(LateBindingApi.VBIDEApi.Reference)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Reference">LateBindingApi.VBIDEApi.Reference Reference</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._References.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._References.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._References.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBProjects">
+            <summary>
+             DispatchInterface _VBProjects SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._VBProjects_Old">
+            <summary>
+             DispatchInterface _VBProjects_Old SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects_Old.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects_Old.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects_Old.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProjects_Old.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProjects_Old.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._VBProjects_Old.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects.Add(LateBindingApi.VBIDEApi.Enums.vbext_ProjectType)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Type">LateBindingApi.VBIDEApi.Enums.vbext_ProjectType Type</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects.Remove(LateBindingApi.VBIDEApi.VBProject)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="lpc">LateBindingApi.VBIDEApi.VBProject lpc</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._VBProjects.Open(System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="bstrPath">string bstrPath</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.CodeModule">
+            <summary>
+             CoClass CodeModule SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodeModule.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodeModule.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.CodeModule.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Component">
+            <summary>
+             CoClass Component SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._Component">
+            <summary>
+             DispatchInterface _Component SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Component.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Component.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Component.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Component.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Component.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Component.IsDirty">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._Component.Name">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Component.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Component.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Component.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Component.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Component.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.ProjectTemplate">
+            <summary>
+             CoClass ProjectTemplate SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ProjectTemplate.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ProjectTemplate.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ProjectTemplate.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ProjectTemplate.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.ProjectTemplate.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.SelectedComponents">
+            <summary>
+             DispatchInterface SelectedComponents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.SelectedComponents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.SelectedComponents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.SelectedComponents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.SelectedComponents.Item(System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">Int32 index</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.SelectedComponents.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.SelectedComponents.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.SelectedComponents.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.LinkedWindows">
+            <summary>
+             CoClass LinkedWindows SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._LinkedWindows">
+            <summary>
+             DispatchInterface _LinkedWindows SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._LinkedWindows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._LinkedWindows.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._LinkedWindows.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._LinkedWindows.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._LinkedWindows.Remove(LateBindingApi.VBIDEApi.Window)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Window">LateBindingApi.VBIDEApi.Window Window</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._LinkedWindows.Add(LateBindingApi.VBIDEApi.Window)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Window">LateBindingApi.VBIDEApi.Window Window</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._LinkedWindows.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._LinkedWindows.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi._LinkedWindows.Count">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.LinkedWindows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.LinkedWindows.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.LinkedWindows.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.LinkedWindows.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.LinkedWindows.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Property">
+            <summary>
+             DispatchInterface Property SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Property.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Property.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Property.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Property.get_IndexedValue(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Index1">object Index1</param>
+            <param name="Index2">optional object Index2</param>
+            <param name="Index3">optional object Index3</param>
+            <param name="Index4">optional object Index4</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Property.get_IndexedValue(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="Index1">object Index1</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.Value">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.NumIndices">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.Application">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.Parent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.Name">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Property.Object">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Window">
+            <summary>
+             DispatchInterface Window SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.Close">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.SetFocus">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.SetKind(LateBindingApi.VBIDEApi.Enums.vbext_WindowType)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="eKind">LateBindingApi.VBIDEApi.Enums.vbext_WindowType eKind</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.Detach">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Window.Attach(System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="lWindowHandle">Int32 lWindowHandle</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Caption">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Visible">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Left">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Top">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Width">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Height">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.WindowState">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.Type">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.LinkedWindows">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.LinkedWindowFrame">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.Window.HWnd">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_ProcKind">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Proc">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Let">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Set">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Get">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.VBProjects">
+            <summary>
+             CoClass VBProjects SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProjects.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProjects.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProjects.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProjects.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.VBProjects.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.AddIn">
+            <summary>
+             DispatchInterface AddIn SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.AddIn.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.AddIn.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.AddIn.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.Description">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.VBE">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.Collection">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.ProgId">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.Guid">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.Connect">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.VBIDEApi.AddIn.Object">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._Windows">
+            <summary>
+             DispatchInterface _Windows SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._Windows.CreateToolWindow(LateBindingApi.VBIDEApi.AddIn,System.String,System.String,System.String,System.Object@)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="AddInInst">LateBindingApi.VBIDEApi.AddIn AddInInst</param>
+            <param name="ProgId">string ProgId</param>
+            <param name="Caption">string Caption</param>
+            <param name="GuidPosition">string GuidPosition</param>
+            <param name="DocObj">ref object DocObj</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.References">
+            <summary>
+             CoClass References SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.References.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.References.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.References.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.References.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.References.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.References._ItemAddedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.References.ItemAddedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.References._ItemRemovedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="E:LateBindingApi.VBIDEApi.References.ItemRemovedEvent">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Windows">
+            <summary>
+             CoClass Windows SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Windows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Windows.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Windows.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Windows.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi.Windows.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi._dispVBComponentsEvents">
+            <summary>
+             DispatchInterface _dispVBComponentsEvents SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.ItemAdded(LateBindingApi.VBIDEApi.VBComponent)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.ItemRemoved(LateBindingApi.VBIDEApi.VBComponent)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.ItemRenamed(LateBindingApi.VBIDEApi.VBComponent,System.String)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+            <param name="OldName">string OldName</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.ItemSelected(LateBindingApi.VBIDEApi.VBComponent)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.ItemActivated(LateBindingApi.VBIDEApi.VBComponent)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+        </member>
+        <member name="M:LateBindingApi.VBIDEApi._dispVBComponentsEvents.ItemReloaded(LateBindingApi.VBIDEApi.VBComponent)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="VBComponent">LateBindingApi.VBIDEApi.VBComponent VBComponent</param>
+        </member>
+        <member name="T:LateBindingApi.VBIDEApi.Enums.vbext_ComponentType">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_StdModule">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_ClassModule">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_MSForm">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_ActiveXDesigner">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_Document">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+        </member>
+    </members>
+</doc>

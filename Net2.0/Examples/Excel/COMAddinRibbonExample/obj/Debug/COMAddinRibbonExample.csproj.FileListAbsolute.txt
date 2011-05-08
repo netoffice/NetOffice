@@ -1,0 +1,13 @@
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\COMAddinRibbonExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\COMAddinRibbonExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\COMAddinRibbonExample.tlb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\ExcelApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\LateBindingApi.Core.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\OfficeApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\VBIDEApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\obj\Debug\COMAddinRibbonExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\obj\Debug\COMAddinRibbonExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\ExcelApi.xml
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\OfficeApi.xml
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Excel\COMAddinRibbonExample\bin\Debug\VBIDEApi.xml

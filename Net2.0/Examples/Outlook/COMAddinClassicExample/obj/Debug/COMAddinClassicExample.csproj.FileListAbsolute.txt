@@ -1,0 +1,16 @@
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.tlb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\LateBindingApi.Core.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\OfficeApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\OutlookApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\bin\Debug\VBIDEApi.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\obj\Debug\COMAddinClassicExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Outlook\COMAddinClassicExample\obj\Debug\COMAddinClassicExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Outlook\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Outlook\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.pdb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Outlook\COMAddinClassicExample\bin\Debug\COMAddinClassicExample.tlb
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Outlook\COMAddinClassicExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Outlook\COMAddinClassicExample\obj\Debug\COMAddinClassicExample.dll
+C:\Dokumente und Einstellungen\Sebastian\Desktop\LateBindingApi.CodeGenerator.Examples\Examples\Outlook\COMAddinClassicExample\obj\Debug\COMAddinClassicExample.pdb

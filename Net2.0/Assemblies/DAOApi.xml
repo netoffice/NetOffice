@@ -1,0 +1,4465 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DAOApi</name>
+    </assembly>
+    <members>
+        <member name="T:LateBindingApi.DAOApi.User">
+            <summary>
+             CoClass User SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._User">
+            <summary>
+             DispatchInterface _User SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._DAO">
+            <summary>
+             DispatchInterface _DAO SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DAO.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DAO.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DAO.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DAO.Properties">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._User.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._User.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._User.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._User.NewPassword(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="bstrOld">string bstrOld</param>
+            <param name="bstrNew">string bstrNew</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._User.CreateGroup(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="PID">optional object PID</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._User.CreateGroup">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._User.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._User.PID">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._User.Password">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._User.Groups">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.User.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.User.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.User.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.User.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.User.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._Relation">
+            <summary>
+             DispatchInterface _Relation SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Relation.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Relation.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Relation.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Relation.CreateField(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Size">optional object Size</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Relation.CreateField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Relation.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Relation.Table">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Relation.ForeignTable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Relation.Attributes">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Relation.Fields">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Relation.PartialReplica">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._Index">
+            <summary>
+             DispatchInterface _Index SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.CreateField(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Size">optional object Size</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.CreateField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+            <param name="DDL">optional object DDL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Index.CreateProperty">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Foreign">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Unique">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Clustered">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Required">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.IgnoreNulls">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Primary">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.DistinctCount">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Index.Fields">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Property">
+            <summary>
+             DispatchInterface Property SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Property.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Property.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Property.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Property.Value">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Property.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Property.Type">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Property.Inherited">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.ReplicaTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.ReplicaTypeEnum.dbRepMakeReadOnly">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.ReplicaTypeEnum.dbRepMakePartial">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.IdleEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.IdleEnum.dbFreeLocks">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.IdleEnum.dbRefreshCache">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Group">
+            <summary>
+             CoClass Group SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._Group">
+            <summary>
+             DispatchInterface _Group SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Group.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Group.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Group.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Group.CreateUser(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="PID">optional object PID</param>
+            <param name="Password">optional object Password</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Group.CreateUser">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Group.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Group.PID">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Group.Users">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Group.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Group.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Group.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Group.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Group.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Field">
+            <summary>
+             CoClass Field SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._Field">
+            <summary>
+             DispatchInterface _Field SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.AppendChunk(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Val">object Val</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.GetChunk(System.Int32,System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Offset">Int32 Offset</param>
+            <param name="Bytes">Int32 Bytes</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field._30_FieldSize">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+            <param name="DDL">optional object DDL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Field.CreateProperty">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.CollatingOrder">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.Type">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.Size">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.SourceField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.SourceTable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.Value">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.Attributes">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.OrdinalPosition">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.ValidationText">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.ValidateOnSet">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.ValidationRule">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.DefaultValue">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.Required">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.AllowZeroLength">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.DataUpdatable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.ForeignName">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.CollectionIndex">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.OriginalValue">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.VisibleValue">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Field.FieldSize">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.UpdateTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateTypeEnum.dbUpdateBatch">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateTypeEnum.dbUpdateRegular">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateTypeEnum.dbUpdateCurrentRecord">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.CursorDriverEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CursorDriverEnum.dbUseDefaultCursor">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CursorDriverEnum.dbUseODBCCursor">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CursorDriverEnum.dbUseServerCursor">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CursorDriverEnum.dbUseClientBatchCursor">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CursorDriverEnum.dbUseNoCursor">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Recordset2">
+            <summary>
+             DispatchInterface Recordset2 SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Recordset">
+            <summary>
+             DispatchInterface Recordset SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.get_Collect(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset._30_CancelUpdate">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.AddNew">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Close">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.OpenRecordset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.OpenRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Delete">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Edit">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.FindFirst(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Criteria">string Criteria</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.FindLast(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Criteria">string Criteria</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.FindNext(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Criteria">string Criteria</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.FindPrevious(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Criteria">string Criteria</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.MoveFirst">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset._30_MoveLast">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.MoveNext">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.MovePrevious">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+            <param name="Key8">optional object Key8</param>
+            <param name="Key9">optional object Key9</param>
+            <param name="Key10">optional object Key10</param>
+            <param name="Key11">optional object Key11</param>
+            <param name="Key12">optional object Key12</param>
+            <param name="Key13">optional object Key13</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Seek(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset._30_Update">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Clone">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Requery(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="NewQueryDef">optional object NewQueryDef</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Requery">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Move(System.Int32,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Rows">Int32 Rows</param>
+            <param name="StartBookmark">optional object StartBookmark</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Move(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Rows">Int32 Rows</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.FillCache(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Rows">optional object Rows</param>
+            <param name="StartBookmark">optional object StartBookmark</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.FillCache">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.CreateDynaset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">optional object Options</param>
+            <param name="Inconsistent">optional object Inconsistent</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.CreateDynaset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.CreateSnapshot(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.CreateSnapshot">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.CopyQueryDef">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.ListFields">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.ListIndexes">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.GetRows(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="NumRows">optional object NumRows</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.GetRows">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Cancel">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.NextRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.CancelUpdate(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="UpdateType">Int32 UpdateType</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.Update(System.Int32,System.Boolean)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="UpdateType">Int32 UpdateType</param>
+            <param name="Force">bool Force</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset.MoveLast(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">Int32 Options</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.BOF">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Bookmark">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Bookmarkable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.DateCreated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.EOF">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Filter">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Index">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.LastModified">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.LastUpdated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.LockEdits">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.NoMatch">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Sort">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Transactions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Type">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.RecordCount">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Updatable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Restartable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.ValidationText">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.ValidationRule">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.CacheStart">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.CacheSize">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.PercentPosition">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.AbsolutePosition">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.EditMode">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.ODBCFetchCount">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.ODBCFetchDelay">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Parent">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Fields">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Indexes">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.hStmt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.StillExecuting">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.BatchSize">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.BatchCollisionCount">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.BatchCollisions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.Connection">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.RecordStatus">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset.UpdateOptions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset2.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset2.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordset2.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset2.Properties">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Recordset2.ParentRecordset">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.RecordStatusEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordStatusEnum.dbRecordUnmodified">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordStatusEnum.dbRecordModified">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordStatusEnum.dbRecordNew">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordStatusEnum.dbRecordDeleted">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordStatusEnum.dbRecordDBDeleted">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.ParameterDirectionEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.ParameterDirectionEnum.dbParamInput">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.ParameterDirectionEnum.dbParamOutput">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.ParameterDirectionEnum.dbParamInputOutput">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.ParameterDirectionEnum.dbParamReturnValue">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.SetOptionEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbPageTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbLockRetry">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbMaxBufferSize">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbUserCommitSync">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbImplicitCommitSync">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbExclusiveAsyncDelay">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbSharedAsyncDelay">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbMaxLocksPerFile">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbLockDelay">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbRecycleLVs">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbFlushTransactionTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbPasswordEncryptionProvider">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbPasswordEncryptionAlgorithm">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SetOptionEnum.dbPasswordEncryptionKeyLength">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.DriverPromptEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DriverPromptEnum.dbDriverPrompt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DriverPromptEnum.dbDriverNoPrompt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DriverPromptEnum.dbDriverComplete">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DriverPromptEnum.dbDriverCompleteRequired">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Error">
+            <summary>
+             DispatchInterface Error SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Error.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Error.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Error.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Error.Number">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Error.Source">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Error.Description">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Error.HelpFile">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Error.HelpContext">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.QueryDefs">
+            <summary>
+             DispatchInterface QueryDefs SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._DynaCollection">
+            <summary>
+             DispatchInterface _DynaCollection SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._Collection">
+            <summary>
+             DispatchInterface _Collection SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Collection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Collection.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Collection.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._Collection.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._Collection.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DynaCollection.Append(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Object">object Object</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DynaCollection.Delete(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDefs.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDefs.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDefs.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDefs.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDefs.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.QueryDefs.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion10">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbEncrypt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbDecrypt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion11">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion20">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion30">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion40">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion120">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DatabaseTypeEnum.dbVersion140">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQSelect">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQProcedure">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQAction">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQCrosstab">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQDelete">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQUpdate">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQAppend">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQMakeTable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQDDL">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQSQLPassThrough">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQSetOperation">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQSPTBulk">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefTypeEnum.dbQCompound">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.LockTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.LockTypeEnum.dbPessimistic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.LockTypeEnum.dbOptimistic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.LockTypeEnum.dbOptimisticValue">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.LockTypeEnum.dbOptimisticBatch">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.IndexFields">
+            <summary>
+             DispatchInterface IndexFields SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.IndexFields.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.IndexFields.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.IndexFields.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.IndexFields.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">optional object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.IndexFields.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.IndexFields.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.IndexFields.Item">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Document">
+            <summary>
+             DispatchInterface Document SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Document.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Document.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Document.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Document.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+            <param name="DDL">optional object DDL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Document.CreateProperty">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.Owner">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.Container">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.UserName">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.Permissions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.DateCreated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.LastUpdated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Document.AllPermissions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Indexes">
+            <summary>
+             DispatchInterface Indexes SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Indexes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Indexes.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Indexes.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Indexes.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Indexes.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Indexes.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Properties">
+            <summary>
+             DispatchInterface Properties SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Properties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Properties.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Properties.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Properties.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Properties.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.SynchronizeTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SynchronizeTypeEnum.dbRepExportChanges">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SynchronizeTypeEnum.dbRepImportChanges">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SynchronizeTypeEnum.dbRepImpExpChanges">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.SynchronizeTypeEnum.dbRepSyncInternet">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.CollatingOrderEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortNeutral">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortArabic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortCyrillic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortCzech">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortDutch">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortGeneral">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortGreek">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortHebrew">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortHungarian">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortIcelandic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortNorwdan">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortPDXIntl">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortPDXNor">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortPDXSwe">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortPolish">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortSpanish">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortSwedFin">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortTurkish">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortJapanese">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortChineseSimplified">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortChineseTraditional">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortKorean">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortThai">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortSlovenian">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortUndefined">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortJapaneseRadicalStrokeCount">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CollatingOrderEnum.dbSortHindi">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Documents">
+            <summary>
+             DispatchInterface Documents SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Documents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Documents.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Documents.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Documents.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Recordsets">
+            <summary>
+             DispatchInterface Recordsets SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordsets.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordsets.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordsets.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Recordsets.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Connection">
+            <summary>
+             DispatchInterface Connection SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.Cancel">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.Close">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.CreateQueryDef(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="SQLText">optional object SQLText</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.CreateQueryDef">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.Execute(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Query">string Query</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.Execute(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Query">string Query</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.OpenRecordset(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+            <param name="LockEdit">optional object LockEdit</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connection.OpenRecordset(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.Connect">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.Database">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.hDbc">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.QueryTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.Transactions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.RecordsAffected">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.StillExecuting">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.Updatable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.QueryDefs">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Connection.Recordsets">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Workspace">
+            <summary>
+             DispatchInterface Workspace SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.BeginTrans">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CommitTrans(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">Int32 Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.Close">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.Rollback">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.OpenDatabase(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
+            <param name="Connect">optional object Connect</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.OpenDatabase(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CreateDatabase(System.String,System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Connect">string Connect</param>
+            <param name="Option">optional object Option</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CreateDatabase(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Connect">string Connect</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CreateUser(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="PID">optional object PID</param>
+            <param name="Password">optional object Password</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CreateUser">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CreateGroup(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="PID">optional object PID</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.CreateGroup">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.OpenConnection(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
+            <param name="Connect">optional object Connect</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspace.OpenConnection(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.UserName">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace._30_UserName">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace._30_Password">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.IsolateODBCTrans">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.Databases">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.Users">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.Groups">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.LoginTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.DefaultCursorDriver">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.hEnv">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.Type">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspace.Connections">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Workspaces">
+            <summary>
+             DispatchInterface Workspaces SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspaces.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspaces.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspaces.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspaces.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Workspaces.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Workspaces.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.RelationAttributeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationUnique">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationDontEnforce">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationInherited">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationUpdateCascade">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationDeleteCascade">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationLeft">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RelationAttributeEnum.dbRelationRight">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.DBEngine">
+            <summary>
+             CoClass DBEngine SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._DBEngine">
+            <summary>
+             DispatchInterface _DBEngine SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.Idle(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Action">optional object Action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.Idle">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CompactDatabase(System.String,System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="SrcName">string SrcName</param>
+            <param name="DstName">string DstName</param>
+            <param name="DstLocale">optional object DstLocale</param>
+            <param name="Options">optional object Options</param>
+            <param name="SrcLocale">optional object SrcLocale</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CompactDatabase(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="SrcName">string SrcName</param>
+            <param name="DstName">string DstName</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.RepairDatabase(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.RegisterDatabase(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Dsn">string Dsn</param>
+            <param name="Driver">string Driver</param>
+            <param name="Silent">bool Silent</param>
+            <param name="Attributes">string Attributes</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine._30_CreateWorkspace(System.String,System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="UserName">string UserName</param>
+            <param name="Password">string Password</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.OpenDatabase(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
+            <param name="Connect">optional object Connect</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.OpenDatabase(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CreateDatabase(System.String,System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Locale">string Locale</param>
+            <param name="Option">optional object Option</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CreateDatabase(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Locale">string Locale</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.FreeLocks">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.BeginTrans">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CommitTrans(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Option">Int32 Option</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.Rollback">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.SetDefaultWorkspace(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Password">string Password</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.SetDataAccessOption(System.Int16,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Option">Int16 Option</param>
+            <param name="Value">object Value</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.ISAMStats(System.Int32,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="StatNum">Int32 StatNum</param>
+            <param name="Reset">optional object Reset</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.ISAMStats(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="StatNum">Int32 StatNum</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CreateWorkspace(System.String,System.String,System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="UserName">string UserName</param>
+            <param name="Password">string Password</param>
+            <param name="UseType">optional object UseType</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.CreateWorkspace(System.String,System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="UserName">string UserName</param>
+            <param name="Password">string Password</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.OpenConnection(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
+            <param name="Connect">optional object Connect</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.OpenConnection(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._DBEngine.SetOption(System.Int32,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Option">Int32 Option</param>
+            <param name="Value">object Value</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.Version">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.IniPath">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.DefaultUser">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.DefaultPassword">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.LoginTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.Workspaces">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.Errors">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.SystemDB">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._DBEngine.DefaultType">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.DBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.DBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.DBEngine.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.DBEngine.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.DBEngine.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Relations">
+            <summary>
+             DispatchInterface Relations SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relations.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relations.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relations.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relations.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relations.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Relations.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum.dbAttachExclusive">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum.dbAttachSavePWD">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum.dbSystemObject">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum.dbAttachedTable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum.dbAttachedODBC">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.TableDefAttributeEnum.dbHiddenObject">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.TableDef">
+            <summary>
+             CoClass TableDef SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._TableDef">
+            <summary>
+             DispatchInterface _TableDef SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.OpenRecordset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.OpenRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.RefreshLink">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.CreateField(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Size">optional object Size</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.CreateField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.CreateIndex(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.CreateIndex">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+            <param name="DDL">optional object DDL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._TableDef.CreateProperty">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.Attributes">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.Connect">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.DateCreated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.LastUpdated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.SourceTableName">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.Updatable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.ValidationText">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.ValidationRule">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.RecordCount">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.Fields">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.Indexes">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.ConflictTable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._TableDef.ReplicaFilter">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDef.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDef.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDef.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDef.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Errors">
+            <summary>
+             DispatchInterface Errors SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Errors.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Errors.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Errors.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Errors.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Groups">
+            <summary>
+             DispatchInterface Groups SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Groups.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Groups.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Groups.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Groups.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Groups.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Groups.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Container">
+            <summary>
+             DispatchInterface Container SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Container.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Container.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Container.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.Owner">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.UserName">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.Permissions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.Inherit">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.Documents">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Container.AllPermissions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Parameter">
+            <summary>
+             DispatchInterface Parameter SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameter.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameter.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameter.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Parameter.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Parameter.Value">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Parameter.Type">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Parameter.Direction">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Database">
+            <summary>
+             DispatchInterface Database SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.Close">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.Execute(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Query">string Query</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.Execute(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Query">string Query</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database._30_OpenRecordset(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database._30_OpenRecordset(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+            <param name="DDL">optional object DDL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateProperty">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateRelation(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Table">optional object Table</param>
+            <param name="ForeignTable">optional object ForeignTable</param>
+            <param name="Attributes">optional object Attributes</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateRelation">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateTableDef(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Attributes">optional object Attributes</param>
+            <param name="SourceTableName">optional object SourceTableName</param>
+            <param name="Connect">optional object Connect</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateTableDef">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.BeginTrans">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CommitTrans(System.Int32)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">Int32 Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.Rollback">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateDynaset(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="Inconsistent">optional object Inconsistent</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateDynaset(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateQueryDef(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="SQLText">optional object SQLText</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateQueryDef">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateSnapshot(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Source">string Source</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.CreateSnapshot(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Source">string Source</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.DeleteQueryDef(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.ExecuteSQL(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="SQL">string SQL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.ListFields(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.ListTables">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.OpenQueryDef(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.OpenTable(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.OpenTable(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.Synchronize(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="DbPathName">string DbPathName</param>
+            <param name="ExchangeType">optional object ExchangeType</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.Synchronize(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="DbPathName">string DbPathName</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.MakeReplica(System.String,System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="PathName">string PathName</param>
+            <param name="Description">string Description</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.MakeReplica(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="PathName">string PathName</param>
+            <param name="Description">string Description</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.NewPassword(System.String,System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="bstrOld">string bstrOld</param>
+            <param name="bstrNew">string bstrNew</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.OpenRecordset(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+            <param name="LockEdit">optional object LockEdit</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.OpenRecordset(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">string Name</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Database.PopulatePartial(System.String)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="DbPathName">string DbPathName</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.CollatingOrder">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Connect">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.QueryTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Transactions">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Updatable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Version">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.RecordsAffected">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.TableDefs">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.QueryDefs">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Relations">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Containers">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Recordsets">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.ReplicaID">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.DesignMasterID">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Database.Connection">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.DataTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbBoolean">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbByte">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbInteger">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbLong">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbCurrency">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbSingle">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbDouble">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbDate">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbBinary">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbText">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbLongBinary">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbMemo">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbGUID">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbBigInt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbVarBinary">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbChar">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbNumeric">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbDecimal">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbFloat">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbTime">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbTimeStamp">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbAttachment">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexByte">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexInteger">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexLong">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexSingle">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexDouble">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexGUID">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexDecimal">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.DataTypeEnum.dbComplexText">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.RecordsetTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetTypeEnum.dbOpenTable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetTypeEnum.dbOpenDynaset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetTypeEnum.dbOpenSnapshot">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetTypeEnum.dbOpenForwardOnly">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetTypeEnum.dbOpenDynamic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbDenyWrite">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbDenyRead">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbReadOnly">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbAppendOnly">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbInconsistent">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbConsistent">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbSQLPassThrough">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbFailOnError">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbForwardOnly">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbSeeChanges">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbRunAsync">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.RecordsetOptionEnum.dbExecDirect">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Databases">
+            <summary>
+             DispatchInterface Databases SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Databases.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Databases.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Databases.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Databases.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.CommitTransOptionsEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.CommitTransOptionsEnum.dbForceOSFlush">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.FieldAttributeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbFixedField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbVariableField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbAutoIncrField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbUpdatableField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbSystemField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbHyperlinkField">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.FieldAttributeEnum.dbDescending">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.EditModeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.EditModeEnum.dbEditNone">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.EditModeEnum.dbEditInProgress">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.EditModeEnum.dbEditAdd">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.PrivDBEngine">
+            <summary>
+             CoClass PrivDBEngine SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.PrivDBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.PrivDBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.PrivDBEngine.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.PrivDBEngine.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.PrivDBEngine.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.QueryDef">
+            <summary>
+             CoClass QueryDef SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi._QueryDef">
+            <summary>
+             DispatchInterface _QueryDef SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.Close">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._30_OpenRecordset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._30_OpenRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._30__OpenRecordset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._30__OpenRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._Copy">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.Execute(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.Execute">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.Compare(LateBindingApi.DAOApi.QueryDef,System.Int16@)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="pQdef">LateBindingApi.DAOApi.QueryDef pQdef</param>
+            <param name="lps">ref Int16 lps</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.CreateDynaset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">optional object Options</param>
+            <param name="Inconsistent">optional object Inconsistent</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.CreateDynaset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.CreateSnapshot(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.CreateSnapshot">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.ListParameters">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+            <param name="DDL">optional object DDL</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.CreateProperty">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.OpenRecordset(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+            <param name="LockEdit">optional object LockEdit</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.OpenRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._OpenRecordset(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+            <param name="LockEdit">optional object LockEdit</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef._OpenRecordset">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi._QueryDef.Cancel">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.DateCreated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.LastUpdated">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Name">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.ODBCTimeout">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Type">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.SQL">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Updatable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Connect">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.ReturnsRecords">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.RecordsAffected">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Fields">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Parameters">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.hStmt">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.MaxRecords">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.StillExecuting">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.CacheSize">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi._QueryDef.Prepare">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDef.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDef.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDef.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.QueryDef.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.ComplexType">
+            <summary>
+             DispatchInterface ComplexType SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.ComplexType.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.ComplexType.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.ComplexType.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.ComplexType.Fields">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Constants.LanguageConstants">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangArabic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangCzech">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangDutch">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangGeneral">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangGreek">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangHebrew">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangHungarian">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangIcelandic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangNordic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangNorwDan">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangPolish">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangCyrillic">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangSpanish">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangSwedFin">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangTurkish">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangJapanese">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangChineseSimplified">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangChineseTraditional">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangKorean">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangThai">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangSlovenian">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangJapaneseRadicalStrokeCount">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Constants.LanguageConstants.dbLangHindi">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:DAOApi.Utils.ProjectInfo">
+            <summary>
+            necessary factory info, used from LateBindingApi.Core.Factory while Initialize()
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Field2">
+            <summary>
+             DispatchInterface Field2 SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field2.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field2.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field2.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field2.LoadFromFile(System.String)">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Field2.SaveToFile(System.String)">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+            <param name="FileName">string FileName</param>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Field2.Properties">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Field2.ComplexType">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Field2.IsComplex">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Field2.AppendOnly">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Field2.Expression">
+            <summary>
+            SupportByLibrary DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Connections">
+            <summary>
+             DispatchInterface Connections SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connections.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connections.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connections.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Connections.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.TableDefs">
+            <summary>
+             DispatchInterface TableDefs SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDefs.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDefs.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDefs.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDefs.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.TableDefs.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.TableDefs.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaKey">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaModValues">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaAllCols">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaTimestamp">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaDeleteInsert">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaUpdate">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Relation">
+            <summary>
+             CoClass Relation SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relation.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relation.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relation.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relation.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Relation.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.QueryDefStateEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefStateEnum.dbQPrepare">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.QueryDefStateEnum.dbQUnprepare">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Index">
+            <summary>
+             CoClass Index SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Index.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Index.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Index.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Index.#ctor(System.String)">
+            <param name="progId">progId</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Index.CreateEventBridge">
+            <summary>
+            creates active sink helper
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Users">
+            <summary>
+             DispatchInterface Users SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Users.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Users.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Users.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Users.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Users.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Users.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Parameters">
+            <summary>
+             DispatchInterface Parameters SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameters.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameters.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameters.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Parameters.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums._DAOSuppHelp">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums._DAOSuppHelp.LogMessages">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums._DAOSuppHelp.KeepLocal">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums._DAOSuppHelp.Replicable">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums._DAOSuppHelp.ReplicableBool">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums._DAOSuppHelp.V1xNullBehavior">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.WorkspaceTypeEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.WorkspaceTypeEnum.dbUseODBC">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.WorkspaceTypeEnum.dbUseJet">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Containers">
+            <summary>
+             DispatchInterface Containers SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Containers.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Containers.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Containers.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Containers.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Fields">
+            <summary>
+             DispatchInterface Fields SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Fields.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Fields.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Fields.#ctor(LateBindingApi.Core.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Fields.get_Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
+        </member>
+        <member name="M:LateBindingApi.DAOApi.Fields.Refresh">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.DAOApi.Fields.Count">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.DAOApi.Enums.PermissionEnum">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecNoAccess">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecFullAccess">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecDelete">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecReadSec">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecWriteSec">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecWriteOwner">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecDBCreate">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecDBOpen">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecDBExclusive">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecDBAdmin">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecCreate">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecReadDef">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecWriteDef">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecRetrieveData">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecInsertData">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecReplaceData">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.DAOApi.Enums.PermissionEnum.dbSecDeleteData">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+        </member>
+    </members>
+</doc>
