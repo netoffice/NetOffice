@@ -4,92 +4,92 @@
         <name>MSDATASRCApi</name>
     </assembly>
     <members>
-        <member name="T:LateBindingApi.MSDATASRCApi.DataSource">
+        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
+            <summary>
+            necessary factory info, used from LateBindingApi.Core.Factory while Initialize()
+            </summary>
+        </member>
+        <member name="T:NetOffice.MSDATASRCApi.DataSource">
             <summary>
              Interface DataSource SupportByLibrary DSI1.0 
             </summary>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
             <param name="comProxyType">Type of inner wrapped COM proxy"</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.getDataMember(System.String,System.Guid)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMember(System.String,System.Guid)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
             <param name="bstrDM">string bstrDM</param>
             <param name="riid">Guid riid</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.getDataMemberName(System.Int32)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMemberName(System.Int32)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
             <param name="lIndex">Int32 lIndex</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.getDataMemberCount">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMemberCount">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.addDataSourceListener(LateBindingApi.MSDATASRCApi.DataSourceListener)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.addDataSourceListener(NetOffice.MSDATASRCApi.DataSourceListener)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
-            <param name="pDSL">LateBindingApi.MSDATASRCApi.DataSourceListener pDSL</param>
+            <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSource.removeDataSourceListener(LateBindingApi.MSDATASRCApi.DataSourceListener)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.removeDataSourceListener(NetOffice.MSDATASRCApi.DataSourceListener)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
-            <param name="pDSL">LateBindingApi.MSDATASRCApi.DataSourceListener pDSL</param>
+            <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
         </member>
-        <member name="T:LateBindingApi.MSDATASRCApi.DataSourceListener">
+        <member name="T:NetOffice.MSDATASRCApi.DataSourceListener">
             <summary>
              Interface DataSourceListener SupportByLibrary DSI1.0 
             </summary>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
             <param name="comProxyType">Type of inner wrapped COM proxy"</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
-        <member name="M:LateBindingApi.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
             <summary>
             SupportByLibrary DSI1.0 
             </summary>
             <param name="bstrDM">string bstrDM</param>
-        </member>
-        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
-            <summary>
-            necessary factory info, used from LateBindingApi.Core.Factory while Initialize()
-            </summary>
         </member>
     </members>
 </doc>
