@@ -131,21 +131,21 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.Method(LateBindingApi.Core.COMObject,System.String)">
             <summary>
-            perform as latebind call 
+            perform method as latebind call 
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
         </member>
         <member name="M:LateBindingApi.Core.Invoker.Method(System.Object,System.String)">
             <summary>
-            perform as latebind call
+            perform method as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
         </member>
         <member name="M:LateBindingApi.Core.Invoker.Method(LateBindingApi.Core.COMObject,System.String,System.Object[])">
             <summary>
-            perform as latebind call 
+            perform method as latebind call 
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -153,7 +153,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.Method(System.Object,System.String,System.Object[])">
             <summary>
-            perform as latebind call 
+            perform method as latebind call 
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -161,7 +161,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.Method(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Reflection.ParameterModifier[])">
             <summary>
-            perform as latebind call 
+            perform method as latebind call 
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -170,7 +170,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.MethodReturn(LateBindingApi.Core.COMObject,System.String)">
             <summary>
-            perform as latebind call with return value
+            perform method as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -178,7 +178,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.MethodReturn(LateBindingApi.Core.COMObject,System.String,System.Object[])">
             <summary>
-            perform as latebind call with return value
+            perform method as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -187,7 +187,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.MethodReturn(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Reflection.ParameterModifier[])">
             <summary>
-            perform as latebind call with return value
+            perform method as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -197,7 +197,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertyGet(System.Object,System.String)">
             <summary>
-            perform as latebind call with return value
+            perform property get as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -205,7 +205,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertyGet(LateBindingApi.Core.COMObject,System.String)">
             <summary>
-            perform as latebind call with return value
+            perform property get as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -213,7 +213,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertyGet(System.Object,System.String,System.Object[])">
             <summary>
-            perform as latebind call with return value
+            perform property get as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -222,7 +222,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertyGet(LateBindingApi.Core.COMObject,System.String,System.Object[])">
             <summary>
-            perform as latebind call with return value
+            perform property get as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -231,7 +231,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertyGet(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Reflection.ParameterModifier[])">
             <summary>
-            perform as latebind call with return value
+            perform property get as latebind call with return value
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -241,7 +241,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertySet(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Object)">
             <summary>
-            perform as latebind call
+            perform property set as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -250,7 +250,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertySet(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Object,System.Reflection.ParameterModifier[])">
             <summary>
-            perform as latebind call
+            perform property set as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -260,7 +260,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertySet(LateBindingApi.Core.COMObject,System.String,System.Object)">
             <summary>
-            perform as latebind call
+            perform property set as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -268,7 +268,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertySet(LateBindingApi.Core.COMObject,System.String,System.Object,System.Reflection.ParameterModifier[])">
             <summary>
-            perform as latebind call
+            perform property set as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -277,7 +277,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertySet(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Reflection.ParameterModifier[])">
             <summary>
-            perform as latebind call
+            perform property set as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -286,7 +286,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.PropertySet(LateBindingApi.Core.COMObject,System.String,System.Object[])">
             <summary>
-            perform as latebind call
+            perform property set as latebind call
             </summary>
             <param name="comObject"></param>
             <param name="name"></param>
@@ -669,6 +669,62 @@
             <summary>
             assembly info of lateBinding assembly
             </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.EntityType">
+            <summary>
+            Indicates original type of entity
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsCoClass">
+            <summary>
+            entity is class
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsDispatchInterface">
+            <summary>
+            entity is dispatch interface
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsInterface">
+            <summary>
+            entity is interface
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsModule">
+            <summary>
+            entity is module
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsEnum">
+            <summary>
+            entity is enum
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsStruct">
+            <summary>
+            entity is struct
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsConstants">
+            <summary>
+            entity is const module
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.EntityTypeAttribute">
+            <summary>
+            Indicates original type of entity in COM Type Library
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityTypeAttribute.Type">
+            <summary>
+            returns type of entity
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.EntityTypeAttribute.#ctor(LateBindingApi.Core.EntityType)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="type"></param>
         </member>
     </members>
 </doc>
