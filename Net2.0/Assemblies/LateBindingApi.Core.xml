@@ -78,7 +78,7 @@
         </member>
         <member name="P:LateBindingApi.Core.Settings.EnableEvents">
             <summary>
-            Get or set the Event support, default is false 
+            Get or set the Event support, default is true 
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.Settings.EnableMessageFilter">
@@ -338,6 +338,13 @@
             </summary>
             <param name="paramsModifier"></param>
             <param name="paramsArray"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.Invoker.GetObjectType(System.Object)">
+            <summary>
+            returns the Type for expression or null if param not set
+            </summary>
+            <param name="expression"></param>
             <returns></returns>
         </member>
         <member name="T:LateBindingApi.Core.COMObject">
