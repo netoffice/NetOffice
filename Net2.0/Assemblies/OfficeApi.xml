@@ -322,12 +322,6 @@
         <member name="M:NetOffice.OfficeApi.CustomXMLPrefixMappings.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLPrefixMappings.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.CustomXMLPrefixMappings.AddNamespace(System.String,System.String)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -357,6 +351,12 @@
             SupportByLibrary OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.CustomXMLPrefixMappings.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.WorkflowTasks">
             <summary>
              DispatchInterface WorkflowTasks SupportByLibrary OF12 OF14 
@@ -374,7 +374,7 @@
         <member name="M:NetOffice.OfficeApi.WorkflowTasks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.WorkflowTasks.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.WorkflowTasks.Item(System.Int32)">
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
@@ -464,12 +464,6 @@
         <member name="M:NetOffice.OfficeApi.DiagramNodeChildren.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNodeChildren.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.DiagramNodeChildren.AddNode(System.Object,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -501,6 +495,12 @@
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.DiagramNodeChildren.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.MsoDebugOptions">
             <summary>
@@ -741,12 +741,6 @@
         <member name="M:NetOffice.OfficeApi.GroupShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GroupShapes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.GroupShapes.Range(System.Object)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -762,6 +756,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.GroupShapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi._CommandBarComboBox">
             <summary>
@@ -2009,12 +2009,6 @@
         <member name="M:NetOffice.OfficeApi.CommandBarControls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CommandBarControls.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.CommandBarControls.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -2034,6 +2028,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.CommandBarControls.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.CommandBarControls.Parent">
             <summary>
@@ -2855,12 +2855,6 @@
         <member name="M:NetOffice.OfficeApi.GradientStops.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.GradientStops.Delete(System.Int32)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -2886,6 +2880,12 @@
             <param name="Index">Int32 Index</param>
             <param name="Brightness">Single Brightness</param>
         </member>
+        <member name="P:NetOffice.OfficeApi.GradientStops.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="P:NetOffice.OfficeApi.GradientStops.Count">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -2908,7 +2908,7 @@
         <member name="M:NetOffice.OfficeApi.DocumentLibraryVersions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DocumentLibraryVersions.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.DocumentLibraryVersions.Item(System.Int32)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
             </summary>
@@ -3532,12 +3532,6 @@
         <member name="M:NetOffice.OfficeApi.DocumentProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DocumentProperties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.DocumentProperties.Add(System.String,System.Boolean,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -3559,6 +3553,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.DocumentProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.DocumentProperties.Count">
             <summary>
@@ -5632,7 +5632,7 @@
         <member name="M:NetOffice.OfficeApi.DocumentInspectors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DocumentInspectors.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.DocumentInspectors.Item(System.Int32)">
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
@@ -5886,12 +5886,6 @@
         <member name="M:NetOffice.OfficeApi.CanvasShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CanvasShapes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.CanvasShapes.AddCallout(NetOffice.OfficeApi.Enums.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -6022,6 +6016,12 @@
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.CanvasShapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.SignatureSet">
             <summary>
              DispatchInterface SignatureSet SupportByLibrary OF10 OF11 OF12 OF14 
@@ -6038,12 +6038,6 @@
         </member>
         <member name="M:NetOffice.OfficeApi.SignatureSet.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.SignatureSet.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="iSig">Int32 iSig</param>
         </member>
         <member name="M:NetOffice.OfficeApi.SignatureSet.Add">
             <summary>
@@ -6081,6 +6075,12 @@
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SignatureSet.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="iSig">Int32 iSig</param>
         </member>
         <member name="P:NetOffice.OfficeApi.SignatureSet.Parent">
             <summary>
@@ -6258,12 +6258,6 @@
         <member name="M:NetOffice.OfficeApi._CommandBars.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CommandBars.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi._CommandBars.get_IdsString(System.Int32,System.String@)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -6421,6 +6415,12 @@
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi._CommandBars.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="P:NetOffice.OfficeApi._CommandBars.LargeButtons">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -6480,6 +6480,12 @@
             <param name="Start">optional object Start</param>
             <param name="Length">optional object Length</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.IMsoDataLabels.get__Default(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="M:NetOffice.OfficeApi.IMsoDataLabels.Select">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -6489,12 +6495,6 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
-        </member>
-        <member name="M:NetOffice.OfficeApi.IMsoDataLabels.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.IMsoDataLabels.Parent">
             <summary>
@@ -6646,9 +6646,9 @@
             SupportByLibrary OF14 
             </summary>
         </member>
-        <member name="P:NetOffice.OfficeApi.IMsoDataLabels.IndexerItem(System.Object)">
+        <member name="P:NetOffice.OfficeApi.IMsoDataLabels.Item(System.Object)">
             <summary>
-            SupportByLibrary OF14 
+            SupportByLibrary OF12 OF14 
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -7244,12 +7244,6 @@
         <member name="M:NetOffice.OfficeApi.SmartArtLayouts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartArtLayouts.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.SmartArtLayouts.Parent">
             <summary>
             SupportByLibrary OF14 
@@ -7259,6 +7253,12 @@
             <summary>
             SupportByLibrary OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SmartArtLayouts.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IMsoTickLabels">
             <summary>
@@ -7969,12 +7969,6 @@
         <member name="M:NetOffice.OfficeApi.Shapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.Shapes.AddCallout(NetOffice.OfficeApi.Enums.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -8160,6 +8154,12 @@
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.Shapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.ShadowFormat">
             <summary>
              DispatchInterface ShadowFormat SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -8307,6 +8307,12 @@
         <member name="M:NetOffice.OfficeApi.SeriesCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.get__Default(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -8337,12 +8343,6 @@
             SupportByLibrary OF12 OF14 
             </summary>
             <param name="Source">object Source</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object,System.Object,System.Object)">
             <summary>
@@ -8385,9 +8385,9 @@
             SupportByLibrary OF14 
             </summary>
         </member>
-        <member name="P:NetOffice.OfficeApi.SeriesCollection.IndexerItem(System.Object)">
+        <member name="P:NetOffice.OfficeApi.SeriesCollection.Item(System.Object)">
             <summary>
-            SupportByLibrary OF14 
+            SupportByLibrary OF12 OF14 
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -8760,12 +8760,6 @@
         <member name="M:NetOffice.OfficeApi.RulerLevels2.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.RulerLevels2.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.RulerLevels2.Parent">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -8775,6 +8769,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.RulerLevels2.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IMsoChartGroup">
             <summary>
@@ -9205,12 +9205,6 @@
         <member name="M:NetOffice.OfficeApi.MetaProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.MetaProperties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.MetaProperties.GetItemByInternalName(System.String)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -9221,6 +9215,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.MetaProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.MetaProperties.Count">
             <summary>
@@ -9259,12 +9259,6 @@
         <member name="M:NetOffice.OfficeApi.MsoDebugOptions_UTs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.MsoDebugOptions_UTs.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.MsoDebugOptions_UTs.GetUnitTestsInCollection(System.String)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -9284,6 +9278,12 @@
             </summary>
             <param name="bstrCollectionName">string bstrCollectionName</param>
             <param name="bstrUnitTestNameFilter">string bstrUnitTestNameFilter</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.MsoDebugOptions_UTs.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.MsoDebugOptions_UTs.Count">
             <summary>
@@ -9307,12 +9307,6 @@
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceMembers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SharedWorkspaceMembers.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceMembers.Add(System.String,System.String,System.String,System.Object)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
@@ -9329,6 +9323,12 @@
             <param name="Email">string Email</param>
             <param name="DomainName">string DomainName</param>
             <param name="DisplayName">string DisplayName</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SharedWorkspaceMembers.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.SharedWorkspaceMembers.Count">
             <summary>
@@ -9923,12 +9923,6 @@
         <member name="M:NetOffice.OfficeApi.DiagramNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNodes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.DiagramNodes.SelectAll">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -9943,6 +9937,12 @@
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.DiagramNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.FileTypes">
             <summary>
@@ -9961,12 +9961,6 @@
         <member name="M:NetOffice.OfficeApi.FileTypes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FileTypes.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.FileTypes.Add(NetOffice.OfficeApi.Enums.MsoFileType)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -9974,6 +9968,12 @@
             <param name="FileType">NetOffice.OfficeApi.Enums.MsoFileType FileType</param>
         </member>
         <member name="M:NetOffice.OfficeApi.FileTypes.Remove(System.Int32)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.FileTypes.Item(System.Int32)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
@@ -10000,12 +10000,6 @@
         </member>
         <member name="M:NetOffice.OfficeApi.FileDialogFilters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.FileDialogFilters.Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.FileDialogFilters.Delete(System.Object)">
             <summary>
@@ -10048,6 +10042,12 @@
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.FileDialogFilters.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.HTMLProjectItems">
             <summary>
              DispatchInterface HTMLProjectItems SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -10065,12 +10065,6 @@
         <member name="M:NetOffice.OfficeApi.HTMLProjectItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.HTMLProjectItems.Item(System.Object@)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.HTMLProjectItems.Count">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -10080,6 +10074,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.HTMLProjectItems.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.TextEffectFormat">
             <summary>
@@ -10418,18 +10418,6 @@
         <member name="M:NetOffice.OfficeApi.Adjustments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Adjustments.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.Adjustments.set_Item(System.Int32,System.Single)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.Adjustments.Parent">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -10439,6 +10427,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Adjustments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.ChartColorFormat">
             <summary>
@@ -10509,9 +10503,9 @@
         <member name="M:NetOffice.OfficeApi.LegendEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.LegendEntries.Item(System.Object)">
+        <member name="M:NetOffice.OfficeApi.LegendEntries.get__Default(System.Object)">
             <summary>
-            SupportByLibrary OF12 OF14 
+            SupportByLibrary OF14 
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -10535,9 +10529,9 @@
             SupportByLibrary OF14 
             </summary>
         </member>
-        <member name="P:NetOffice.OfficeApi.LegendEntries.IndexerItem(System.Object)">
+        <member name="P:NetOffice.OfficeApi.LegendEntries.Item(System.Object)">
             <summary>
-            SupportByLibrary OF14 
+            SupportByLibrary OF12 OF14 
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -11740,12 +11734,6 @@
         <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.get_NamespaceURI(System.Int32)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -11781,6 +11769,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi._CustomXMLSchemaCollection.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.CustomXMLSchemaCollection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -11861,12 +11855,6 @@
         <member name="M:NetOffice.OfficeApi.PickerProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerProperties.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.PickerProperties.Add(System.String,System.String,NetOffice.OfficeApi.Enums.MsoPickerField)">
             <summary>
             SupportByLibrary OF14 
@@ -11880,6 +11868,12 @@
             SupportByLibrary OF14 
             </summary>
             <param name="Id">string Id</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.PickerProperties.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.PickerProperties.Count">
             <summary>
@@ -11903,12 +11897,6 @@
         <member name="M:NetOffice.OfficeApi.TabStops2.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TabStops2.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.TabStops2.Add(NetOffice.OfficeApi.Enums.MsoTabStopType,System.Single)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -11930,6 +11918,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.TabStops2.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IMsoChartArea">
             <summary>
@@ -12139,12 +12133,6 @@
         <member name="M:NetOffice.OfficeApi.CustomXMLNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNodes.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.CustomXMLNodes.Parent">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -12154,6 +12142,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.CustomXMLNodes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.SharedWorkspaceLinks">
             <summary>
@@ -12172,12 +12166,6 @@
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceLinks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SharedWorkspaceLinks.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceLinks.Add(System.String,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
@@ -12191,6 +12179,12 @@
             SupportByLibrary OF11 OF12 OF14 
             </summary>
             <param name="URL">string URL</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SharedWorkspaceLinks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.SharedWorkspaceLinks.Count">
             <summary>
@@ -12261,12 +12255,6 @@
         <member name="M:NetOffice.OfficeApi.ShapeNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeNodes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.ShapeNodes.Delete(System.Int32)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -12319,6 +12307,12 @@
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.ShapeNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.Trendlines">
             <summary>
              Interface Trendlines SupportByLibrary OF12 OF14 
@@ -12335,6 +12329,12 @@
         </member>
         <member name="M:NetOffice.OfficeApi.Trendlines.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Trendlines.get__Default(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">optional object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
@@ -12356,17 +12356,6 @@
             </summary>
             <param name="Type">NetOffice.OfficeApi.Enums.XlTrendlineType Type</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">optional object Index</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Item">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-        </member>
         <member name="P:NetOffice.OfficeApi.Trendlines.Parent">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -12387,9 +12376,14 @@
             SupportByLibrary OF14 
             </summary>
         </member>
-        <member name="P:NetOffice.OfficeApi.Trendlines.IndexerItem(System.Object)">
+        <member name="P:NetOffice.OfficeApi.Trendlines._Default">
             <summary>
             SupportByLibrary OF14 
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Trendlines.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
             </summary>
             <param name="Index">optional object Index</param>
         </member>
@@ -13015,12 +13009,6 @@
         <member name="M:NetOffice.OfficeApi._CustomXMLParts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLParts.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi._CustomXMLParts.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -13055,6 +13043,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi._CustomXMLParts.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.CustomXMLParts.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -13123,9 +13117,9 @@
         <member name="M:NetOffice.OfficeApi.Axes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Axes.get_Item(NetOffice.OfficeApi.Enums.XlAxisType,NetOffice.OfficeApi.Enums.XlAxisGroup)">
+        <member name="M:NetOffice.OfficeApi.Axes.get__Default(NetOffice.OfficeApi.Enums.XlAxisType,NetOffice.OfficeApi.Enums.XlAxisGroup)">
             <summary>
-            SupportByLibrary OF12 OF14 
+            SupportByLibrary OF14 
             </summary>
             <param name="Type">NetOffice.OfficeApi.Enums.XlAxisType Type</param>
             <param name="AxisGroup">NetOffice.OfficeApi.Enums.XlAxisGroup AxisGroup</param>
@@ -13134,6 +13128,13 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Axes.Item(NetOffice.OfficeApi.Enums.XlAxisType,NetOffice.OfficeApi.Enums.XlAxisGroup)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Type">NetOffice.OfficeApi.Enums.XlAxisType Type</param>
+            <param name="AxisGroup">NetOffice.OfficeApi.Enums.XlAxisGroup AxisGroup</param>
         </member>
         <member name="P:NetOffice.OfficeApi.Axes.Application">
             <summary>
@@ -13144,13 +13145,6 @@
             <summary>
             SupportByLibrary OF14 
             </summary>
-        </member>
-        <member name="P:NetOffice.OfficeApi.Axes.IndexerItem(NetOffice.OfficeApi.Enums.XlAxisType,NetOffice.OfficeApi.Enums.XlAxisGroup)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Type">NetOffice.OfficeApi.Enums.XlAxisType Type</param>
-            <param name="AxisGroup">NetOffice.OfficeApi.Enums.XlAxisGroup AxisGroup</param>
         </member>
         <member name="P:NetOffice.OfficeApi.Axes.Parent">
             <summary>
@@ -13310,7 +13304,7 @@
         <member name="M:NetOffice.OfficeApi.ScopeFolders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ScopeFolders.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.ScopeFolders.Item(System.Int32)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
@@ -13380,7 +13374,7 @@
         <member name="M:NetOffice.OfficeApi.IFoundFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IFoundFiles.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.IFoundFiles.Item(System.Int32)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
@@ -16253,7 +16247,7 @@
         <member name="M:NetOffice.OfficeApi.ServerPolicy.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ServerPolicy.get_Item(System.Object)">
+        <member name="P:NetOffice.OfficeApi.ServerPolicy.Item(System.Object)">
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
@@ -16407,12 +16401,6 @@
         <member name="M:NetOffice.OfficeApi.BalloonCheckboxes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.BalloonCheckboxes.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.BalloonCheckboxes.Name">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -16422,6 +16410,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.BalloonCheckboxes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.BalloonCheckboxes.Count">
             <summary>
@@ -18025,7 +18019,7 @@
         <member name="M:NetOffice.OfficeApi.EffectParameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.EffectParameters.get_Item(System.Object)">
+        <member name="P:NetOffice.OfficeApi.EffectParameters.Item(System.Object)">
             <summary>
             SupportByLibrary OF14 
             </summary>
@@ -18053,12 +18047,6 @@
         <member name="M:NetOffice.OfficeApi.PickerResults.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerResults.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF14 
@@ -18078,6 +18066,12 @@
             <param name="DisplayName">string DisplayName</param>
             <param name="Type">string Type</param>
             <param name="SIPId">string SIPId</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.PickerResults.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.PickerResults.Count">
             <summary>
@@ -18980,12 +18974,6 @@
         <member name="M:NetOffice.OfficeApi.ODSOFilters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ODSOFilters.Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.ODSOFilters.Add(System.String,NetOffice.OfficeApi.Enums.MsoFilterComparison,NetOffice.OfficeApi.Enums.MsoFilterConjunction,System.String,System.Boolean)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -19012,6 +19000,12 @@
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.ODSOFilters.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.OfficeDataSourceObject">
             <summary>
@@ -19110,7 +19104,7 @@
         <member name="M:NetOffice.OfficeApi.FoundFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FoundFiles.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.FoundFiles.Item(System.Int32)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
@@ -20197,12 +20191,6 @@
         <member name="M:NetOffice.OfficeApi.PictureEffects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PictureEffects.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.PictureEffects.Insert(NetOffice.OfficeApi.Enums.MsoPictureEffectType,System.Int32)">
             <summary>
             SupportByLibrary OF14 
@@ -20211,6 +20199,12 @@
             <param name="Position">Int32 Position</param>
         </member>
         <member name="M:NetOffice.OfficeApi.PictureEffects.Delete(System.Int32)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.PictureEffects.Item(System.Int32)">
             <summary>
             SupportByLibrary OF14 
             </summary>
@@ -20541,12 +20535,6 @@
         <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.Add(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,System.Boolean)">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -20566,6 +20554,12 @@
             SupportByLibrary OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.CustomXMLValidationErrors.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.SharedWorkspaceTasks">
             <summary>
              DispatchInterface SharedWorkspaceTasks SupportByLibrary OF11 OF12 OF14 
@@ -20583,12 +20577,6 @@
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceTasks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SharedWorkspaceTasks.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
@@ -20605,6 +20593,12 @@
             SupportByLibrary OF11 OF12 OF14 
             </summary>
             <param name="Title">string Title</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SharedWorkspaceTasks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.SharedWorkspaceTasks.Count">
             <summary>
@@ -20638,12 +20632,6 @@
         <member name="M:NetOffice.OfficeApi.FileDialogSelectedItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FileDialogSelectedItems.Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.FileDialogSelectedItems.Parent">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -20653,6 +20641,12 @@
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.FileDialogSelectedItems.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.FileSearch">
             <summary>
@@ -20770,12 +20764,6 @@
         </member>
         <member name="M:NetOffice.OfficeApi.ShapeRange.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.ShapeRange.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.ShapeRange.Align(NetOffice.OfficeApi.Enums.MsoAlignCmd,NetOffice.OfficeApi.Enums.MsoTriState)">
             <summary>
@@ -21182,6 +21170,12 @@
             SupportByLibrary OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.ShapeRange.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.Scripts">
             <summary>
              DispatchInterface Scripts SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -21198,12 +21192,6 @@
         </member>
         <member name="M:NetOffice.OfficeApi.Scripts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.Scripts.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,NetOffice.OfficeApi.Enums.MsoScriptLocation,NetOffice.OfficeApi.Enums.MsoScriptLanguage,System.String,System.String,System.String)">
             <summary>
@@ -21230,6 +21218,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Scripts.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi._CommandBarButton">
             <summary>
@@ -23048,12 +23042,6 @@
         <member name="M:NetOffice.OfficeApi.ChartGroups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartGroups.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.ChartGroups.Parent">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -23073,6 +23061,12 @@
             <summary>
             SupportByLibrary OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.ChartGroups.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.ChartFont">
             <summary>
@@ -23741,7 +23735,7 @@
         <member name="M:NetOffice.OfficeApi.SearchScopes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SearchScopes.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.SearchScopes.Item(System.Int32)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
@@ -23819,16 +23813,16 @@
         <member name="M:NetOffice.OfficeApi.WebPageFonts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.WebPageFonts.get_Item(NetOffice.OfficeApi.Enums.MsoCharacterSet)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">NetOffice.OfficeApi.Enums.MsoCharacterSet Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.WebPageFonts.Count">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.WebPageFonts.Item(NetOffice.OfficeApi.Enums.MsoCharacterSet)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">NetOffice.OfficeApi.Enums.MsoCharacterSet Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.AnswerWizardFiles">
             <summary>
@@ -23847,12 +23841,6 @@
         <member name="M:NetOffice.OfficeApi.AnswerWizardFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.AnswerWizardFiles.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.AnswerWizardFiles.Add(System.String)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -23869,6 +23857,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.AnswerWizardFiles.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.AnswerWizardFiles.Count">
             <summary>
@@ -24297,12 +24291,6 @@
         <member name="M:NetOffice.OfficeApi.SmartArtNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartArtNodes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SmartArtNodes.Add">
             <summary>
             SupportByLibrary OF14 
@@ -24317,6 +24305,12 @@
             <summary>
             SupportByLibrary OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SmartArtNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IMsoLegend">
             <summary>
@@ -25737,12 +25731,6 @@
         <member name="M:NetOffice.OfficeApi.SmartArtColors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartArtColors.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.SmartArtColors.Parent">
             <summary>
             SupportByLibrary OF14 
@@ -25752,6 +25740,12 @@
             <summary>
             SupportByLibrary OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SmartArtColors.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IMsoChartFormat">
             <summary>
@@ -26069,12 +26063,6 @@
         <member name="M:NetOffice.OfficeApi.ODSOColumns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ODSOColumns.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="varIndex">object varIndex</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.ODSOColumns.Count">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -26084,6 +26072,12 @@
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.ODSOColumns.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="varIndex">object varIndex</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IMsoDiagram">
             <summary>
@@ -26160,12 +26154,6 @@
         <member name="M:NetOffice.OfficeApi.SearchFolders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SearchFolders.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SearchFolders.Add(NetOffice.OfficeApi.ScopeFolder)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
@@ -26173,6 +26161,12 @@
             <param name="ScopeFolder">NetOffice.OfficeApi.ScopeFolder ScopeFolder</param>
         </member>
         <member name="M:NetOffice.OfficeApi.SearchFolders.Remove(System.Int32)">
+            <summary>
+            SupportByLibrary OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SearchFolders.Item(System.Int32)">
             <summary>
             SupportByLibrary OF10 OF11 OF12 OF14 
             </summary>
@@ -27925,12 +27919,6 @@
         <member name="M:NetOffice.OfficeApi.Permission.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Permission.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary OF11 OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.Permission.Add(System.String,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
@@ -27955,6 +27943,12 @@
             <summary>
             SupportByLibrary OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Permission.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.Permission.Count">
             <summary>
@@ -29094,7 +29088,7 @@
         <member name="M:NetOffice.OfficeApi.PickerFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerFields.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.PickerFields.Item(System.Int32)">
             <summary>
             SupportByLibrary OF14 
             </summary>
@@ -29199,12 +29193,6 @@
             </summary>
             <param name="Start">Int32 Start</param>
             <param name="Length">Int32 Length</param>
-        </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OfficeApi.TextRange2.TrimText">
             <summary>
@@ -29380,6 +29368,12 @@
             SupportByLibrary OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.TextRange2.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.SignatureSetup">
             <summary>
              DispatchInterface SignatureSetup SupportByLibrary OF12 OF14 
@@ -29464,7 +29458,7 @@
         <member name="M:NetOffice.OfficeApi.WorkflowTemplates.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.WorkflowTemplates.get_Item(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.WorkflowTemplates.Item(System.Int32)">
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
@@ -29810,9 +29804,9 @@
         <member name="M:NetOffice.OfficeApi.Points.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Points.Item(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.Points.get__Default(System.Int32)">
             <summary>
-            SupportByLibrary OF12 OF14 
+            SupportByLibrary OF14 
             </summary>
             <param name="Index">Int32 Index</param>
         </member>
@@ -29836,9 +29830,9 @@
             SupportByLibrary OF14 
             </summary>
         </member>
-        <member name="P:NetOffice.OfficeApi.Points.IndexerItem(System.Int32)">
+        <member name="P:NetOffice.OfficeApi.Points.Item(System.Int32)">
             <summary>
-            SupportByLibrary OF14 
+            SupportByLibrary OF12 OF14 
             </summary>
             <param name="Index">Int32 Index</param>
         </member>
@@ -31418,12 +31412,6 @@
         <member name="M:NetOffice.OfficeApi.SmartArtQuickStyles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartArtQuickStyles.Item(System.Object)">
-            <summary>
-            SupportByLibrary OF14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.SmartArtQuickStyles.Parent">
             <summary>
             SupportByLibrary OF14 
@@ -31433,6 +31421,12 @@
             <summary>
             SupportByLibrary OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SmartArtQuickStyles.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.IBlogExtensibility">
             <summary>
@@ -31674,12 +31668,6 @@
         <member name="M:NetOffice.OfficeApi.ThemeFonts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ThemeFonts.Item(NetOffice.OfficeApi.Enums.MsoFontLanguageIndex)">
-            <summary>
-            SupportByLibrary OF12 OF14 
-            </summary>
-            <param name="Index">NetOffice.OfficeApi.Enums.MsoFontLanguageIndex Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.ThemeFonts.Parent">
             <summary>
             SupportByLibrary OF12 OF14 
@@ -31689,6 +31677,12 @@
             <summary>
             SupportByLibrary OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.ThemeFonts.Item(NetOffice.OfficeApi.Enums.MsoFontLanguageIndex)">
+            <summary>
+            SupportByLibrary OF12 OF14 
+            </summary>
+            <param name="Index">NetOffice.OfficeApi.Enums.MsoFontLanguageIndex Index</param>
         </member>
         <member name="T:NetOffice.OfficeApi.TextColumn2">
             <summary>
@@ -31766,12 +31760,6 @@
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceFolders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SharedWorkspaceFolders.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceFolders.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
@@ -31784,6 +31772,12 @@
             SupportByLibrary OF11 OF12 OF14 
             </summary>
             <param name="FolderName">string FolderName</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SharedWorkspaceFolders.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.SharedWorkspaceFolders.Count">
             <summary>
@@ -31817,12 +31811,6 @@
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SharedWorkspaceFiles.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.SharedWorkspaceFiles.Add(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary OF11 OF12 OF14 
@@ -31837,6 +31825,12 @@
             SupportByLibrary OF11 OF12 OF14 
             </summary>
             <param name="FileName">string FileName</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.SharedWorkspaceFiles.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.SharedWorkspaceFiles.Count">
             <summary>
@@ -32716,12 +32710,6 @@
         <member name="M:NetOffice.OfficeApi.COMAddIns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.COMAddIns.Item(System.Object@)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.COMAddIns.Update">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -32743,6 +32731,12 @@
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.COMAddIns.Item(System.Object)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OfficeApi.PropertyTests">
             <summary>
              DispatchInterface PropertyTests SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -32760,12 +32754,6 @@
         <member name="M:NetOffice.OfficeApi.PropertyTests.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PropertyTests.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OfficeApi.PropertyTests.Add(System.String,NetOffice.OfficeApi.Enums.MsoCondition,System.Object,System.Object,NetOffice.OfficeApi.Enums.MsoConnector)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -32777,6 +32765,12 @@
             <param name="Connector">NetOffice.OfficeApi.Enums.MsoConnector Connector</param>
         </member>
         <member name="M:NetOffice.OfficeApi.PropertyTests.Remove(System.Int32)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.PropertyTests.Item(System.Int32)">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
@@ -32804,12 +32798,6 @@
         <member name="M:NetOffice.OfficeApi.BalloonLabels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.BalloonLabels.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OfficeApi.BalloonLabels.Name">
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
@@ -32819,6 +32807,12 @@
             <summary>
             SupportByLibrary OF09 OF10 OF11 OF12 OF14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.BalloonLabels.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OF09 OF10 OF11 OF12 OF14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OfficeApi.BalloonLabels.Count">
             <summary>

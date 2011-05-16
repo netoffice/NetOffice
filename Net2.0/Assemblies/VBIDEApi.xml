@@ -177,12 +177,6 @@
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._VBComponents_Old.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.Remove(NetOffice.VBIDEApi.VBComponent)">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -215,6 +209,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -282,12 +282,6 @@
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._LinkedWindows.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.Remove(NetOffice.VBIDEApi.Window)">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -314,6 +308,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._LinkedWindows.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.LinkedWindows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -352,12 +352,6 @@
         <member name="M:NetOffice.VBIDEApi._References.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._References.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.VBIDEApi._References.AddFromGuid(System.String,System.Int32,System.Int32)">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -393,6 +387,12 @@
             SupportByLibrary VBE5.3 VBE12 
             </summary>
         </member>
+        <member name="P:NetOffice.VBIDEApi._References.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
+        </member>
         <member name="T:NetOffice.VBIDEApi._VBProjects">
             <summary>
              DispatchInterface _VBProjects SupportByLibrary VBE5.3 VBE12 
@@ -415,12 +415,6 @@
         <member name="M:NetOffice.VBIDEApi._VBProjects_Old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._VBProjects_Old.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.VBE">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -435,6 +429,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -505,12 +505,6 @@
         <member name="M:NetOffice.VBIDEApi._Components.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._Components.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.VBIDEApi._Components.Remove(NetOffice.VBIDEApi.Component)">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -548,6 +542,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._Components.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Components.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -732,12 +732,6 @@
         <member name="M:NetOffice.VBIDEApi._Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._Properties.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Application">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -757,6 +751,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._Properties.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Properties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -847,12 +847,6 @@
         <member name="M:NetOffice.VBIDEApi.SelectedComponents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi.SelectedComponents.Item(System.Int32)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Application">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -867,6 +861,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi.SelectedComponents.Item(System.Int32)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.VBIDEApi._ReferencesEvents">
             <summary>
@@ -1308,12 +1308,6 @@
         <member name="M:NetOffice.VBIDEApi._Windows_old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._Windows_old.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.VBE">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -1328,6 +1322,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._Windows_old.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._Windows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -1388,12 +1388,6 @@
         <member name="M:NetOffice.VBIDEApi._CodePanes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._CodePanes.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Parent">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -1413,6 +1407,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._CodePanes.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodePanes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -1703,12 +1703,6 @@
         <member name="M:NetOffice.VBIDEApi._AddIns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._AddIns.Item(System.Object)">
-            <summary>
-            SupportByLibrary VBE5.3 VBE12 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.VBIDEApi._AddIns.Update">
             <summary>
             SupportByLibrary VBE5.3 VBE12 
@@ -1728,6 +1722,12 @@
             <summary>
             SupportByLibrary VBE5.3 VBE12 
             </summary>
+        </member>
+        <member name="P:NetOffice.VBIDEApi._AddIns.Item(System.Object)">
+            <summary>
+            SupportByLibrary VBE5.3 VBE12 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.VBIDEApi.ProjectTemplate">
             <summary>

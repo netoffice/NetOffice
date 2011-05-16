@@ -849,12 +849,6 @@
         <member name="M:NetOffice.DAOApi.Indexes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Indexes.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Indexes.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -864,6 +858,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Indexes.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.DatabaseTypeEnum">
             <summary>
@@ -1250,7 +1250,7 @@
         <member name="M:NetOffice.DAOApi.Documents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Documents.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Documents.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -1615,12 +1615,6 @@
         <member name="M:NetOffice.DAOApi.IndexFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.IndexFields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">optional object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.IndexFields.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -1631,10 +1625,11 @@
             SupportByLibrary DAO3.6 DAO12 
             </summary>
         </member>
-        <member name="P:NetOffice.DAOApi.IndexFields.Item">
+        <member name="P:NetOffice.DAOApi.IndexFields.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+            <param name="Item">optional object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.WorkspaceTypeEnum">
             <summary>
@@ -2150,12 +2145,6 @@
         <member name="M:NetOffice.DAOApi.Relations.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Relations.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Relations.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -2165,6 +2154,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Relations.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Parameters">
             <summary>
@@ -2183,7 +2178,7 @@
         <member name="M:NetOffice.DAOApi.Parameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Parameters.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Parameters.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -2479,7 +2474,7 @@
         <member name="M:NetOffice.DAOApi.Errors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Errors.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Errors.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -2502,12 +2497,6 @@
         <member name="M:NetOffice.DAOApi.Groups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Groups.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Groups.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -2517,6 +2506,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Groups.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Containers">
             <summary>
@@ -2535,7 +2530,7 @@
         <member name="M:NetOffice.DAOApi.Containers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Containers.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Containers.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -2698,7 +2693,7 @@
         <member name="M:NetOffice.DAOApi.Databases.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Databases.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Databases.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -2926,12 +2921,6 @@
         <member name="M:NetOffice.DAOApi.TableDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.TableDefs.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.TableDefs.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -2941,6 +2930,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.TableDefs.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Recordset2">
             <summary>
@@ -3133,7 +3128,7 @@
         <member name="M:NetOffice.DAOApi.Connections.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Connections.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Connections.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -3251,7 +3246,7 @@
         <member name="M:NetOffice.DAOApi.Recordsets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Recordsets.get_Item(System.Object)">
+        <member name="P:NetOffice.DAOApi.Recordsets.Item(System.Object)">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
@@ -3274,12 +3269,6 @@
         <member name="M:NetOffice.DAOApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Properties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Properties.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -3289,6 +3278,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Properties.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.PermissionEnum">
             <summary>
@@ -3524,12 +3519,6 @@
         <member name="M:NetOffice.DAOApi.Fields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Fields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Fields.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -3539,6 +3528,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Fields.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Workspaces">
             <summary>
@@ -3557,12 +3552,6 @@
         <member name="M:NetOffice.DAOApi.Workspaces.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Workspaces.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Workspaces.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -3572,6 +3561,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Workspaces.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.IdleEnum">
             <summary>
@@ -4243,12 +4238,6 @@
         <member name="M:NetOffice.DAOApi.Users.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Users.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.Users.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -4258,6 +4247,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.Users.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.QueryDefs">
             <summary>
@@ -4276,12 +4271,6 @@
         <member name="M:NetOffice.DAOApi.QueryDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.DAOApi.QueryDefs.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary DAO3.6 DAO12 
-            </summary>
-            <param name="Item">object Item</param>
-        </member>
         <member name="M:NetOffice.DAOApi.QueryDefs.Refresh">
             <summary>
             SupportByLibrary DAO3.6 DAO12 
@@ -4291,6 +4280,12 @@
             <summary>
             SupportByLibrary DAO3.6 DAO12 
             </summary>
+        </member>
+        <member name="P:NetOffice.DAOApi.QueryDefs.Item(System.Object)">
+            <summary>
+            SupportByLibrary DAO3.6 DAO12 
+            </summary>
+            <param name="Item">object Item</param>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.RecordStatusEnum">
             <summary>

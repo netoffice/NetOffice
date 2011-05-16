@@ -26,12 +26,6 @@
         <member name="M:NetOffice.AccessApi.AllObjects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.AllObjects.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="var">object var</param>
-        </member>
         <member name="M:NetOffice.AccessApi.AllObjects.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -47,6 +41,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.AllObjects.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="var">object var</param>
         </member>
         <member name="P:NetOffice.AccessApi.AllObjects.Count">
             <summary>
@@ -411,12 +411,6 @@
         <member name="M:NetOffice.AccessApi.Pages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Pages.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Pages.Add(System.Object)">
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
@@ -444,6 +438,12 @@
             SupportByLibrary AC11 AC12 AC14 
             </summary>
             <param name="dispid">Int32 dispid</param>
+        </member>
+        <member name="P:NetOffice.AccessApi.Pages.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Pages.Count">
             <summary>
@@ -4618,12 +4618,6 @@
         <member name="M:NetOffice.AccessApi.WSParameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.WSParameters.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.WSParameters.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC14 
@@ -4634,6 +4628,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.WSParameters.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.WSParameters.Count">
             <summary>
@@ -4701,12 +4701,6 @@
         <member name="M:NetOffice.AccessApi.Operations.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Operations.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Operations.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC14 
@@ -4717,6 +4711,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Operations.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Operations.Count">
             <summary>
@@ -4739,12 +4739,6 @@
         </member>
         <member name="M:NetOffice.AccessApi._TempVars.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.AccessApi._TempVars.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.AccessApi._TempVars.Add(System.String,System.Object)">
             <summary>
@@ -4779,6 +4773,12 @@
             <summary>
             SupportByLibrary AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._TempVars.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._TempVars.Count">
             <summary>
@@ -5871,12 +5871,6 @@
         <member name="M:NetOffice.AccessApi._DependencyObjects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._DependencyObjects.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._DependencyObjects.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -5892,6 +5886,12 @@
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._DependencyObjects.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._DependencyObjects.Count">
             <summary>
@@ -8510,12 +8510,6 @@
         <member name="M:NetOffice.AccessApi.Printers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Printers.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Printers.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -8531,6 +8525,12 @@
             <summary>
             SupportByLibrary AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Printers.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Printers.Count">
             <summary>
@@ -11518,12 +11518,6 @@
         <member name="M:NetOffice.AccessApi.ImportExportSpecifications.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.ImportExportSpecifications.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.ImportExportSpecifications.Add(System.String,System.String)">
             <summary>
             SupportByLibrary AC12 AC14 
@@ -11551,6 +11545,12 @@
             <summary>
             SupportByLibrary AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.ImportExportSpecifications.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.AccessApi.Enums.AcExportQuality">
             <summary>
@@ -14011,12 +14011,6 @@
         <member name="M:NetOffice.AccessApi._AdditionalData.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._AdditionalData.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._AdditionalData.Add(System.String)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -14033,6 +14027,12 @@
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._AdditionalData.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._AdditionalData.Count">
             <summary>
@@ -14055,12 +14055,6 @@
         </member>
         <member name="M:NetOffice.AccessApi._References.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.AccessApi._References.Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="var">object var</param>
         </member>
         <member name="M:NetOffice.AccessApi._References.AddFromGuid(System.String,System.Int32,System.Int32)">
             <summary>
@@ -14097,6 +14091,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._References.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="var">object var</param>
         </member>
         <member name="T:NetOffice.AccessApi.Enums.AcDefReportView">
             <summary>
@@ -14515,12 +14515,6 @@
         <member name="M:NetOffice.AccessApi._SmartTags.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._SmartTags.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._SmartTags.Add(System.String)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -14542,6 +14536,12 @@
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._SmartTags.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._SmartTags.Count">
             <summary>
@@ -14678,12 +14678,6 @@
         <member name="M:NetOffice.AccessApi._SmartTagActions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._SmartTagActions.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._SmartTagActions.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -14704,6 +14698,12 @@
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._SmartTagActions.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.AccessApi._Textbox">
             <summary>
@@ -16845,12 +16845,6 @@
         <member name="M:NetOffice.AccessApi.SharedResources.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.SharedResources.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.SharedResources.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC14 
@@ -16866,6 +16860,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.SharedResources.Item(System.Int32)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.SharedResources.Count">
             <summary>
@@ -20725,12 +20725,6 @@
         <member name="M:NetOffice.AccessApi._SmartTagProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._SmartTagProperties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._SmartTagProperties.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -20758,6 +20752,12 @@
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._SmartTagProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.AccessApi.SmartTagProperties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -20796,12 +20796,6 @@
         <member name="M:NetOffice.AccessApi.Entities.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Entities.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Entities.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC14 
@@ -20812,6 +20806,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Entities.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Entities.Count">
             <summary>
@@ -27322,12 +27322,6 @@
         <member name="M:NetOffice.AccessApi.Controls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Controls.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Controls.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -27343,6 +27337,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Controls.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Controls.Count">
             <summary>
@@ -27646,12 +27646,6 @@
         <member name="M:NetOffice.AccessApi._LocalVars.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._LocalVars.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._LocalVars.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary AC14 
@@ -27674,6 +27668,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._LocalVars.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._LocalVars.Count">
             <summary>
@@ -29054,17 +29054,17 @@
         <member name="M:NetOffice.AccessApi._ItemsSelected.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._ItemsSelected.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._ItemsSelected.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
             <param name="dispid">Int32 dispid</param>
+        </member>
+        <member name="P:NetOffice.AccessApi._ItemsSelected.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._ItemsSelected.Count">
             <summary>
@@ -29448,12 +29448,6 @@
         <member name="M:NetOffice.AccessApi.AccessObjectProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.AccessObjectProperties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.AccessObjectProperties.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
@@ -29483,6 +29477,12 @@
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
         </member>
+        <member name="P:NetOffice.AccessApi.AccessObjectProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="P:NetOffice.AccessApi.AccessObjectProperties.Count">
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
@@ -29505,12 +29505,6 @@
         <member name="M:NetOffice.AccessApi.Modules.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Modules.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Modules.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -29526,6 +29520,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Modules.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Modules.Count">
             <summary>
@@ -32716,12 +32716,6 @@
         <member name="M:NetOffice.AccessApi.DataAccessPages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DataAccessPages.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="var">object var</param>
-        </member>
         <member name="M:NetOffice.AccessApi.DataAccessPages.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -32737,6 +32731,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.DataAccessPages.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="var">object var</param>
         </member>
         <member name="P:NetOffice.AccessApi.DataAccessPages.Count">
             <summary>
@@ -32760,12 +32760,6 @@
         <member name="M:NetOffice.AccessApi.Reports.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Reports.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Reports.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -32781,6 +32775,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Reports.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Reports.Count">
             <summary>
@@ -32803,12 +32803,6 @@
         </member>
         <member name="M:NetOffice.AccessApi.FormatConditions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.AccessApi.FormatConditions.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator,System.Object,System.Object)">
             <summary>
@@ -32846,6 +32840,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.FormatConditions.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.FormatConditions.Count">
             <summary>
@@ -33784,12 +33784,6 @@
         <member name="M:NetOffice.AccessApi.WebServices.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.WebServices.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.WebServices.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC14 
@@ -33805,6 +33799,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.WebServices.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.WebServices.Count">
             <summary>
@@ -34682,17 +34682,17 @@
         <member name="M:NetOffice.AccessApi.Children.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Children.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Children.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
             </summary>
             <param name="dispid">Int32 dispid</param>
+        </member>
+        <member name="P:NetOffice.AccessApi.Children.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Children.Count">
             <summary>
@@ -35236,12 +35236,6 @@
         <member name="M:NetOffice.AccessApi._ReturnVars.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi._ReturnVars.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi._ReturnVars.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC14 
@@ -35257,6 +35251,12 @@
             <summary>
             SupportByLibrary AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi._ReturnVars.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi._ReturnVars.Count">
             <summary>
@@ -35297,12 +35297,6 @@
         <member name="M:NetOffice.AccessApi.Forms.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Forms.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Forms.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -35318,6 +35312,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Forms.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Forms.Count">
             <summary>
@@ -40916,12 +40916,6 @@
         <member name="M:NetOffice.AccessApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Properties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.AccessApi.Properties.IsMemberSafe(System.Int32)">
             <summary>
             SupportByLibrary AC11 AC12 AC14 
@@ -40937,6 +40931,12 @@
             <summary>
             SupportByLibrary AC09 AC10 AC11 AC12 AC14 
             </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Properties.Item(System.Object)">
+            <summary>
+            SupportByLibrary AC09 AC10 AC11 AC12 AC14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.AccessApi.Properties.Count">
             <summary>

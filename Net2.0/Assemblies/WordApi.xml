@@ -21,12 +21,6 @@
         <member name="M:NetOffice.WordApi.CoAuthors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.CoAuthors.Item(System.Object)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.CoAuthors.Application">
             <summary>
             SupportByLibrary WD14 
@@ -47,6 +41,12 @@
             SupportByLibrary WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.CoAuthors.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.CoAuthUpdates">
             <summary>
              DispatchInterface CoAuthUpdates SupportByLibrary WD14 
@@ -63,12 +63,6 @@
         </member>
         <member name="M:NetOffice.WordApi.CoAuthUpdates.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.CoAuthUpdates.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.CoAuthUpdates.Application">
             <summary>
@@ -89,6 +83,12 @@
             <summary>
             SupportByLibrary WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.CoAuthUpdates.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ChartFillFormat">
             <summary>
@@ -869,12 +869,6 @@
         <member name="M:NetOffice.WordApi.Zooms.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Zooms.Item(NetOffice.WordApi.Enums.WdViewType)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdViewType Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Zooms.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -889,6 +883,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Zooms.Item(NetOffice.WordApi.Enums.WdViewType)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdViewType Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Zoom">
             <summary>
@@ -1832,12 +1832,6 @@
         <member name="M:NetOffice.WordApi.HeadingStyles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.HeadingStyles.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.HeadingStyles.Add(System.Object@,System.Int16)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -1864,6 +1858,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.HeadingStyles.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.CheckBox">
             <summary>
@@ -2227,12 +2227,6 @@
         <member name="M:NetOffice.WordApi.Columns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Columns.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Columns.Add(System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -2330,6 +2324,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Columns.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.TabStop">
             <summary>
@@ -4073,12 +4073,6 @@
         <member name="M:NetOffice.WordApi.BuildingBlocks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.BuildingBlocks.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.BuildingBlocks.Add(System.String,NetOffice.WordApi.Range,System.Object@,NetOffice.WordApi.Enums.WdDocPartInsertOptions)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -4108,6 +4102,12 @@
             SupportByLibrary WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.BuildingBlocks.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.ContentControlListEntries">
             <summary>
              DispatchInterface ContentControlListEntries SupportByLibrary WD12 WD14 
@@ -4129,12 +4129,6 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
-        </member>
-        <member name="M:NetOffice.WordApi.ContentControlListEntries.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.ContentControlListEntries.Add(System.String,System.String,System.Int32)">
             <summary>
@@ -4164,6 +4158,12 @@
             SupportByLibrary WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.ContentControlListEntries.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.XMLNamespaces">
             <summary>
              DispatchInterface XMLNamespaces SupportByLibrary WD11 WD12 WD14 
@@ -4180,12 +4180,6 @@
         </member>
         <member name="M:NetOffice.WordApi.XMLNamespaces.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.XMLNamespaces.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.XMLNamespaces.Add(System.String,System.Object@,System.Object@,System.Boolean)">
             <summary>
@@ -4222,6 +4216,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.XMLNamespaces.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.TableStyle">
             <summary>
@@ -4462,12 +4462,6 @@
         <member name="M:NetOffice.WordApi.HangulHanjaConversionDictionaries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.HangulHanjaConversionDictionaries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.HangulHanjaConversionDictionaries.Add(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -4513,6 +4507,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.HangulHanjaConversionDictionaries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Dialog">
             <summary>
@@ -4614,12 +4614,6 @@
         </member>
         <member name="M:NetOffice.WordApi.TablesOfContents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.TablesOfContents.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.TablesOfContents.AddOld(NetOffice.WordApi.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
@@ -4743,6 +4737,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.TablesOfContents.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.MailMergeFields">
             <summary>
              DispatchInterface MailMergeFields SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -4759,12 +4759,6 @@
         </member>
         <member name="M:NetOffice.WordApi.MailMergeFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.MailMergeFields.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.MailMergeFields.Add(NetOffice.WordApi.Range,System.String)">
             <summary>
@@ -4914,6 +4908,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.MailMergeFields.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi._OLEControl">
             <summary>
              DispatchInterface _OLEControl SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -5008,12 +5008,6 @@
         <member name="M:NetOffice.WordApi.Endnotes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Endnotes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Endnotes.Add(NetOffice.WordApi.Range,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -5107,6 +5101,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Endnotes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Section">
             <summary>
@@ -10693,13 +10693,13 @@
             </summary>
             <param name="Type">NetOffice.WordApi.Enums.XlTrendlineType Type</param>
         </member>
-        <member name="M:NetOffice.WordApi.Trendlines.Item(System.Object)">
+        <member name="M:NetOffice.WordApi.Trendlines._Default(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
             <param name="Index">optional object Index</param>
         </member>
-        <member name="M:NetOffice.WordApi.Trendlines.Item">
+        <member name="M:NetOffice.WordApi.Trendlines._Default">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -10724,7 +10724,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="P:NetOffice.WordApi.Trendlines.IndexerItem(System.Object)">
+        <member name="P:NetOffice.WordApi.Trendlines.Item(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -11328,12 +11328,6 @@
         <member name="M:NetOffice.WordApi.MappedDataFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.MappedDataFields.Item(NetOffice.WordApi.Enums.WdMappedDataFields)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdMappedDataFields Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.MappedDataFields.Application">
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
@@ -11353,6 +11347,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.MappedDataFields.Item(NetOffice.WordApi.Enums.WdMappedDataFields)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdMappedDataFields Index</param>
         </member>
         <member name="T:NetOffice.WordApi.DiagramNode">
             <summary>
@@ -11659,12 +11659,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Shapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Shapes.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Shapes.AddCallout(NetOffice.OfficeApi.Enums.MsoCalloutType,System.Single,System.Single,System.Single,System.Single,System.Object@)">
             <summary>
@@ -12002,6 +11996,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Shapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.ListGalleries">
             <summary>
              DispatchInterface ListGalleries SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -12018,12 +12018,6 @@
         </member>
         <member name="M:NetOffice.WordApi.ListGalleries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.ListGalleries.Item(NetOffice.WordApi.Enums.WdListGalleryType)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdListGalleryType Index</param>
         </member>
         <member name="P:NetOffice.WordApi.ListGalleries.Count">
             <summary>
@@ -12045,6 +12039,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.ListGalleries.Item(NetOffice.WordApi.Enums.WdListGalleryType)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdListGalleryType Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.ListTemplates">
             <summary>
              DispatchInterface ListTemplates SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -12061,12 +12061,6 @@
         </member>
         <member name="M:NetOffice.WordApi.ListTemplates.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.ListTemplates.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.ListTemplates.Add(System.Object@,System.Object@)">
             <summary>
@@ -12100,6 +12094,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.ListTemplates.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.CaptionLabels">
             <summary>
              DispatchInterface CaptionLabels SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -12116,12 +12116,6 @@
         </member>
         <member name="M:NetOffice.WordApi.CaptionLabels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.CaptionLabels.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.CaptionLabels.Add(System.String)">
             <summary>
@@ -12148,6 +12142,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.CaptionLabels.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.MailMergeDataSource">
             <summary>
@@ -12362,12 +12362,6 @@
         <member name="M:NetOffice.WordApi.TwoInitialCapsExceptions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.TwoInitialCapsExceptions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.TwoInitialCapsExceptions.Add(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -12394,6 +12388,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.TwoInitialCapsExceptions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.AutoCorrectEntries">
             <summary>
              DispatchInterface AutoCorrectEntries SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -12410,12 +12410,6 @@
         </member>
         <member name="M:NetOffice.WordApi.AutoCorrectEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.AutoCorrectEntries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.AutoCorrectEntries.Add(System.String,System.String)">
             <summary>
@@ -12450,6 +12444,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.AutoCorrectEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.AutoCorrect">
             <summary>
@@ -14609,12 +14609,6 @@
         <member name="M:NetOffice.WordApi.BuildingBlockEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.BuildingBlockEntries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.BuildingBlockEntries.Add(System.String,NetOffice.WordApi.Enums.WdBuildingBlockTypes,System.String,NetOffice.WordApi.Range,System.Object@,NetOffice.WordApi.Enums.WdDocPartInsertOptions)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -14646,6 +14640,12 @@
             SupportByLibrary WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.BuildingBlockEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.OMathAutoCorrectEntries">
             <summary>
              DispatchInterface OMathAutoCorrectEntries SupportByLibrary WD12 WD14 
@@ -14662,12 +14662,6 @@
         </member>
         <member name="M:NetOffice.WordApi.OMathAutoCorrectEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.OMathAutoCorrectEntries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.OMathAutoCorrectEntries.Add(System.String,System.String)">
             <summary>
@@ -14695,6 +14689,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathAutoCorrectEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Line">
             <summary>
@@ -14786,12 +14786,6 @@
             </summary>
             <param name="Index">Int32 Index</param>
         </member>
-        <member name="M:NetOffice.WordApi.ShapeNodes.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.ShapeNodes.SetEditingType(System.Int32,NetOffice.OfficeApi.Enums.MsoEditingType)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -14847,6 +14841,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ShapeNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ListTemplate">
             <summary>
@@ -14923,12 +14923,6 @@
         <member name="M:NetOffice.WordApi.PageNumbers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.PageNumbers.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.PageNumbers.Add(System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -15000,6 +14994,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.PageNumbers.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.AutoCaption">
             <summary>
@@ -16680,12 +16680,6 @@
         <member name="M:NetOffice.WordApi.CustomLabels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.CustomLabels.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.CustomLabels.Add(System.String,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -16718,6 +16712,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.CustomLabels.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.MailMergeField">
             <summary>
@@ -16930,12 +16930,6 @@
         <member name="M:NetOffice.WordApi.ListEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.ListEntries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.ListEntries.Add(System.String,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -16973,6 +16967,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ListEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.TextRetrievalMode">
             <summary>
@@ -17042,12 +17042,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Paragraphs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Paragraphs.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Paragraphs.Add(System.Object@)">
             <summary>
@@ -17369,6 +17363,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Paragraphs.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Words">
             <summary>
              DispatchInterface Words SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -17385,12 +17385,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Words.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Words.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.Words.Count">
             <summary>
@@ -17421,6 +17415,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Words.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.WdCompatibilityMode">
             <summary>
@@ -18470,16 +18470,16 @@
             </summary>
             <param name="Source">object Source</param>
         </member>
-        <member name="M:NetOffice.WordApi.SeriesCollection.Item(System.Object)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.SeriesCollection.NewSeries">
             <summary>
             SupportByLibrary WD14 
             </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.SeriesCollection._Default(System.Object)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.WordApi.SeriesCollection.Parent">
             <summary>
@@ -18501,7 +18501,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="P:NetOffice.WordApi.SeriesCollection.IndexerItem(System.Object)">
+        <member name="P:NetOffice.WordApi.SeriesCollection.Item(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -18591,12 +18591,6 @@
         <member name="M:NetOffice.WordApi.Categories.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Categories.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Categories.Application">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -18616,6 +18610,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Categories.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.OMathFunc">
             <summary>
@@ -18743,12 +18743,6 @@
         <member name="M:NetOffice.WordApi.TaskPanes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.TaskPanes.Item(NetOffice.WordApi.Enums.WdTaskPanes)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdTaskPanes Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.TaskPanes.Count">
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
@@ -18768,6 +18762,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.TaskPanes.Item(NetOffice.WordApi.Enums.WdTaskPanes)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdTaskPanes Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Reviewer">
             <summary>
@@ -19044,12 +19044,6 @@
         <member name="M:NetOffice.WordApi.KeyBindings.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.KeyBindings.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.KeyBindings.Add(NetOffice.WordApi.Enums.WdKeyCategory,System.String,System.Int32,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19110,6 +19104,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.KeyBindings.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ListLevel">
             <summary>
@@ -19236,12 +19236,6 @@
         <member name="M:NetOffice.WordApi.Indexes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Indexes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Indexes.AddOld(NetOffice.WordApi.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19348,6 +19342,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Indexes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.AutoCaptions">
             <summary>
              DispatchInterface AutoCaptions SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19364,12 +19364,6 @@
         </member>
         <member name="M:NetOffice.WordApi.AutoCaptions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.AutoCaptions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.AutoCaptions.CancelAutoInsert">
             <summary>
@@ -19395,6 +19389,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.AutoCaptions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ListEntry">
             <summary>
@@ -19512,12 +19512,6 @@
         <member name="M:NetOffice.WordApi.AutoTextEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.AutoTextEntries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.AutoTextEntries.Add(System.String,NetOffice.WordApi.Range)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19551,6 +19545,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.AutoTextEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Footnotes">
             <summary>
              DispatchInterface Footnotes SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19567,12 +19567,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Footnotes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Footnotes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Footnotes.Add(NetOffice.WordApi.Range,System.Object@,System.Object@)">
             <summary>
@@ -19668,6 +19662,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Footnotes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.AutoCorrectEntry">
             <summary>
              DispatchInterface AutoCorrectEntry SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19748,12 +19748,6 @@
         <member name="M:NetOffice.WordApi.Characters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Characters.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Characters.Count">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -19783,6 +19777,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Characters.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Window">
             <summary>
@@ -22081,12 +22081,6 @@
         <member name="M:NetOffice.WordApi.Lines.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Lines.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Lines.Count">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -22106,6 +22100,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Lines.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Diagram">
             <summary>
@@ -22238,12 +22238,6 @@
         </member>
         <member name="M:NetOffice.WordApi.InlineShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.InlineShapes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.InlineShapes.AddPicture(System.String,System.Object@,System.Object@,System.Object@)">
             <summary>
@@ -22379,6 +22373,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.InlineShapes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.GroupShapes">
             <summary>
              DispatchInterface GroupShapes SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -22395,12 +22395,6 @@
         </member>
         <member name="M:NetOffice.WordApi.GroupShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.GroupShapes.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.GroupShapes.Range(System.Object@)">
             <summary>
@@ -22428,6 +22422,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.GroupShapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.KeysBoundTo">
             <summary>
              DispatchInterface KeysBoundTo SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -22444,12 +22444,6 @@
         </member>
         <member name="M:NetOffice.WordApi.KeysBoundTo.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.KeysBoundTo.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.KeysBoundTo.Key(System.Int32,System.Object@)">
             <summary>
@@ -22503,6 +22497,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.KeysBoundTo.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.AddIn">
             <summary>
@@ -22886,12 +22886,6 @@
         <member name="M:NetOffice.WordApi.RecentFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.RecentFiles.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.RecentFiles.Add(System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -22929,6 +22923,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.RecentFiles.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Bookmark">
             <summary>
@@ -23797,7 +23797,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="M:NetOffice.WordApi.DataLabels.Item(System.Object)">
+        <member name="M:NetOffice.WordApi.DataLabels._Default(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -23948,7 +23948,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="P:NetOffice.WordApi.DataLabels.IndexerItem(System.Object)">
+        <member name="P:NetOffice.WordApi.DataLabels.Item(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -24099,12 +24099,6 @@
         <member name="M:NetOffice.WordApi.ContentControls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.ContentControls.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.ContentControls.Add(NetOffice.WordApi.Enums.WdContentControlType,System.Object@)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -24137,6 +24131,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ContentControls.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.OMathScrSubSup">
             <summary>
@@ -24838,12 +24838,6 @@
         <member name="M:NetOffice.WordApi.Hyperlinks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Hyperlinks.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Hyperlinks._Add(System.Object,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -24895,6 +24889,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Hyperlinks.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.TextColumns">
             <summary>
              DispatchInterface TextColumns SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -24911,12 +24911,6 @@
         </member>
         <member name="M:NetOffice.WordApi.TextColumns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.TextColumns.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.TextColumns.Add(System.Object@,System.Object@,System.Object@)">
             <summary>
@@ -24981,6 +24975,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.TextColumns.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.TableOfAuthorities">
             <summary>
@@ -25101,12 +25101,6 @@
         <member name="M:NetOffice.WordApi.TablesOfAuthorities.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.TablesOfAuthorities.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.TablesOfAuthorities.Add(NetOffice.WordApi.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -25191,6 +25185,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.TablesOfAuthorities.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.MailMergeDataField">
             <summary>
@@ -29505,12 +29505,6 @@
         <member name="M:NetOffice.WordApi.OMathBreaks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMathBreaks.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMathBreaks.Add(NetOffice.WordApi.Range)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -29536,6 +29530,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathBreaks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.BuildingBlock">
             <summary>
@@ -29644,12 +29644,6 @@
         <member name="M:NetOffice.WordApi.OMathMatCols.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMathMatCols.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMathMatCols.Add(System.Object@)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -29680,6 +29674,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathMatCols.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.OMathGroupChar">
             <summary>
@@ -29816,12 +29816,6 @@
         </member>
         <member name="M:NetOffice.WordApi.CanvasShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.CanvasShapes.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.CanvasShapes.AddCallout(NetOffice.OfficeApi.Enums.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)">
             <summary>
@@ -29964,6 +29958,12 @@
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.CanvasShapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.EmailSignatureEntries">
             <summary>
              DispatchInterface EmailSignatureEntries SupportByLibrary WD10 WD11 WD12 WD14 
@@ -29980,12 +29980,6 @@
         </member>
         <member name="M:NetOffice.WordApi.EmailSignatureEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.EmailSignatureEntries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.EmailSignatureEntries.Add(System.String,NetOffice.WordApi.Range)">
             <summary>
@@ -30013,6 +30007,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.EmailSignatureEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Email">
             <summary>
@@ -30140,12 +30140,6 @@
         <member name="M:NetOffice.WordApi.Versions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Versions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Versions.Save(System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -30182,6 +30176,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Versions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.ShapeRange">
             <summary>
              DispatchInterface ShapeRange SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -30198,12 +30198,6 @@
         </member>
         <member name="M:NetOffice.WordApi.ShapeRange.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.ShapeRange.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.ShapeRange.Align(NetOffice.OfficeApi.Enums.MsoAlignCmd,System.Int32)">
             <summary>
@@ -30670,6 +30664,12 @@
             SupportByLibrary WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.ShapeRange.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.HeadingStyle">
             <summary>
              DispatchInterface HeadingStyle SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -30733,12 +30733,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Subdocuments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Subdocuments.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Subdocuments.AddFromFile(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
@@ -30812,6 +30806,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Subdocuments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.AddIns">
             <summary>
              DispatchInterface AddIns SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -30828,12 +30828,6 @@
         </member>
         <member name="M:NetOffice.WordApi.AddIns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.AddIns.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.AddIns.Add(System.String,System.Object@)">
             <summary>
@@ -30873,6 +30867,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.AddIns.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.CaptionLabel">
             <summary>
@@ -30968,12 +30968,6 @@
         <member name="M:NetOffice.WordApi.TablesOfAuthoritiesCategories.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.TablesOfAuthoritiesCategories.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.TablesOfAuthoritiesCategories.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -30993,6 +30987,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.TablesOfAuthoritiesCategories.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.MailMergeFieldName">
             <summary>
@@ -31177,12 +31177,6 @@
         <member name="M:NetOffice.WordApi.Fields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Fields.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Fields.ToggleShowCodes">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -31242,6 +31236,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Fields.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Shading">
             <summary>
@@ -32093,12 +32093,6 @@
         <member name="M:NetOffice.WordApi.Panes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Panes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Panes.Add(System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -32130,6 +32124,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Panes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Templates">
             <summary>
              DispatchInterface Templates SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -32146,12 +32146,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Templates.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Templates.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Templates.LoadBuildingBlocks">
             <summary>
@@ -32178,6 +32172,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Templates.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Documents">
             <summary>
              DispatchInterface Documents SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -32194,12 +32194,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Documents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Documents.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Documents.Close(System.Object@,System.Object@,System.Object@)">
             <summary>
@@ -32453,6 +32447,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Documents.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.XlScaleType">
             <summary>
@@ -34587,7 +34587,7 @@
         <member name="M:NetOffice.WordApi.Axes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Axes.Item(NetOffice.WordApi.Enums.XlAxisType,NetOffice.WordApi.Enums.XlAxisGroup)">
+        <member name="M:NetOffice.WordApi.Axes._Default(NetOffice.WordApi.Enums.XlAxisType,NetOffice.WordApi.Enums.XlAxisGroup)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -34614,7 +34614,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="P:NetOffice.WordApi.Axes.IndexerItem(NetOffice.WordApi.Enums.XlAxisType,NetOffice.WordApi.Enums.XlAxisGroup)">
+        <member name="P:NetOffice.WordApi.Axes.Item(NetOffice.WordApi.Enums.XlAxisType,NetOffice.WordApi.Enums.XlAxisGroup)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -34896,12 +34896,6 @@
         <member name="M:NetOffice.WordApi.OMathFunctions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMathFunctions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMathFunctions.Add(NetOffice.WordApi.Range,NetOffice.WordApi.Enums.WdOMathFunctionType,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -34937,6 +34931,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathFunctions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.SmartTagType">
             <summary>
@@ -35007,12 +35007,6 @@
         <member name="M:NetOffice.WordApi.SmartTagRecognizers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.SmartTagRecognizers.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.SmartTagRecognizers.ReloadRecognizers">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -35038,6 +35032,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.SmartTagRecognizers.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.SmartTags">
             <summary>
              DispatchInterface SmartTags SupportByLibrary WD10 WD11 WD12 WD14 
@@ -35054,12 +35054,6 @@
         </member>
         <member name="M:NetOffice.WordApi.SmartTags.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.SmartTags.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.SmartTags.Add(System.String,System.Object@,System.Object@)">
             <summary>
@@ -35100,6 +35094,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.SmartTags.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.HTMLDivision">
             <summary>
@@ -35445,12 +35445,6 @@
         <member name="M:NetOffice.WordApi.ListLevels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.ListLevels.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.ListLevels.Count">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -35470,6 +35464,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ListLevels.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Revision">
             <summary>
@@ -35617,12 +35617,6 @@
         <member name="M:NetOffice.WordApi.FormFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.FormFields.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.FormFields.Add(NetOffice.WordApi.Range,NetOffice.WordApi.Enums.WdFieldType)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -35655,6 +35649,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.FormFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Frames">
             <summary>
              DispatchInterface Frames SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -35671,12 +35671,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Frames.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Frames.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Frames.Add(NetOffice.WordApi.Range)">
             <summary>
@@ -35708,6 +35702,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Frames.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.FirstLetterException">
             <summary>
@@ -35772,12 +35772,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Cells.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Cells.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Cells.Add(System.Object@)">
             <summary>
@@ -35913,6 +35907,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Cells.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Windows">
             <summary>
              DispatchInterface Windows SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -35929,12 +35929,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Windows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Windows.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Windows.Add(System.Object@)">
             <summary>
@@ -35999,6 +35993,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Windows.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Bookmarks">
             <summary>
              DispatchInterface Bookmarks SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -36015,12 +36015,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Bookmarks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Bookmarks.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Bookmarks.Add(System.String,System.Object@)">
             <summary>
@@ -36070,6 +36064,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Bookmarks.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.WdSpanishSpeller">
             <summary>
@@ -37148,7 +37148,7 @@
         <member name="M:NetOffice.WordApi.Points.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Points.Item(System.Int32)">
+        <member name="M:NetOffice.WordApi.Points._Default(System.Int32)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -37174,7 +37174,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="P:NetOffice.WordApi.Points.IndexerItem(System.Int32)">
+        <member name="P:NetOffice.WordApi.Points.Item(System.Int32)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -37299,7 +37299,7 @@
         <member name="M:NetOffice.WordApi.LegendEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.LegendEntries.Item(System.Object)">
+        <member name="M:NetOffice.WordApi.LegendEntries._Default(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -37325,7 +37325,7 @@
             SupportByLibrary WD14 
             </summary>
         </member>
-        <member name="P:NetOffice.WordApi.LegendEntries.IndexerItem(System.Object)">
+        <member name="P:NetOffice.WordApi.LegendEntries.Item(System.Object)">
             <summary>
             SupportByLibrary WD14 
             </summary>
@@ -38087,12 +38087,6 @@
         <member name="M:NetOffice.WordApi.Breaks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Breaks.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Breaks.Count">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -38113,6 +38107,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Breaks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Rectangles">
             <summary>
              DispatchInterface Rectangles SupportByLibrary WD11 WD12 WD14 
@@ -38129,12 +38129,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Rectangles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Rectangles.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.Rectangles.Count">
             <summary>
@@ -38155,6 +38149,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Rectangles.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.FootnoteOptions">
             <summary>
@@ -38225,12 +38225,6 @@
         <member name="M:NetOffice.WordApi.CustomProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.CustomProperties.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.CustomProperties.Add(System.String,System.String)">
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
@@ -38258,6 +38252,12 @@
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.CustomProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.DiagramNodes">
             <summary>
              DispatchInterface DiagramNodes SupportByLibrary WD10 WD11 WD12 WD14 
@@ -38274,12 +38274,6 @@
         </member>
         <member name="M:NetOffice.WordApi.DiagramNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.DiagramNodes.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.DiagramNodes.SelectAll">
             <summary>
@@ -38305,6 +38299,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.DiagramNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ShadowFormat">
             <summary>
@@ -38535,18 +38535,6 @@
         <member name="M:NetOffice.WordApi.Adjustments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Adjustments.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Adjustments.set_Item(System.Int32,System.Single)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Adjustments.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -38567,6 +38555,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Adjustments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.ProofreadingErrors">
             <summary>
              DispatchInterface ProofreadingErrors SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -38583,12 +38577,6 @@
         </member>
         <member name="M:NetOffice.WordApi.ProofreadingErrors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.ProofreadingErrors.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.ProofreadingErrors.Application">
             <summary>
@@ -38614,6 +38602,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ProofreadingErrors.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Options">
             <summary>
@@ -39919,12 +39913,6 @@
         <member name="M:NetOffice.WordApi.Revisions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Revisions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Revisions.AcceptAll">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -39955,6 +39943,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Revisions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.MailMergeDataFields">
             <summary>
              DispatchInterface MailMergeDataFields SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -39971,12 +39965,6 @@
         </member>
         <member name="M:NetOffice.WordApi.MailMergeDataFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.MailMergeDataFields.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="P:NetOffice.WordApi.MailMergeDataFields.Application">
             <summary>
@@ -39997,6 +39985,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.MailMergeDataFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Border">
             <summary>
@@ -40366,12 +40360,6 @@
         <member name="M:NetOffice.WordApi.Languages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Languages.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Languages.Count">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -40391,6 +40379,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Languages.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.XlPivotFieldOrientation">
             <summary>
@@ -41569,12 +41563,6 @@
         <member name="M:NetOffice.WordApi.ProtectedViewWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.ProtectedViewWindows.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.ProtectedViewWindows.Open(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD14 
@@ -41610,6 +41598,12 @@
             <summary>
             SupportByLibrary WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ProtectedViewWindows.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ChartTitle">
             <summary>
@@ -42010,12 +42004,6 @@
         <member name="M:NetOffice.WordApi.XMLChildNodeSuggestions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.XMLChildNodeSuggestions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.XMLChildNodeSuggestions.Count">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -42035,6 +42023,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.XMLChildNodeSuggestions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.HTMLDivisions">
             <summary>
@@ -42064,12 +42058,6 @@
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
         </member>
-        <member name="M:NetOffice.WordApi.HTMLDivisions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.HTMLDivisions.Application">
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
@@ -42094,6 +42082,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.HTMLDivisions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.WebOptions">
             <summary>
@@ -42508,12 +42502,6 @@
         <member name="M:NetOffice.WordApi.ListParagraphs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.ListParagraphs.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.ListParagraphs.Count">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -42533,6 +42521,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ListParagraphs.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.HeaderFooter">
             <summary>
@@ -42618,12 +42612,6 @@
         <member name="M:NetOffice.WordApi.MailMergeFieldNames.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.MailMergeFieldNames.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.MailMergeFieldNames.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -42643,6 +42631,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.MailMergeFieldNames.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Frame">
             <summary>
@@ -42788,12 +42782,6 @@
         <member name="M:NetOffice.WordApi.Styles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Styles.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Styles.Add(System.String,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -42826,6 +42814,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Styles.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.XlPieSliceIndex">
             <summary>
@@ -44780,12 +44774,6 @@
         <member name="M:NetOffice.WordApi.BuildingBlockTypes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.BuildingBlockTypes.Item(NetOffice.WordApi.Enums.WdBuildingBlockTypes)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdBuildingBlockTypes Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.BuildingBlockTypes.Application">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -44805,6 +44793,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.BuildingBlockTypes.Item(NetOffice.WordApi.Enums.WdBuildingBlockTypes)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdBuildingBlockTypes Index</param>
         </member>
         <member name="T:NetOffice.WordApi.OMathScrSub">
             <summary>
@@ -44912,12 +44906,6 @@
         <member name="M:NetOffice.WordApi.OMaths.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMaths.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMaths.Linearize">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -44954,6 +44942,12 @@
             SupportByLibrary WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.OMaths.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.XMLSchemaReferences">
             <summary>
              DispatchInterface XMLSchemaReferences SupportByLibrary WD11 WD12 WD14 
@@ -44970,12 +44964,6 @@
         </member>
         <member name="M:NetOffice.WordApi.XMLSchemaReferences.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.XMLSchemaReferences.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.XMLSchemaReferences.Validate">
             <summary>
@@ -45035,6 +45023,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.XMLSchemaReferences.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.SmartTagRecognizer">
             <summary>
@@ -45447,12 +45441,6 @@
         <member name="M:NetOffice.WordApi.ReadabilityStatistics.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.ReadabilityStatistics.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.ReadabilityStatistics.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -45472,6 +45460,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ReadabilityStatistics.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.FileConverter">
             <summary>
@@ -45567,12 +45561,6 @@
         <member name="M:NetOffice.WordApi.Dialogs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Dialogs.Item(NetOffice.WordApi.Enums.WdWordDialog)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdWordDialog Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.Dialogs.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -45592,6 +45580,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Dialogs.Item(NetOffice.WordApi.Enums.WdWordDialog)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdWordDialog Index</param>
         </member>
         <member name="T:NetOffice.WordApi.TableOfContents">
             <summary>
@@ -45854,12 +45848,6 @@
         <member name="M:NetOffice.WordApi.Comments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Comments.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Comments.Add(NetOffice.WordApi.Range,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -45898,6 +45886,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Comments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Tables">
             <summary>
              DispatchInterface Tables SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -45914,12 +45908,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Tables.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Tables.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Tables.AddOld(NetOffice.WordApi.Range,System.Int32,System.Int32)">
             <summary>
@@ -45972,6 +45960,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Tables.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Sentences">
             <summary>
              DispatchInterface Sentences SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -45988,12 +45982,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Sentences.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Sentences.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.Sentences.Count">
             <summary>
@@ -46024,6 +46012,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Sentences.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.WdNumberSpacing">
             <summary>
@@ -46774,12 +46768,6 @@
         <member name="M:NetOffice.WordApi.CoAuthLocks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.CoAuthLocks.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.CoAuthLocks.Add(System.Object,NetOffice.WordApi.Enums.WdLockType)">
             <summary>
             SupportByLibrary WD14 
@@ -46811,6 +46799,12 @@
             <summary>
             SupportByLibrary WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.CoAuthLocks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ChartFormat">
             <summary>
@@ -47575,12 +47569,6 @@
         <member name="M:NetOffice.WordApi.OMathMatRows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMathMatRows.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMathMatRows.Add(System.Object@)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -47611,6 +47599,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathMatRows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Rectangle">
             <summary>
@@ -47768,12 +47762,6 @@
         <member name="M:NetOffice.WordApi.StyleSheets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.StyleSheets.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.StyleSheets.Add(System.String,NetOffice.WordApi.Enums.WdStyleSheetLinkType,System.String,NetOffice.WordApi.Enums.WdStyleSheetPrecedence)">
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
@@ -47802,6 +47790,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.StyleSheets.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.ShapeNode">
             <summary>
@@ -47867,12 +47861,6 @@
         <member name="M:NetOffice.WordApi.SpellingSuggestions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.SpellingSuggestions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.SpellingSuggestions.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -47897,6 +47885,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.SpellingSuggestions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.AutoTextEntry">
             <summary>
@@ -48037,12 +48031,6 @@
         <member name="M:NetOffice.WordApi.FirstLetterExceptions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.FirstLetterExceptions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.FirstLetterExceptions.Add(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -48069,6 +48057,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.FirstLetterExceptions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.TabStops">
             <summary>
              DispatchInterface TabStops SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -48085,12 +48079,6 @@
         </member>
         <member name="M:NetOffice.WordApi.TabStops.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.TabStops.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.TabStops.Add(System.Single,System.Object@,System.Object@)">
             <summary>
@@ -48143,6 +48131,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.TabStops.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Variables">
             <summary>
              DispatchInterface Variables SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -48159,12 +48153,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Variables.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Variables.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Variables.Add(System.String,System.Object@)">
             <summary>
@@ -48198,6 +48186,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Variables.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.WdMergeFormatFrom">
             <summary>
@@ -49554,12 +49548,6 @@
         <member name="M:NetOffice.WordApi.SmartTagTypes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.SmartTagTypes.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.SmartTagTypes.ReloadAll">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -49585,6 +49573,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.SmartTagTypes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.SmartTagActions">
             <summary>
              DispatchInterface SmartTagActions SupportByLibrary WD11 WD12 WD14 
@@ -49601,12 +49595,6 @@
         </member>
         <member name="M:NetOffice.WordApi.SmartTagActions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.SmartTagActions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="M:NetOffice.WordApi.SmartTagActions.ReloadActions">
             <summary>
@@ -49632,6 +49620,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.SmartTagActions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.TaskPane">
             <summary>
@@ -50093,12 +50087,6 @@
         <member name="M:NetOffice.WordApi.Rows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Rows.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Rows.Add(System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -50296,6 +50284,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Rows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Column">
             <summary>
@@ -52285,12 +52279,6 @@
         <member name="M:NetOffice.WordApi.Sources.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Sources.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Sources.Add(System.String)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -52316,6 +52304,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Sources.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.IApplicationEvents4">
             <summary>
@@ -52594,12 +52588,6 @@
         <member name="M:NetOffice.WordApi.Editors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Editors.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Editors.Add(System.Object@)">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -52626,6 +52614,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Editors.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Pages">
             <summary>
              DispatchInterface Pages SupportByLibrary WD11 WD12 WD14 
@@ -52642,12 +52636,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Pages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Pages.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.Pages.Count">
             <summary>
@@ -52668,6 +52656,12 @@
             <summary>
             SupportByLibrary WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Pages.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.HorizontalLineFormat">
             <summary>
@@ -53680,12 +53674,6 @@
         <member name="M:NetOffice.WordApi.TablesOfFigures.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.TablesOfFigures.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.TablesOfFigures.AddOld(NetOffice.WordApi.Range,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -53772,6 +53760,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.TablesOfFigures.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Style">
             <summary>
@@ -53980,12 +53974,6 @@
         <member name="M:NetOffice.WordApi.Borders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Borders.Item(NetOffice.WordApi.Enums.WdBorderType)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdBorderType Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Borders.ApplyPageBordersToAllSections">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -54126,6 +54114,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Borders.Item(NetOffice.WordApi.Enums.WdBorderType)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdBorderType Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Sections">
             <summary>
              DispatchInterface Sections SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -54142,12 +54136,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Sections.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Sections.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.Sections.Add(System.Object@,System.Object@)">
             <summary>
@@ -54195,6 +54183,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Sections.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Pane">
             <summary>
@@ -54532,12 +54526,6 @@
         <member name="M:NetOffice.WordApi.FontNames.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.FontNames.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.FontNames.Count">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -54557,6 +54545,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.FontNames.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Enums.WdProtectedViewCloseReason">
             <summary>
@@ -55635,12 +55629,6 @@
         <member name="M:NetOffice.WordApi.Conflicts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Conflicts.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Conflicts.AcceptAll">
             <summary>
             SupportByLibrary WD14 
@@ -55671,6 +55659,12 @@
             SupportByLibrary WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Conflicts.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.ChartGroups">
             <summary>
              DispatchInterface ChartGroups SupportByLibrary WD14 
@@ -55687,12 +55681,6 @@
         </member>
         <member name="M:NetOffice.WordApi.ChartGroups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.ChartGroups.Item(System.Object)">
-            <summary>
-            SupportByLibrary WD14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.WordApi.ChartGroups.Parent">
             <summary>
@@ -55713,6 +55701,12 @@
             <summary>
             SupportByLibrary WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.ChartGroups.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.SeriesLines">
             <summary>
@@ -55870,12 +55864,6 @@
         <member name="M:NetOffice.WordApi.OMathRecognizedFunctions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMathRecognizedFunctions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMathRecognizedFunctions.Add(System.String)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -55901,6 +55889,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathRecognizedFunctions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.OMathAutoCorrect">
             <summary>
@@ -56060,12 +56054,6 @@
         <member name="M:NetOffice.WordApi.OMathArgs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OMathArgs.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OMathArgs.Add(System.Object@)">
             <summary>
             SupportByLibrary WD12 WD14 
@@ -56096,6 +56084,12 @@
             <summary>
             SupportByLibrary WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OMathArgs.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.WordApi.XSLTransform">
             <summary>
@@ -56450,12 +56444,6 @@
         <member name="M:NetOffice.WordApi.OtherCorrectionsExceptions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.OtherCorrectionsExceptions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.OtherCorrectionsExceptions.Add(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -56481,6 +56469,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.OtherCorrectionsExceptions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.FreeformBuilder">
             <summary>
@@ -56555,12 +56549,6 @@
         <member name="M:NetOffice.WordApi.Dictionaries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Dictionaries.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Dictionaries.Add(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -56601,6 +56589,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Dictionaries.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Hyperlink">
             <summary>
@@ -56749,12 +56743,6 @@
         <member name="M:NetOffice.WordApi.FileConverters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.FileConverters.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.FileConverters.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -56780,6 +56768,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.FileConverters.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Lists">
             <summary>
              DispatchInterface Lists SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -56796,12 +56790,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Lists.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Lists.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.WordApi.Lists.Count">
             <summary>
@@ -56823,6 +56811,12 @@
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.Lists.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.StoryRanges">
             <summary>
              DispatchInterface StoryRanges SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -56839,12 +56833,6 @@
         </member>
         <member name="M:NetOffice.WordApi.StoryRanges.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.StoryRanges.Item(NetOffice.WordApi.Enums.WdStoryType)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdStoryType Index</param>
         </member>
         <member name="P:NetOffice.WordApi.StoryRanges.Count">
             <summary>
@@ -56865,6 +56853,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.StoryRanges.Item(NetOffice.WordApi.Enums.WdStoryType)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdStoryType Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Subdocument">
             <summary>
@@ -56961,12 +56955,6 @@
         <member name="M:NetOffice.WordApi.Tasks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.Tasks.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.Tasks.Exists(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -56997,6 +56985,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Tasks.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.MailingLabel">
             <summary>
@@ -59876,12 +59870,6 @@
         <member name="M:NetOffice.WordApi.XSLTransforms.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.XSLTransforms.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.XSLTransforms.Add(System.String,System.Object@,System.Boolean)">
             <summary>
             SupportByLibrary WD11 WD12 WD14 
@@ -59910,6 +59898,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.XSLTransforms.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.XMLNodes">
             <summary>
              DispatchInterface XMLNodes SupportByLibrary WD11 WD12 WD14 
@@ -59926,12 +59920,6 @@
         </member>
         <member name="M:NetOffice.WordApi.XMLNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.XMLNodes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary WD11 WD12 WD14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.WordApi.XMLNodes.Add(System.String,System.String,System.Object@)">
             <summary>
@@ -59968,6 +59956,12 @@
             SupportByLibrary WD11 WD12 WD14 
             </summary>
         </member>
+        <member name="P:NetOffice.WordApi.XMLNodes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WD11 WD12 WD14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.WordApi.Reviewers">
             <summary>
              DispatchInterface Reviewers SupportByLibrary WD10 WD11 WD12 WD14 
@@ -59984,12 +59978,6 @@
         </member>
         <member name="M:NetOffice.WordApi.Reviewers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.WordApi.Reviewers.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
         </member>
         <member name="P:NetOffice.WordApi.Reviewers.Application">
             <summary>
@@ -60010,6 +59998,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.Reviewers.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.SmartTag">
             <summary>
@@ -60105,12 +60099,6 @@
         <member name="M:NetOffice.WordApi.DiagramNodeChildren.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.DiagramNodeChildren.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.DiagramNodeChildren.AddNode(System.Object@,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
@@ -60152,6 +60140,12 @@
             <summary>
             SupportByLibrary WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.DiagramNodeChildren.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.IApplicationEvents2">
             <summary>
@@ -60361,12 +60355,6 @@
         <member name="M:NetOffice.WordApi.HangulAndAlphabetExceptions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.HangulAndAlphabetExceptions.Item(System.Object@)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.WordApi.HangulAndAlphabetExceptions.Add(System.String)">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -60392,6 +60380,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.HangulAndAlphabetExceptions.Item(System.Object)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.WordApi.InlineShape">
             <summary>
@@ -60686,12 +60680,6 @@
         <member name="M:NetOffice.WordApi.HeadersFooters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.WordApi.HeadersFooters.Item(NetOffice.WordApi.Enums.WdHeaderFooterIndex)">
-            <summary>
-            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
-            </summary>
-            <param name="Index">NetOffice.WordApi.Enums.WdHeaderFooterIndex Index</param>
-        </member>
         <member name="P:NetOffice.WordApi.HeadersFooters.Application">
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
@@ -60711,6 +60699,12 @@
             <summary>
             SupportByLibrary WD09 WD10 WD11 WD12 WD14 
             </summary>
+        </member>
+        <member name="P:NetOffice.WordApi.HeadersFooters.Item(NetOffice.WordApi.Enums.WdHeaderFooterIndex)">
+            <summary>
+            SupportByLibrary WD09 WD10 WD11 WD12 WD14 
+            </summary>
+            <param name="Index">NetOffice.WordApi.Enums.WdHeaderFooterIndex Index</param>
         </member>
         <member name="T:NetOffice.WordApi.Task">
             <summary>

@@ -3847,16 +3847,16 @@
         <member name="M:NetOffice.ADODBApi.Errors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Errors.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary ADO2.1 ADO2.5 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.ADODBApi.Errors.Clear">
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
             </summary>
+        </member>
+        <member name="P:NetOffice.ADODBApi.Errors.Item(System.Object)">
+            <summary>
+            SupportByLibrary ADO2.1 ADO2.5 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.ADODBApi.Properties">
             <summary>
@@ -3875,7 +3875,7 @@
         <member name="M:NetOffice.ADODBApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Properties.get_Item(System.Object)">
+        <member name="P:NetOffice.ADODBApi.Properties.Item(System.Object)">
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
             </summary>
@@ -4005,7 +4005,7 @@
         <member name="M:NetOffice.ADODBApi.Fields15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields15.get_Item(System.Object)">
+        <member name="P:NetOffice.ADODBApi.Fields15.Item(System.Object)">
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
             </summary>
@@ -4849,12 +4849,6 @@
         <member name="M:NetOffice.ADODBApi.Fields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary ADO2.5 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.ADODBApi.Fields.Refresh">
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
@@ -4905,6 +4899,12 @@
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
             </summary>
+        </member>
+        <member name="P:NetOffice.ADODBApi.Fields.Item(System.Object)">
+            <summary>
+            SupportByLibrary ADO2.5 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.ADCPROP_ASYNCTHREADPRIORITY_ENUM">
             <summary>
@@ -5273,12 +5273,6 @@
         <member name="M:NetOffice.ADODBApi.Parameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Parameters.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary ADO2.1 ADO2.5 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.ADODBApi.Parameters.Refresh">
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
@@ -5288,6 +5282,12 @@
             <summary>
             SupportByLibrary ADO2.1 ADO2.5 
             </summary>
+        </member>
+        <member name="P:NetOffice.ADODBApi.Parameters.Item(System.Object)">
+            <summary>
+            SupportByLibrary ADO2.1 ADO2.5 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.ADODBApi.Error">
             <summary>

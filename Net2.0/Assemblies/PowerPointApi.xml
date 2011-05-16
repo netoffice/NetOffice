@@ -169,7 +169,7 @@
         <member name="M:NetOffice.PowerPointApi.Points.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Points.Item(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Points._Default(System.Int32)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -195,7 +195,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.Points.IndexerItem(System.Int32)">
+        <member name="P:NetOffice.PowerPointApi.Points.Item(System.Int32)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -959,12 +959,6 @@
         <member name="M:NetOffice.PowerPointApi.PPControls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPControls.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.PPControls.AddPushButton(System.Single,System.Single,System.Single,System.Single)">
             <summary>
             SupportByLibrary PP09 
@@ -1138,6 +1132,12 @@
             <summary>
             SupportByLibrary PP09 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PPControls.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Ruler">
             <summary>
@@ -2805,12 +2805,6 @@
         <member name="M:NetOffice.PowerPointApi.Designs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Designs.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Designs.Add(System.String,System.Int32)">
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
@@ -2841,6 +2835,12 @@
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Designs.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PPCheckBox">
             <summary>
@@ -2974,12 +2974,6 @@
         <member name="M:NetOffice.PowerPointApi.RulerLevels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.RulerLevels.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.RulerLevels.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -2989,6 +2983,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.RulerLevels.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.TextFrame">
             <summary>
@@ -3148,12 +3148,6 @@
         <member name="M:NetOffice.PowerPointApi.Slides.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Slides.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Slides.FindBySlideID(System.Int32)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -3209,6 +3203,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Slides.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PageSetup">
             <summary>
@@ -6979,12 +6979,6 @@
         <member name="M:NetOffice.PowerPointApi.Fonts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Fonts.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Fonts.Replace(System.String,System.String)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -7001,6 +6995,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Fonts.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.AddIn">
             <summary>
@@ -7978,7 +7978,7 @@
         <member name="M:NetOffice.PowerPointApi.Axes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Axes.Item(NetOffice.PowerPointApi.Enums.XlAxisType,NetOffice.PowerPointApi.Enums.XlAxisGroup)">
+        <member name="M:NetOffice.PowerPointApi.Axes._Default(NetOffice.PowerPointApi.Enums.XlAxisType,NetOffice.PowerPointApi.Enums.XlAxisGroup)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -8005,7 +8005,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.Axes.IndexerItem(NetOffice.PowerPointApi.Enums.XlAxisType,NetOffice.PowerPointApi.Enums.XlAxisGroup)">
+        <member name="P:NetOffice.PowerPointApi.Axes.Item(NetOffice.PowerPointApi.Enums.XlAxisType,NetOffice.PowerPointApi.Enums.XlAxisGroup)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -8113,12 +8113,6 @@
         <member name="M:NetOffice.PowerPointApi.Borders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Borders.Item(NetOffice.PowerPointApi.Enums.PpBorderType)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="BorderType">NetOffice.PowerPointApi.Enums.PpBorderType BorderType</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.Borders.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -8128,6 +8122,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Borders.Item(NetOffice.PowerPointApi.Enums.PpBorderType)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="BorderType">NetOffice.PowerPointApi.Enums.PpBorderType BorderType</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Column">
             <summary>
@@ -8335,12 +8335,6 @@
         <member name="M:NetOffice.PowerPointApi.ExtraColors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ExtraColors.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.ExtraColors.Add(System.Int32)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -8361,6 +8355,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ExtraColors.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PrintRanges">
             <summary>
@@ -8391,12 +8391,6 @@
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PrintRanges.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.PrintRanges.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -8406,6 +8400,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PrintRanges.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.DocumentWindow">
             <summary>
@@ -8616,12 +8616,6 @@
         <member name="M:NetOffice.PowerPointApi.DocumentWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindows.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.DocumentWindows.Arrange(NetOffice.PowerPointApi.Enums.PpArrangeStyle)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -8637,6 +8631,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.DocumentWindows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Enums.XlSizeRepresents">
             <summary>
@@ -9031,7 +9031,7 @@
         <member name="M:NetOffice.PowerPointApi.LegendEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.LegendEntries.Item(System.Object)">
+        <member name="M:NetOffice.PowerPointApi.LegendEntries._Default(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -9057,7 +9057,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.LegendEntries.IndexerItem(System.Object)">
+        <member name="P:NetOffice.PowerPointApi.LegendEntries.Item(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -9117,12 +9117,6 @@
         <member name="M:NetOffice.PowerPointApi.Panes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Panes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.Panes.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -9132,6 +9126,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Panes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Cell">
             <summary>
@@ -9352,12 +9352,6 @@
         <member name="M:NetOffice.PowerPointApi.PPRadioCluster.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPRadioCluster.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.PPRadioCluster.Add(System.Single,System.Single,System.Single,System.Single)">
             <summary>
             SupportByLibrary PP09 
@@ -9381,6 +9375,12 @@
             <summary>
             SupportByLibrary PP09 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PPRadioCluster.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.TextStyle">
             <summary>
@@ -9637,12 +9637,6 @@
         <member name="M:NetOffice.PowerPointApi.GroupShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.GroupShapes.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.GroupShapes.Range(System.Object)">
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
@@ -9668,6 +9662,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.GroupShapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.ColorScheme">
             <summary>
@@ -9724,12 +9724,6 @@
         <member name="M:NetOffice.PowerPointApi.Presentations.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Presentations.Add(NetOffice.OfficeApi.Enums.MsoTriState)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -9785,6 +9779,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Presentations.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PrintRange">
             <summary>
@@ -10694,12 +10694,6 @@
         <member name="M:NetOffice.PowerPointApi.Columns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Columns.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Columns.Add(System.Int32)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -10715,6 +10709,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Columns.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PPPushButton">
             <summary>
@@ -10818,12 +10818,6 @@
         <member name="M:NetOffice.PowerPointApi.TextStyleLevels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextStyleLevels.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Level">Int32 Level</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.TextStyleLevels.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -10833,6 +10827,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.TextStyleLevels.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Level">Int32 Level</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.TabStop">
             <summary>
@@ -11384,13 +11384,13 @@
             </summary>
             <param name="Type">NetOffice.PowerPointApi.Enums.XlTrendlineType Type</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Item(System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines._Default(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
             <param name="Index">optional object Index</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Item">
+        <member name="M:NetOffice.PowerPointApi.Trendlines._Default">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -11415,7 +11415,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.Trendlines.IndexerItem(System.Object)">
+        <member name="P:NetOffice.PowerPointApi.Trendlines.Item(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -12118,7 +12118,7 @@
         <member name="M:NetOffice.PowerPointApi.FileConverters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FileConverters.Item(System.Object)">
+        <member name="P:NetOffice.PowerPointApi.FileConverters.Item(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -12177,12 +12177,6 @@
         </member>
         <member name="M:NetOffice.PowerPointApi.CanvasShapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.CanvasShapes.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.CanvasShapes.AddCallout(NetOffice.OfficeApi.Enums.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)">
             <summary>
@@ -12323,6 +12317,12 @@
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.CanvasShapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.ScaleEffect">
             <summary>
@@ -12653,12 +12653,6 @@
         <member name="M:NetOffice.PowerPointApi.SlideShowWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SlideShowWindows.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.SlideShowWindows.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -12668,6 +12662,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.SlideShowWindows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Selection">
             <summary>
@@ -14505,12 +14505,6 @@
         <member name="M:NetOffice.PowerPointApi.CustomerData.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.CustomerData.Item(System.String)">
-            <summary>
-            SupportByLibrary PP12 PP14 
-            </summary>
-            <param name="Id">string Id</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.CustomerData.Add">
             <summary>
             SupportByLibrary PP12 PP14 
@@ -14531,6 +14525,12 @@
             <summary>
             SupportByLibrary PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.CustomerData.Item(System.String)">
+            <summary>
+            SupportByLibrary PP12 PP14 
+            </summary>
+            <param name="Id">string Id</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.EffectInformation">
             <summary>
@@ -14849,12 +14849,6 @@
         <member name="M:NetOffice.PowerPointApi.ShapeNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.ShapeNodes.Delete(System.Int32)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -14916,6 +14910,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ShapeNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.LineFormat">
             <summary>
@@ -15098,12 +15098,6 @@
         <member name="M:NetOffice.PowerPointApi.ColorSchemes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ColorSchemes.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.ColorSchemes.Add(NetOffice.PowerPointApi.ColorScheme)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -15119,6 +15113,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ColorSchemes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Enums.XlChartSplitType">
             <summary>
@@ -15289,12 +15289,6 @@
         <member name="M:NetOffice.PowerPointApi.CustomLayouts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.CustomLayouts.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP12 PP14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.CustomLayouts.Add(System.Int32)">
             <summary>
             SupportByLibrary PP12 PP14 
@@ -15317,6 +15311,12 @@
             SupportByLibrary PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.CustomLayouts.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP12 PP14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.AnimationPoints">
             <summary>
              DispatchInterface AnimationPoints SupportByLibrary PP10 PP11 PP12 PP14 
@@ -15333,12 +15333,6 @@
         </member>
         <member name="M:NetOffice.PowerPointApi.AnimationPoints.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.AnimationPoints.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.AnimationPoints.Add(System.Int32)">
             <summary>
@@ -15361,6 +15355,12 @@
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.AnimationPoints.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.DiagramNodes">
             <summary>
              DispatchInterface DiagramNodes SupportByLibrary PP10 PP11 PP12 PP14 
@@ -15377,12 +15377,6 @@
         </member>
         <member name="M:NetOffice.PowerPointApi.DiagramNodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNodes.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.DiagramNodes.SelectAll">
             <summary>
@@ -15408,6 +15402,12 @@
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.DiagramNodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Row">
             <summary>
@@ -15473,12 +15473,6 @@
         <member name="M:NetOffice.PowerPointApi.Rows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Rows.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Rows.Add(System.Int32)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -15494,6 +15488,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Rows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Tags">
             <summary>
@@ -15511,12 +15511,6 @@
         </member>
         <member name="M:NetOffice.PowerPointApi.Tags.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.Tags.Item(System.String)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Name">string Name</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.Tags.Add(System.String,System.String)">
             <summary>
@@ -15565,6 +15559,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Tags.Item(System.String)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Name">string Name</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PPBitmapButton">
             <summary>
@@ -16331,12 +16331,6 @@
         <member name="M:NetOffice.PowerPointApi.ResampleMediaTasks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ResampleMediaTasks.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.ResampleMediaTasks.Pause">
             <summary>
             SupportByLibrary PP14 
@@ -16356,6 +16350,12 @@
             <summary>
             SupportByLibrary PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ResampleMediaTasks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Series">
             <summary>
@@ -16898,12 +16898,6 @@
         <member name="M:NetOffice.PowerPointApi.Sequence.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimateByLevel,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType,System.Int32)">
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
@@ -16991,6 +16985,12 @@
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.Sequence.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.Sequences">
             <summary>
              DispatchInterface Sequences SupportByLibrary PP10 PP11 PP12 PP14 
@@ -17008,12 +17008,6 @@
         <member name="M:NetOffice.PowerPointApi.Sequences.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequences.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Sequences.Add(System.Int32)">
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
@@ -17029,6 +17023,12 @@
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Sequences.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Pane">
             <summary>
@@ -17136,12 +17136,6 @@
         <member name="M:NetOffice.PowerPointApi.PPTabSheets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPTabSheets.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.PPTabSheets.Add(System.String)">
             <summary>
             SupportByLibrary PP09 
@@ -17157,6 +17151,12 @@
             <summary>
             SupportByLibrary PP09 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PPTabSheets.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.HeaderFooter">
             <summary>
@@ -17222,18 +17222,6 @@
         <member name="M:NetOffice.PowerPointApi.Adjustments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Adjustments.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.Adjustments.set_Item(System.Int32,System.Single)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.Adjustments.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -17254,6 +17242,12 @@
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.Adjustments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.Shapes">
             <summary>
              DispatchInterface Shapes SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -17270,12 +17264,6 @@
         </member>
         <member name="M:NetOffice.PowerPointApi.Shapes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.Shapes.AddCallout(NetOffice.OfficeApi.Enums.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)">
             <summary>
@@ -17570,6 +17558,12 @@
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.Shapes.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.RGBColor">
             <summary>
              DispatchInterface RGBColor SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -17619,12 +17613,6 @@
         <member name="M:NetOffice.PowerPointApi.NamedSlideShows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.NamedSlideShows.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.NamedSlideShows.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -17641,6 +17629,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.NamedSlideShows.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Enums.PpResampleMediaProfile">
             <summary>
@@ -18848,12 +18842,6 @@
         <member name="M:NetOffice.PowerPointApi.PPDialogs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object,NetOffice.PowerPointApi.Enums.PpDialogPositioning,NetOffice.OfficeApi.Enums.MsoTriState)">
             <summary>
             SupportByLibrary PP09 
@@ -18918,6 +18906,12 @@
             <summary>
             SupportByLibrary PP09 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PPDialogs.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.TextStyleLevel">
             <summary>
@@ -19783,7 +19777,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DataLabels.Item(System.Object)">
+        <member name="M:NetOffice.PowerPointApi.DataLabels._Default(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -19934,7 +19928,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.DataLabels.IndexerItem(System.Object)">
+        <member name="P:NetOffice.PowerPointApi.DataLabels.Item(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -20375,12 +20369,6 @@
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.ShapeRange._Index(System.Int32)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -20815,6 +20803,12 @@
             SupportByLibrary PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.ShapeRange.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.SlideRange">
             <summary>
              DispatchInterface SlideRange SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -20865,12 +20859,6 @@
             <param name="FilterName">string FilterName</param>
             <param name="ScaleWidth">Int32 ScaleWidth</param>
             <param name="ScaleHeight">Int32 ScaleHeight</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.SlideRange.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">object index</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.SlideRange._Index(System.Int32)">
             <summary>
@@ -21071,6 +21059,12 @@
             SupportByLibrary PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.SlideRange.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.Hyperlinks">
             <summary>
              DispatchInterface Hyperlinks SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -21088,12 +21082,6 @@
         <member name="M:NetOffice.PowerPointApi.Hyperlinks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Hyperlinks.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.Hyperlinks.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -21103,6 +21091,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Hyperlinks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Enums.XlTrendlineType">
             <summary>
@@ -21586,18 +21580,18 @@
         <member name="M:NetOffice.PowerPointApi.MediaBookmarks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaBookmarks.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.MediaBookmarks.Add(System.Int32,System.String)">
             <summary>
             SupportByLibrary PP14 
             </summary>
             <param name="Position">Int32 Position</param>
             <param name="Name">string Name</param>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.MediaBookmarks.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.SectionProperties">
             <summary>
@@ -21834,12 +21828,6 @@
             </summary>
             <param name="Source">object Source</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.SeriesCollection.NewSeries">
             <summary>
             SupportByLibrary PP14 
@@ -21862,6 +21850,12 @@
             <param name="Source">object Source</param>
             <param name="Rowcol">NetOffice.PowerPointApi.Enums.XlRowCol Rowcol</param>
         </member>
+        <member name="M:NetOffice.PowerPointApi.SeriesCollection._Default(System.Object)">
+            <summary>
+            SupportByLibrary PP14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="P:NetOffice.PowerPointApi.SeriesCollection.Parent">
             <summary>
             SupportByLibrary PP14 
@@ -21882,7 +21876,7 @@
             SupportByLibrary PP14 
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.SeriesCollection.IndexerItem(System.Object)">
+        <member name="P:NetOffice.PowerPointApi.SeriesCollection.Item(System.Object)">
             <summary>
             SupportByLibrary PP14 
             </summary>
@@ -22478,12 +22472,6 @@
         <member name="M:NetOffice.PowerPointApi.PublishObjects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PublishObjects.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.PublishObjects.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -22493,6 +22481,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PublishObjects.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.OCXExtender">
             <summary>
@@ -23352,12 +23346,6 @@
         <member name="M:NetOffice.PowerPointApi.AnimationBehaviors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.AnimationBehaviors.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.AnimationBehaviors.Add(NetOffice.PowerPointApi.Enums.MsoAnimType,System.Int32)">
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
@@ -23375,6 +23363,12 @@
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.AnimationBehaviors.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.DiagramNodeChildren">
             <summary>
              DispatchInterface DiagramNodeChildren SupportByLibrary PP10 PP11 PP12 PP14 
@@ -23391,12 +23385,6 @@
         </member>
         <member name="M:NetOffice.PowerPointApi.DiagramNodeChildren.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNodeChildren.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.DiagramNodeChildren.AddNode(System.Object,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
             <summary>
@@ -23439,6 +23427,12 @@
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.DiagramNodeChildren.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Comment">
             <summary>
@@ -23524,12 +23518,6 @@
         <member name="M:NetOffice.PowerPointApi.Comments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Comments.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Comments.Add(System.Single,System.Single,System.String,System.String,System.String)">
             <summary>
             SupportByLibrary PP10 PP11 PP12 PP14 
@@ -23550,6 +23538,12 @@
             SupportByLibrary PP10 PP11 PP12 PP14 
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.Comments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.PowerPointApi.CellRange">
             <summary>
              DispatchInterface CellRange SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -23567,12 +23561,6 @@
         <member name="M:NetOffice.PowerPointApi.CellRange.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.CellRange.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.CellRange.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -23587,6 +23575,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.CellRange.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.PPStrings">
             <summary>
@@ -23605,12 +23599,6 @@
         <member name="M:NetOffice.PowerPointApi.PPStrings.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPStrings.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.PPStrings.Add(System.String)">
             <summary>
             SupportByLibrary PP09 
@@ -23625,6 +23613,12 @@
             <param name="Position">Int32 Position</param>
         </member>
         <member name="M:NetOffice.PowerPointApi.PPStrings.Delete(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">Int32 index</param>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.PPStrings.Item(System.Int32)">
             <summary>
             SupportByLibrary PP09 
             </summary>
@@ -23684,12 +23678,6 @@
         <member name="M:NetOffice.PowerPointApi.Placeholders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Placeholders.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.Placeholders.FindByName(System.Object)">
             <summary>
             SupportByLibrary PP12 PP14 
@@ -23705,6 +23693,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Placeholders.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Enums.PpPlayerState">
             <summary>
@@ -25980,12 +25974,6 @@
         <member name="M:NetOffice.PowerPointApi.TabStops.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TabStops.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.TabStops.Add(NetOffice.PowerPointApi.Enums.PpTabStopType,System.Single)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -26007,6 +25995,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.TabStops.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Shape">
             <summary>
@@ -26529,12 +26523,6 @@
         <member name="M:NetOffice.PowerPointApi.AddIns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.AddIns.Item(System.Object@)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">ref object index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.AddIns.Add(System.String)">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -26556,6 +26544,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.AddIns.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.Enums.XlTickMark">
             <summary>
@@ -26814,12 +26808,6 @@
         <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.Open(System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
             <summary>
             SupportByLibrary PP14 
@@ -26837,6 +26825,12 @@
             <summary>
             SupportByLibrary PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ProtectedViewWindows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.ErrorBars">
             <summary>
@@ -26964,12 +26958,6 @@
         <member name="M:NetOffice.PowerPointApi.ChartGroups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ChartGroups.Item(System.Object)">
-            <summary>
-            SupportByLibrary PP14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.ChartGroups.Parent">
             <summary>
             SupportByLibrary PP14 
@@ -26989,6 +26977,12 @@
             <summary>
             SupportByLibrary PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ChartGroups.Item(System.Object)">
+            <summary>
+            SupportByLibrary PP14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.CustomLayout">
             <summary>
@@ -27249,12 +27243,6 @@
         <member name="M:NetOffice.PowerPointApi.FileDialogExtensionList.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FileDialogExtensionList.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.FileDialogExtensionList.Add(System.String,System.String)">
             <summary>
             SupportByLibrary PP09 
@@ -27271,6 +27259,12 @@
             <summary>
             SupportByLibrary PP09 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.FileDialogExtensionList.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.FileDialogFileList">
             <summary>
@@ -27289,12 +27283,6 @@
         <member name="M:NetOffice.PowerPointApi.FileDialogFileList.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FileDialogFileList.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="M:NetOffice.PowerPointApi.FileDialogFileList.DisplayName(System.Int32)">
             <summary>
             SupportByLibrary PP09 
@@ -27310,6 +27298,12 @@
             <summary>
             SupportByLibrary PP09 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.FileDialogFileList.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.TextStyles">
             <summary>
@@ -27328,12 +27322,6 @@
         <member name="M:NetOffice.PowerPointApi.TextStyles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextStyles.Item(NetOffice.PowerPointApi.Enums.PpTextStyleType)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="Type">NetOffice.PowerPointApi.Enums.PpTextStyleType Type</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.TextStyles.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -27343,6 +27331,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.TextStyles.Item(NetOffice.PowerPointApi.Enums.PpTextStyleType)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="Type">NetOffice.PowerPointApi.Enums.PpTextStyleType Type</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.ActionSettings">
             <summary>
@@ -27361,12 +27355,6 @@
         <member name="M:NetOffice.PowerPointApi.ActionSettings.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ActionSettings.Item(NetOffice.PowerPointApi.Enums.PpMouseActivation)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">NetOffice.PowerPointApi.Enums.PpMouseActivation index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.ActionSettings.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -27376,6 +27364,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ActionSettings.Item(NetOffice.PowerPointApi.Enums.PpMouseActivation)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">NetOffice.PowerPointApi.Enums.PpMouseActivation index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.ObjectVerbs">
             <summary>
@@ -27394,12 +27388,6 @@
         <member name="M:NetOffice.PowerPointApi.ObjectVerbs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ObjectVerbs.Item(System.Int32)">
-            <summary>
-            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
-            </summary>
-            <param name="index">Int32 index</param>
-        </member>
         <member name="P:NetOffice.PowerPointApi.ObjectVerbs.Application">
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
@@ -27409,6 +27397,12 @@
             <summary>
             SupportByLibrary PP09 PP10 PP11 PP12 PP14 
             </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.ObjectVerbs.Item(System.Int32)">
+            <summary>
+            SupportByLibrary PP09 PP10 PP11 PP12 PP14 
+            </summary>
+            <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.PowerPointApi.ShapeNode">
             <summary>

@@ -32,12 +32,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add_PreVB98(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -84,6 +78,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IColumnHeaders.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeaders.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -545,18 +545,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IComboItems.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.IComboItems.set_Item(System.Object@,NetOffice.MSComctlLibApi.IComboItem)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IComboItems.Add(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -589,6 +577,12 @@
             SupportByLibrary WCC6.0 
             </summary>
         </member>
+        <member name="P:NetOffice.MSComctlLibApi.IComboItems.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.MSComctlLibApi.IControls">
             <summary>
              DispatchInterface IControls SupportByLibrary WCC6.0 
@@ -606,16 +600,16 @@
         <member name="M:NetOffice.MSComctlLibApi.IControls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IControls.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.MSComctlLibApi.IControls.Count">
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IControls.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListItems">
             <summary>
@@ -635,12 +629,6 @@
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItems.get_ControlDefault(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.IListItems.get_Item(System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
@@ -676,6 +664,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IListItems.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IToolbar">
             <summary>
@@ -961,18 +955,6 @@
             </summary>
             <param name="pvIndex">ref object pvIndex</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.ITabs.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="pvIndex">ref object pvIndex</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.ITabs.set_Item(System.Object@,NetOffice.MSComctlLibApi.ITab)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="pvIndex">ref object pvIndex</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabs.Remove(System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -1002,6 +984,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.ITabs.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="pvIndex">object pvIndex</param>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IVBDataObject">
             <summary>
@@ -1303,18 +1291,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IImages.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.IImages.set_Item(System.Object@,NetOffice.MSComctlLibApi.IImage)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IImages.Add(System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -1343,6 +1319,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IImages.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListImages.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -1535,18 +1517,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IButtons.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.IButtons.set_Item(System.Object@,NetOffice.MSComctlLibApi.IButton)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtons.Remove(System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -1577,6 +1547,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IButtons.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Buttons.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -1926,12 +1902,6 @@
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="lIndex">Int32 lIndex</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -1955,6 +1925,12 @@
             SupportByLibrary WCC6.0 
             </summary>
             <param name="vIndex">object vIndex</param>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Item(System.Int32)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="lIndex">Int32 lIndex</param>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Count">
             <summary>
@@ -2578,12 +2554,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IListSubItems.Add(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -2614,6 +2584,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IListSubItems.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListViewConstants">
             <summary>
@@ -2719,18 +2695,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.set_Item(System.Object@,NetOffice.MSComctlLibApi.IButtonMenu)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.Remove(System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -2759,6 +2723,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IButtonMenus.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.MousePointerConstants">
             <summary>
@@ -3622,18 +3592,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.IPanels.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.IPanels.set_Item(System.Object@,NetOffice.MSComctlLibApi.IPanel)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.IPanels.Add(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -3664,6 +3622,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.IPanels.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Panels.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -3839,18 +3803,6 @@
             </summary>
             <param name="Index">ref object Index</param>
         </member>
-        <member name="M:NetOffice.MSComctlLibApi.INodes.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
-        <member name="M:NetOffice.MSComctlLibApi.INodes.set_Item(System.Object@,NetOffice.MSComctlLibApi.INode)">
-            <summary>
-            SupportByLibrary WCC6.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="M:NetOffice.MSComctlLibApi.INodes.Add(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary WCC6.0 
@@ -3882,6 +3834,12 @@
             <summary>
             SupportByLibrary WCC6.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.MSComctlLibApi.INodes.Item(System.Object)">
+            <summary>
+            SupportByLibrary WCC6.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Nodes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>

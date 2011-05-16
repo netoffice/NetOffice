@@ -1500,12 +1500,6 @@
         <member name="M:NetOffice.OutlookApi._NavigationGroups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._NavigationGroups.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._NavigationGroups.Create(System.String)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -1549,6 +1543,12 @@
             SupportByLibrary OL12 OL14 
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi._NavigationGroups.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OutlookApi._Columns">
             <summary>
              DispatchInterface _Columns SupportByLibrary OL12 OL14 
@@ -1565,12 +1565,6 @@
         </member>
         <member name="M:NetOffice.OutlookApi._Columns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OutlookApi._Columns.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi._Columns.Add(System.String)">
             <summary>
@@ -1613,6 +1607,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Columns.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._AccountRuleCondition">
             <summary>
@@ -1911,12 +1911,6 @@
         <member name="M:NetOffice.OutlookApi._Reminders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Reminders.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Reminders.Remove(System.Object)">
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
@@ -1947,6 +1941,12 @@
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Reminders.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Attachment">
             <summary>
@@ -2068,12 +2068,6 @@
         <member name="M:NetOffice.OutlookApi.Actions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Actions.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Actions.Add">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -2110,6 +2104,12 @@
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi.Actions.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OutlookApi.AddressEntries">
             <summary>
              DispatchInterface AddressEntries SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -2126,12 +2126,6 @@
         </member>
         <member name="M:NetOffice.OutlookApi.AddressEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OutlookApi.AddressEntries.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.AddressEntries.Add(System.String,System.Object,System.Object)">
             <summary>
@@ -2208,6 +2202,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.AddressEntries.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._IDocSiteControl">
             <summary>
@@ -3286,12 +3286,6 @@
         <member name="M:NetOffice.OutlookApi._Items.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Items.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Items.Add(System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -3405,6 +3399,12 @@
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi._Items.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="M:NetOffice.OutlookApi.Items.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
@@ -3477,12 +3477,6 @@
         <member name="M:NetOffice.OutlookApi._Inspectors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Inspectors.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Inspectors.Add(System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -3513,6 +3507,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Inspectors.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.Inspectors.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -3560,12 +3560,6 @@
         </member>
         <member name="M:NetOffice.OutlookApi._AutoFormatRules.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OutlookApi._AutoFormatRules.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi._AutoFormatRules.Add(System.String)">
             <summary>
@@ -3620,6 +3614,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._AutoFormatRules.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._OlkTimeZoneControl">
             <summary>
@@ -4540,12 +4540,6 @@
         <member name="M:NetOffice.OutlookApi._UserDefinedProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._UserDefinedProperties.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._UserDefinedProperties.Add(System.String,NetOffice.OutlookApi.Enums.OlUserPropertyType,System.Object,System.Object)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -4603,6 +4597,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._UserDefinedProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.UserDefinedProperties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -5060,12 +5060,6 @@
         <member name="M:NetOffice.OutlookApi._OutlookBarShortcuts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._OutlookBarShortcuts.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._OutlookBarShortcuts.Add(System.Object,System.String,System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -5111,6 +5105,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._OutlookBarShortcuts.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.OutlookBarShortcuts.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -5184,12 +5184,6 @@
         <member name="M:NetOffice.OutlookApi._OutlookBarGroups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._OutlookBarGroups.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._OutlookBarGroups.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -5233,6 +5227,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._OutlookBarGroups.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.OutlookBarGroups.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -6240,12 +6240,6 @@
         <member name="M:NetOffice.OutlookApi._Views.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Views.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Views.Add(System.String,NetOffice.OutlookApi.Enums.OlViewType,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
@@ -6284,6 +6278,12 @@
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Views.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._ReportItem">
             <summary>
@@ -7009,12 +7009,6 @@
         <member name="M:NetOffice.OutlookApi.Exceptions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Exceptions.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi.Exceptions.Application">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -7039,6 +7033,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Exceptions.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlSolutionScope">
             <summary>
@@ -8652,12 +8652,6 @@
         <member name="M:NetOffice.OutlookApi._RuleConditions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._RuleConditions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi._RuleConditions.Application">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -8807,6 +8801,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._RuleConditions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.RuleConditions.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -12846,12 +12846,6 @@
         <member name="M:NetOffice.OutlookApi.SyncObjects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.SyncObjects.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi.SyncObjects.Application">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -12881,6 +12875,12 @@
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.SyncObjects.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._Explorer">
             <summary>
@@ -13424,12 +13424,6 @@
         <member name="M:NetOffice.OutlookApi._Categories.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Categories.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Categories.Add(System.String,System.Object,System.Object)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -13474,6 +13468,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Categories.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.Categories.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -14034,12 +14034,6 @@
         <member name="M:NetOffice.OutlookApi._Folders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Folders.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Folders.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -14109,6 +14103,12 @@
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi._Folders.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="M:NetOffice.OutlookApi.Folders.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
@@ -14176,12 +14176,6 @@
         <member name="M:NetOffice.OutlookApi._OrderFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._OrderFields.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._OrderFields.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -14245,6 +14239,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._OrderFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._DRecipientControl">
             <summary>
@@ -15636,12 +15636,6 @@
         <member name="M:NetOffice.OutlookApi._ViewFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._ViewFields.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._ViewFields.Add(System.String)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -15685,6 +15679,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._ViewFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.ViewFields.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -15825,12 +15825,6 @@
         <member name="M:NetOffice.OutlookApi._Stores.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Stores.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi._Stores.Application">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -15855,6 +15849,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Stores.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.Stores.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -17317,12 +17317,6 @@
         <member name="M:NetOffice.OutlookApi.PropertyPages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.PropertyPages.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.PropertyPages.Add(System.Object,System.String)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -17360,6 +17354,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.PropertyPages.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.AddressList">
             <summary>
@@ -17678,12 +17678,6 @@
             SupportByLibrary OL12 OL14 
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._Row.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Row.LocalTimeToUTC(System.Object)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -17715,6 +17709,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Row.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.Row.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -18272,12 +18272,6 @@
         <member name="M:NetOffice.OutlookApi._Accounts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Accounts.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi._Accounts.Application">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -18302,6 +18296,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Accounts.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._CalendarSharing">
             <summary>
@@ -18558,12 +18558,6 @@
         <member name="M:NetOffice.OutlookApi._Results.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Results.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Results.GetFirst">
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
@@ -18642,6 +18636,12 @@
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Results.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Search">
             <summary>
@@ -19589,12 +19589,6 @@
         <member name="M:NetOffice.OutlookApi._Explorers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Explorers.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Explorers.Add(System.Object,NetOffice.OutlookApi.Enums.OlFolderDisplayMode)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -19626,6 +19620,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Explorers.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlGroupType">
             <summary>
@@ -20718,12 +20718,6 @@
         <member name="M:NetOffice.OutlookApi._SimpleItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._SimpleItems.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi._SimpleItems.Application">
             <summary>
             SupportByLibrary OL14 
@@ -20748,6 +20742,12 @@
             <summary>
             SupportByLibrary OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._SimpleItems.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._OlkComboBox">
             <summary>
@@ -21290,12 +21290,6 @@
         <member name="M:NetOffice.OutlookApi.AddressLists.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.AddressLists.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi.AddressLists.Application">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -21321,6 +21315,12 @@
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi.AddressLists.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OutlookApi.Panes">
             <summary>
              DispatchInterface Panes SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -21337,12 +21337,6 @@
         </member>
         <member name="M:NetOffice.OutlookApi.Panes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OutlookApi.Panes.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OutlookApi.Panes.Application">
             <summary>
@@ -21368,6 +21362,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Panes.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlAlwaysDeleteConversation">
             <summary>
@@ -22240,12 +22240,6 @@
         <member name="M:NetOffice.OutlookApi._Rules.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Rules.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._Rules.Create(System.String,NetOffice.OutlookApi.Enums.OlRuleType)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -22299,6 +22293,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._Rules.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.Rules.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -23547,12 +23547,6 @@
         <member name="M:NetOffice.OutlookApi.ItemProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.ItemProperties.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.ItemProperties.Add(System.String,NetOffice.OutlookApi.Enums.OlUserPropertyType,System.Object,System.Object)">
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
@@ -23599,6 +23593,12 @@
             <summary>
             SupportByLibrary OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.ItemProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.View">
             <summary>
@@ -24643,12 +24643,6 @@
         <member name="M:NetOffice.OutlookApi._AttachmentSelection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._AttachmentSelection.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._AttachmentSelection.GetSelection(NetOffice.OutlookApi.Enums.OlSelectionContents)">
             <summary>
             SupportByLibrary OL14 
@@ -24684,6 +24678,12 @@
             <summary>
             SupportByLibrary OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._AttachmentSelection.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.AttachmentSelection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -24727,12 +24727,6 @@
         <member name="M:NetOffice.OutlookApi._NavigationModules.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._NavigationModules.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._NavigationModules.GetNavigationModule(NetOffice.OutlookApi.Enums.OlNavigationModuleType)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -24763,6 +24757,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._NavigationModules.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.NavigationModules.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -25690,12 +25690,6 @@
         <member name="M:NetOffice.OutlookApi._TimeZones.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._TimeZones.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._TimeZones.ConvertTime(System.DateTime,NetOffice.OutlookApi._TimeZone,NetOffice.OutlookApi._TimeZone)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -25733,6 +25727,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._TimeZones.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._ExchangeUser">
             <summary>
@@ -26611,12 +26611,6 @@
         <member name="M:NetOffice.OutlookApi.UserProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.UserProperties.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.UserProperties.Add(System.String,NetOffice.OutlookApi.Enums.OlUserPropertyType,System.Object,System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -26676,6 +26670,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.UserProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlFormRegionIcon">
             <summary>
@@ -27551,12 +27551,6 @@
         <member name="M:NetOffice.OutlookApi.Recipients.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Recipients.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Recipients.Add(System.String)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -27598,6 +27592,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Recipients.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._Inspector">
             <summary>
@@ -28301,12 +28301,6 @@
         <member name="M:NetOffice.OutlookApi.Conflicts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Conflicts.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Conflicts.GetFirst">
             <summary>
             SupportByLibrary OL11 OL12 OL14 
@@ -28351,6 +28345,12 @@
             <summary>
             SupportByLibrary OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Conflicts.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi._JournalItem">
             <summary>
@@ -28722,12 +28722,6 @@
         <member name="M:NetOffice.OutlookApi.Links.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Links.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Links.Add(System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -28764,6 +28758,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Links.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlAppointmentCopyOptions">
             <summary>
@@ -31043,12 +31043,6 @@
         <member name="M:NetOffice.OutlookApi._RuleActions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._RuleActions.Item(System.Int32)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OutlookApi._RuleActions.Application">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -31159,6 +31153,12 @@
             SupportByLibrary OL12 OL14 
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi._RuleActions.Item(System.Int32)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="T:NetOffice.OutlookApi.Exception">
             <summary>
              DispatchInterface Exception SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -31233,12 +31233,6 @@
         <member name="M:NetOffice.OutlookApi.Attachments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Attachments.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Attachments.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -31284,6 +31278,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Attachments.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlFormRegionSize">
             <summary>
@@ -31677,12 +31677,6 @@
         <member name="M:NetOffice.OutlookApi._NavigationFolders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._NavigationFolders.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi._NavigationFolders.Add(NetOffice.OutlookApi.MAPIFolder)">
             <summary>
             SupportByLibrary OL12 OL14 
@@ -31719,6 +31713,12 @@
             <summary>
             SupportByLibrary OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi._NavigationFolders.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OutlookApi.NavigationFolders.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
@@ -32349,12 +32349,6 @@
         <member name="M:NetOffice.OutlookApi.Pages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Pages.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Pages.Add(System.Object)">
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
@@ -32396,6 +32390,12 @@
             <summary>
             SupportByLibrary OL09 OL10 OL11 OL12 OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Pages.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.OutlookBarStorage">
             <summary>
@@ -33660,12 +33660,6 @@
         <member name="M:NetOffice.OutlookApi.Selection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.Selection.Item(System.Object)">
-            <summary>
-            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OutlookApi.Selection.GetSelection(NetOffice.OutlookApi.Enums.OlSelectionContents)">
             <summary>
             SupportByLibrary OL14 
@@ -33701,6 +33695,12 @@
             <summary>
             SupportByLibrary OL14 
             </summary>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Selection.Item(System.Object)">
+            <summary>
+            SupportByLibrary OL09 OL10 OL11 OL12 OL14 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OutlookApi.Enums.OlBusinessCardType">
             <summary>

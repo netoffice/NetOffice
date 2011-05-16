@@ -125,12 +125,6 @@
         <member name="M:NetOffice.OWC10Api.GroupLevels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.GroupLevels.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.GroupLevels.Add(System.String,System.Boolean)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -139,6 +133,12 @@
             <param name="FailIfThere">bool FailIfThere</param>
         </member>
         <member name="M:NetOffice.OWC10Api.GroupLevels.Delete(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
+        <member name="P:NetOffice.OWC10Api.GroupLevels.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -367,12 +367,6 @@
         <member name="M:NetOffice.OWC10Api.ChDataLabels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChDataLabels.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChDataLabels.Select">
             <summary>
             SupportByLibrary XWC1.0 
@@ -443,6 +437,12 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.ChDataLabels.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
+        </member>
         <member name="P:NetOffice.OWC10Api.ChDataLabels.Count">
             <summary>
             SupportByLibrary XWC1.0 
@@ -490,16 +490,16 @@
         <member name="M:NetOffice.OWC10Api.ChLegendEntries.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChLegendEntries.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.ChLegendEntries.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChLegendEntries.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChLegendEntries.Parent">
             <summary>
@@ -961,7 +961,7 @@
         <member name="M:NetOffice.OWC10Api.PivotMembers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotMembers.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotMembers.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -1159,16 +1159,16 @@
         <member name="M:NetOffice.OWC10Api.AllPageFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.AllPageFields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.AllPageFields.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.AllPageFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.SublistRelationships">
             <summary>
@@ -1186,12 +1186,6 @@
         </member>
         <member name="M:NetOffice.OWC10Api.SublistRelationships.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.SublistRelationships.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OWC10Api.SublistRelationships.Add(NetOffice.OWC10Api.PageRowsource,NetOffice.OWC10Api.SchemaRelationship)">
             <summary>
@@ -1211,6 +1205,12 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.SublistRelationships.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OWC10Api.LookupSchemaRelationships">
             <summary>
              DispatchInterface LookupSchemaRelationships SupportByLibrary XWC1.0 
@@ -1228,16 +1228,16 @@
         <member name="M:NetOffice.OWC10Api.LookupSchemaRelationships.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.LookupSchemaRelationships.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.LookupSchemaRelationships.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.LookupSchemaRelationships.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.ChDataLabel">
             <summary>
@@ -2458,12 +2458,6 @@
         <member name="M:NetOffice.OWC10Api.ParameterValues.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ParameterValues.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ParameterValues.Add(System.String,System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -2478,6 +2472,12 @@
             <param name="ParameterName">string ParameterName</param>
         </member>
         <member name="M:NetOffice.OWC10Api.ParameterValues.Delete(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ParameterValues.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -2504,12 +2504,6 @@
         </member>
         <member name="M:NetOffice.OWC10Api.SchemaRowsources.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.SchemaRowsources.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OWC10Api.SchemaRowsources.Add(System.String,NetOffice.OWC10Api.Enums.DscRowsourceTypeEnum,System.Object)">
             <summary>
@@ -2551,6 +2545,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SchemaRowsources.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api._NumberFormat">
             <summary>
@@ -3253,12 +3253,6 @@
         <member name="M:NetOffice.OWC10Api.SchemaRelationships.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.SchemaRelationships.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.SchemaRelationships.Add(System.String,System.String,System.String,System.String,System.String)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -3289,6 +3283,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SchemaRelationships.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.IOleCommandTargetArgument">
             <summary>
@@ -4084,7 +4084,7 @@
         <member name="M:NetOffice.OWC10Api.PivotAggregates.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotAggregates.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotAggregates.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -5144,12 +5144,6 @@
         <member name="M:NetOffice.OWC10Api.SchemaParameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.SchemaParameters.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.SchemaParameters.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -5166,6 +5160,12 @@
             SupportByLibrary XWC1.0 
             </summary>
             <param name="Name">string Name</param>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SchemaParameters.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.SchemaParameters.Count">
             <summary>
@@ -5216,7 +5216,7 @@
         <member name="M:NetOffice.OWC10Api.PivotResultGroupFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotResultGroupFields.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotResultGroupFields.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -5244,7 +5244,7 @@
         <member name="M:NetOffice.OWC10Api.PivotFieldSets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFieldSets.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotFieldSets.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -5622,6 +5622,20 @@
         <member name="M:NetOffice.OWC10Api._Range.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.OWC10Api._Range.get__Default(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Row">optional object Row</param>
+            <param name="Column">optional object Column</param>
+        </member>
+        <member name="M:NetOffice.OWC10Api._Range.set__Default(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Row">optional object Row</param>
+            <param name="Column">optional object Column</param>
+        </member>
         <member name="M:NetOffice.OWC10Api._Range.get_Address(System.Object@,System.Object@,NetOffice.OWC10Api.Enums.XlReferenceStyle,System.Object@,System.Object@)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -5645,19 +5659,6 @@
             SupportByLibrary XWC1.0 
             </summary>
             <param name="Direction">NetOffice.OWC10Api.Enums.XlDirection Direction</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api._Range.get_Item(System.Object,System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="RowIndex">object RowIndex</param>
-            <param name="ColumnIndex">optional object ColumnIndex</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api._Range.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="RowIndex">object RowIndex</param>
         </member>
         <member name="M:NetOffice.OWC10Api._Range.get_Offset(System.Object,System.Object)">
             <summary>
@@ -5924,12 +5925,10 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
-        <member name="P:NetOffice.OWC10Api._Range.IndexerItem(System.Object,System.Object)">
+        <member name="P:NetOffice.OWC10Api._Range._Default">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
-            <param name="Row">optional object Row</param>
-            <param name="Column">optional object Column</param>
         </member>
         <member name="P:NetOffice.OWC10Api._Range.Application">
             <summary>
@@ -6045,6 +6044,13 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api._Range.Item(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="RowIndex">object RowIndex</param>
+            <param name="ColumnIndex">optional object ColumnIndex</param>
         </member>
         <member name="P:NetOffice.OWC10Api._Range.Left">
             <summary>
@@ -6306,12 +6312,6 @@
         <member name="M:NetOffice.OWC10Api.ElementExtensions.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ElementExtensions.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ElementExtensions.Add(System.String,System.Boolean)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -6320,6 +6320,12 @@
             <param name="FailIfThere">bool FailIfThere</param>
         </member>
         <member name="M:NetOffice.OWC10Api.ElementExtensions.Delete(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ElementExtensions.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -6446,12 +6452,6 @@
         <member name="M:NetOffice.OWC10Api.SchemaRelatedFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.SchemaRelatedFields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.SchemaRelatedFields.Add(System.String,System.String)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -6463,6 +6463,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SchemaRelatedFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Hyperlink">
             <summary>
@@ -6543,12 +6549,6 @@
         <member name="M:NetOffice.OWC10Api.Panes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Panes.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.Panes.Application">
             <summary>
             SupportByLibrary XWC1.0 
@@ -6558,6 +6558,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Panes.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.Panes.Parent">
             <summary>
@@ -6613,7 +6619,7 @@
         <member name="M:NetOffice.OWC10Api.ChChartFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartFields.get_Item(System.Int32)">
+        <member name="P:NetOffice.OWC10Api.ChChartFields.Item(System.Int32)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -6646,12 +6652,6 @@
         <member name="M:NetOffice.OWC10Api.ChDataLabelsCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChDataLabelsCollection.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChDataLabelsCollection.Add">
             <summary>
             SupportByLibrary XWC1.0 
@@ -6667,6 +6667,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChDataLabelsCollection.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChDataLabelsCollection.Count">
             <summary>
@@ -6740,7 +6746,7 @@
         <member name="M:NetOffice.OWC10Api.PivotRowMembers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotRowMembers.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotRowMembers.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -7293,12 +7299,6 @@
         <member name="M:NetOffice.OWC10Api.RecordsetDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.RecordsetDefs.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.RecordsetDefs.Add(System.Object,System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -7336,6 +7336,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.RecordsetDefs.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Workbook">
             <summary>
@@ -7858,12 +7864,6 @@
         <member name="M:NetOffice.OWC10Api.ChCharts.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChCharts.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChCharts.Add(System.Int32)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -7885,6 +7885,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChCharts.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Enums.DscOfflineTypeEnum">
             <summary>
@@ -9632,16 +9638,16 @@
         <member name="M:NetOffice.OWC10Api.AllGroupingDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.AllGroupingDefs.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.AllGroupingDefs.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.AllGroupingDefs.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Border">
             <summary>
@@ -9831,7 +9837,7 @@
         <member name="M:NetOffice.OWC10Api.PivotPageMembers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotPageMembers.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotPageMembers.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -9859,7 +9865,7 @@
         <member name="M:NetOffice.OWC10Api.PivotResultMemberProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotResultMemberProperties.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotResultMemberProperties.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -9887,7 +9893,7 @@
         <member name="M:NetOffice.OWC10Api.PivotAxisMembers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotAxisMembers.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotAxisMembers.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -11739,12 +11745,6 @@
         <member name="M:NetOffice.OWC10Api.Workbooks.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Workbooks.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.Workbooks.Application">
             <summary>
             SupportByLibrary XWC1.0 
@@ -11759,6 +11759,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Workbooks.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Worksheet">
             <summary>
@@ -12105,12 +12111,6 @@
         <member name="M:NetOffice.OWC10Api.ChSegments.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChSegments.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChSegments.Add">
             <summary>
             SupportByLibrary XWC1.0 
@@ -12131,6 +12131,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChSegments.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.PivotResultDataAxis">
             <summary>
@@ -12208,7 +12214,7 @@
         <member name="M:NetOffice.OWC10Api.PivotColumnMembers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotColumnMembers.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotColumnMembers.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -12236,7 +12242,7 @@
         <member name="M:NetOffice.OWC10Api.PivotFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFields.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotFields.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -14313,12 +14319,6 @@
         <member name="M:NetOffice.OWC10Api.Worksheets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Worksheets.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.Worksheets.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -14383,6 +14383,12 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.Worksheets.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="P:NetOffice.OWC10Api.Worksheets.Parent">
             <summary>
             SupportByLibrary XWC1.0 
@@ -14410,12 +14416,6 @@
         <member name="M:NetOffice.OWC10Api.Windows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Windows.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.Windows.Application">
             <summary>
             SupportByLibrary XWC1.0 
@@ -14430,6 +14430,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Windows.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.PivotTotals">
             <summary>
@@ -14448,7 +14454,7 @@
         <member name="M:NetOffice.OWC10Api.PivotTotals.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotTotals.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotTotals.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -15008,16 +15014,16 @@
         <member name="M:NetOffice.OWC10Api.PageRowsources.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PageRowsources.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.PageRowsources.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.PageRowsources.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.SchemaDiagrams">
             <summary>
@@ -15036,16 +15042,16 @@
         <member name="M:NetOffice.OWC10Api.SchemaDiagrams.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.SchemaDiagrams.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.SchemaDiagrams.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SchemaDiagrams.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.SchemaProperties">
             <summary>
@@ -15064,16 +15070,16 @@
         <member name="M:NetOffice.OWC10Api.SchemaProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.SchemaProperties.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.SchemaProperties.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SchemaProperties.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Interior">
             <summary>
@@ -15129,12 +15135,6 @@
         <member name="M:NetOffice.OWC10Api.Headings.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Headings.get_Item(System.Object@)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">ref object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.Headings.Application">
             <summary>
             SupportByLibrary XWC1.0 
@@ -15149,6 +15149,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Headings.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Names">
             <summary>
@@ -15166,19 +15172,6 @@
         </member>
         <member name="M:NetOffice.OWC10Api.Names.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.Names.Item(System.Object,System.Object,System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">optional object Index</param>
-            <param name="IndexLocal">optional object IndexLocal</param>
-            <param name="RefersTo">optional object RefersTo</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.Names.Item">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
         </member>
         <member name="M:NetOffice.OWC10Api.Names.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
@@ -15237,6 +15230,14 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.Names.Item(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="IndexLocal">optional object IndexLocal</param>
+            <param name="RefersTo">optional object RefersTo</param>
+        </member>
         <member name="T:NetOffice.OWC10Api.ChErrorBarsCollection">
             <summary>
              DispatchInterface ChErrorBarsCollection SupportByLibrary XWC1.0 
@@ -15254,12 +15255,6 @@
         <member name="M:NetOffice.OWC10Api.ChErrorBarsCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChErrorBarsCollection.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChErrorBarsCollection.Add">
             <summary>
             SupportByLibrary XWC1.0 
@@ -15275,6 +15270,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChErrorBarsCollection.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChErrorBarsCollection.Parent">
             <summary>
@@ -17994,12 +17995,6 @@
         <member name="M:NetOffice.OWC10Api.LookupRelationships.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.LookupRelationships.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.LookupRelationships.Add(NetOffice.OWC10Api.PageRowsource,NetOffice.OWC10Api.SchemaRelationship)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -18018,6 +18013,12 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.LookupRelationships.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OWC10Api.PageFields">
             <summary>
              DispatchInterface PageFields SupportByLibrary XWC1.0 
@@ -18034,12 +18035,6 @@
         </member>
         <member name="M:NetOffice.OWC10Api.PageFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.PageFields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OWC10Api.PageFields.Delete(System.Object)">
             <summary>
@@ -18085,6 +18080,12 @@
             <param name="Name">object Name</param>
             <param name="TotalType">NetOffice.OWC10Api.Enums.DscTotalTypeEnum TotalType</param>
         </member>
+        <member name="P:NetOffice.OWC10Api.PageFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="P:NetOffice.OWC10Api.PageFields.Count">
             <summary>
             SupportByLibrary XWC1.0 
@@ -18106,12 +18107,6 @@
         </member>
         <member name="M:NetOffice.OWC10Api.SchemaFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.SchemaFields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.OWC10Api.SchemaFields.Add(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object)">
             <summary>
@@ -18139,6 +18134,12 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.SchemaFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="T:NetOffice.OWC10Api.ChTrendlines">
             <summary>
              DispatchInterface ChTrendlines SupportByLibrary XWC1.0 
@@ -18156,12 +18157,6 @@
         <member name="M:NetOffice.OWC10Api.ChTrendlines.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChTrendlines.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChTrendlines.Add">
             <summary>
             SupportByLibrary XWC1.0 
@@ -18177,6 +18172,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChTrendlines.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChTrendlines.Parent">
             <summary>
@@ -19135,16 +19136,16 @@
         <member name="M:NetOffice.OWC10Api.PageRelatedFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PageRelatedFields.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.PageRelatedFields.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.PageRelatedFields.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.SchemaField">
             <summary>
@@ -19230,12 +19231,6 @@
         <member name="M:NetOffice.OWC10Api.Sheets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Sheets.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.Sheets.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -19300,6 +19295,12 @@
             SupportByLibrary XWC1.0 
             </summary>
         </member>
+        <member name="P:NetOffice.OWC10Api.Sheets.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+        </member>
         <member name="P:NetOffice.OWC10Api.Sheets.Parent">
             <summary>
             SupportByLibrary XWC1.0 
@@ -19349,16 +19350,16 @@
         <member name="M:NetOffice.OWC10Api.ChPoints.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChPoints.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.ChPoints.Parent">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChPoints.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChPoints.Count">
             <summary>
@@ -19638,13 +19639,6 @@
             </summary>
             <param name="Level">Int32 Level</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChCategoryLabels.get_Item(System.Object,System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-            <param name="Level">Int32 Level</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.ChCategoryLabels.LevelCount">
             <summary>
             SupportByLibrary XWC1.0 
@@ -19654,6 +19648,13 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChCategoryLabels.Item(System.Object,System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
+            <param name="Level">Int32 Level</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChCategoryLabels.PivotAxis">
             <summary>
@@ -20628,12 +20629,6 @@
         <member name="M:NetOffice.OWC10Api.GroupingDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.GroupingDefs.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.GroupingDefs.Add(System.String,System.String,System.String,System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -20680,6 +20675,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.GroupingDefs.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.PageField">
             <summary>
@@ -20996,12 +20997,6 @@
         <member name="M:NetOffice.OWC10Api.ChAxes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChAxes.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChAxes.Add(NetOffice.OWC10Api.ChScaling)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -21023,6 +21018,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChAxes.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.ByRef">
             <summary>
@@ -21469,7 +21470,7 @@
         <member name="M:NetOffice.OWC10Api.DataPages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.DataPages.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.DataPages.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -21529,16 +21530,16 @@
         <member name="M:NetOffice.OWC10Api.SublistSchemaRelationships.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.SublistSchemaRelationships.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.SublistSchemaRelationships.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.SublistSchemaRelationships.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Font">
             <summary>
@@ -21728,12 +21729,6 @@
         <member name="M:NetOffice.OWC10Api.Filters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Filters.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.Filters.Application">
             <summary>
             SupportByLibrary XWC1.0 
@@ -21743,6 +21738,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Filters.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.Filters.Parent">
             <summary>
@@ -21949,12 +21950,6 @@
         <member name="M:NetOffice.OWC10Api.ChSeriesCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChSeriesCollection.get_Item(System.Object)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">object Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.ChSeriesCollection.Add(System.Int32)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -21971,6 +21966,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.ChSeriesCollection.Item(System.Object)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">object Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.ChSeriesCollection.Parent">
             <summary>
@@ -21999,7 +22000,7 @@
         <member name="M:NetOffice.OWC10Api.OCCommands.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.OCCommands.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.OCCommands.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
@@ -22923,16 +22924,16 @@
         <member name="M:NetOffice.OWC10Api.FieldListDragDataList.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.FieldListDragDataList.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="P:NetOffice.OWC10Api.FieldListDragDataList.Count">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.FieldListDragDataList.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="T:NetOffice.OWC10Api.Borders">
             <summary>
@@ -22950,12 +22951,6 @@
         </member>
         <member name="M:NetOffice.OWC10Api.Borders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.OWC10Api.Borders.get_Item(NetOffice.OWC10Api.Enums.XlBordersIndex)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">NetOffice.OWC10Api.Enums.XlBordersIndex Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.Borders.Application">
             <summary>
@@ -22976,6 +22971,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Borders.Item(NetOffice.OWC10Api.Enums.XlBordersIndex)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">NetOffice.OWC10Api.Enums.XlBordersIndex Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.Borders.LineStyle">
             <summary>
@@ -23014,12 +23015,6 @@
         <member name="M:NetOffice.OWC10Api.Criteria.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.Criteria.get_Item(System.Int32)">
-            <summary>
-            SupportByLibrary XWC1.0 
-            </summary>
-            <param name="Index">Int32 Index</param>
-        </member>
         <member name="M:NetOffice.OWC10Api.Criteria.Add(System.String)">
             <summary>
             SupportByLibrary XWC1.0 
@@ -23040,6 +23035,12 @@
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
+        </member>
+        <member name="P:NetOffice.OWC10Api.Criteria.Item(System.Int32)">
+            <summary>
+            SupportByLibrary XWC1.0 
+            </summary>
+            <param name="Index">Int32 Index</param>
         </member>
         <member name="P:NetOffice.OWC10Api.Criteria.Parent">
             <summary>
@@ -23264,7 +23265,7 @@
         <member name="M:NetOffice.OWC10Api.PivotMemberProperties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotMemberProperties.get_Item(System.Object)">
+        <member name="P:NetOffice.OWC10Api.PivotMemberProperties.Item(System.Object)">
             <summary>
             SupportByLibrary XWC1.0 
             </summary>
