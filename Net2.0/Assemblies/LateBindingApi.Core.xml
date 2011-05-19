@@ -6,7 +6,12 @@
     <members>
         <member name="T:LateBindingApi.Core.SupportByLibrary">
             <summary>
-            Indicates whitch COM Type Library Version supports the entity
+            Indicates which COM Type Library Version supports the entity
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.SupportByLibrary.Name">
+            <summary>
+            returns library name
             </summary>
         </member>
         <member name="F:LateBindingApi.Core.SupportByLibrary.Versions">
@@ -14,10 +19,11 @@
             returns all supported library versions of entity
             </summary>
         </member>
-        <member name="M:LateBindingApi.Core.SupportByLibrary.#ctor(System.String[])">
+        <member name="M:LateBindingApi.Core.SupportByLibrary.#ctor(System.String,System.Double[])">
             <summary>
             creates instance
             </summary>
+            <param name="name"></param>
             <param name="versions"></param>
         </member>
         <member name="T:LateBindingApi.Core.SinkHelper">

@@ -6,7 +6,7 @@
     <members>
         <member name="T:NetOffice.VBIDEApi._Component">
             <summary>
-             DispatchInterface _Component SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _Component SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._Component.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -23,27 +23,27 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.IsDirty">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.Name">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Window">
             <summary>
-             DispatchInterface Window SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface Window SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -60,109 +60,109 @@
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.Close">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.SetFocus">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.SetKind(NetOffice.VBIDEApi.Enums.vbext_WindowType)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="eKind">NetOffice.VBIDEApi.Enums.vbext_WindowType eKind</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.Detach">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.Attach(System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="lWindowHandle">Int32 lWindowHandle</param>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Caption">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Visible">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Left">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Top">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Width">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Height">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.WindowState">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Type">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.LinkedWindows">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.LinkedWindowFrame">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.HWnd">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.VBComponents">
             <summary>
-             CoClass VBComponents SupportByLibrary VBE5.3 VBE12 
+             CoClass VBComponents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBComponents">
             <summary>
-             DispatchInterface _VBComponents SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBComponents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBComponents_Old">
             <summary>
-             DispatchInterface _VBComponents_Old SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBComponents_Old SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -179,40 +179,40 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.Remove(NetOffice.VBIDEApi.VBComponent)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.Add(NetOffice.VBIDEApi.Enums.vbext_ComponentType)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="ComponentType">NetOffice.VBIDEApi.Enums.vbext_ComponentType ComponentType</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.Import(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="FileName">string FileName</param>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -230,13 +230,13 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents.AddCustom(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="ProgId">string ProgId</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents.AddMTDesigner(System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">Int32 index</param>
         </member>
@@ -262,12 +262,12 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.LinkedWindows">
             <summary>
-             CoClass LinkedWindows SupportByLibrary VBE5.3 VBE12 
+             CoClass LinkedWindows SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._LinkedWindows">
             <summary>
-             DispatchInterface _LinkedWindows SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _LinkedWindows SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -284,34 +284,34 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.Remove(NetOffice.VBIDEApi.Window)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Window">NetOffice.VBIDEApi.Window Window</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.Add(NetOffice.VBIDEApi.Window)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Window">NetOffice.VBIDEApi.Window Window</param>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -337,7 +337,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi._References">
             <summary>
-             DispatchInterface _References SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _References SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._References.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -354,7 +354,7 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._References.AddFromGuid(System.String,System.Int32,System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Guid">string Guid</param>
             <param name="Major">Int32 Major</param>
@@ -362,45 +362,45 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._References.AddFromFile(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="FileName">string FileName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._References.Remove(NetOffice.VBIDEApi.Reference)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Reference">NetOffice.VBIDEApi.Reference Reference</param>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBProjects">
             <summary>
-             DispatchInterface _VBProjects SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBProjects SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBProjects_Old">
             <summary>
-             DispatchInterface _VBProjects_Old SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBProjects_Old SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -417,22 +417,22 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -450,25 +450,25 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects.Add(NetOffice.VBIDEApi.Enums.vbext_ProjectType)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Type">NetOffice.VBIDEApi.Enums.vbext_ProjectType Type</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects.Remove(NetOffice.VBIDEApi.VBProject)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="lpc">NetOffice.VBIDEApi.VBProject lpc</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects.Open(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="bstrPath">string bstrPath</param>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBProjectsEvents">
             <summary>
-             Interface _VBProjectsEvents SupportByLibrary VBE5.3 VBE12 
+             Interface _VBProjectsEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjectsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -485,12 +485,12 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Components">
             <summary>
-             CoClass Components SupportByLibrary VBE5.3 VBE12 
+             CoClass Components SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._Components">
             <summary>
-             DispatchInterface _Components SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _Components SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._Components.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -507,45 +507,45 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._Components.Remove(NetOffice.VBIDEApi.Component)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Component">NetOffice.VBIDEApi.Component Component</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._Components.Add(NetOffice.VBIDEApi.Enums.vbext_ComponentType)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="ComponentType">NetOffice.VBIDEApi.Enums.vbext_ComponentType ComponentType</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._Components.Import(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="FileName">string FileName</param>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -571,7 +571,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Property">
             <summary>
-             DispatchInterface Property SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface Property SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Property.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -588,7 +588,7 @@
         </member>
         <member name="M:NetOffice.VBIDEApi.Property.get_IndexedValue(System.Object,System.Object,System.Object,System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Index1">object Index1</param>
             <param name="Index2">optional object Index2</param>
@@ -597,7 +597,7 @@
         </member>
         <member name="M:NetOffice.VBIDEApi.Property.set_IndexedValue(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Index1">object Index1</param>
             <param name="Index2">optional object Index2</param>
@@ -606,59 +606,59 @@
         </member>
         <member name="M:NetOffice.VBIDEApi.Property.get_IndexedValue(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Index1">object Index1</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Property.set_IndexedValue(System.Object,System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Index1">object Index1</param>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Value">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.NumIndices">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Name">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Object">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._dispVBComponentsEvents">
             <summary>
-             DispatchInterface _dispVBComponentsEvents SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _dispVBComponentsEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -675,49 +675,49 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemAdded(NetOffice.VBIDEApi.VBComponent)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemRemoved(NetOffice.VBIDEApi.VBComponent)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemRenamed(NetOffice.VBIDEApi.VBComponent,System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
             <param name="OldName">string OldName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemSelected(NetOffice.VBIDEApi.VBComponent)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemActivated(NetOffice.VBIDEApi.VBComponent)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemReloaded(NetOffice.VBIDEApi.VBComponent)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBComponent">NetOffice.VBIDEApi.VBComponent VBComponent</param>
         </member>
         <member name="T:NetOffice.VBIDEApi.Properties">
             <summary>
-             CoClass Properties SupportByLibrary VBE5.3 VBE12 
+             CoClass Properties SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._Properties">
             <summary>
-             DispatchInterface _Properties SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _Properties SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._Properties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -734,27 +734,27 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -780,12 +780,12 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.CommandBarEvents">
             <summary>
-             CoClass CommandBarEvents SupportByLibrary VBE5.3 VBE12 
+             CoClass CommandBarEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._CommandBarControlEvents">
             <summary>
-             Interface _CommandBarControlEvents SupportByLibrary VBE5.3 VBE12 
+             Interface _CommandBarControlEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._CommandBarControlEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -822,17 +822,17 @@
         </member>
         <member name="E:NetOffice.VBIDEApi.CommandBarEvents._ClickEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE, 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.CommandBarEvents.ClickEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE 5.3 12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.SelectedComponents">
             <summary>
-             DispatchInterface SelectedComponents SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface SelectedComponents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.SelectedComponents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -849,28 +849,28 @@
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Item(System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">Int32 index</param>
         </member>
         <member name="T:NetOffice.VBIDEApi._ReferencesEvents">
             <summary>
-             Interface _ReferencesEvents SupportByLibrary VBE5.3 VBE12 
+             Interface _ReferencesEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._ReferencesEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -887,22 +887,22 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.VBProject">
             <summary>
-             CoClass VBProject SupportByLibrary VBE5.3 VBE12 
+             CoClass VBProject SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBProject">
             <summary>
-             DispatchInterface _VBProject SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBProject SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBProject_Old">
             <summary>
-             DispatchInterface _VBProject_Old SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBProject_Old SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._ProjectTemplate">
             <summary>
-             DispatchInterface _ProjectTemplate SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _ProjectTemplate SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._ProjectTemplate.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -919,12 +919,12 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._ProjectTemplate.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._ProjectTemplate.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -941,57 +941,57 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.HelpFile">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.HelpContextID">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Description">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Mode">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.References">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Name">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Protection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Saved">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.VBComponents">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1008,38 +1008,38 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject.SaveAs(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="FileName">string FileName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject.MakeCompiledFile">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.Application">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.Type">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.FileName">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.BuildFileName">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1064,7 +1064,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Application">
             <summary>
-             DispatchInterface Application SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface Application SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Application.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1081,37 +1081,37 @@
         </member>
         <member name="P:NetOffice.VBIDEApi.Application.Version">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_ComponentType">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_StdModule">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_ClassModule">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_MSForm">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_ActiveXDesigner">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ComponentType.vbext_ct_Document">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:VBIDEApi.Utils.ProjectInfo">
@@ -1121,17 +1121,17 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.VBComponent">
             <summary>
-             CoClass VBComponent SupportByLibrary VBE5.3 VBE12 
+             CoClass VBComponent SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBComponent">
             <summary>
-             DispatchInterface _VBComponent SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBComponent SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBComponent_Old">
             <summary>
-             DispatchInterface _VBComponent_Old SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _VBComponent_Old SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1148,63 +1148,63 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent_Old.Export(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="FileName">string FileName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent_Old.DesignerWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent_Old.Activate">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Saved">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Name">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Designer">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.CodeModule">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Type">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.HasOpenDesigner">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Properties">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1221,7 +1221,7 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent.DesignerID">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1246,7 +1246,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi._dispVBProjectsEvents">
             <summary>
-             DispatchInterface _dispVBProjectsEvents SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _dispVBProjectsEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1263,37 +1263,37 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.ItemAdded(NetOffice.VBIDEApi.VBProject)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBProject">NetOffice.VBIDEApi.VBProject VBProject</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.ItemRemoved(NetOffice.VBIDEApi.VBProject)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBProject">NetOffice.VBIDEApi.VBProject VBProject</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.ItemRenamed(NetOffice.VBIDEApi.VBProject,System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBProject">NetOffice.VBIDEApi.VBProject VBProject</param>
             <param name="OldName">string OldName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.ItemActivated(NetOffice.VBIDEApi.VBProject)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBProject">NetOffice.VBIDEApi.VBProject VBProject</param>
         </member>
         <member name="T:NetOffice.VBIDEApi._Windows">
             <summary>
-             DispatchInterface _Windows SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _Windows SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._Windows_old">
             <summary>
-             DispatchInterface _Windows_old SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _Windows_old SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._Windows_old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1310,22 +1310,22 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -1343,7 +1343,7 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._Windows.CreateToolWindow(NetOffice.VBIDEApi.AddIn,System.String,System.String,System.String,System.Object@)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="AddInInst">NetOffice.VBIDEApi.AddIn AddInInst</param>
             <param name="ProgId">string ProgId</param>
@@ -1353,27 +1353,27 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_ProjectType">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProjectType.vbext_pt_HostProject">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProjectType.vbext_pt_StandAlone">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.CodePanes">
             <summary>
-             CoClass CodePanes SupportByLibrary VBE5.3 VBE12 
+             CoClass CodePanes SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._CodePanes">
             <summary>
-             DispatchInterface _CodePanes SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _CodePanes SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodePanes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1390,27 +1390,27 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Current">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
@@ -1436,7 +1436,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Reference">
             <summary>
-             DispatchInterface Reference SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface Reference SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Reference.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1453,87 +1453,87 @@
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Name">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Guid">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Major">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Minor">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.FullPath">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.BuiltIn">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.IsBroken">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Type">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Description">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_WindowState">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowState.vbext_ws_Normal">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowState.vbext_ws_Minimize">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowState.vbext_ws_Maximize">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.CodeModule">
             <summary>
-             CoClass CodeModule SupportByLibrary VBE5.3 VBE12 
+             CoClass CodeModule SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._CodeModule">
             <summary>
-             DispatchInterface _CodeModule SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _CodeModule SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1550,82 +1550,82 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_Lines(System.Int32,System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="StartLine">Int32 StartLine</param>
             <param name="Count">Int32 Count</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcStartLine(System.String,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="ProcName">string ProcName</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcCountLines(System.String,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="ProcName">string ProcName</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcBodyLine(System.String,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="ProcName">string ProcName</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcOfLine(System.Int32,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Line">Int32 Line</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.AddFromString(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="String">string String</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.AddFromFile(System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="FileName">string FileName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.InsertLines(System.Int32,System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Line">Int32 Line</param>
             <param name="String">string String</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.DeleteLines(System.Int32,System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="StartLine">Int32 StartLine</param>
             <param name="Count">Int32 Count</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.ReplaceLine(System.Int32,System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Line">Int32 Line</param>
             <param name="String">string String</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.CreateEventProc(System.String,System.String)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="EventName">string EventName</param>
             <param name="ObjectName">string ObjectName</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Boolean,System.Boolean,System.Boolean)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="Target">string Target</param>
             <param name="StartLine">ref Int32 StartLine</param>
@@ -1638,32 +1638,32 @@
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.Name">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.CountOfLines">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.CountOfDeclarationLines">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.CodePane">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1688,7 +1688,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi._AddIns">
             <summary>
-             DispatchInterface _AddIns SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _AddIns SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._AddIns.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1705,33 +1705,33 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._AddIns.Update">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.Parent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.Count">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.Item(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="index">object index</param>
         </member>
         <member name="T:NetOffice.VBIDEApi.ProjectTemplate">
             <summary>
-             CoClass ProjectTemplate SupportByLibrary VBE5.3 VBE12 
+             CoClass ProjectTemplate SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.ProjectTemplate.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1756,7 +1756,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.VBE">
             <summary>
-             DispatchInterface VBE SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface VBE SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBE.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1773,162 +1773,162 @@
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.VBProjects">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.CommandBars">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.CodePanes">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.Windows">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.Events">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.ActiveVBProject">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.SelectedVBComponent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.MainWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.ActiveWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.ActiveCodePane">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.Addins">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_ProcKind">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Proc">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Let">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Set">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProcKind.vbext_pk_Get">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_WindowType">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_CodeWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Designer">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Browser">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Watch">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Locals">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Immediate">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_ProjectWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_PropertyWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Find">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_FindReplace">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_Toolbox">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_LinkedWindowFrame">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_MainWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_WindowType.vbext_wt_ToolWindow">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.References">
             <summary>
-             CoClass References SupportByLibrary VBE5.3 VBE12 
+             CoClass References SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.References.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1953,27 +1953,27 @@
         </member>
         <member name="E:NetOffice.VBIDEApi.References._ItemAddedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE, 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.References.ItemAddedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.References._ItemRemovedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE, 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.References.ItemRemovedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE 5.3 12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.VBProjects">
             <summary>
-             CoClass VBProjects SupportByLibrary VBE5.3 VBE12 
+             CoClass VBProjects SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBProjects.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1998,7 +1998,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.AddIn">
             <summary>
-             DispatchInterface AddIn SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface AddIn SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.AddIn.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2015,42 +2015,42 @@
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Description">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.ProgId">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Guid">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Connect">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Object">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBComponentsEvents">
             <summary>
-             Interface _VBComponentsEvents SupportByLibrary VBE5.3 VBE12 
+             Interface _VBComponentsEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponentsEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2067,22 +2067,22 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_RefKind">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_RefKind.vbext_rk_TypeLib">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_RefKind.vbext_rk_Project">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.ReferencesEvents">
             <summary>
-             CoClass ReferencesEvents SupportByLibrary VBE5.3 VBE12 
+             CoClass ReferencesEvents SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.ReferencesEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2107,27 +2107,27 @@
         </member>
         <member name="E:NetOffice.VBIDEApi.ReferencesEvents._ItemAddedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE, 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.ReferencesEvents.ItemAddedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.ReferencesEvents._ItemRemovedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE, 5.3 12
             </summary>
         </member>
         <member name="E:NetOffice.VBIDEApi.ReferencesEvents.ItemRemovedEvent">
             <summary>
-            SupportByLibrary VBE5.3 VBE12
+            SupportByLibrary VBIDE 5.3 12
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._CodePane">
             <summary>
-             DispatchInterface _CodePane SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface _CodePane SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._CodePane.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2144,7 +2144,7 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._CodePane.GetSelection(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="StartLine">ref Int32 StartLine</param>
             <param name="StartColumn">ref Int32 StartColumn</param>
@@ -2153,7 +2153,7 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._CodePane.SetSelection(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="StartLine">Int32 StartLine</param>
             <param name="StartColumn">Int32 StartColumn</param>
@@ -2162,82 +2162,82 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._CodePane.Show">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.Collection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.VBE">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.Window">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.TopLine">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.CountOfVisibleLines">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.CodeModule">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.CodePaneView">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_VBAMode">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_VBAMode.vbext_vm_Run">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_VBAMode.vbext_vm_Break">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_VBAMode.vbext_vm_Design">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_ProjectProtection">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProjectProtection.vbext_pp_none">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_ProjectProtection.vbext_pp_locked">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Addins">
             <summary>
-             CoClass Addins SupportByLibrary VBE5.3 VBE12 
+             CoClass Addins SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Addins.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2262,7 +2262,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Events">
             <summary>
-             DispatchInterface Events SupportByLibrary VBE5.3 VBE12 
+             DispatchInterface Events SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Events.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2279,19 +2279,19 @@
         </member>
         <member name="M:NetOffice.VBIDEApi.Events.get_ReferencesEvents(NetOffice.VBIDEApi.VBProject)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="VBProject">NetOffice.VBIDEApi.VBProject VBProject</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Events.get_CommandBarEvents(System.Object)">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3 12 
             </summary>
             <param name="CommandBarControl">object CommandBarControl</param>
         </member>
         <member name="T:NetOffice.VBIDEApi.CodePane">
             <summary>
-             CoClass CodePane SupportByLibrary VBE5.3 VBE12 
+             CoClass CodePane SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodePane.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2316,7 +2316,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Component">
             <summary>
-             CoClass Component SupportByLibrary VBE5.3 VBE12 
+             CoClass Component SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Component.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2341,7 +2341,7 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Windows">
             <summary>
-             CoClass Windows SupportByLibrary VBE5.3 VBE12 
+             CoClass Windows SupportByLibrary "VBIDE", 5.3,12
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.Windows.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2366,87 +2366,87 @@
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_CodePaneview">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_CodePaneview.vbext_cv_ProcedureView">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbext_CodePaneview.vbext_cv_FullModuleView">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbextFileTypes">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeForm">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeModule">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeClass">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeProject">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeExe">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeFrx">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeRes">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeUserControl">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypePropertyPage">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeDocObject">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeBinary">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeGroupProject">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
         <member name="F:NetOffice.VBIDEApi.Enums.vbextFileTypes.vbextFileTypeDesigners">
             <summary>
-            SupportByLibrary VBE5.3 VBE12 
+            SupportByLibrary 5.3,12,
             </summary>
         </member>
     </members>
