@@ -11,7 +11,7 @@
         </member>
         <member name="T:NetOffice.MSDATASRCApi.DataSource">
             <summary>
-             Interface DataSource SupportByLibrary "MSDATASRC", 1
+             Interface DataSource SupportByLibrary MSDATASRC, 1
             </summary>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -28,37 +28,37 @@
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMember(System.String,System.Guid)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="bstrDM">string bstrDM</param>
             <param name="riid">Guid riid</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMemberName(System.Int32)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="lIndex">Int32 lIndex</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMemberCount">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.addDataSourceListener(NetOffice.MSDATASRCApi.DataSourceListener)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.removeDataSourceListener(NetOffice.MSDATASRCApi.DataSourceListener)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
         </member>
         <member name="T:NetOffice.MSDATASRCApi.DataSourceListener">
             <summary>
-             Interface DataSourceListener SupportByLibrary "MSDATASRC", 1
+             Interface DataSourceListener SupportByLibrary MSDATASRC, 1
             </summary>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -75,19 +75,19 @@
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
             <summary>
-            SupportByLibrary 1 
+            SupportByLibrary MSDATASRC 1
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
