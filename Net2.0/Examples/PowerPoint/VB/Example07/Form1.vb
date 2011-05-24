@@ -30,16 +30,16 @@ Public Class Form1
         Dim commandBarBtn As Office.CommandBarButton = Nothing
 
         ' start powerpoint and turn off msg boxes
-        Dim powerApplication As New PowerPoint.Application()
-        powerApplication.DisplayAlerts = PpAlertLevel.ppAlertsNone
+        _powerApplication = New PowerPoint.Application()
+        _powerApplication.DisplayAlerts = PpAlertLevel.ppAlertsNone
 
         ' add a new presentation with one new slide
-        Dim presentation As PowerPoint.Presentation = powerApplication.Presentations.Add(MsoTriState.msoTrue)
+        Dim presentation As PowerPoint.Presentation = _powerApplication.Presentations.Add(MsoTriState.msoTrue)
         Dim slide As PowerPoint.Slide = presentation.Slides.Add(1, PpSlideLayout.ppLayoutBlank)
 
 
         ' add a commandbar popup
-        Dim commandBarPopup As Office.CommandBarPopup = powerApplication.CommandBars("Menu Bar").Controls.Add( _
+        Dim commandBarPopup As Office.CommandBarPopup = _powerApplication.CommandBars("Menu Bar").Controls.Add( _
                                                                                 MsoControlType.msoControlPopup, Missing.Value, Missing.Value, Missing.Value, True)
         commandBarPopup.Caption = "commandBarPopup"
 
@@ -59,7 +59,7 @@ Public Class Form1
         AddHandler commandBarBtn.ClickEvent, clickHandler
 
         'add a new toolbar
-        commandBar = powerApplication.CommandBars.Add("MyCommandBar", MsoBarPosition.msoBarTop, False, True)
+        commandBar = _powerApplication.CommandBars.Add("MyCommandBar", MsoBarPosition.msoBarTop, False, True)
         commandBar.Visible = True
 
         ' add a button to the toolbar
@@ -84,7 +84,7 @@ Public Class Form1
         AddHandler commandBarBtn.ClickEvent, clickHandler
 
         ' create context menu
-        commandBarPopup = powerApplication.CommandBars("Frames").Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, Missing.Value, True)
+        commandBarPopup = _powerApplication.CommandBars("Frames").Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, Missing.Value, True)
         commandBarPopup.Caption = "commandBarPopup"
 
         ' add a button to the popup
@@ -96,7 +96,7 @@ Public Class Form1
         AddHandler commandBarBtn.ClickEvent, clickHandler
 
         ' make visible & set buttons
-        powerApplication.Visible = MsoTriState.msoTrue
+        _powerApplication.Visible = MsoTriState.msoTrue
         button1.Enabled = False
         button2.Enabled = True
 
