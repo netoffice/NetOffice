@@ -37,6 +37,24 @@
             </summary>
             <param name="eventClass"></param>
         </member>
+        <member name="M:LateBindingApi.Core.SinkHelper.FindConnectionPoint(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+            <summary>
+            try to find connection point by FindConnectionPoint
+            </summary>
+            <param name="connectionPointContainer"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.SinkHelper.EnumConnectionPoint(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+            <summary>
+            try to find connection point by EnumConnectionPoints
+            </summary>
+            <param name="connectionPointContainer"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
+            <returns></returns>
+        </member>
         <member name="M:LateBindingApi.Core.SinkHelper.GetConnectionPoint(LateBindingApi.Core.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
             <summary>
             get supported connection point from comProxy
