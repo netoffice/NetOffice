@@ -186,7 +186,7 @@
         </member>
         <member name="M:LateBindingApi.Core.Invoker.Method(LateBindingApi.Core.COMObject,System.String,System.Object[],System.Reflection.ParameterModifier[])">
             <summary>
-            perform method as latebind call with parameters
+            perform method as latebind call with parameters and parameter modifiers to use ref parameter(s)
             </summary>
             <param name="comObject">target object</param>
             <param name="name">name of method</param>

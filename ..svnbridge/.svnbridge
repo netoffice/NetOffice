@@ -2,4 +2,9 @@
 Todo.txt
 NetOffice.Icon.png
 IntelliSense.gif
+</Value></Property><Property><Name>svn:ignore</Name><Value>LateBindingApi.Office.Icon.png
+Todo.txt
+NetOffice.Icon.png
+IntelliSense.gif
+KeyFiles
 </Value></Property></Properties></ItemProperties>
