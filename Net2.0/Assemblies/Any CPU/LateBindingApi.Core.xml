@@ -363,13 +363,6 @@
             <param name="paramsArray">array with parameters</param>
             <returns>array copy or null</returns>
         </member>
-        <member name="M:LateBindingApi.Core.Invoker.GetObjectType(System.Object)">
-            <summary>
-            returns the Type for expression or null if param not set
-            </summary>
-            <param name="expression"></param>
-            <returns></returns>
-        </member>
         <member name="T:LateBindingApi.Core.COMObject">
             <summary>
             represents a managed COM proxy 
@@ -432,6 +425,12 @@
             <param name="parentObject"></param>
             <param name="comProxy"></param>
             <param name="comProxyType"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.COMObject.#ctor(System.String)">
+            <summary>
+            creates a new instace with progid
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:LateBindingApi.Core.COMObject.#ctor">
             <summary>
@@ -669,6 +668,13 @@
         <member name="M:LateBindingApi.Core.Factory.GetFactoryInfo(System.Object)">
             <summary>
             get wrapper class factory info 
+            </summary>
+            <param name="comProxy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.Factory.GetObjectType(System.Object)">
+            <summary>
+            returns the Type for comProxy or null if param not set
             </summary>
             <param name="comProxy"></param>
             <returns></returns>

@@ -26,6 +26,9 @@
         <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMember(System.String,System.Guid)">
             <summary>
             SupportByLibrary MSDATASRC 1
@@ -72,6 +75,9 @@
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
             <summary>

@@ -31,9 +31,13 @@
         <member name="M:NetOffice.DAOApi._DAO.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi._DAO.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi._DAO.Properties">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._DBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -47,6 +51,9 @@
         </member>
         <member name="M:NetOffice.DAOApi._DBEngine.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi._DBEngine.Idle(System.Object)">
             <summary>
@@ -219,46 +226,55 @@
         <member name="P:NetOffice.DAOApi._DBEngine.Version">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.IniPath">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.DefaultUser">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.DefaultPassword">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.LoginTimeout">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.Workspaces">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.Errors">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.SystemDB">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._DBEngine.DefaultType">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.DBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -273,8 +289,16 @@
         <member name="M:NetOffice.DAOApi.DBEngine.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.DBEngine.#ctor">
+            <summary>
+            creates a new instance of DBEngine 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.DBEngine.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of DBEngine
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.DBEngine.CreateEventBridge">
             <summary>
@@ -298,6 +322,9 @@
         <member name="M:NetOffice.DAOApi._Group.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi._Group.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi._Group.CreateUser(System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -314,16 +341,19 @@
         <member name="P:NetOffice.DAOApi._Group.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Group.PID">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Group.Users">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Recordset">
@@ -343,15 +373,20 @@
         <member name="M:NetOffice.DAOApi.Recordset.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Recordset.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Recordset.get_Collect(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
             <param name="Item">object Item</param>
         </member>
         <member name="M:NetOffice.DAOApi.Recordset.set_Collect(System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -589,191 +624,229 @@
         <member name="P:NetOffice.DAOApi.Recordset.BOF">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Bookmark">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Bookmarkable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.DateCreated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.EOF">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Filter">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Index">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.LastModified">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.LastUpdated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.LockEdits">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.NoMatch">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Sort">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Transactions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Type">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.RecordCount">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Updatable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Restartable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.ValidationText">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.ValidationRule">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.CacheStart">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.CacheSize">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.PercentPosition">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.AbsolutePosition">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.EditMode">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.ODBCFetchCount">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.ODBCFetchDelay">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Parent">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Fields">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Indexes">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.hStmt">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.StillExecuting">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.BatchSize">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.BatchCollisionCount">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.BatchCollisions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.Connection">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.RecordStatus">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset.UpdateOptions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Indexes">
@@ -803,6 +876,9 @@
         <member name="M:NetOffice.DAOApi._Collection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi._Collection.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi._Collection.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -811,6 +887,7 @@
         <member name="P:NetOffice.DAOApi._Collection.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -824,6 +901,9 @@
         </member>
         <member name="M:NetOffice.DAOApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._DynaCollection.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi._DynaCollection.Append(System.Object)">
             <summary>
@@ -849,6 +929,9 @@
         <member name="M:NetOffice.DAOApi.Indexes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Indexes.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Indexes.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -857,11 +940,13 @@
         <member name="P:NetOffice.DAOApi.Indexes.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Indexes.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -1029,6 +1114,9 @@
         <member name="M:NetOffice.DAOApi._User.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi._User.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi._User.NewPassword(System.String,System.String)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -1051,21 +1139,25 @@
         <member name="P:NetOffice.DAOApi._User.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._User.PID">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._User.Password">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._User.Groups">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.User.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1080,8 +1172,16 @@
         <member name="M:NetOffice.DAOApi.User.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.User.#ctor">
+            <summary>
+            creates a new instance of User 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.User.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of User
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.User.CreateEventBridge">
             <summary>
@@ -1109,6 +1209,9 @@
         </member>
         <member name="M:NetOffice.DAOApi._TableDef.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._TableDef.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi._TableDef.OpenRecordset(System.Object,System.Object)">
             <summary>
@@ -1168,71 +1271,85 @@
         <member name="P:NetOffice.DAOApi._TableDef.Attributes">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.Connect">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.DateCreated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.LastUpdated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.SourceTableName">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.Updatable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.ValidationText">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.ValidationRule">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.RecordCount">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.Fields">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.Indexes">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.ConflictTable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.ReplicaFilter">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.TableDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1247,8 +1364,16 @@
         <member name="M:NetOffice.DAOApi.TableDef.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.TableDef.#ctor">
+            <summary>
+            creates a new instance of TableDef 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.TableDef.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of TableDef
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.TableDef.CreateEventBridge">
             <summary>
@@ -1272,9 +1397,13 @@
         <member name="M:NetOffice.DAOApi.Documents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Documents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Documents.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -1294,6 +1423,9 @@
         </member>
         <member name="M:NetOffice.DAOApi._Field.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Field.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi._Field.AppendChunk(System.Object)">
             <summary>
@@ -1330,106 +1462,127 @@
         <member name="P:NetOffice.DAOApi._Field.CollatingOrder">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.Type">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.Size">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.SourceField">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.SourceTable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.Value">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.Attributes">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.OrdinalPosition">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.ValidationText">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.ValidateOnSet">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.ValidationRule">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.DefaultValue">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.Required">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.AllowZeroLength">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.DataUpdatable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.ForeignName">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.CollectionIndex">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.OriginalValue">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.VisibleValue">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Field.FieldSize">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Workspace">
@@ -1448,6 +1601,9 @@
         </member>
         <member name="M:NetOffice.DAOApi.Workspace.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Workspace.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.Workspace.BeginTrans">
             <summary>
@@ -1543,66 +1699,79 @@
         <member name="P:NetOffice.DAOApi.Workspace.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.UserName">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace._30_UserName">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace._30_Password">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.IsolateODBCTrans">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.Databases">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.Users">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.Groups">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.LoginTimeout">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.DefaultCursorDriver">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.hEnv">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.Type">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.Connections">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.QueryDefStateEnum">
@@ -1639,6 +1808,9 @@
         <member name="M:NetOffice.DAOApi.IndexFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.IndexFields.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.IndexFields.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -1647,11 +1819,13 @@
         <member name="P:NetOffice.DAOApi.IndexFields.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.IndexFields.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">optional object Item</param>
         </member>
@@ -1903,8 +2077,16 @@
         <member name="M:NetOffice.DAOApi.Group.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Group.#ctor">
+            <summary>
+            creates a new instance of Group 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.Group.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Group
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.Group.CreateEventBridge">
             <summary>
@@ -1932,6 +2114,9 @@
         </member>
         <member name="M:NetOffice.DAOApi._QueryDef.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi._QueryDef.Close">
             <summary>
@@ -2061,86 +2246,103 @@
         <member name="P:NetOffice.DAOApi._QueryDef.DateCreated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.LastUpdated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.ODBCTimeout">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Type">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.SQL">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Updatable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Connect">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.ReturnsRecords">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.RecordsAffected">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Fields">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Parameters">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.hStmt">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.MaxRecords">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.StillExecuting">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.CacheSize">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._QueryDef.Prepare">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.QueryDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2155,8 +2357,16 @@
         <member name="M:NetOffice.DAOApi.QueryDef.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.QueryDef.#ctor">
+            <summary>
+            creates a new instance of QueryDef 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.QueryDef.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of QueryDef
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.QueryDef.CreateEventBridge">
             <summary>
@@ -2180,8 +2390,16 @@
         <member name="M:NetOffice.DAOApi.Field.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Field.#ctor">
+            <summary>
+            creates a new instance of Field 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.Field.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Field
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.Field.CreateEventBridge">
             <summary>
@@ -2205,6 +2423,9 @@
         <member name="M:NetOffice.DAOApi.Relations.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Relations.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Relations.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2213,11 +2434,13 @@
         <member name="P:NetOffice.DAOApi.Relations.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Relations.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -2238,9 +2461,13 @@
         <member name="M:NetOffice.DAOApi.Parameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Parameters.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Parameters.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -2284,29 +2511,37 @@
         <member name="M:NetOffice.DAOApi.Error.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Error.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Error.Number">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Error.Source">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Error.Description">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Error.HelpFile">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Error.HelpContext">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Container">
@@ -2326,39 +2561,49 @@
         <member name="M:NetOffice.DAOApi.Container.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Container.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Container.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Container.Owner">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Container.UserName">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Container.Permissions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Container.Inherit">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Container.Documents">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Container.AllPermissions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Parameter">
@@ -2378,24 +2623,31 @@
         <member name="M:NetOffice.DAOApi.Parameter.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Parameter.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Parameter.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Parameter.Value">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Parameter.Type">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Parameter.Direction">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Property">
@@ -2415,24 +2667,31 @@
         <member name="M:NetOffice.DAOApi.Property.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Property.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Property.Value">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Property.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Property.Type">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Property.Inherited">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Relation">
@@ -2457,6 +2716,9 @@
         <member name="M:NetOffice.DAOApi._Relation.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi._Relation.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi._Relation.CreateField(System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2473,31 +2735,37 @@
         <member name="P:NetOffice.DAOApi._Relation.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Relation.Table">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Relation.ForeignTable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Relation.Attributes">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Relation.Fields">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Relation.PartialReplica">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Relation.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2512,8 +2780,16 @@
         <member name="M:NetOffice.DAOApi.Relation.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Relation.#ctor">
+            <summary>
+            creates a new instance of Relation 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.Relation.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Relation
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.Relation.CreateEventBridge">
             <summary>
@@ -2537,9 +2813,13 @@
         <member name="M:NetOffice.DAOApi.Errors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Errors.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Errors.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -2560,6 +2840,9 @@
         <member name="M:NetOffice.DAOApi.Groups.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Groups.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Groups.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2568,11 +2851,13 @@
         <member name="P:NetOffice.DAOApi.Groups.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Groups.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -2593,9 +2878,13 @@
         <member name="M:NetOffice.DAOApi.Containers.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Containers.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Containers.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -2783,9 +3072,13 @@
         <member name="M:NetOffice.DAOApi.Databases.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Databases.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Databases.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3018,8 +3311,16 @@
         <member name="M:NetOffice.DAOApi.PrivDBEngine.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.PrivDBEngine.#ctor">
+            <summary>
+            creates a new instance of PrivDBEngine 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.PrivDBEngine.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of PrivDBEngine
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.PrivDBEngine.CreateEventBridge">
             <summary>
@@ -3043,6 +3344,9 @@
         <member name="M:NetOffice.DAOApi.TableDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.TableDefs.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.TableDefs.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3051,11 +3355,13 @@
         <member name="P:NetOffice.DAOApi.TableDefs.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.TableDefs.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3076,14 +3382,19 @@
         <member name="M:NetOffice.DAOApi.Recordset2.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Recordset2.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Recordset2.Properties">
             <summary>
             SupportByLibrary DAO 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Recordset2.ParentRecordset">
             <summary>
             SupportByLibrary DAO 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Field2">
@@ -3103,6 +3414,9 @@
         <member name="M:NetOffice.DAOApi.Field2.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Field2.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Field2.LoadFromFile(System.String)">
             <summary>
             SupportByLibrary DAO 12
@@ -3118,26 +3432,31 @@
         <member name="P:NetOffice.DAOApi.Field2.Properties">
             <summary>
             SupportByLibrary DAO 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Field2.ComplexType">
             <summary>
             SupportByLibrary DAO 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Field2.IsComplex">
             <summary>
             SupportByLibrary DAO 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Field2.AppendOnly">
             <summary>
             SupportByLibrary DAO 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Field2.Expression">
             <summary>
             SupportByLibrary DAO 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.ComplexType">
@@ -3157,9 +3476,13 @@
         <member name="M:NetOffice.DAOApi.ComplexType.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.ComplexType.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.ComplexType.Fields">
             <summary>
             SupportByLibrary DAO 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Document">
@@ -3179,6 +3502,9 @@
         <member name="M:NetOffice.DAOApi.Document.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Document.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Document.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3196,41 +3522,49 @@
         <member name="P:NetOffice.DAOApi.Document.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.Owner">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.Container">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.UserName">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.Permissions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.DateCreated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.LastUpdated">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Document.AllPermissions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Connections">
@@ -3250,9 +3584,13 @@
         <member name="M:NetOffice.DAOApi.Connections.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Connections.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Connections.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3384,9 +3722,13 @@
         <member name="M:NetOffice.DAOApi.Recordsets.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Recordsets.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.DAOApi.Recordsets.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3407,6 +3749,9 @@
         <member name="M:NetOffice.DAOApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Properties.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Properties.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3415,11 +3760,13 @@
         <member name="P:NetOffice.DAOApi.Properties.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Properties.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3552,6 +3899,9 @@
         <member name="M:NetOffice.DAOApi.Connection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Connection.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Connection.Cancel">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3605,56 +3955,67 @@
         <member name="P:NetOffice.DAOApi.Connection.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.Connect">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.Database">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.hDbc">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.QueryTimeout">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.Transactions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.RecordsAffected">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.StillExecuting">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.Updatable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.QueryDefs">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.Recordsets">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Fields">
@@ -3674,6 +4035,9 @@
         <member name="M:NetOffice.DAOApi.Fields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Fields.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Fields.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3682,11 +4046,13 @@
         <member name="P:NetOffice.DAOApi.Fields.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Fields.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3707,6 +4073,9 @@
         <member name="M:NetOffice.DAOApi.Workspaces.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Workspaces.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Workspaces.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3715,11 +4084,13 @@
         <member name="P:NetOffice.DAOApi.Workspaces.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Workspaces.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -3798,6 +4169,9 @@
         <member name="M:NetOffice.DAOApi._Index.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi._Index.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi._Index.CreateField(System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3828,46 +4202,55 @@
         <member name="P:NetOffice.DAOApi._Index.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Foreign">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Unique">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Clustered">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Required">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.IgnoreNulls">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Primary">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.DistinctCount">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Fields">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Database">
@@ -3886,6 +4269,9 @@
         </member>
         <member name="M:NetOffice.DAOApi.Database.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.Database.Close">
             <summary>
@@ -4117,81 +4503,97 @@
         <member name="P:NetOffice.DAOApi.Database.CollatingOrder">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Connect">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Name">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.QueryTimeout">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Transactions">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Updatable">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Version">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.RecordsAffected">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.TableDefs">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.QueryDefs">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Relations">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Containers">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Recordsets">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.ReplicaID">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.DesignMasterID">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Database.Connection">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.UpdateCriteriaEnum">
@@ -4403,8 +4805,16 @@
         <member name="M:NetOffice.DAOApi.Index.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Index.#ctor">
+            <summary>
+            creates a new instance of Index 
+            </summary>		
+        </member>
         <member name="M:NetOffice.DAOApi.Index.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Index
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.DAOApi.Index.CreateEventBridge">
             <summary>
@@ -4428,6 +4838,9 @@
         <member name="M:NetOffice.DAOApi.Users.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Users.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Users.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4436,11 +4849,13 @@
         <member name="P:NetOffice.DAOApi.Users.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.Users.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>
@@ -4461,6 +4876,9 @@
         <member name="M:NetOffice.DAOApi.QueryDefs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.DAOApi.QueryDefs.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.QueryDefs.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4469,11 +4887,13 @@
         <member name="P:NetOffice.DAOApi.QueryDefs.Count">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi.QueryDefs.Item(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
+            Get Property
             </summary>
             <param name="Item">object Item</param>
         </member>

@@ -26,6 +26,9 @@
         <member name="M:NetOffice.ADODBApi._Stream.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Stream.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Stream.Read(System.Int32)">
             <summary>
             SupportByLibrary ADODB 2.5
@@ -109,41 +112,49 @@
         <member name="P:NetOffice.ADODBApi._Stream.Size">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.EOS">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.Position">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.Type">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.LineSeparator">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.State">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.Mode">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Stream.Charset">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Stream.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -158,8 +169,16 @@
         <member name="M:NetOffice.ADODBApi.Stream.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Stream.#ctor">
+            <summary>
+            creates a new instance of Stream 
+            </summary>		
+        </member>
         <member name="M:NetOffice.ADODBApi.Stream.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Stream
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Stream.CreateEventBridge">
             <summary>
@@ -208,9 +227,13 @@
         <member name="M:NetOffice.ADODBApi._ADO.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._ADO.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi._ADO.Properties">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset15.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -225,15 +248,20 @@
         <member name="M:NetOffice.ADODBApi.Recordset15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Recordset15.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Recordset15.get_Collect(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset15.set_Collect(System.Object,System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -400,111 +428,133 @@
         <member name="P:NetOffice.ADODBApi.Recordset15.AbsolutePosition">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.ActiveConnection">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.BOF">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.Bookmark">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.CacheSize">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.CursorType">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.EOF">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.Fields">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.LockType">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.MaxRecords">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.RecordCount">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.Source">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.AbsolutePage">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.EditMode">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.Filter">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.PageCount">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.PageSize">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.Sort">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.Status">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.State">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.CursorLocation">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset15.MarshalOptions">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset20.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -518,6 +568,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset20.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi.Recordset20.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset20.Cancel">
             <summary>
@@ -571,26 +624,31 @@
         <member name="P:NetOffice.ADODBApi.Recordset20.Properties">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset20.DataSource">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset20.ActiveCommand">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset20.StayInSync">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset20.DataMember">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset21.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -605,15 +663,20 @@
         <member name="M:NetOffice.ADODBApi.Recordset21.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Recordset21.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Recordset21.get_Collect(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset21.set_Collect(System.Object,System.Object)">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -787,121 +850,145 @@
         <member name="P:NetOffice.ADODBApi.Recordset21.Properties">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.AbsolutePosition">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.ActiveConnection">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.BOF">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Bookmark">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.CacheSize">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.CursorType">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.EOF">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Fields">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.LockType">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.MaxRecords">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.RecordCount">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Source">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.AbsolutePage">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.EditMode">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Filter">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.PageCount">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.PageSize">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Sort">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Status">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.State">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.CursorLocation">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.MarshalOptions">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Recordset21.Index">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi._Recordset.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -916,15 +1003,20 @@
         <member name="M:NetOffice.ADODBApi._Recordset.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Recordset.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Recordset.get_Collect(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.ADODBApi._Recordset.set_Collect(System.Object,System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -1147,141 +1239,169 @@
         <member name="P:NetOffice.ADODBApi._Recordset.Properties">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.AbsolutePosition">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.ActiveConnection">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.BOF">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Bookmark">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.CacheSize">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.CursorType">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.EOF">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Fields">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.LockType">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.MaxRecords">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.RecordCount">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Source">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.AbsolutePage">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.EditMode">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Filter">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.PageCount">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.PageSize">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Sort">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Status">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.State">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.CursorLocation">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.MarshalOptions">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.Index">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.DataSource">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.ActiveCommand">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.StayInSync">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Recordset.DataMember">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1296,8 +1416,16 @@
         <member name="M:NetOffice.ADODBApi.Recordset.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Recordset.#ctor">
+            <summary>
+            creates a new instance of Recordset 
+            </summary>		
+        </member>
         <member name="M:NetOffice.ADODBApi.Recordset.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Recordset
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Recordset.CreateEventBridge">
             <summary>
@@ -1431,6 +1559,9 @@
         <member name="M:NetOffice.ADODBApi.ADOConnectionConstruction15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.ADOConnectionConstruction15.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.ADOConnectionConstruction15.WrapDSOandSession(System.Object,System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -1441,11 +1572,13 @@
         <member name="P:NetOffice.ADODBApi.ADOConnectionConstruction15.DSO">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.ADOConnectionConstruction15.Session">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.FieldEnum">
@@ -1575,6 +1708,9 @@
         <member name="M:NetOffice.ADODBApi.Field15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Field15.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Field15.AppendChunk(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -1590,51 +1726,61 @@
         <member name="P:NetOffice.ADODBApi.Field15.ActualSize">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.Attributes">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.DefinedSize">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.Name">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.Type">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.Value">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.Precision">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.NumericScale">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.OriginalValue">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field15.UnderlyingValue">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi._Parameter">
@@ -1654,6 +1800,9 @@
         <member name="M:NetOffice.ADODBApi._Parameter.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Parameter.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Parameter.AppendChunk(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -1663,41 +1812,49 @@
         <member name="P:NetOffice.ADODBApi._Parameter.Name">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.Value">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.Type">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.Direction">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.Precision">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.NumericScale">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.Size">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Parameter.Attributes">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.CEResyncEnum">
@@ -1853,6 +2010,9 @@
         <member name="M:NetOffice.ADODBApi.ConnectionEventsVt.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.ConnectionEventsVt.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.ConnectionEventsVt.InfoMessage(NetOffice.ADODBApi.Error,NetOffice.ADODBApi.Enums.EventStatusEnum,NetOffice.ADODBApi._Connection)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -1981,6 +2141,9 @@
         <member name="M:NetOffice.ADODBApi._Record.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Record.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum,System.Boolean)">
             <summary>
             SupportByLibrary ADODB 2.5
@@ -2040,36 +2203,43 @@
         <member name="P:NetOffice.ADODBApi._Record.ActiveConnection">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Record.State">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Record.Source">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Record.Mode">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Record.ParentURL">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Record.Fields">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Record.RecordType">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Record.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2084,8 +2254,16 @@
         <member name="M:NetOffice.ADODBApi.Record.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Record.#ctor">
+            <summary>
+            creates a new instance of Record 
+            </summary>		
+        </member>
         <member name="M:NetOffice.ADODBApi.Record.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Record
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Record.CreateEventBridge">
             <summary>
@@ -2108,6 +2286,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi.IRecFields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi.IRecFields.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.IRecFields.ADOCheck">
             <summary>
@@ -2239,6 +2420,9 @@
         <member name="M:NetOffice.ADODBApi.Connection15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Connection15.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Connection15.Close">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -2293,61 +2477,73 @@
         <member name="P:NetOffice.ADODBApi.Connection15.ConnectionString">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.CommandTimeout">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.ConnectionTimeout">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.Version">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.Errors">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.DefaultDatabase">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.IsolationLevel">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.Attributes">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.CursorLocation">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.Mode">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.Provider">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Connection15.State">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi._Connection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2362,6 +2558,9 @@
         <member name="M:NetOffice.ADODBApi._Connection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Connection.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Connection.Cancel">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -2370,6 +2569,7 @@
         <member name="P:NetOffice.ADODBApi._Connection.Properties">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Connection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2384,8 +2584,16 @@
         <member name="M:NetOffice.ADODBApi.Connection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Connection.#ctor">
+            <summary>
+            creates a new instance of Connection 
+            </summary>		
+        </member>
         <member name="M:NetOffice.ADODBApi.Connection.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Connection
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Connection.CreateEventBridge">
             <summary>
@@ -2504,6 +2712,9 @@
         <member name="M:NetOffice.ADODBApi._Collection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Collection.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Collection.Refresh">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -2512,6 +2723,7 @@
         <member name="P:NetOffice.ADODBApi._Collection.Count">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2525,6 +2737,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi._DynaCollection.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi._DynaCollection.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi._DynaCollection.Append(System.Object)">
             <summary>
@@ -2809,8 +3024,16 @@
         <member name="M:NetOffice.ADODBApi.Parameter.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Parameter.#ctor">
+            <summary>
+            creates a new instance of Parameter 
+            </summary>		
+        </member>
         <member name="M:NetOffice.ADODBApi.Parameter.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Parameter
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Parameter.CreateEventBridge">
             <summary>
@@ -2834,24 +3057,31 @@
         <member name="M:NetOffice.ADODBApi.Property.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Property.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.Property.Value">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Property.Name">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Property.Type">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Property.Attributes">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.ADCPROP_AUTORECALC_ENUM">
@@ -3315,6 +3545,9 @@
         <member name="M:NetOffice.ADODBApi.Field20.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Field20.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Field20.AppendChunk(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.5
@@ -3330,56 +3563,67 @@
         <member name="P:NetOffice.ADODBApi.Field20.ActualSize">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.Attributes">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.DefinedSize">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.Name">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.Type">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.Value">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.Precision">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.NumericScale">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.OriginalValue">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.UnderlyingValue">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field20.DataFormat">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi.Field.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3393,6 +3637,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi.Field.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi.Field.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Field.AppendChunk(System.Object)">
             <summary>
@@ -3409,66 +3656,79 @@
         <member name="P:NetOffice.ADODBApi.Field.ActualSize">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Attributes">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.DefinedSize">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Name">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Type">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Value">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Precision">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.NumericScale">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.OriginalValue">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.UnderlyingValue">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.DataFormat">
             <summary>
             SupportByLibrary ADODB 2.1
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Properties">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Field.Status">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.RecordsetEventsVt">
@@ -3487,6 +3747,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi.RecordsetEventsVt.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi.RecordsetEventsVt.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.RecordsetEventsVt.WillChangeField(System.Int32,System.Object,NetOffice.ADODBApi.Enums.EventStatusEnum,NetOffice.ADODBApi._Recordset)">
             <summary>
@@ -4086,6 +4349,9 @@
         <member name="M:NetOffice.ADODBApi.Errors.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Errors.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Errors.Clear">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -4094,6 +4360,7 @@
         <member name="P:NetOffice.ADODBApi.Errors.Item(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -4114,9 +4381,13 @@
         <member name="M:NetOffice.ADODBApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Properties.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.Properties.Item(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -4137,9 +4408,13 @@
         <member name="M:NetOffice.ADODBApi.ADOStreamConstruction.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.ADOStreamConstruction.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.ADOStreamConstruction.Stream">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.LineSeparatorEnum">
@@ -4258,9 +4533,13 @@
         <member name="M:NetOffice.ADODBApi.Fields15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Fields15.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.Fields15.Item(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -4356,14 +4635,19 @@
         <member name="M:NetOffice.ADODBApi.ADORecordConstruction.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.ADORecordConstruction.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.ADORecordConstruction.Row">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.ADORecordConstruction.ParentRow">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.ADORecordsetConstruction">
@@ -4383,19 +4667,25 @@
         <member name="M:NetOffice.ADODBApi.ADORecordsetConstruction.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.ADORecordsetConstruction.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.ADORecordsetConstruction.Rowset">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.ADORecordsetConstruction.Chapter">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.ADORecordsetConstruction.RowPosition">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.SaveOptionsEnum">
@@ -4660,6 +4950,9 @@
         <member name="M:NetOffice.ADODBApi.Command15.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Command15.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Command15.Execute(System.Object,System.Object,System.Int32)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -4690,36 +4983,43 @@
         <member name="P:NetOffice.ADODBApi.Command15.ActiveConnection">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Command15.CommandText">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Command15.CommandTimeout">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Command15.Prepared">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Command15.Parameters">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Command15.CommandType">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Command15.Name">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.ADODBApi._Command.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4734,6 +5034,9 @@
         <member name="M:NetOffice.ADODBApi._Command.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi._Command.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi._Command.Cancel">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -4742,11 +5045,13 @@
         <member name="P:NetOffice.ADODBApi._Command.Properties">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi._Command.State">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.XactAttributeEnum">
@@ -4980,8 +5285,16 @@
         <member name="M:NetOffice.ADODBApi.Command.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Command.#ctor">
+            <summary>
+            creates a new instance of Command 
+            </summary>		
+        </member>
         <member name="M:NetOffice.ADODBApi.Command.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Command
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Command.CreateEventBridge">
             <summary>
@@ -5005,9 +5318,13 @@
         <member name="M:NetOffice.ADODBApi.ADOCommandConstruction.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.ADOCommandConstruction.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.ADOCommandConstruction.OLEDBCommand">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.ADOConnectionConstruction">
@@ -5026,6 +5343,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi.ADOConnectionConstruction.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi.ADOConnectionConstruction.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum">
             <summary>
@@ -5149,6 +5469,9 @@
         <member name="M:NetOffice.ADODBApi.Fields20.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Fields20.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Fields20.Refresh">
             <summary>
             SupportByLibrary ADODB 2.5
@@ -5172,6 +5495,7 @@
         <member name="P:NetOffice.ADODBApi.Fields20.Count">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Fields">
@@ -5190,6 +5514,9 @@
         </member>
         <member name="M:NetOffice.ADODBApi.Fields.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.ADODBApi.Fields.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.ADODBApi.Fields.Refresh">
             <summary>
@@ -5240,11 +5567,13 @@
         <member name="P:NetOffice.ADODBApi.Fields.Count">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Fields.Item(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.5
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -5680,6 +6009,9 @@
         <member name="M:NetOffice.ADODBApi.Parameters.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Parameters.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.ADODBApi.Parameters.Refresh">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
@@ -5688,11 +6020,13 @@
         <member name="P:NetOffice.ADODBApi.Parameters.Count">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Parameters.Item(System.Object)">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -5713,39 +6047,49 @@
         <member name="M:NetOffice.ADODBApi.Error.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.ADODBApi.Error.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.ADODBApi.Error.Number">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Error.Source">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Error.Description">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Error.HelpFile">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Error.HelpContext">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Error.SQLState">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.ADODBApi.Error.NativeError">
             <summary>
             SupportByLibrary ADODB 2.1, 2.5
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.ADODBApi.Enums.ADCPROP_UPDATERESYNC_ENUM">

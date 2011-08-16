@@ -21,24 +21,31 @@
         <member name="M:NetOffice.VBIDEApi._Component.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._Component.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._Component.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.IsDirty">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Component.Name">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Window">
@@ -57,6 +64,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi.Window.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Window.Close">
             <summary>
@@ -88,66 +98,79 @@
         <member name="P:NetOffice.VBIDEApi.Window.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Caption">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Visible">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Left">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Top">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Width">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Height">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.WindowState">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.Type">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.LinkedWindows">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.LinkedWindowFrame">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Window.HWnd">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.VBComponents">
@@ -177,6 +200,9 @@
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._VBComponents_Old.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents_Old.Remove(NetOffice.VBIDEApi.VBComponent)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
@@ -198,16 +224,19 @@
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponents_Old.Item(System.Object)">
@@ -227,6 +256,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._VBComponents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponents.AddCustom(System.String)">
             <summary>
@@ -252,8 +284,16 @@
         <member name="M:NetOffice.VBIDEApi.VBComponents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.VBComponents.#ctor">
+            <summary>
+            creates a new instance of VBComponents 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.VBComponents.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of VBComponents
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBComponents.CreateEventBridge">
             <summary>
@@ -282,6 +322,9 @@
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._LinkedWindows.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._LinkedWindows.Remove(NetOffice.VBIDEApi.Window)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
@@ -297,16 +340,19 @@
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._LinkedWindows.Item(System.Object)">
@@ -327,8 +373,16 @@
         <member name="M:NetOffice.VBIDEApi.LinkedWindows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.LinkedWindows.#ctor">
+            <summary>
+            creates a new instance of LinkedWindows 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.LinkedWindows.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of LinkedWindows
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.LinkedWindows.CreateEventBridge">
             <summary>
@@ -351,6 +405,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._References.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._References.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._References.AddFromGuid(System.String,System.Int32,System.Int32)">
             <summary>
@@ -375,16 +432,19 @@
         <member name="P:NetOffice.VBIDEApi._References.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._References.Item(System.Object)">
@@ -415,19 +475,25 @@
         <member name="M:NetOffice.VBIDEApi._VBProjects_Old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._VBProjects_Old.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProjects_Old.Item(System.Object)">
@@ -447,6 +513,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._VBProjects.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProjects.Add(NetOffice.VBIDEApi.Enums.vbext_ProjectType)">
             <summary>
@@ -483,6 +552,9 @@
         <member name="M:NetOffice.VBIDEApi._VBProjectsEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._VBProjectsEvents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="T:NetOffice.VBIDEApi.Components">
             <summary>
              CoClass Components SupportByLibrary VBIDE, 5.3,12
@@ -505,6 +577,9 @@
         <member name="M:NetOffice.VBIDEApi._Components.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._Components.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._Components.Remove(NetOffice.VBIDEApi.Component)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
@@ -526,21 +601,25 @@
         <member name="P:NetOffice.VBIDEApi._Components.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Components.Item(System.Object)">
@@ -561,8 +640,16 @@
         <member name="M:NetOffice.VBIDEApi.Components.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Components.#ctor">
+            <summary>
+            creates a new instance of Components 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.Components.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Components
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Components.CreateEventBridge">
             <summary>
@@ -586,9 +673,13 @@
         <member name="M:NetOffice.VBIDEApi.Property.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Property.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi.Property.get_IndexedValue(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
             <param name="Index1">object Index1</param>
             <param name="Index2">optional object Index2</param>
@@ -598,6 +689,7 @@
         <member name="M:NetOffice.VBIDEApi.Property.set_IndexedValue(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
             <param name="Index1">object Index1</param>
             <param name="Index2">optional object Index2</param>
@@ -607,53 +699,63 @@
         <member name="M:NetOffice.VBIDEApi.Property.get_IndexedValue(System.Object)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
             <param name="Index1">object Index1</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Property.set_IndexedValue(System.Object,System.Object)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
             <param name="Index1">object Index1</param>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Value">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.NumIndices">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Name">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Property.Object">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._dispVBComponentsEvents">
@@ -672,6 +774,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBComponentsEvents.ItemAdded(NetOffice.VBIDEApi.VBComponent)">
             <summary>
@@ -732,24 +837,31 @@
         <member name="M:NetOffice.VBIDEApi._Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._Properties.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Properties.Item(System.Object)">
@@ -770,8 +882,16 @@
         <member name="M:NetOffice.VBIDEApi.Properties.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Properties.#ctor">
+            <summary>
+            creates a new instance of Properties 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.Properties.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Properties
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Properties.CreateEventBridge">
             <summary>
@@ -800,6 +920,9 @@
         <member name="M:NetOffice.VBIDEApi._CommandBarControlEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._CommandBarControlEvents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi.CommandBarEvents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
@@ -812,8 +935,16 @@
         <member name="M:NetOffice.VBIDEApi.CommandBarEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.CommandBarEvents.#ctor">
+            <summary>
+            creates a new instance of CommandBarEvents 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.CommandBarEvents.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of CommandBarEvents
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.CommandBarEvents.CreateEventBridge">
             <summary>
@@ -847,19 +978,25 @@
         <member name="M:NetOffice.VBIDEApi.SelectedComponents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.SelectedComponents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.SelectedComponents.Item(System.Int32)">
@@ -884,6 +1021,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._ReferencesEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._ReferencesEvents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="T:NetOffice.VBIDEApi.VBProject">
             <summary>
@@ -917,14 +1057,19 @@
         <member name="M:NetOffice.VBIDEApi._ProjectTemplate.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._ProjectTemplate.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._ProjectTemplate.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._ProjectTemplate.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject_Old.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -939,59 +1084,73 @@
         <member name="M:NetOffice.VBIDEApi._VBProject_Old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._VBProject_Old.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.HelpFile">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.HelpContextID">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Description">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Mode">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.References">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Name">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Protection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.Saved">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject_Old.VBComponents">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1005,6 +1164,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._VBProject.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBProject.SaveAs(System.String)">
             <summary>
@@ -1020,26 +1182,31 @@
         <member name="P:NetOffice.VBIDEApi._VBProject.Application">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.Type">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.FileName">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBProject.BuildFileName">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBProject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1054,8 +1221,16 @@
         <member name="M:NetOffice.VBIDEApi.VBProject.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.VBProject.#ctor">
+            <summary>
+            creates a new instance of VBProject 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.VBProject.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of VBProject
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBProject.CreateEventBridge">
             <summary>
@@ -1079,9 +1254,13 @@
         <member name="M:NetOffice.VBIDEApi.Application.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Application.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi.Application.Version">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_ComponentType">
@@ -1151,6 +1330,9 @@
         <member name="M:NetOffice.VBIDEApi._VBComponent_Old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._VBComponent_Old.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent_Old.Export(System.String)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
@@ -1170,46 +1352,55 @@
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Saved">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Name">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Designer">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.CodeModule">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Type">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.HasOpenDesigner">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent_Old.Properties">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1224,9 +1415,13 @@
         <member name="M:NetOffice.VBIDEApi._VBComponent.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._VBComponent.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._VBComponent.DesignerID">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBComponent.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1241,8 +1436,16 @@
         <member name="M:NetOffice.VBIDEApi.VBComponent.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.VBComponent.#ctor">
+            <summary>
+            creates a new instance of VBComponent 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.VBComponent.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of VBComponent
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBComponent.CreateEventBridge">
             <summary>
@@ -1265,6 +1468,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._dispVBProjectsEvents.ItemAdded(NetOffice.VBIDEApi.VBProject)">
             <summary>
@@ -1313,19 +1519,25 @@
         <member name="M:NetOffice.VBIDEApi._Windows_old.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._Windows_old.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._Windows_old.Item(System.Object)">
@@ -1345,6 +1557,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._Windows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._Windows.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi._Windows.CreateToolWindow(NetOffice.VBIDEApi.AddIn,System.String,System.String,System.String,System.Object)">
             <summary>
@@ -1395,24 +1610,31 @@
         <member name="M:NetOffice.VBIDEApi._CodePanes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._CodePanes.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Current">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePanes.Item(System.Object)">
@@ -1433,8 +1655,16 @@
         <member name="M:NetOffice.VBIDEApi.CodePanes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.CodePanes.#ctor">
+            <summary>
+            creates a new instance of CodePanes 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.CodePanes.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of CodePanes
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodePanes.CreateEventBridge">
             <summary>
@@ -1458,59 +1688,73 @@
         <member name="M:NetOffice.VBIDEApi.Reference.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Reference.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Name">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Guid">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Major">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Minor">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.FullPath">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.BuiltIn">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.IsBroken">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Type">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.Reference.Description">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_WindowState">
@@ -1558,9 +1802,13 @@
         <member name="M:NetOffice.VBIDEApi._CodeModule.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._CodeModule.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_Lines(System.Int32,System.Int32)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="StartLine">Int32 StartLine</param>
             <param name="Count">Int32 Count</param>
@@ -1568,6 +1816,7 @@
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcStartLine(System.String,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="ProcName">string ProcName</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
@@ -1575,6 +1824,7 @@
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcCountLines(System.String,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="ProcName">string ProcName</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
@@ -1582,6 +1832,7 @@
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcBodyLine(System.String,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="ProcName">string ProcName</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
@@ -1589,6 +1840,7 @@
         <member name="M:NetOffice.VBIDEApi._CodeModule.get_ProcOfLine(System.Int32,NetOffice.VBIDEApi.Enums.vbext_ProcKind)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="Line">Int32 Line</param>
             <param name="ProcKind">NetOffice.VBIDEApi.Enums.vbext_ProcKind ProcKind</param>
@@ -1649,31 +1901,37 @@
         <member name="P:NetOffice.VBIDEApi._CodeModule.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.Name">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.CountOfLines">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.CountOfDeclarationLines">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodeModule.CodePane">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodeModule.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1688,8 +1946,16 @@
         <member name="M:NetOffice.VBIDEApi.CodeModule.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.CodeModule.#ctor">
+            <summary>
+            creates a new instance of CodeModule 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.CodeModule.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of CodeModule
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodeModule.CreateEventBridge">
             <summary>
@@ -1713,6 +1979,9 @@
         <member name="M:NetOffice.VBIDEApi._AddIns.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._AddIns.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._AddIns.Update">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
@@ -1721,16 +1990,19 @@
         <member name="P:NetOffice.VBIDEApi._AddIns.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.Parent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.Count">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._AddIns.Item(System.Object)">
@@ -1756,8 +2028,16 @@
         <member name="M:NetOffice.VBIDEApi.ProjectTemplate.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.ProjectTemplate.#ctor">
+            <summary>
+            creates a new instance of ProjectTemplate 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.ProjectTemplate.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ProjectTemplate
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.ProjectTemplate.CreateEventBridge">
             <summary>
@@ -1781,59 +2061,73 @@
         <member name="M:NetOffice.VBIDEApi.VBE.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.VBE.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi.VBE.VBProjects">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.CommandBars">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.CodePanes">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.Windows">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.Events">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.ActiveVBProject">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.SelectedVBComponent">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.MainWindow">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.ActiveWindow">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.ActiveCodePane">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.VBE.Addins">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_ProcKind">
@@ -1971,8 +2265,16 @@
         <member name="M:NetOffice.VBIDEApi.References.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.References.#ctor">
+            <summary>
+            creates a new instance of References 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.References.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of References
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.References.CreateEventBridge">
             <summary>
@@ -2016,8 +2318,16 @@
         <member name="M:NetOffice.VBIDEApi.VBProjects.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.VBProjects.#ctor">
+            <summary>
+            creates a new instance of VBProjects 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.VBProjects.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of VBProjects
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.VBProjects.CreateEventBridge">
             <summary>
@@ -2041,39 +2351,49 @@
         <member name="M:NetOffice.VBIDEApi.AddIn.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.AddIn.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Description">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.ProgId">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Guid">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Connect">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi.AddIn.Object">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi._VBComponentsEvents">
@@ -2092,6 +2412,9 @@
         </member>
         <member name="M:NetOffice.VBIDEApi._VBComponentsEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.VBIDEApi._VBComponentsEvents.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_RefKind">
             <summary>
@@ -2127,8 +2450,16 @@
         <member name="M:NetOffice.VBIDEApi.ReferencesEvents.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.ReferencesEvents.#ctor">
+            <summary>
+            creates a new instance of ReferencesEvents 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.ReferencesEvents.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ReferencesEvents
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.ReferencesEvents.CreateEventBridge">
             <summary>
@@ -2172,6 +2503,9 @@
         <member name="M:NetOffice.VBIDEApi._CodePane.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi._CodePane.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi._CodePane.GetSelection(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
@@ -2198,36 +2532,43 @@
         <member name="P:NetOffice.VBIDEApi._CodePane.Collection">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.VBE">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.Window">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.TopLine">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.CountOfVisibleLines">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.CodeModule">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.VBIDEApi._CodePane.CodePaneView">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.VBIDEApi.Enums.vbext_VBAMode">
@@ -2287,8 +2628,16 @@
         <member name="M:NetOffice.VBIDEApi.Addins.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Addins.#ctor">
+            <summary>
+            creates a new instance of Addins 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.Addins.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Addins
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Addins.CreateEventBridge">
             <summary>
@@ -2312,15 +2661,20 @@
         <member name="M:NetOffice.VBIDEApi.Events.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Events.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.VBIDEApi.Events.get_ReferencesEvents(NetOffice.VBIDEApi.VBProject)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="VBProject">NetOffice.VBIDEApi.VBProject VBProject</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Events.get_CommandBarEvents(System.Object)">
             <summary>
             SupportByLibrary VBIDE 5.3, 12
+            Get Property
             </summary>
             <param name="CommandBarControl">object CommandBarControl</param>
         </member>
@@ -2341,8 +2695,16 @@
         <member name="M:NetOffice.VBIDEApi.CodePane.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.CodePane.#ctor">
+            <summary>
+            creates a new instance of CodePane 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.CodePane.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of CodePane
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.CodePane.CreateEventBridge">
             <summary>
@@ -2366,8 +2728,16 @@
         <member name="M:NetOffice.VBIDEApi.Component.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Component.#ctor">
+            <summary>
+            creates a new instance of Component 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.Component.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Component
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Component.CreateEventBridge">
             <summary>
@@ -2391,8 +2761,16 @@
         <member name="M:NetOffice.VBIDEApi.Windows.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.VBIDEApi.Windows.#ctor">
+            <summary>
+            creates a new instance of Windows 
+            </summary>		
+        </member>
         <member name="M:NetOffice.VBIDEApi.Windows.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Windows
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.VBIDEApi.Windows.CreateEventBridge">
             <summary>

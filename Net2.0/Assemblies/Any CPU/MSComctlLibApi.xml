@@ -26,9 +26,13 @@
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -77,11 +81,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeaders.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeaders.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -97,8 +103,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeaders.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ColumnHeaders.#ctor">
+            <summary>
+            creates a new instance of ColumnHeaders 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeaders.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ColumnHeaders
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeaders.CreateEventBridge">
             <summary>
@@ -127,6 +141,9 @@
         <member name="M:NetOffice.MSComctlLibApi.IProgressBar.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IProgressBar.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IProgressBar.OLEDrag">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -145,66 +162,79 @@
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.ControlDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Max">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Min">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Value">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Appearance">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.BorderStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Orientation">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IProgressBar.Scrolling">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ProgressBar.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -219,8 +249,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ProgressBar.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ProgressBar.#ctor">
+            <summary>
+            creates a new instance of ProgressBar 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ProgressBar.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ProgressBar
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ProgressBar.CreateEventBridge">
             <summary>
@@ -349,44 +387,55 @@
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenu.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtonMenu.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu._ObjectDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Parent">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenu.Visible">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenu.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -401,8 +450,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenu.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ButtonMenu.#ctor">
+            <summary>
+            creates a new instance of ButtonMenu 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenu.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ButtonMenu
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenu.CreateEventBridge">
             <summary>
@@ -431,69 +488,85 @@
         <member name="M:NetOffice.MSComctlLibApi.ITab.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITab.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab._ObjectDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Caption">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.ToolTipText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Width">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Height">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Top">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Left">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Selected">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.Image">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITab.HighLighted">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Tab.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -508,8 +581,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Tab.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Tab.#ctor">
+            <summary>
+            creates a new instance of Tab 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Tab.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Tab
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Tab.CreateEventBridge">
             <summary>
@@ -533,15 +614,20 @@
         <member name="M:NetOffice.MSComctlLibApi.IComboItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IComboItems.get__CollectionDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IComboItems.set__CollectionDefault(System.Object,NetOffice.MSComctlLibApi.IComboItem)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -575,11 +661,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IComboItems.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItems.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -600,14 +688,19 @@
         <member name="M:NetOffice.MSComctlLibApi.IControls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IControls.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IControls.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IControls.Item(System.Int32)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">Int32 Index</param>
         </member>
@@ -628,9 +721,13 @@
         <member name="M:NetOffice.MSComctlLibApi.IListItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItems.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItems.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -663,11 +760,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IListItems.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItems.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -687,6 +786,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IToolbar.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IToolbar.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IToolbar.Refresh">
             <summary>
@@ -727,106 +829,127 @@
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.Appearance">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.AllowCustomize">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.Buttons">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.Controls">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.ImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.ShowTips">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.BorderStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.Wrappable">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.ButtonHeight">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.ButtonWidth">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.HelpContextID">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.HelpFile">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.DisabledImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.HotImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IToolbar.TextAlignment">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelBevelConstants">
@@ -886,49 +1009,61 @@
         <member name="M:NetOffice.MSComctlLibApi.IComboItem.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItem.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem._ObjectDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Image">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Indentation">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Selected">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.SelImage">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItem.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ITabs">
@@ -948,15 +1083,20 @@
         <member name="M:NetOffice.MSComctlLibApi.ITabs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITabs.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabs.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="pvIndex">object pvIndex</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabs.set_ControlDefault(System.Object,NetOffice.MSComctlLibApi.ITab)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="pvIndex">object pvIndex</param>
         </member>
@@ -988,11 +1128,13 @@
         <member name="P:NetOffice.MSComctlLibApi.ITabs.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabs.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="pvIndex">object pvIndex</param>
         </member>
@@ -1012,6 +1154,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObject.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IVBDataObject.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObject.Clear">
             <summary>
@@ -1045,6 +1190,7 @@
         <member name="P:NetOffice.MSComctlLibApi.IVBDataObject.Files">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelAlignmentConstants">
@@ -1324,15 +1470,20 @@
         <member name="M:NetOffice.MSComctlLibApi.IImages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImages.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IImages.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImages.set_ControlDefault(System.Object,NetOffice.MSComctlLibApi.IImage)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -1363,11 +1514,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IImages.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImages.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -1383,8 +1536,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListImages.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListImages.#ctor">
+            <summary>
+            creates a new instance of ListImages 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListImages.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListImages
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListImages.CreateEventBridge">
             <summary>
@@ -1408,59 +1569,73 @@
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeader.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeader.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Default">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Alignment">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Left">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.SubItemIndex">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Width">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Icon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeader.Position">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ImageDrawConstants">
@@ -1526,8 +1701,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ComboItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ComboItems.#ctor">
+            <summary>
+            creates a new instance of ComboItems 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ComboItems.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ComboItems
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ComboItems.CreateEventBridge">
             <summary>
@@ -1556,15 +1739,20 @@
         <member name="M:NetOffice.MSComctlLibApi.IButtons.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtons.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtons.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtons.set_ControlDefault(System.Object,NetOffice.MSComctlLibApi.IButton)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -1597,11 +1785,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IButtons.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtons.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -1617,8 +1807,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Buttons.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Buttons.#ctor">
+            <summary>
+            creates a new instance of Buttons 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Buttons.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Buttons
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Buttons.CreateEventBridge">
             <summary>
@@ -1641,6 +1839,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImage.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImage.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImage.Draw(System.Int32,System.Object,System.Object,System.Object)">
             <summary>
@@ -1665,21 +1866,25 @@
         <member name="P:NetOffice.MSComctlLibApi.IImage.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImage.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImage.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImage.Picture">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListView">
@@ -1698,6 +1903,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListView.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListView.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListView.FindItem(System.String,System.Object,System.Object,System.Object)">
             <summary>
@@ -1749,191 +1957,229 @@
         <member name="P:NetOffice.MSComctlLibApi.IListView.Arrange">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.ColumnHeaders">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.DropHighlight">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.HideColumnHeaders">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.HideSelection">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Icons">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.ListItems">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.LabelEdit">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.LabelWrap">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.MultiSelect">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.SelectedItem">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.SmallIcons">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Sorted">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.SortKey">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.SortOrder">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.View">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.OLEDragMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Appearance">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.BackColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.BorderStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Font">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.ForeColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.AllowColumnReorder">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Checkboxes">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.FlatScrollBar">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.FullRowSelect">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.GridLines">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.HotTracking">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.HoverSelection">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.Picture">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.PictureAlignment">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.ColumnHeaderIcons">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListView.TextBackground">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IVBDataObjectFiles">
@@ -1952,6 +2198,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Add(System.String,System.Object)">
             <summary>
@@ -1980,12 +2229,14 @@
         <member name="P:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Item(System.Int32)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="lIndex">Int32 lIndex</param>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListColumnAlignmentConstants">
@@ -2139,8 +2390,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Controls.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Controls.#ctor">
+            <summary>
+            creates a new instance of Controls 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Controls.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Controls
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Controls.CreateEventBridge">
             <summary>
@@ -2168,6 +2427,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ISlider.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.ISlider.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ISlider.Refresh">
             <summary>
@@ -2197,106 +2459,127 @@
         <member name="P:NetOffice.MSComctlLibApi.ISlider._Value">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.LargeChange">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.SmallChange">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.Max">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.Min">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.Orientation">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.SelectRange">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.SelStart">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.SelLength">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.TickStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.TickFrequency">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.Value">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.BorderStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.GetNumTicks">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ISlider.TextPosition">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Slider.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2311,8 +2594,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Slider.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Slider.#ctor">
+            <summary>
+            creates a new instance of Slider 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Slider.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Slider
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Slider.CreateEventBridge">
             <summary>
@@ -2491,94 +2782,115 @@
         <member name="M:NetOffice.MSComctlLibApi.IButton.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButton.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton._ObjectDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Caption">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.ToolTipText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Visible">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Width">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Height">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Top">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Left">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Value">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Description">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.Image">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.MixedState">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButton.ButtonMenus">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Button.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2593,8 +2905,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Button.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Button.#ctor">
+            <summary>
+            creates a new instance of Button 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Button.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Button
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Button.CreateEventBridge">
             <summary>
@@ -2618,9 +2938,13 @@
         <member name="M:NetOffice.MSComctlLibApi.IListSubItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IListSubItems.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -2653,11 +2977,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IListSubItems.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItems.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -2736,8 +3062,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListImage.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListImage.#ctor">
+            <summary>
+            creates a new instance of ListImage 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListImage.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListImage
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListImage.CreateEventBridge">
             <summary>
@@ -2761,15 +3095,20 @@
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.set_ControlDefault(System.Object,NetOffice.MSComctlLibApi.IButtonMenu)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -2800,11 +3139,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenus.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenus.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -2937,6 +3278,9 @@
         <member name="M:NetOffice.MSComctlLibApi.INode.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.INode.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.INode.CreateDragImage">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -2950,126 +3294,151 @@
         <member name="P:NetOffice.MSComctlLibApi.INode._ObjectDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Child">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Children">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Expanded">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.ExpandedImage">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.FirstSibling">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.FullPath">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Image">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.LastSibling">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Next">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Parent">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Previous">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Root">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Selected">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.SelectedImage">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Sorted">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Visible">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.BackColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Bold">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.Checked">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INode.ForeColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Node.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3084,8 +3453,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Node.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Node.#ctor">
+            <summary>
+            creates a new instance of Node 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Node.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Node
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Node.CreateEventBridge">
             <summary>
@@ -3108,6 +3485,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabStrip.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITabStrip.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabStrip.Refresh">
             <summary>
@@ -3132,126 +3512,151 @@
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.Tabs">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.Font">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.MultiRow">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.TabFixedWidth">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.TabWidthStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.ClientTop">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.ClientLeft">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.ClientHeight">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.ClientWidth">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.ImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.TabFixedHeight">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.ShowTips">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.SelectedItem">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.HotTracking">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.MultiSelect">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.Placement">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.Separators">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.TabMinWidth">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabStrip.TabStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListFindItemWhereConstants">
@@ -3386,6 +3791,9 @@
         <member name="M:NetOffice.MSComctlLibApi.IImageList.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImageList.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IImageList.Overlay(System.Object,System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -3401,36 +3809,43 @@
         <member name="P:NetOffice.MSComctlLibApi.IImageList.ImageHeight">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageList.ImageWidth">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageList.MaskColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageList.UseMaskColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageList.ListImages">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageList.hImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageList.BackColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ImageList.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3445,8 +3860,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ImageList.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ImageList.#ctor">
+            <summary>
+            creates a new instance of ImageList 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ImageList.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ImageList
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ImageList.CreateEventBridge">
             <summary>
@@ -3470,8 +3893,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListView.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListView.#ctor">
+            <summary>
+            creates a new instance of ListView 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListView.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListView
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListView.CreateEventBridge">
             <summary>
@@ -3690,15 +4121,20 @@
         <member name="M:NetOffice.MSComctlLibApi.IPanels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanels.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IPanels.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IPanels.set_ControlDefault(System.Object,NetOffice.MSComctlLibApi.IPanel)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -3731,11 +4167,13 @@
         <member name="P:NetOffice.MSComctlLibApi.IPanels.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanels.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -3751,8 +4189,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Panels.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Panels.#ctor">
+            <summary>
+            creates a new instance of Panels 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Panels.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Panels
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Panels.CreateEventBridge">
             <summary>
@@ -3776,8 +4222,16 @@
         <member name="M:NetOffice.MSComctlLibApi.DataObject.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.DataObject.#ctor">
+            <summary>
+            creates a new instance of DataObject 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.DataObject.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of DataObject
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.DataObject.CreateEventBridge">
             <summary>
@@ -3916,15 +4370,20 @@
         <member name="M:NetOffice.MSComctlLibApi.INodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.INodes.get_ControlDefault(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.INodes.set_ControlDefault(System.Object,NetOffice.MSComctlLibApi.INode)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -3958,11 +4417,13 @@
         <member name="P:NetOffice.MSComctlLibApi.INodes.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INodes.Item(System.Object)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">object Index</param>
         </member>
@@ -3978,8 +4439,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Nodes.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Nodes.#ctor">
+            <summary>
+            creates a new instance of Nodes 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Nodes.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Nodes
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Nodes.CreateEventBridge">
             <summary>
@@ -4008,84 +4477,103 @@
         <member name="M:NetOffice.MSComctlLibApi.IPanel.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanel.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel._ObjectDefault">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Alignment">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.AutoSize">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Bevel">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Left">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.MinWidth">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Picture">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.ToolTipText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Visible">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanel.Width">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Panel.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4100,8 +4588,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Panel.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Panel.#ctor">
+            <summary>
+            creates a new instance of Panel 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Panel.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Panel
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Panel.CreateEventBridge">
             <summary>
@@ -4125,8 +4621,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Tabs.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Tabs.#ctor">
+            <summary>
+            creates a new instance of Tabs 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Tabs.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Tabs
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Tabs.CreateEventBridge">
             <summary>
@@ -4150,49 +4654,61 @@
         <member name="M:NetOffice.MSComctlLibApi.IListSubItem.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItem.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.Default">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.ForeColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.Bold">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.ReportIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.ToolTipText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItem.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListSortOrderConstants">
@@ -4269,8 +4785,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenus.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ButtonMenus.#ctor">
+            <summary>
+            creates a new instance of ButtonMenus 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenus.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ButtonMenus
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenus.CreateEventBridge">
             <summary>
@@ -4294,8 +4818,16 @@
         <member name="M:NetOffice.MSComctlLibApi.DataObjectFiles.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.DataObjectFiles.#ctor">
+            <summary>
+            creates a new instance of DataObjectFiles 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.DataObjectFiles.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of DataObjectFiles
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.DataObjectFiles.CreateEventBridge">
             <summary>
@@ -4336,8 +4868,16 @@
         <member name="M:NetOffice.MSComctlLibApi.TabStrip.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.TabStrip.#ctor">
+            <summary>
+            creates a new instance of TabStrip 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.TabStrip.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of TabStrip
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.TabStrip.CreateEventBridge">
             <summary>
@@ -4501,6 +5041,9 @@
         <member name="M:NetOffice.MSComctlLibApi.IImageCombo.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImageCombo.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IImageCombo.AboutBox">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -4524,101 +5067,121 @@
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.BackColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.Font">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.ForeColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.ImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.Indentation">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.ComboItems">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.Locked">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.OLEDragMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.SelectedItem">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.SelLength">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.SelStart">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.SelText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImageCombo.UsePathSep">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListItem">
@@ -4638,15 +5201,20 @@
         <member name="M:NetOffice.MSComctlLibApi.IListItem.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItem.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItem.get_SubItems(System.Int16)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">Int16 Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItem.set_SubItems(System.Int16,System.String)">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
             <param name="Index">Int16 Index</param>
         </member>
@@ -4663,91 +5231,109 @@
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Default">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Text">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Ghosted">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Height">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Icon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Index">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Key">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Left">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Selected">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.SmallIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Tag">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Top">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Width">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.ListSubItems">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Checked">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.ForeColor">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.ToolTipText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItem.Bold">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelAutoSizeConstants">
@@ -4795,8 +5381,16 @@
         <member name="M:NetOffice.MSComctlLibApi.Toolbar.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.Toolbar.#ctor">
+            <summary>
+            creates a new instance of Toolbar 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.Toolbar.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of Toolbar
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Toolbar.CreateEventBridge">
             <summary>
@@ -5010,8 +5604,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListSubItem.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListSubItem.#ctor">
+            <summary>
+            creates a new instance of ListSubItem 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListSubItem.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListSubItem
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListSubItem.CreateEventBridge">
             <summary>
@@ -5034,6 +5636,9 @@
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITreeView.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITreeView.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITreeView.HitTest(System.Single,System.Single)">
             <summary>
@@ -5070,126 +5675,151 @@
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.DropHighlight">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.HideSelection">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.ImageList">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Indentation">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.LabelEdit">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.LineStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Nodes">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.PathSeparator">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.SelectedItem">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Sorted">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.OLEDragMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Appearance">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.BorderStyle">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Font">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Checkboxes">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.FullRowSelect">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.HotTracking">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.Scroll">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.ITreeView.SingleSel">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListTextBackgroundConstants">
@@ -5283,8 +5913,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ImageCombo.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ImageCombo.#ctor">
+            <summary>
+            creates a new instance of ImageCombo 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ImageCombo.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ImageCombo
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ImageCombo.CreateEventBridge">
             <summary>
@@ -5433,6 +6071,9 @@
         <member name="M:NetOffice.MSComctlLibApi.IStatusBar.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IStatusBar.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IStatusBar.Refresh">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -5451,56 +6092,67 @@
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.SimpleText">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.Style">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.Panels">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.MousePointer">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.MouseIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.ShowTips">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.PanelProperties">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.OLEDropMode">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.Enabled">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.Font">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IStatusBar.hWnd">
             <summary>
             SupportByLibrary MSComctlLib 6
+            Get/Set Property
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.StatusBar.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5515,8 +6167,16 @@
         <member name="M:NetOffice.MSComctlLibApi.StatusBar.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.StatusBar.#ctor">
+            <summary>
+            creates a new instance of StatusBar 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.StatusBar.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of StatusBar
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.StatusBar.CreateEventBridge">
             <summary>
@@ -5727,8 +6387,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeader.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ColumnHeader.#ctor">
+            <summary>
+            creates a new instance of ColumnHeader 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeader.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ColumnHeader
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeader.CreateEventBridge">
             <summary>
@@ -5752,8 +6420,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListItem.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListItem.#ctor">
+            <summary>
+            creates a new instance of ListItem 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListItem.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListItem
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListItem.CreateEventBridge">
             <summary>
@@ -5875,8 +6551,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListSubItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListSubItems.#ctor">
+            <summary>
+            creates a new instance of ListSubItems 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListSubItems.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListSubItems
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListSubItems.CreateEventBridge">
             <summary>
@@ -5900,8 +6584,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ListItems.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ListItems.#ctor">
+            <summary>
+            creates a new instance of ListItems 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ListItems.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ListItems
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListItems.CreateEventBridge">
             <summary>
@@ -5978,8 +6670,16 @@
         <member name="M:NetOffice.MSComctlLibApi.ComboItem.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ComboItem.#ctor">
+            <summary>
+            creates a new instance of ComboItem 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.ComboItem.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of ComboItem
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ComboItem.CreateEventBridge">
             <summary>
@@ -6003,8 +6703,16 @@
         <member name="M:NetOffice.MSComctlLibApi.TreeView.#ctor(LateBindingApi.Core.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.TreeView.#ctor">
+            <summary>
+            creates a new instance of TreeView 
+            </summary>		
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.TreeView.#ctor(System.String)">
-            <param name="progId">progId</param>
+            <summary>
+            creates a new instance of TreeView
+            </summary>
+            <param name="progId">registered ProgID</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.TreeView.CreateEventBridge">
             <summary>
