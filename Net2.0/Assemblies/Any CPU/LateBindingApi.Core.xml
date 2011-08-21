@@ -383,6 +383,11 @@
             returns the native wrapped proxy
             </summary>
         </member>
+        <member name="F:LateBindingApi.Core.COMObject._isEnumerator">
+            <summary>
+            returns instance is an enumerator
+            </summary>
+        </member>
         <member name="F:LateBindingApi.Core.COMObject._isCurrentlyDisposing">
             <summary>
             returns instance is currently in diposing progress
@@ -417,6 +422,14 @@
             </summary>
             <param name="parentObject"></param>
             <param name="comProxy"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.COMObject.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Boolean)">
+            <summary>
+            creates new instance with given proxy, parent info and info instance is an enumerator
+            </summary>
+            <param name="parentObject"></param>
+            <param name="comProxy"></param>
+             <param name="isEnumerator"></param>
         </member>
         <member name="M:LateBindingApi.Core.COMObject.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
             <summary>
