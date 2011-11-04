@@ -13,4 +13,11 @@ NetOffice.Icon.png
 IntelliSense.gif
 KeyFiles
 NetOffice Release 1.2
+</Value></Property><Property><Name>svn:ignore</Name><Value>LateBindingApi.Office.Icon.png
+Todo.txt
+NetOffice.Icon.png
+IntelliSense.gif
+KeyFiles
+NetOffice Release 1.2
+Tools
 </Value></Property></Properties></ItemProperties>
