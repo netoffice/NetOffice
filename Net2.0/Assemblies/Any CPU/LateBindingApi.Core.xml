@@ -4,22 +4,22 @@
         <name>LateBindingApi.Core</name>
     </assembly>
     <members>
-        <member name="T:LateBindingApi.Core.SupportByLibrary">
+        <member name="T:LateBindingApi.Core.SupportByLibraryAttribute">
             <summary>
             Indicates which COM Type Library Version supports the entity
             </summary>
         </member>
-        <member name="F:LateBindingApi.Core.SupportByLibrary.Name">
+        <member name="F:LateBindingApi.Core.SupportByLibraryAttribute.Name">
             <summary>
             returns library name
             </summary>
         </member>
-        <member name="F:LateBindingApi.Core.SupportByLibrary.Versions">
+        <member name="F:LateBindingApi.Core.SupportByLibraryAttribute.Versions">
             <summary>
             returns all supported library versions of entity
             </summary>
         </member>
-        <member name="M:LateBindingApi.Core.SupportByLibrary.#ctor(System.String,System.Double[])">
+        <member name="M:LateBindingApi.Core.SupportByLibraryAttribute.#ctor(System.String,System.Double[])">
             <summary>
             creates instance
             </summary>
@@ -403,6 +403,11 @@
              child instance List
             </summary>
         </member>
+        <member name="F:LateBindingApi.Core.COMObject._listSupportedEntities">
+            <summary>
+            list of runtime supported entities
+            </summary>
+        </member>
         <member name="M:LateBindingApi.Core.COMObject.#ctor(LateBindingApi.Core.COMObject)">
             <summary>
             creates instance and replace the given replacedObject in proxy management
@@ -450,6 +455,21 @@
             not usable stub constructor
             </summary>
         </member>
+        <member name="M:LateBindingApi.Core.COMObject.EntityIsAvailable(System.String)">
+            <summary>
+            NetOffice method: returns information the proxy provides a method or property with given name at runtime
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.COMObject.EntityIsAvailable(System.String,LateBindingApi.Core.SupportEntityType)">
+            <summary>
+             NetOffice method: returns information the proxy provides a method or property with given name at runtime
+            </summary>
+            <param name="name"></param>
+            <param name="searchType">limit searching for method or property</param>
+            <returns></returns>
+        </member>
         <member name="M:LateBindingApi.Core.COMObject.CreateFromProgId(System.String)">
             <summary>
             create object from progid
@@ -481,24 +501,24 @@
         </member>
         <member name="M:LateBindingApi.Core.COMObject.Dispose(System.Boolean)">
             <summary>
-            dispose instance and all child instances
+            NetOffice method: dispose instance and all child instances
             </summary>
             <param name="disposeEventBinding">dispose event exported proxies with one or more event recipients</param>
         </member>
         <member name="M:LateBindingApi.Core.COMObject.Dispose">
             <summary>
-            dispose instance and all child instances
+            NetOffice method: dispose instance and all child instances
             </summary>
         </member>
         <member name="M:LateBindingApi.Core.COMObject.DisposeChildInstances(System.Boolean)">
             <summary>
-            dispose all child instances
+            NetOffice method: dispose all child instances
             </summary>
             <param name="disposeEventBinding">dispose proxies with events and one or more event recipients</param>
         </member>
         <member name="M:LateBindingApi.Core.COMObject.DisposeChildInstances">
             <summary>
-            dispose all child instances
+            NetOffice method: dispose all child instances
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.UnderlyingObject">
@@ -513,7 +533,7 @@
         </member>
         <member name="P:LateBindingApi.Core.COMObject.IsDisposed">
             <summary>
-            returns instance is diposed means unusable
+            NetOffice property: returns instance is diposed means unusable
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.InstanceType">
@@ -549,6 +569,31 @@
         <member name="P:LateBindingApi.Core.COMObject.ListChildObjects">
             <summary>
              child instance List
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.CustomMethodAttribute">
+            <summary>
+            this method is a custom overload from NetOffice
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.SupportEntityType">
+            <summary>
+            search parameter for the SupportEntity Method
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.SupportEntityType.Both">
+            <summary>
+            looking for a method or a property
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.SupportEntityType.Property">
+            <summary>
+            looking for a property only
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.SupportEntityType.Method">
+            <summary>
+            looking for a method only
             </summary>
         </member>
         <member name="T:LateBindingApi.Core.IObject">
@@ -591,6 +636,13 @@
             <summary>
             clears factory informations List
             </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.Factory.GetSupportedEntities(System.Object)">
+            <summary>
+            creates an entity support list for a proxy
+            </summary>
+            <param name="comProxy"></param>
+            <returns></returns>
         </member>
         <member name="M:LateBindingApi.Core.Factory.CreateKnownObjectFromComProxy(LateBindingApi.Core.COMObject,System.Object,System.Type)">
             <summary>
@@ -755,6 +807,91 @@
         <member name="P:LateBindingApi.Core.IFactoryInfo.Assembly">
             <summary>
             assembly info of lateBinding assembly
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.ConsoleMode">
+            <summary>
+            Operation mode for DebugConsole
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.None">
+            <summary>
+            debug log are not enabled
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.Console">
+            <summary>
+            debug log was redirected to System.Console
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.LogFile">
+            <summary>
+            debug log append to a logfile
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.MemoryList">
+            <summary>
+            hold all debug and exceptions logs in a internal string list
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.DebugConsole">
+            <summary>
+            offers various debug, log and diagnostic functionality
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.ClearMessagesList">
+            <summary>
+            clears message buffer
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.WriteLine(System.String)">
+            <summary>
+            write log message
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.WriteException(System.Exception)">
+            <summary>
+            write exception log message
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.AppendToLogFile(System.String)">
+            <summary>
+            append message to logfile
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.CreateExecptionLog(System.Exception)">
+            <summary>
+            convert an exception to a string
+            </summary>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.AppendTimeInfoEnabled">
+            <summary>
+            append current time information in messages
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.Mode">
+            <summary>
+            operation mode
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.FileName">
+            <summary>
+            name full file path and name of a logfile, must be set if Mode == LogFile
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.Messages">
+            <summary>
+            returns all collected messages if Mode == MemoryList
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.CustomEnumeratorAttribute">
+            <summary>
+            this enumerator is not supported by the instance, its a custom service by NetOffice
             </summary>
         </member>
         <member name="T:LateBindingApi.Core.EntityType">

@@ -20,4 +20,12 @@ IntelliSense.gif
 KeyFiles
 NetOffice Release 1.2
 Tools
+</Value></Property><Property><Name>svn:ignore</Name><Value>LateBindingApi.Office.Icon.png
+Todo.txt
+NetOffice.Icon.png
+IntelliSense.gif
+KeyFiles
+NetOffice Release 1.2
+Tools
+NetOffice Release 1.3
 </Value></Property></Properties></ItemProperties>

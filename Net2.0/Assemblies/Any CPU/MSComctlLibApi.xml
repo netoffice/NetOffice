@@ -6,12 +6,12 @@
     <members>
         <member name="T:NetOffice.MSComctlLibApi.ColumnHeaders">
             <summary>
-             CoClass ColumnHeaders SupportByLibrary MSComctlLib, 6
+             CoClass ColumnHeaders SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IColumnHeaders">
             <summary>
-             DispatchInterface IColumnHeaders SupportByLibrary MSComctlLib, 6
+             DispatchInterface IColumnHeaders SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -51,6 +51,36 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add_PreVB98(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add_PreVB98(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add_PreVB98(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add_PreVB98(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Width">optional object Width</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -76,6 +106,51 @@
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add">
             <summary>
             SupportByLibrary MSComctlLib 6
+            </summary>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Width">optional object Width</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Width">optional object Width</param>
+            <param name="Alignment">optional object Alignment</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IColumnHeaders.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IColumnHeaders.Count">
@@ -121,12 +196,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ProgressBar">
             <summary>
-             CoClass ProgressBar SupportByLibrary MSComctlLib, 6
+             CoClass ProgressBar SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IProgressBar">
             <summary>
-             DispatchInterface IProgressBar SupportByLibrary MSComctlLib, 6
+             DispatchInterface IProgressBar SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IProgressBar.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -367,12 +442,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ButtonMenu">
             <summary>
-             CoClass ButtonMenu SupportByLibrary MSComctlLib, 6
+             CoClass ButtonMenu SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IButtonMenu">
             <summary>
-             DispatchInterface IButtonMenu SupportByLibrary MSComctlLib, 6
+             DispatchInterface IButtonMenu SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenu.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -468,12 +543,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Tab">
             <summary>
-             CoClass Tab SupportByLibrary MSComctlLib, 6
+             CoClass Tab SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ITab">
             <summary>
-             DispatchInterface ITab SupportByLibrary MSComctlLib, 6
+             DispatchInterface ITab SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITab.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -599,7 +674,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IComboItems">
             <summary>
-             DispatchInterface IComboItems SupportByLibrary MSComctlLib, 6
+             DispatchInterface IComboItems SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IComboItems.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -647,6 +722,46 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Image">optional object Image</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Image">optional object Image</param>
+            <param name="SelImage">optional object SelImage</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IComboItems.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -657,6 +772,11 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="Index">object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IComboItems.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IComboItems.Count">
             <summary>
@@ -673,7 +793,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IControls">
             <summary>
-             DispatchInterface IControls SupportByLibrary MSComctlLib, 6
+             DispatchInterface IControls SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IControls.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -691,6 +811,11 @@
         <member name="M:NetOffice.MSComctlLibApi.IControls.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IControls.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IControls.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -706,7 +831,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListItems">
             <summary>
-             DispatchInterface IListItems SupportByLibrary MSComctlLib, 6
+             DispatchInterface IListItems SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItems.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -746,6 +871,36 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItems.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItems.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItems.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItems.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Icon">optional object Icon</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItems.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -756,6 +911,11 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="Index">object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListItems.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListItems.Count">
             <summary>
@@ -772,7 +932,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IToolbar">
             <summary>
-             DispatchInterface IToolbar SupportByLibrary MSComctlLib, 6
+             DispatchInterface IToolbar SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IToolbar.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -954,47 +1114,47 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelBevelConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelBevelConstants.sbrNoBevel">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelBevelConstants.sbrInset">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelBevelConstants.sbrRaised">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.OLEDropConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDropConstants.ccOLEDropNone">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDropConstants.ccOLEDropManual">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IComboItem">
             <summary>
-             DispatchInterface IComboItem SupportByLibrary MSComctlLib, 6
+             DispatchInterface IComboItem SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IComboItem.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1068,7 +1228,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ITabs">
             <summary>
-             DispatchInterface ITabs SupportByLibrary MSComctlLib, 6
+             DispatchInterface ITabs SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabs.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1125,6 +1285,32 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITabs.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="pvIndex">optional object pvIndex</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITabs.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="pvIndex">optional object pvIndex</param>
+            <param name="pvKey">optional object pvKey</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITabs.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="pvIndex">optional object pvIndex</param>
+            <param name="pvKey">optional object pvKey</param>
+            <param name="pvCaption">optional object pvCaption</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.ITabs.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.ITabs.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -1140,7 +1326,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IVBDataObject">
             <summary>
-             DispatchInterface IVBDataObject SupportByLibrary MSComctlLib, 6
+             DispatchInterface IVBDataObject SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1187,6 +1373,12 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IVBDataObject.SetData(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="vValue">optional object vValue</param>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IVBDataObject.Files">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -1195,267 +1387,267 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelAlignmentConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelAlignmentConstants.sbrLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelAlignmentConstants.sbrCenter">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelAlignmentConstants.sbrRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ErrorConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccInvalidProcedureCall">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccOutOfMemory">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>7</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccTypeMismatch">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>13</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccObjectVariableNotSet">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>91</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccInvalidPropertyValue">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>380</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccSetNotSupportedAtRuntime">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>382</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccSetNotSupported">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>383</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccSetNotPermitted">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>387</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccGetNotSupported">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>394</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccInvalidPicture">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>481</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccInvalidObjectUse">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>425</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccWrongClipboardFormat">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>461</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccDataObjectLocked">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>672</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccExpectedAnArgument">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>673</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccRecursiveOleDrag">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>674</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccFormatNotByteArray">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>675</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccDataNotSetForFormat">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>676</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccIndexOutOfBounds">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35600</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccElemNotFound">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35601</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccNonUniqueKey">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35602</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccInvalidKey">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35603</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccElemNotPartOfCollection">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35605</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccCollectionChangedDuringEnum">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35606</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccWouldIntroduceCycle">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35614</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccMissingRequiredArg">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35607</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccBadObjectReference">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35610</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccCircularReference">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35700</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccCol1MustBeLeftAligned">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35604</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccReadOnlyIfHasImages">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35611</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccImageListMustBeInitialized">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35613</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccNotSameSize">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35615</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccImageListLocked">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35617</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccMaxPanelsExceeded">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35616</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccMaxButtonsExceeded">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>35619</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ErrorConstants.ccInvalidSafeModeProcCall">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>680</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.OrientationConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OrientationConstants.ccOrientationHorizontal">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OrientationConstants.ccOrientationVertical">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListImages">
             <summary>
-             CoClass ListImages SupportByLibrary MSComctlLib, 6
+             CoClass ListImages SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IImages">
             <summary>
-             DispatchInterface IImages SupportByLibrary MSComctlLib, 6
+             DispatchInterface IImages SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImages.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1500,6 +1692,19 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImages.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImages.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IImages.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -1510,6 +1715,11 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="Index">object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImages.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IImages.Count">
             <summary>
@@ -1554,7 +1764,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IColumnHeader">
             <summary>
-             DispatchInterface IColumnHeader SupportByLibrary MSComctlLib, 6
+             DispatchInterface IColumnHeader SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IColumnHeader.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1640,53 +1850,53 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ImageDrawConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageDrawConstants.imlNormal">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageDrawConstants.imlTransparent">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageDrawConstants.imlSelected">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageDrawConstants.imlFocus">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ScrollingConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ScrollingConstants.ccScrollingStandard">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ScrollingConstants.ccScrollingSmooth">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ComboItems">
             <summary>
-             CoClass ComboItems SupportByLibrary MSComctlLib, 6
+             CoClass ComboItems SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ComboItems.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1719,12 +1929,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Buttons">
             <summary>
-             CoClass Buttons SupportByLibrary MSComctlLib, 6
+             CoClass Buttons SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IButtons">
             <summary>
-             DispatchInterface IButtons SupportByLibrary MSComctlLib, 6
+             DispatchInterface IButtons SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtons.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1782,6 +1992,41 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtons.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtons.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtons.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Caption">optional object Caption</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtons.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Caption">optional object Caption</param>
+            <param name="Style">optional object Style</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtons.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtons.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -1825,7 +2070,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IImage">
             <summary>
-             DispatchInterface IImage SupportByLibrary MSComctlLib, 6
+             DispatchInterface IImage SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImage.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1858,6 +2103,21 @@
             </summary>
             <param name="hDC">Int32 hDC</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImage.Draw(System.Int32,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="hDC">Int32 hDC</param>
+            <param name="x">optional object x</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IImage.Draw(System.Int32,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="hDC">Int32 hDC</param>
+            <param name="x">optional object x</param>
+            <param name="y">optional object y</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IImage.ExtractIcon">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -1889,7 +2149,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListView">
             <summary>
-             DispatchInterface IListView SupportByLibrary MSComctlLib, 6
+             DispatchInterface IListView SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListView.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1921,6 +2181,21 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="sz">string sz</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListView.FindItem(System.String,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="sz">string sz</param>
+            <param name="Where">optional object Where</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListView.FindItem(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="sz">string sz</param>
+            <param name="Where">optional object Where</param>
+            <param name="Index">optional object Index</param>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListView.GetFirstVisible">
             <summary>
@@ -2184,7 +2459,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IVBDataObjectFiles">
             <summary>
-             DispatchInterface IVBDataObjectFiles SupportByLibrary MSComctlLib, 6
+             DispatchInterface IVBDataObjectFiles SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2226,6 +2501,11 @@
             </summary>
             <param name="vIndex">object vIndex</param>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IVBDataObjectFiles.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IVBDataObjectFiles.Item(System.Int32)">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -2241,141 +2521,141 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListColumnAlignmentConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListColumnAlignmentConstants.lvwColumnLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListColumnAlignmentConstants.lvwColumnRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListColumnAlignmentConstants.lvwColumnCenter">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants.lvwTopLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants.lvwTopRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants.lvwBottomLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants.lvwBottomRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants.lvwCenter">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListPictureAlignmentConstants.lvwTile">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwTextOnly">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwPictureText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwPlusMinusText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwPlusPictureText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwTreelinesText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwTreelinesPictureText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwTreelinesPlusMinusText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>6</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeStyleConstants.tvwTreelinesPlusMinusPictureText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>7</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TreeLineStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeLineStyleConstants.tvwTreeLines">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeLineStyleConstants.tvwRootLines">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Controls">
             <summary>
-             CoClass Controls SupportByLibrary MSComctlLib, 6
+             CoClass Controls SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Controls.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2408,12 +2688,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Slider">
             <summary>
-             CoClass Slider SupportByLibrary MSComctlLib, 6
+             CoClass Slider SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ISlider">
             <summary>
-             DispatchInterface ISlider SupportByLibrary MSComctlLib, 6
+             DispatchInterface ISlider SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ISlider.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2762,12 +3042,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Button">
             <summary>
-             CoClass Button SupportByLibrary MSComctlLib, 6
+             CoClass Button SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IButton">
             <summary>
-             DispatchInterface IButton SupportByLibrary MSComctlLib, 6
+             DispatchInterface IButton SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IButton.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2923,7 +3203,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListSubItems">
             <summary>
-             DispatchInterface IListSubItems SupportByLibrary MSComctlLib, 6
+             DispatchInterface IListSubItems SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListSubItems.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2963,6 +3243,36 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="ReportIcon">optional object ReportIcon</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IListSubItems.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -2973,6 +3283,11 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="Index">object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IListSubItems.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IListSubItems.Count">
             <summary>
@@ -2989,65 +3304,65 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListViewConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListViewConstants.lvwIcon">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListViewConstants.lvwSmallIcon">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListViewConstants.lvwList">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListViewConstants.lvwReport">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PlacementConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PlacementConstants.tabPlacementTop">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PlacementConstants.tabPlacementBottom">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PlacementConstants.tabPlacementLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PlacementConstants.tabPlacementRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListImage">
             <summary>
-             CoClass ListImage SupportByLibrary MSComctlLib, 6
+             CoClass ListImage SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListImage.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3080,7 +3395,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IButtonMenus">
             <summary>
-             DispatchInterface IButtonMenus SupportByLibrary MSComctlLib, 6
+             DispatchInterface IButtonMenus SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3136,6 +3451,24 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IButtonMenus.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
+        </member>
         <member name="P:NetOffice.MSComctlLibApi.IButtonMenus.Count">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -3151,119 +3484,119 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.MousePointerConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccDefault">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccArrow">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccCross">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccIBeam">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccIcon">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccSize">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccSizeNESW">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>6</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccSizeNS">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>7</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccSizeNWSE">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccSizeEW">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>9</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccUpArrow">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>10</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccHourglass">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>11</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccNoDrop">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>12</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccArrowHourglass">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>13</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccArrowQuestion">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>14</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccSizeAll">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>15</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.MousePointerConstants.ccCustom">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>99</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Node">
             <summary>
-             CoClass Node SupportByLibrary MSComctlLib, 6
+             CoClass Node SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.INode">
             <summary>
-             DispatchInterface INode SupportByLibrary MSComctlLib, 6
+             DispatchInterface INode SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.INode.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3471,7 +3804,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ITabStrip">
             <summary>
-             DispatchInterface ITabStrip SupportByLibrary MSComctlLib, 6
+             DispatchInterface ITabStrip SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITabStrip.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3661,122 +3994,122 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListFindItemWhereConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListFindItemWhereConstants.lvwText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListFindItemWhereConstants.lvwSubItem">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListFindItemWhereConstants.lvwTag">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrCaps">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrNum">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrIns">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrScrl">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrTime">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrDate">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>6</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelStyleConstants.sbrKana">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>7</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.SbarStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.SbarStyleConstants.sbrNormal">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.SbarStyleConstants.sbrSimple">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.OLEDragConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDragConstants.ccOLEDragManual">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDragConstants.ccOLEDragAutomatic">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ImageList">
             <summary>
-             CoClass ImageList SupportByLibrary MSComctlLib, 6
+             CoClass ImageList SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IImageList">
             <summary>
-             DispatchInterface IImageList SupportByLibrary MSComctlLib, 6
+             DispatchInterface IImageList SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImageList.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3878,7 +4211,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListView">
             <summary>
-             CoClass ListView SupportByLibrary MSComctlLib, 6
+             CoClass ListView SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListView.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4101,12 +4434,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Panels">
             <summary>
-             CoClass Panels SupportByLibrary MSComctlLib, 6
+             CoClass Panels SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IPanels">
             <summary>
-             DispatchInterface IPanels SupportByLibrary MSComctlLib, 6
+             DispatchInterface IPanels SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IPanels.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4153,6 +4486,36 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanels.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanels.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanels.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanels.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Index">optional object Index</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Style">optional object Style</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.IPanels.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -4163,6 +4526,11 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="Index">object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.IPanels.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.IPanels.Count">
             <summary>
@@ -4207,7 +4575,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.DataObject">
             <summary>
-             CoClass DataObject SupportByLibrary MSComctlLib, 6
+             CoClass DataObject SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.DataObject.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4240,122 +4608,122 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ImageComboStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageComboStyleConstants.ImgCboDropdownCombo">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageComboStyleConstants.ImgCboSimpleCombo">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ImageComboStyleConstants.ImgCboDropdownList">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TickStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TickStyleConstants.sldBottomRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TickStyleConstants.sldTopLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TickStyleConstants.sldBoth">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TickStyleConstants.sldNoTicks">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ToolbarTextAlignConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ToolbarTextAlignConstants.tbrTextAlignBottom">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ToolbarTextAlignConstants.tbrTextAlignRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants.tbrDefault">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants.tbrCheck">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants.tbrButtonGroup">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants.tbrSeparator">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants.tbrPlaceholder">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ButtonStyleConstants.tbrDropdown">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Nodes">
             <summary>
-             CoClass Nodes SupportByLibrary MSComctlLib, 6
+             CoClass Nodes SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.INodes">
             <summary>
-             DispatchInterface INodes SupportByLibrary MSComctlLib, 6
+             DispatchInterface INodes SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.INodes.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4403,6 +4771,46 @@
             SupportByLibrary MSComctlLib 6
             </summary>
         </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.Add(System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Relative">optional object Relative</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.Add(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Relative">optional object Relative</param>
+            <param name="Relationship">optional object Relationship</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.Add(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Relative">optional object Relative</param>
+            <param name="Relationship">optional object Relationship</param>
+            <param name="Key">optional object Key</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.Add(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Relative">optional object Relative</param>
+            <param name="Relationship">optional object Relationship</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary MSComctlLib 6
+            </summary>
+            <param name="Relative">optional object Relative</param>
+            <param name="Relationship">optional object Relationship</param>
+            <param name="Key">optional object Key</param>
+            <param name="Text">optional object Text</param>
+            <param name="Image">optional object Image</param>
+        </member>
         <member name="M:NetOffice.MSComctlLibApi.INodes.Clear">
             <summary>
             SupportByLibrary MSComctlLib 6
@@ -4413,6 +4821,11 @@
             SupportByLibrary MSComctlLib 6
             </summary>
             <param name="Index">object Index</param>
+        </member>
+        <member name="M:NetOffice.MSComctlLibApi.INodes.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute MSComctlLib, 6
+            </summary>
         </member>
         <member name="P:NetOffice.MSComctlLibApi.INodes.Count">
             <summary>
@@ -4457,12 +4870,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Panel">
             <summary>
-             CoClass Panel SupportByLibrary MSComctlLib, 6
+             CoClass Panel SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IPanel">
             <summary>
-             DispatchInterface IPanel SupportByLibrary MSComctlLib, 6
+             DispatchInterface IPanel SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IPanel.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4606,7 +5019,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Tabs">
             <summary>
-             CoClass Tabs SupportByLibrary MSComctlLib, 6
+             CoClass Tabs SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Tabs.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4639,7 +5052,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListSubItem">
             <summary>
-             DispatchInterface IListSubItem SupportByLibrary MSComctlLib, 6
+             DispatchInterface IListSubItem SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListSubItem.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4713,64 +5126,64 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListSortOrderConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListSortOrderConstants.lvwAscending">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListSortOrderConstants.lvwDescending">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.LabelEditConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.LabelEditConstants.tvwAutomatic">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.LabelEditConstants.tvwManual">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TabWidthStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabWidthStyleConstants.tabJustified">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabWidthStyleConstants.tabNonJustified">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabWidthStyleConstants.tabFixed">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ButtonMenus">
             <summary>
-             CoClass ButtonMenus SupportByLibrary MSComctlLib, 6
+             CoClass ButtonMenus SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ButtonMenus.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4803,7 +5216,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.DataObjectFiles">
             <summary>
-             CoClass DataObjectFiles SupportByLibrary MSComctlLib, 6
+             CoClass DataObjectFiles SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.DataObjectFiles.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4836,24 +5249,24 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ValueConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ValueConstants.tbrUnpressed">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ValueConstants.tbrPressed">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.TabStrip">
             <summary>
-             CoClass TabStrip SupportByLibrary MSComctlLib, 6
+             CoClass TabStrip SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.TabStrip.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5026,7 +5439,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IImageCombo">
             <summary>
-             DispatchInterface IImageCombo SupportByLibrary MSComctlLib, 6
+             DispatchInterface IImageCombo SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IImageCombo.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5186,7 +5599,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IListItem">
             <summary>
-             DispatchInterface IListItem SupportByLibrary MSComctlLib, 6
+             DispatchInterface IListItem SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IListItem.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5338,24 +5751,24 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.PanelAutoSizeConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelAutoSizeConstants.sbrNoAutoSize">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelAutoSizeConstants.sbrSpring">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.PanelAutoSizeConstants.sbrContents">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
@@ -5366,7 +5779,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Toolbar">
             <summary>
-             CoClass Toolbar SupportByLibrary MSComctlLib, 6
+             CoClass Toolbar SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.Toolbar.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5549,47 +5962,47 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListArrangeConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListArrangeConstants.lvwNone">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListArrangeConstants.lvwAutoLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListArrangeConstants.lvwAutoTop">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TabSelStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabSelStyleConstants.tabTabStandard">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabSelStyleConstants.tabTabOpposite">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListSubItem">
             <summary>
-             CoClass ListSubItem SupportByLibrary MSComctlLib, 6
+             CoClass ListSubItem SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListSubItem.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5622,7 +6035,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ITreeView">
             <summary>
-             DispatchInterface ITreeView SupportByLibrary MSComctlLib, 6
+             DispatchInterface ITreeView SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ITreeView.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -5824,81 +6237,81 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListTextBackgroundConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListTextBackgroundConstants.lvwTransparent">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListTextBackgroundConstants.lvwOpaque">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ToolbarStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ToolbarStyleConstants.tbrStandard">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ToolbarStyleConstants.tbrFlat">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.DragOverConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.DragOverConstants.ccEnter">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.DragOverConstants.ccLeave">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.DragOverConstants.ccOver">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.AppearanceConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.AppearanceConstants.ccFlat">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.AppearanceConstants.cc3D">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ImageCombo">
             <summary>
-             CoClass ImageCombo SupportByLibrary MSComctlLib, 6
+             CoClass ImageCombo SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ImageCombo.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6051,12 +6464,12 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.StatusBar">
             <summary>
-             CoClass StatusBar SupportByLibrary MSComctlLib, 6
+             CoClass StatusBar SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.IStatusBar">
             <summary>
-             DispatchInterface IStatusBar SupportByLibrary MSComctlLib, 6
+             DispatchInterface IStatusBar SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.IStatusBar.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6315,64 +6728,64 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListFindItemHowConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListFindItemHowConstants.lvwWhole">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListFindItemHowConstants.lvwPartial">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TabStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabStyleConstants.tabTabs">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabStyleConstants.tabButtons">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TabStyleConstants.tabFlatButtons">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.BorderStyleConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.BorderStyleConstants.ccNone">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.BorderStyleConstants.ccFixedSingle">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ColumnHeader">
             <summary>
-             CoClass ColumnHeader SupportByLibrary MSComctlLib, 6
+             CoClass ColumnHeader SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ColumnHeader.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6405,7 +6818,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListItem">
             <summary>
-             CoClass ListItem SupportByLibrary MSComctlLib, 6
+             CoClass ListItem SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListItem.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6438,105 +6851,105 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TextPositionConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TextPositionConstants.sldAboveLeft">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TextPositionConstants.sldBelowRight">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ListLabelEditConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListLabelEditConstants.lvwAutomatic">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ListLabelEditConstants.lvwManual">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.TreeRelationshipConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeRelationshipConstants.tvwFirst">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeRelationshipConstants.tvwLast">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeRelationshipConstants.tvwNext">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeRelationshipConstants.tvwPrevious">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.TreeRelationshipConstants.tvwChild">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.OLEDropEffectConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDropEffectConstants.ccOLEDropEffectNone">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDropEffectConstants.ccOLEDropEffectCopy">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDropEffectConstants.ccOLEDropEffectMove">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.OLEDropEffectConstants.ccOLEDropEffectScroll">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>-2147483648</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListSubItems">
             <summary>
-             CoClass ListSubItems SupportByLibrary MSComctlLib, 6
+             CoClass ListSubItems SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListSubItems.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6569,7 +6982,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ListItems">
             <summary>
-             CoClass ListItems SupportByLibrary MSComctlLib, 6
+             CoClass ListItems SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ListItems.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6602,60 +7015,60 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFText">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFBitmap">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFMetafile">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFDIB">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFPalette">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>9</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFEMetafile">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>14</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFFiles">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>15</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.ClipBoardConstants.ccCFRTF">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>-16639</remarks>
         </member>
         <member name="T:NetOffice.MSComctlLibApi.ComboItem">
             <summary>
-             CoClass ComboItem SupportByLibrary MSComctlLib, 6
+             CoClass ComboItem SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.ComboItem.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6688,7 +7101,7 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.TreeView">
             <summary>
-             CoClass TreeView SupportByLibrary MSComctlLib, 6
+             CoClass TreeView SupportByLibraryAttribute MSComctlLib, 6
             </summary>
         </member>
         <member name="M:NetOffice.MSComctlLibApi.TreeView.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -6921,18 +7334,18 @@
         </member>
         <member name="T:NetOffice.MSComctlLibApi.Enums.VB4AppearanceConstants">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.VB4AppearanceConstants.vbFlat">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.MSComctlLibApi.Enums.VB4AppearanceConstants.vb3D">
             <summary>
-            SupportByLibrary MSComctlLib 6, 
+            SupportByLibrary MSComctlLib 6
             </summary>
             <remarks>1</remarks>
         </member>

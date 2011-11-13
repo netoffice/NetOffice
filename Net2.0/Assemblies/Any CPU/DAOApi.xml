@@ -6,17 +6,17 @@
     <members>
         <member name="T:NetOffice.DAOApi.DBEngine">
             <summary>
-             CoClass DBEngine SupportByLibrary DAO, 6,12
+             CoClass DBEngine SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._DBEngine">
             <summary>
-             DispatchInterface _DBEngine SupportByLibrary DAO, 6,12
+             DispatchInterface _DBEngine SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._DAO">
             <summary>
-             DispatchInterface _DAO SupportByLibrary DAO, 6,12
+             DispatchInterface _DAO SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._DAO.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -83,6 +83,23 @@
             <param name="SrcName">string SrcName</param>
             <param name="DstName">string DstName</param>
         </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.CompactDatabase(System.String,System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="SrcName">string SrcName</param>
+            <param name="DstName">string DstName</param>
+            <param name="DstLocale">optional object DstLocale</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.CompactDatabase(System.String,System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="SrcName">string SrcName</param>
+            <param name="DstName">string DstName</param>
+            <param name="DstLocale">optional object DstLocale</param>
+            <param name="Options">optional object Options</param>
+        </member>
         <member name="M:NetOffice.DAOApi._DBEngine.RepairDatabase(System.String)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -120,6 +137,21 @@
             SupportByLibrary DAO 6, 12
             </summary>
             <param name="Name">string Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.OpenDatabase(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.OpenDatabase(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
         </member>
         <member name="M:NetOffice.DAOApi._DBEngine.CreateDatabase(System.String,System.String,System.Object)">
             <summary>
@@ -216,6 +248,21 @@
             </summary>
             <param name="Name">string Name</param>
         </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.OpenConnection(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._DBEngine.OpenConnection(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
+        </member>
         <member name="M:NetOffice.DAOApi._DBEngine.SetOption(System.Int32,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -307,7 +354,7 @@
         </member>
         <member name="T:NetOffice.DAOApi._Group">
             <summary>
-             DispatchInterface _Group SupportByLibrary DAO, 6,12
+             DispatchInterface _Group SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._Group.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -338,6 +385,19 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._Group.CreateUser(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Group.CreateUser(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="PID">optional object PID</param>
+        </member>
         <member name="P:NetOffice.DAOApi._Group.Name">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -358,7 +418,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Recordset">
             <summary>
-             DispatchInterface Recordset SupportByLibrary DAO, 6,12
+             DispatchInterface Recordset SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Recordset.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -416,6 +476,12 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.OpenRecordset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
         </member>
         <member name="M:NetOffice.DAOApi.Recordset.Delete">
             <summary>
@@ -497,6 +563,149 @@
             <param name="Comparison">string Comparison</param>
             <param name="Key1">object Key1</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+            <param name="Key8">optional object Key8</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+            <param name="Key8">optional object Key8</param>
+            <param name="Key9">optional object Key9</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+            <param name="Key8">optional object Key8</param>
+            <param name="Key9">optional object Key9</param>
+            <param name="Key10">optional object Key10</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+            <param name="Key8">optional object Key8</param>
+            <param name="Key9">optional object Key9</param>
+            <param name="Key10">optional object Key10</param>
+            <param name="Key11">optional object Key11</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.Seek(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Comparison">string Comparison</param>
+            <param name="Key1">object Key1</param>
+            <param name="Key2">optional object Key2</param>
+            <param name="Key3">optional object Key3</param>
+            <param name="Key4">optional object Key4</param>
+            <param name="Key5">optional object Key5</param>
+            <param name="Key6">optional object Key6</param>
+            <param name="Key7">optional object Key7</param>
+            <param name="Key8">optional object Key8</param>
+            <param name="Key9">optional object Key9</param>
+            <param name="Key10">optional object Key10</param>
+            <param name="Key11">optional object Key11</param>
+            <param name="Key12">optional object Key12</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Recordset._30_Update">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -543,6 +752,12 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Recordset.FillCache(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Rows">optional object Rows</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Recordset.CreateDynaset(System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -554,6 +769,12 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Recordset.CreateDynaset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Options">optional object Options</param>
         </member>
         <member name="M:NetOffice.DAOApi.Recordset.CreateSnapshot(System.Object)">
             <summary>
@@ -851,17 +1072,17 @@
         </member>
         <member name="T:NetOffice.DAOApi.Indexes">
             <summary>
-             DispatchInterface Indexes SupportByLibrary DAO, 6,12
+             DispatchInterface Indexes SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._DynaCollection">
             <summary>
-             DispatchInterface _DynaCollection SupportByLibrary DAO, 6,12
+             DispatchInterface _DynaCollection SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._Collection">
             <summary>
-             DispatchInterface _Collection SupportByLibrary DAO, 6,12
+             DispatchInterface _Collection SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._Collection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -882,6 +1103,11 @@
         <member name="M:NetOffice.DAOApi._Collection.Refresh">
             <summary>
             SupportByLibrary DAO 6, 12
+            </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._Collection.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="P:NetOffice.DAOApi._Collection.Count">
@@ -937,6 +1163,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Indexes.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Indexes.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -952,154 +1183,154 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.DatabaseTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion10">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbEncrypt">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbDecrypt">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion11">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion20">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion30">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion40">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>64</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion120">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>128</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DatabaseTypeEnum.dbVersion140">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>256</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.QueryDefTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQSelect">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQProcedure">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>224</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQAction">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>240</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQCrosstab">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQDelete">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQUpdate">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>48</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQAppend">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>64</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQMakeTable">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>80</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQDDL">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>96</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQSQLPassThrough">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>112</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQSetOperation">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>128</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQSPTBulk">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>144</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefTypeEnum.dbQCompound">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>160</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.User">
             <summary>
-             CoClass User SupportByLibrary DAO, 6,12
+             CoClass User SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._User">
             <summary>
-             DispatchInterface _User SupportByLibrary DAO, 6,12
+             DispatchInterface _User SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._User.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1135,6 +1366,12 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._User.CreateGroup(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
         </member>
         <member name="P:NetOffice.DAOApi._User.Name">
             <summary>
@@ -1190,12 +1427,12 @@
         </member>
         <member name="T:NetOffice.DAOApi.TableDef">
             <summary>
-             CoClass TableDef SupportByLibrary DAO, 6,12
+             CoClass TableDef SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._TableDef">
             <summary>
-             DispatchInterface _TableDef SupportByLibrary DAO, 6,12
+             DispatchInterface _TableDef SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._TableDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1225,6 +1462,12 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._TableDef.OpenRecordset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
+        </member>
         <member name="M:NetOffice.DAOApi._TableDef.RefreshLink">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -1242,6 +1485,19 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._TableDef.CreateField(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._TableDef.CreateField(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
         </member>
         <member name="M:NetOffice.DAOApi._TableDef.CreateIndex(System.Object)">
             <summary>
@@ -1267,6 +1523,27 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._TableDef.CreateProperty(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._TableDef.CreateProperty(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._TableDef.CreateProperty(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
         </member>
         <member name="P:NetOffice.DAOApi._TableDef.Attributes">
             <summary>
@@ -1382,7 +1659,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Documents">
             <summary>
-             DispatchInterface Documents SupportByLibrary DAO, 6,12
+             DispatchInterface Documents SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Documents.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1409,7 +1686,7 @@
         </member>
         <member name="T:NetOffice.DAOApi._Field">
             <summary>
-             DispatchInterface _Field SupportByLibrary DAO, 6,12
+             DispatchInterface _Field SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._Field.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1458,6 +1735,27 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._Field.CreateProperty(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Field.CreateProperty(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Field.CreateProperty(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
         </member>
         <member name="P:NetOffice.DAOApi._Field.CollatingOrder">
             <summary>
@@ -1587,7 +1885,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Workspace">
             <summary>
-             DispatchInterface Workspace SupportByLibrary DAO, 6,12
+             DispatchInterface Workspace SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Workspace.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1641,6 +1939,21 @@
             </summary>
             <param name="Name">string Name</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Workspace.OpenDatabase(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Workspace.OpenDatabase(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Workspace.CreateDatabase(System.String,System.String,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -1669,6 +1982,19 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Workspace.CreateUser(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Workspace.CreateUser(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="PID">optional object PID</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Workspace.CreateGroup(System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -1680,6 +2006,12 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Workspace.CreateGroup(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
         </member>
         <member name="M:NetOffice.DAOApi.Workspace.OpenConnection(System.String,System.Object,System.Object,System.Object)">
             <summary>
@@ -1695,6 +2027,21 @@
             SupportByLibrary DAO 6, 12
             </summary>
             <param name="Name">string Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Workspace.OpenConnection(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Workspace.OpenConnection(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+            <param name="ReadOnly">optional object ReadOnly</param>
         </member>
         <member name="P:NetOffice.DAOApi.Workspace.Name">
             <summary>
@@ -1776,24 +2123,24 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.QueryDefStateEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefStateEnum.dbQPrepare">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.QueryDefStateEnum.dbQUnprepare">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.IndexFields">
             <summary>
-             DispatchInterface IndexFields SupportByLibrary DAO, 6,12
+             DispatchInterface IndexFields SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.IndexFields.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -1816,6 +2163,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.IndexFields.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.IndexFields.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -1831,238 +2183,238 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.WorkspaceTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.WorkspaceTypeEnum.dbUseODBC">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.WorkspaceTypeEnum.dbUseJet">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.SynchronizeTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SynchronizeTypeEnum.dbRepExportChanges">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SynchronizeTypeEnum.dbRepImportChanges">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SynchronizeTypeEnum.dbRepImpExpChanges">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SynchronizeTypeEnum.dbRepSyncInternet">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.DataTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbBoolean">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbByte">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbInteger">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbLong">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbCurrency">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbSingle">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>6</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbDouble">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>7</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbDate">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbBinary">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>9</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbText">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>10</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbLongBinary">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>11</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbMemo">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>12</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbGUID">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>15</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbBigInt">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbVarBinary">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>17</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbChar">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>18</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbNumeric">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>19</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbDecimal">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>20</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbFloat">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>21</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbTime">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>22</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbTimeStamp">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>23</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbAttachment">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>101</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexByte">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>102</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexInteger">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>103</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexLong">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>104</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexSingle">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>105</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexDouble">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>106</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexGUID">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>107</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexDecimal">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>108</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DataTypeEnum.dbComplexText">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>109</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Group">
             <summary>
-             CoClass Group SupportByLibrary DAO, 6,12
+             CoClass Group SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Group.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2095,12 +2447,12 @@
         </member>
         <member name="T:NetOffice.DAOApi.QueryDef">
             <summary>
-             CoClass QueryDef SupportByLibrary DAO, 6,12
+             CoClass QueryDef SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._QueryDef">
             <summary>
-             DispatchInterface _QueryDef SupportByLibrary DAO, 6,12
+             DispatchInterface _QueryDef SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._QueryDef.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2135,6 +2487,12 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._QueryDef._30_OpenRecordset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
+        </member>
         <member name="M:NetOffice.DAOApi._QueryDef._30__OpenRecordset(System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2146,6 +2504,12 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef._30__OpenRecordset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
         </member>
         <member name="M:NetOffice.DAOApi._QueryDef._Copy">
             <summary>
@@ -2182,6 +2546,12 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.CreateDynaset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Options">optional object Options</param>
+        </member>
         <member name="M:NetOffice.DAOApi._QueryDef.CreateSnapshot(System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2212,6 +2582,27 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.CreateProperty(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.CreateProperty(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.CreateProperty(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
+        </member>
         <member name="M:NetOffice.DAOApi._QueryDef.OpenRecordset(System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2225,6 +2616,19 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.OpenRecordset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef.OpenRecordset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
         <member name="M:NetOffice.DAOApi._QueryDef._OpenRecordset(System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2237,6 +2641,19 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef._OpenRecordset(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._QueryDef._OpenRecordset(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
         </member>
         <member name="M:NetOffice.DAOApi._QueryDef.Cancel">
             <summary>
@@ -2375,7 +2792,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Field">
             <summary>
-             CoClass Field SupportByLibrary DAO, 6,12
+             CoClass Field SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Field.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2408,7 +2825,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Relations">
             <summary>
-             DispatchInterface Relations SupportByLibrary DAO, 6,12
+             DispatchInterface Relations SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Relations.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2431,6 +2848,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Relations.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Relations.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2446,7 +2868,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Parameters">
             <summary>
-             DispatchInterface Parameters SupportByLibrary DAO, 6,12
+             DispatchInterface Parameters SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Parameters.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2473,30 +2895,30 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.EditModeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.EditModeEnum.dbEditNone">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.EditModeEnum.dbEditInProgress">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.EditModeEnum.dbEditAdd">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Error">
             <summary>
-             DispatchInterface Error SupportByLibrary DAO, 6,12
+             DispatchInterface Error SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Error.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2546,7 +2968,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Container">
             <summary>
-             DispatchInterface Container SupportByLibrary DAO, 6,12
+             DispatchInterface Container SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Container.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2608,7 +3030,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Parameter">
             <summary>
-             DispatchInterface Parameter SupportByLibrary DAO, 6,12
+             DispatchInterface Parameter SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Parameter.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2652,7 +3074,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Property">
             <summary>
-             DispatchInterface Property SupportByLibrary DAO, 6,12
+             DispatchInterface Property SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Property.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2696,12 +3118,12 @@
         </member>
         <member name="T:NetOffice.DAOApi.Relation">
             <summary>
-             CoClass Relation SupportByLibrary DAO, 6,12
+             CoClass Relation SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="T:NetOffice.DAOApi._Relation">
             <summary>
-             DispatchInterface _Relation SupportByLibrary DAO, 6,12
+             DispatchInterface _Relation SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._Relation.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2731,6 +3153,19 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._Relation.CreateField(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Relation.CreateField(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
         </member>
         <member name="P:NetOffice.DAOApi._Relation.Name">
             <summary>
@@ -2798,7 +3233,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Errors">
             <summary>
-             DispatchInterface Errors SupportByLibrary DAO, 6,12
+             DispatchInterface Errors SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Errors.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2825,7 +3260,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Groups">
             <summary>
-             DispatchInterface Groups SupportByLibrary DAO, 6,12
+             DispatchInterface Groups SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Groups.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2848,6 +3283,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Groups.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Groups.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -2863,7 +3303,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Containers">
             <summary>
-             DispatchInterface Containers SupportByLibrary DAO, 6,12
+             DispatchInterface Containers SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Containers.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -2890,174 +3330,174 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.CollatingOrderEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortNeutral">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1024</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortArabic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1025</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortCyrillic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1049</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortCzech">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1029</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortDutch">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1043</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortGeneral">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1033</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortGreek">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1032</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortHebrew">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1037</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortHungarian">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1038</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortIcelandic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1039</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortNorwdan">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1030</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortPDXIntl">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1033</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortPDXNor">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1030</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortPDXSwe">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1053</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortPolish">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1045</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortSpanish">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1034</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortSwedFin">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1053</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortTurkish">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1055</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortJapanese">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1041</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortChineseSimplified">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2052</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortChineseTraditional">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1028</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortKorean">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1042</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortThai">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1054</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortSlovenian">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1060</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortUndefined">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>-1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortJapaneseRadicalStrokeCount">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>263185</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CollatingOrderEnum.dbSortHindi">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>1081</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Databases">
             <summary>
-             DispatchInterface Databases SupportByLibrary DAO, 6,12
+             DispatchInterface Databases SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Databases.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3084,219 +3524,219 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums._DAOSuppHelp">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums._DAOSuppHelp.LogMessages">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums._DAOSuppHelp.KeepLocal">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums._DAOSuppHelp.Replicable">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums._DAOSuppHelp.ReplicableBool">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums._DAOSuppHelp.V1xNullBehavior">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.CommitTransOptionsEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CommitTransOptionsEnum.dbForceOSFlush">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.SetOptionEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbPageTimeout">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>6</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbLockRetry">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>57</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbMaxBufferSize">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbUserCommitSync">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>58</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbImplicitCommitSync">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>59</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbExclusiveAsyncDelay">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>60</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbSharedAsyncDelay">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>61</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbMaxLocksPerFile">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>62</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbLockDelay">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>63</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbRecycleLVs">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>65</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbFlushTransactionTimeout">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>66</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbPasswordEncryptionProvider">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>80</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbPasswordEncryptionAlgorithm">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>81</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.SetOptionEnum.dbPasswordEncryptionKeyLength">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
             <remarks>82</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.RecordsetOptionEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbDenyWrite">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbDenyRead">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbReadOnly">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbAppendOnly">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbInconsistent">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbConsistent">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbSQLPassThrough">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>64</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbFailOnError">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>128</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbForwardOnly">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>256</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbSeeChanges">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>512</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbRunAsync">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1024</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetOptionEnum.dbExecDirect">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2048</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.PrivDBEngine">
             <summary>
-             CoClass PrivDBEngine SupportByLibrary DAO, 6,12
+             CoClass PrivDBEngine SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.PrivDBEngine.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3329,7 +3769,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.TableDefs">
             <summary>
-             DispatchInterface TableDefs SupportByLibrary DAO, 6,12
+             DispatchInterface TableDefs SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.TableDefs.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3352,6 +3792,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.TableDefs.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.TableDefs.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3367,7 +3812,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Recordset2">
             <summary>
-             DispatchInterface Recordset2 SupportByLibrary DAO, 12
+             DispatchInterface Recordset2 SupportByLibraryAttribute DAO, 12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Recordset2.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3399,7 +3844,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Field2">
             <summary>
-             DispatchInterface Field2 SupportByLibrary DAO, 12
+             DispatchInterface Field2 SupportByLibraryAttribute DAO, 12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Field2.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3461,7 +3906,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.ComplexType">
             <summary>
-             DispatchInterface ComplexType SupportByLibrary DAO, 12
+             DispatchInterface ComplexType SupportByLibraryAttribute DAO, 12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.ComplexType.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3487,7 +3932,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Document">
             <summary>
-             DispatchInterface Document SupportByLibrary DAO, 6,12
+             DispatchInterface Document SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Document.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3518,6 +3963,27 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Document.CreateProperty(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Document.CreateProperty(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Document.CreateProperty(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
         </member>
         <member name="P:NetOffice.DAOApi.Document.Name">
             <summary>
@@ -3569,7 +4035,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Connections">
             <summary>
-             DispatchInterface Connections SupportByLibrary DAO, 6,12
+             DispatchInterface Connections SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Connections.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3596,118 +4062,118 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.ReplicaTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.ReplicaTypeEnum.dbRepMakeReadOnly">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.ReplicaTypeEnum.dbRepMakePartial">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.RelationAttributeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationUnique">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationDontEnforce">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationInherited">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationUpdateCascade">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>256</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationDeleteCascade">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4096</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationLeft">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16777216</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RelationAttributeEnum.dbRelationRight">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>33554432</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.FieldAttributeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbFixedField">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbVariableField">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbAutoIncrField">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbUpdatableField">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbSystemField">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8192</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbHyperlinkField">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32768</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.FieldAttributeEnum.dbDescending">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Recordsets">
             <summary>
-             DispatchInterface Recordsets SupportByLibrary DAO, 6,12
+             DispatchInterface Recordsets SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Recordsets.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3734,7 +4200,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Properties">
             <summary>
-             DispatchInterface Properties SupportByLibrary DAO, 6,12
+             DispatchInterface Properties SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Properties.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3757,6 +4223,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Properties.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Properties.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3772,108 +4243,108 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.PermissionEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecNoAccess">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecFullAccess">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1048575</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecDelete">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>65536</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecReadSec">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>131072</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecWriteSec">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>262144</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecWriteOwner">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>524288</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecDBCreate">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecDBOpen">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecDBExclusive">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecDBAdmin">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecCreate">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecReadDef">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecWriteDef">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>65548</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecRetrieveData">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>20</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecInsertData">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecReplaceData">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>64</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.PermissionEnum.dbSecDeleteData">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>128</remarks>
         </member>
@@ -3884,7 +4355,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Connection">
             <summary>
-             DispatchInterface Connection SupportByLibrary DAO, 6,12
+             DispatchInterface Connection SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Connection.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -3924,6 +4395,12 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Connection.CreateQueryDef(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Connection.Execute(System.String,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -3951,6 +4428,21 @@
             SupportByLibrary DAO 6, 12
             </summary>
             <param name="Name">string Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Connection.OpenRecordset(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Connection.OpenRecordset(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
         </member>
         <member name="P:NetOffice.DAOApi.Connection.Name">
             <summary>
@@ -4020,7 +4512,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Fields">
             <summary>
-             DispatchInterface Fields SupportByLibrary DAO, 6,12
+             DispatchInterface Fields SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Fields.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4043,6 +4535,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Fields.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Fields.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4058,7 +4555,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Workspaces">
             <summary>
-             DispatchInterface Workspaces SupportByLibrary DAO, 6,12
+             DispatchInterface Workspaces SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Workspaces.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4081,6 +4578,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Workspaces.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Workspaces.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4096,65 +4598,65 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.IdleEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.IdleEnum.dbFreeLocks">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.IdleEnum.dbRefreshCache">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.TableDefAttributeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.TableDefAttributeEnum.dbAttachExclusive">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>65536</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.TableDefAttributeEnum.dbAttachSavePWD">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>131072</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.TableDefAttributeEnum.dbSystemObject">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>-2147483646</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.TableDefAttributeEnum.dbAttachedTable">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1073741824</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.TableDefAttributeEnum.dbAttachedODBC">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>536870912</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.TableDefAttributeEnum.dbHiddenObject">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="T:NetOffice.DAOApi._Index">
             <summary>
-             DispatchInterface _Index SupportByLibrary DAO, 6,12
+             DispatchInterface _Index SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi._Index.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4185,6 +4687,19 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi._Index.CreateField(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Index.CreateField(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
         <member name="M:NetOffice.DAOApi._Index.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4198,6 +4713,27 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi._Index.CreateProperty(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Index.CreateProperty(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi._Index.CreateProperty(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
         </member>
         <member name="P:NetOffice.DAOApi._Index.Name">
             <summary>
@@ -4255,7 +4791,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Database">
             <summary>
-             DispatchInterface Database SupportByLibrary DAO, 6,12
+             DispatchInterface Database SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Database.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4305,6 +4841,13 @@
             </summary>
             <param name="Name">string Name</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Database._30_OpenRecordset(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Database.CreateProperty(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4318,6 +4861,27 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateProperty(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateProperty(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateProperty(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Value">optional object Value</param>
         </member>
         <member name="M:NetOffice.DAOApi.Database.CreateRelation(System.Object,System.Object,System.Object,System.Object)">
             <summary>
@@ -4333,6 +4897,27 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateRelation(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateRelation(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Table">optional object Table</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateRelation(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Table">optional object Table</param>
+            <param name="ForeignTable">optional object ForeignTable</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Database.CreateTableDef(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4346,6 +4931,27 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateTableDef(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateTableDef(System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Attributes">optional object Attributes</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateTableDef(System.Object,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
+            <param name="Attributes">optional object Attributes</param>
+            <param name="SourceTableName">optional object SourceTableName</param>
         </member>
         <member name="M:NetOffice.DAOApi.Database.BeginTrans">
             <summary>
@@ -4377,6 +4983,13 @@
             </summary>
             <param name="Name">string Name</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateDynaset(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Options">optional object Options</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Database.CreateQueryDef(System.Object,System.Object)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4388,6 +5001,12 @@
             <summary>
             SupportByLibrary DAO 6, 12
             </summary>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.CreateQueryDef(System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">optional object Name</param>
         </member>
         <member name="M:NetOffice.DAOApi.Database.CreateSnapshot(System.String,System.Object)">
             <summary>
@@ -4494,6 +5113,21 @@
             </summary>
             <param name="Name">string Name</param>
         </member>
+        <member name="M:NetOffice.DAOApi.Database.OpenRecordset(System.String,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+        </member>
+        <member name="M:NetOffice.DAOApi.Database.OpenRecordset(System.String,System.Object,System.Object)">
+            <summary>
+            SupportByLibrary DAO 6, 12
+            </summary>
+            <param name="Name">string Name</param>
+            <param name="Type">optional object Type</param>
+            <param name="Options">optional object Options</param>
+        </member>
         <member name="M:NetOffice.DAOApi.Database.PopulatePartial(System.String)">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4598,199 +5232,199 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.UpdateCriteriaEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaKey">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaModValues">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaAllCols">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaTimestamp">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaDeleteInsert">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateCriteriaEnum.dbCriteriaUpdate">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>32</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.LockTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.LockTypeEnum.dbPessimistic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.LockTypeEnum.dbOptimistic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.LockTypeEnum.dbOptimisticValue">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.LockTypeEnum.dbOptimisticBatch">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>5</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.RecordsetTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetTypeEnum.dbOpenTable">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetTypeEnum.dbOpenDynaset">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetTypeEnum.dbOpenSnapshot">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetTypeEnum.dbOpenForwardOnly">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>8</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordsetTypeEnum.dbOpenDynamic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>16</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.UpdateTypeEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateTypeEnum.dbUpdateBatch">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateTypeEnum.dbUpdateRegular">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.UpdateTypeEnum.dbUpdateCurrentRecord">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.ParameterDirectionEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.ParameterDirectionEnum.dbParamInput">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.ParameterDirectionEnum.dbParamOutput">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.ParameterDirectionEnum.dbParamInputOutput">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.ParameterDirectionEnum.dbParamReturnValue">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.CursorDriverEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CursorDriverEnum.dbUseDefaultCursor">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>-1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CursorDriverEnum.dbUseODBCCursor">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CursorDriverEnum.dbUseServerCursor">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CursorDriverEnum.dbUseClientBatchCursor">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.CursorDriverEnum.dbUseNoCursor">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Index">
             <summary>
-             CoClass Index SupportByLibrary DAO, 6,12
+             CoClass Index SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Index.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4823,7 +5457,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.Users">
             <summary>
-             DispatchInterface Users SupportByLibrary DAO, 6,12
+             DispatchInterface Users SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.Users.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4846,6 +5480,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.Users.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.Users.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4861,7 +5500,7 @@
         </member>
         <member name="T:NetOffice.DAOApi.QueryDefs">
             <summary>
-             DispatchInterface QueryDefs SupportByLibrary DAO, 6,12
+             DispatchInterface QueryDefs SupportByLibraryAttribute DAO, 6,12
             </summary>
         </member>
         <member name="M:NetOffice.DAOApi.QueryDefs.#ctor(LateBindingApi.Core.COMObject,System.Object)">
@@ -4884,6 +5523,11 @@
             SupportByLibrary DAO 6, 12
             </summary>
         </member>
+        <member name="M:NetOffice.DAOApi.QueryDefs.GetEnumerator">
+            <summary>
+            SupportByLibraryAttribute DAO, 6,12
+            </summary>
+        </member>
         <member name="P:NetOffice.DAOApi.QueryDefs.Count">
             <summary>
             SupportByLibrary DAO 6, 12
@@ -4899,186 +5543,186 @@
         </member>
         <member name="T:NetOffice.DAOApi.Enums.RecordStatusEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordStatusEnum.dbRecordUnmodified">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordStatusEnum.dbRecordModified">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordStatusEnum.dbRecordNew">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordStatusEnum.dbRecordDeleted">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.RecordStatusEnum.dbRecordDBDeleted">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>4</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Enums.DriverPromptEnum">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DriverPromptEnum.dbDriverPrompt">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>2</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DriverPromptEnum.dbDriverNoPrompt">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>1</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DriverPromptEnum.dbDriverComplete">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>0</remarks>
         </member>
         <member name="F:NetOffice.DAOApi.Enums.DriverPromptEnum.dbDriverCompleteRequired">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
             <remarks>3</remarks>
         </member>
         <member name="T:NetOffice.DAOApi.Constants.LanguageConstants">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangArabic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangCzech">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangDutch">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangGeneral">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangGreek">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangHebrew">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangHungarian">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangIcelandic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangNordic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangNorwDan">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangPolish">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangCyrillic">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangSpanish">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangSwedFin">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangTurkish">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangJapanese">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangChineseSimplified">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangChineseTraditional">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangKorean">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangThai">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangSlovenian">
             <summary>
-            SupportByLibrary DAO 6, 12, 
+            SupportByLibrary DAO 6, 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangJapaneseRadicalStrokeCount">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
         </member>
         <member name="F:NetOffice.DAOApi.Constants.LanguageConstants.dbLangHindi">
             <summary>
-            SupportByLibrary DAO 12, 
+            SupportByLibrary DAO 12
             </summary>
         </member>
     </members>
