@@ -578,7 +578,7 @@
         </member>
         <member name="T:LateBindingApi.Core.SupportEntityType">
             <summary>
-            search parameter for the SupportEntity Method
+            search parameter for the EntityIsAvailable Method
             </summary>
         </member>
         <member name="F:LateBindingApi.Core.SupportEntityType.Both">

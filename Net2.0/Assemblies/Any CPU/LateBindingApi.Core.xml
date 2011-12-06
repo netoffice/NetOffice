@@ -112,6 +112,16 @@
             default is true
              </summary>
         </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableAutomaticQuit">
+            <summary>
+            Get or set the Quit() method for an application object was automaticly called while Dispose()
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableAdHocLoading">
+            <summary>
+            Get or set Factory.Initialize() try to load non loaded dependend assemblies to fetch type informations
+            </summary>
+        </member>
         <member name="T:LateBindingApi.Core.IEventBinding">
             <summary>
             EventBinding Interface
@@ -388,6 +398,11 @@
             returns instance is an enumerator
             </summary>
         </member>
+        <member name="F:LateBindingApi.Core.COMObject._callQuitInDispose">
+            <summary>
+            returns instance implement quit method and dispose call them automaticly
+            </summary>
+        </member>
         <member name="F:LateBindingApi.Core.COMObject._isCurrentlyDisposing">
             <summary>
             returns instance is currently in diposing progress
@@ -472,19 +487,13 @@
         </member>
         <member name="M:LateBindingApi.Core.COMObject.CreateFromProgId(System.String)">
             <summary>
-            create object from progid
+            NetOffice method: create object from progid
             </summary>
             <param name="progId"></param>
         </member>
-        <member name="M:LateBindingApi.Core.COMObject.AddChildObject(LateBindingApi.Core.IObject)">
-            <summary>
-            add object to child list
-            </summary>
-            <param name="childObject"></param>
-        </member>
         <member name="M:LateBindingApi.Core.COMObject.AddChildObject(LateBindingApi.Core.COMObject)">
             <summary>
-            add object to child list
+             NetOffice method: add object to child list
             </summary>
             <param name="childObject"></param>
         </member>
@@ -496,8 +505,14 @@
         </member>
         <member name="M:LateBindingApi.Core.COMObject.ReleaseCOMProxy">
             <summary>
-            release com proxy
+             NetOffice method: release com proxy
             </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.COMObject.CallQuit(System.Object)">
+            <summary>
+            calls Quit for a proxy
+            </summary>
+            <param name="proxy"></param>
         </member>
         <member name="M:LateBindingApi.Core.COMObject.Dispose(System.Boolean)">
             <summary>
@@ -523,12 +538,12 @@
         </member>
         <member name="P:LateBindingApi.Core.COMObject.UnderlyingObject">
             <summary>
-            returns the native wrapped proxy
+            NetOffice property: returns the native wrapped proxy
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.UnderlyingTypeName">
             <summary>
-            returns class name of native wrapped proxy
+            NetOffice property: returns class name of native wrapped proxy
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.IsDisposed">
@@ -538,32 +553,32 @@
         </member>
         <member name="P:LateBindingApi.Core.COMObject.InstanceType">
             <summary>
-            returns Type of native proxy
+            NetOffice property: returns Type of native proxy
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.ParentObject">
             <summary>
-            returns parent proxy object
+            NetOffice property: returns parent proxy object
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.IsCurrentlyDisposing">
             <summary>
-            returns instance is currently in diposing progress
+            NetOffice property: returns instance is currently in diposing progress
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.IsEventBind">
             <summary>
-            returns instance export events
+            NetOffice property: returns instance export events
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.EventBridgeInitialized">
             <summary>
-            returns event bridge is advised
+            NetOffice property: returns event bridge is advised
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.HasEventRecipients">
             <summary>
-             retuns instance has one or more event recipients
+            NetOffice property: retuns instance has one or more event recipients
             </summary>
         </member>
         <member name="P:LateBindingApi.Core.COMObject.ListChildObjects">
@@ -578,7 +593,7 @@
         </member>
         <member name="T:LateBindingApi.Core.SupportEntityType">
             <summary>
-            search parameter for the SupportEntity Method
+            search parameter for the EntityIsAvailable Method
             </summary>
         </member>
         <member name="F:LateBindingApi.Core.SupportEntityType.Both">
@@ -594,31 +609,6 @@
         <member name="F:LateBindingApi.Core.SupportEntityType.Method">
             <summary>
             looking for a method only
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.IObject">
-            <summary>
-            root interface of all latebinding objects
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IObject.UnderlyingObject">
-            <summary>
-            mapped com proxy
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IObject.UnderlyingTypeName">
-            <summary>
-            name of com proxy class
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IObject.InstanceType">
-            <summary>
-            Type info of UnderlyingObject
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IObject.ParentObject">
-            <summary>
-            the Instance they has been created this instance
             </summary>
         </member>
         <member name="T:LateBindingApi.Core.Factory">
@@ -716,6 +706,14 @@
             </summary>
             <param name="proxy"></param>
         </member>
+        <member name="M:LateBindingApi.Core.Factory.AddAssembly(System.String,System.Reflection.Assembly)">
+            <summary>
+            add assembly to list
+            </summary>
+            <param name="name"></param>
+            <param name="itemAssembly"></param>
+            <returns>list of dependend assemblies</returns>
+        </member>
         <member name="M:LateBindingApi.Core.Factory.GetTypeGuid(System.Runtime.InteropServices.ComTypes.ITypeInfo)">
             <summary>
             returns id of an interface
@@ -807,6 +805,11 @@
         <member name="P:LateBindingApi.Core.IFactoryInfo.Assembly">
             <summary>
             assembly info of lateBinding assembly
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.IFactoryInfo.Dependencies">
+            <summary>
+            returns a name array of dependent LateBindingApi assemblies
             </summary>
         </member>
         <member name="T:LateBindingApi.Core.ConsoleMode">
