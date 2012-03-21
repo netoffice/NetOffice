@@ -802,6 +802,18 @@
             </summary>
             <param name="range">NetOffice.WordApi.Range Range</param>
         </member>
+        <member name="M:NetOffice.WordApi.OMathBreaks.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.OMathBreaks.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.WordApi.OMathBreaks.Application">
             <summary>
             SupportByVersion Word 12, 14
@@ -6808,6 +6820,18 @@
         </member>
         <member name="M:NetOffice.WordApi.Adjustments.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.WordApi.Adjustments.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.Adjustments.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.WordApi.Adjustments.Application">
             <summary>
@@ -21065,6 +21089,18 @@
             <param name="name">string Name</param>
             <param name="range">NetOffice.WordApi.Range Range</param>
             <param name="description">object Description</param>
+        </member>
+        <member name="M:NetOffice.WordApi.BuildingBlocks.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.BuildingBlocks.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.WordApi.BuildingBlocks.Application">
             <summary>
@@ -64308,6 +64344,18 @@
             <param name="range">NetOffice.WordApi.Range Range</param>
             <param name="description">object Description</param>
         </member>
+        <member name="M:NetOffice.WordApi.BuildingBlockEntries.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.BuildingBlockEntries.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.WordApi.BuildingBlockEntries.Application">
             <summary>
             SupportByVersion Word 12, 14
@@ -64358,6 +64406,18 @@
         </member>
         <member name="M:NetOffice.WordApi.Categories.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.WordApi.Categories.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.Categories.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.WordApi.Categories.Application">
             <summary>
@@ -67669,6 +67729,18 @@
         <member name="M:NetOffice.WordApi.OMathArgs.Add">
             <summary>
             SupportByVersion Word 12, 14
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.OMathArgs.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.OMathArgs.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 12,14
+            This is a custom enumerator from NetOffice
             </summary>
         </member>
         <member name="P:NetOffice.WordApi.OMathArgs.Application">
@@ -77433,6 +77505,18 @@
             SupportByVersion Word 11, 12, 14
             </summary>
             <param name="editorID">object EditorID</param>
+        </member>
+        <member name="M:NetOffice.WordApi.Editors.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.WordApi.Editors.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Word, 11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.WordApi.Editors.Application">
             <summary>

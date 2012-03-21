@@ -19917,6 +19917,18 @@
         <member name="M:NetOffice.PowerPointApi.Adjustments.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
+        <member name="M:NetOffice.PowerPointApi.Adjustments.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute PowerPoint, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.PowerPointApi.Adjustments.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute PowerPoint, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.PowerPointApi.Adjustments.Application">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14
@@ -28737,6 +28749,18 @@
             <param name="top">Single Top</param>
             <param name="width">Single Width</param>
             <param name="height">Single Height</param>
+        </member>
+        <member name="M:NetOffice.PowerPointApi.PPRadioCluster.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute PowerPoint, 9
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.PowerPointApi.PPRadioCluster.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute PowerPoint, 9
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.PowerPointApi.PPRadioCluster.Count">
             <summary>

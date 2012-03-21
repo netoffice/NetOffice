@@ -4146,6 +4146,18 @@
             </summary>
             <param name="index">Int32 Index</param>
         </member>
+        <member name="M:NetOffice.OWC10Api.ChSegments.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.ChSegments.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.OWC10Api.ChSegments.Count">
             <summary>
             SupportByVersion OWC10 1
@@ -5654,6 +5666,18 @@
         <member name="M:NetOffice.OWC10Api.ChDataLabels.Select">
             <summary>
             SupportByVersion OWC10 1
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.ChDataLabels.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.ChDataLabels.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
             </summary>
         </member>
         <member name="P:NetOffice.OWC10Api.ChDataLabels.Border">
@@ -9614,6 +9638,18 @@
         </member>
         <member name="M:NetOffice.OWC10Api.FieldListDragDataList.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.OWC10Api.FieldListDragDataList.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.FieldListDragDataList.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.OWC10Api.FieldListDragDataList.Count">
             <summary>
@@ -15461,6 +15497,18 @@
         <member name="M:NetOffice.OWC10Api.ChChartFields.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
+        <member name="M:NetOffice.OWC10Api.ChChartFields.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.ChChartFields.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.OWC10Api.ChChartFields.Item(System.Int32)">
             <summary>
             SupportByVersion OWC10 1
@@ -17835,6 +17883,18 @@
         </member>
         <member name="M:NetOffice.OWC10Api.Headings.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.OWC10Api.Headings.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.Headings.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.OWC10Api.Headings.Application">
             <summary>
@@ -29783,6 +29843,18 @@
             SupportByVersion OWC10 1
             </summary>
             <param name="index">Int32 Index</param>
+        </member>
+        <member name="M:NetOffice.OWC10Api.ChErrorBarsCollection.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OWC10Api.ChErrorBarsCollection.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute OWC10, 1
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.OWC10Api.ChErrorBarsCollection.Count">
             <summary>

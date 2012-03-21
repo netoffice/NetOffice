@@ -8017,6 +8017,18 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.AnswerWizardFiles.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.AnswerWizardFiles.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.OfficeApi.AnswerWizardFiles.Parent">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14
@@ -17300,6 +17312,18 @@
         <member name="M:NetOffice.OfficeApi.Adjustments.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.Adjustments.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Adjustments.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 9,10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.OfficeApi.Adjustments.Parent">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14
@@ -25973,6 +25997,18 @@
         <member name="M:NetOffice.OfficeApi.ServerPolicy.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.ServerPolicy.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.ServerPolicy.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
         <member name="P:NetOffice.OfficeApi.ServerPolicy.Item(System.Object)">
             <summary>
             SupportByVersion Office 12, 14
@@ -27866,6 +27902,18 @@
             SupportByVersion Office 10, 11, 12, 14
             </summary>
             <param name="index">Int32 Index</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.ODSOFilters.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.ODSOFilters.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.OfficeApi.ODSOFilters.Count">
             <summary>
@@ -36083,6 +36131,18 @@
         </member>
         <member name="M:NetOffice.OfficeApi.ODSOColumns.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.ODSOColumns.GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.ODSOColumns.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            SupportByVersionAttribute Office, 10,11,12,14
+            This is a custom enumerator from NetOffice
+            </summary>
         </member>
         <member name="P:NetOffice.OfficeApi.ODSOColumns.Count">
             <summary>
