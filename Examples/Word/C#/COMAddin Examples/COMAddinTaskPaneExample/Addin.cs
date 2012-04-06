@@ -1,30 +1,57 @@
 ﻿using System;
+using Extensibility;
 using System.Reflection;
 using System.Windows.Forms;
 using Microsoft.Win32;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using Extensibility;
 
-using LateBindingApi.Core;
+using Word = NetOffice.WordApi;
 using Office = NetOffice.OfficeApi;
+using NetOffice.WordApi.Enums;
 using NetOffice.OfficeApi.Enums;
-using Excel = NetOffice.ExcelApi;
-using NetOffice.ExcelApi.Enums;
 
-namespace COMAddinRibbonExampleCS4
+namespace COMAddinTaskPaneExampleCS4
 {
-    [GuidAttribute("182f0e9a-07db-4375-8372-77e1637d4891"), ProgId("ExcelAddinExampleCS4.RibbonAddin"), ComVisible(true)]
-    public class Addin : IDTExtensibility2, Office.IRibbonExtensibility
+    [GuidAttribute("122EA877-9F5B-4B21-81EE-CBE77D596354"), ProgId("WordAddinExampleCS4.TaskPaneAddin"), ComVisible(true)]
+    public class Addin : IDTExtensibility2, Office.ICustomTaskPaneConsumer
     {
-        private static readonly string _addinOfficeRegistryKey  = "Software\\Microsoft\\Office\\Excel\\AddIns\\";
-        private static readonly string _prodId                  = "ExcelAddinExampleCS4.RibbonAddin";
+        private static readonly string _addinOfficeRegistryKey  = "Software\\Microsoft\\Office\\Word\\AddIns\\";
+        private static readonly string _prodId                  = "WordAddinExampleCS4.TaskPaneAddin";
         private static readonly string _addinFriendlyName       = "NetOffice Sample Addin in C#";
-        private static readonly string _addinDescription        = "NetOffice Sample Addin with custom Ribbon UI";
+        private static readonly string _addinDescription        = "NetOffice Sample Addin with custom Task Pane";
 
-        Excel.Application _excelApplication;
+        private static SampleControl _sampleControl;
+        private static Word.Application _wordApplication;
+
+        internal static Word.Application Application { get { return _wordApplication; } }
+
+        #region ICustomTaskPaneConsumer Member
+
+        public void CTPFactoryAvailable(object CTPFactoryInst)
+        {
+            try
+            {
+                Office.ICTPFactory ctpFactory = new NetOffice.OfficeApi.ICTPFactory(_wordApplication, CTPFactoryInst);
+                Office._CustomTaskPane taskPane = ctpFactory.CreateCTP(typeof(Addin).Assembly.GetName().Name + ".SampleControl", "NetOffice Sample Pane(CS4)", Type.Missing);
+                taskPane.DockPosition = MsoCTPDockPosition.msoCTPDockPositionRight;
+                taskPane.Width = 300;
+                taskPane.Visible = true;
+                _sampleControl = taskPane.ContentControl as SampleControl;
+                ctpFactory.Dispose();
+            }
+            catch (Exception exception)
+            {
+                string message = string.Format("An error occured.{0}{0}{1}", Environment.NewLine, exception.Message);
+                MessageBox.Show(message, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        #endregion
+
 
         #region IDTExtensibility2 Members
-         
+
         void IDTExtensibility2.OnConnection(object Application, ext_ConnectMode ConnectMode, object AddInInst, ref Array custom)
         {
             try
@@ -32,7 +59,7 @@ namespace COMAddinRibbonExampleCS4
                 // Initialize NetOffice
                 LateBindingApi.Core.Factory.Initialize();
 
-                _excelApplication = new Excel.Application(null, Application);
+                _wordApplication = new Word.Application(null, Application);
             }
             catch (Exception exception)
             {
@@ -45,8 +72,8 @@ namespace COMAddinRibbonExampleCS4
         {
             try
             {
-                if (null != _excelApplication)
-                    _excelApplication.Dispose();
+                if (null != _wordApplication)
+                    _wordApplication.Dispose();
             }
             catch (Exception exception)
             {
@@ -68,48 +95,6 @@ namespace COMAddinRibbonExampleCS4
         void IDTExtensibility2.OnBeginShutdown(ref Array custom)
         {
 
-        }
-
-        #endregion
-
-        #region IRibbonExtensibility Members
-
-        public string GetCustomUI(string RibbonID)
-        {
-            try
-            {
-                return ReadRessourceFile("RibbonUI.xml");
-            }
-            catch (Exception throwedException)
-            {
-                string details = string.Format("{1}{1}Details:{1}{1}{0}", throwedException.Message, Environment.NewLine);
-                MessageBox.Show("An error occured in GetCustomUI: " + details, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return "";
-            }
-        }
-
-        public void OnAction(Office.IRibbonControl control)
-        {
-            try
-            {
-                switch (control.Id)
-                {
-                    case "customButton1":
-                        MessageBox.Show("This is the first sample button.", _prodId);
-                        break;
-                    case "customButton2":
-                        MessageBox.Show("This is the second sample button.", _prodId);
-                        break;
-                    default:
-                        MessageBox.Show("Unkown Control Id: " + control.Id, _prodId);
-                        break;
-                }
-            }
-            catch (Exception throwedException)
-            {
-                string details = string.Format("{1}{1}Details:{1}{1}{0}", throwedException.Message, Environment.NewLine);
-                MessageBox.Show("An error occured in OnAction: " + details, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
         }
 
         #endregion
@@ -171,32 +156,6 @@ namespace COMAddinRibbonExampleCS4
                 string details = string.Format("{1}{1}Details:{1}{1}{0}", throwedException.Message, Environment.NewLine);
                 MessageBox.Show("An error occured." + details, "Unregister " + _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        #endregion
-
-        #region Private Helper Methods
-
-        /// <summary>
-        /// reads text file from ressource
-        /// </summary>
-        /// <param name="fileName"></param>
-        /// <returns></returns>
-        protected internal static string ReadRessourceFile(string fileName)
-        {
-            Assembly assembly = typeof(Addin).Assembly;
-            System.IO.Stream ressourceStream = assembly.GetManifestResourceStream(assembly.GetName().Name + "." + fileName);
-            if (ressourceStream == null)
-                throw (new System.IO.IOException("Error accessing resource Stream."));
-
-            System.IO.StreamReader textStreamReader = new System.IO.StreamReader(ressourceStream);
-            if (textStreamReader == null)
-                throw (new System.IO.IOException("Error accessing resource File."));
-
-            string text = textStreamReader.ReadToEnd();
-            ressourceStream.Close();
-            textStreamReader.Close();
-            return text;
         }
 
         #endregion
