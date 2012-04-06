@@ -51,11 +51,6 @@ namespace COMAddinTaskPaneExampleCS4
 
         #region IDTExtensibility2 Members
 
-        void IDTExtensibility2.OnStartupComplete(ref Array custom)
-        {
-
-        }
-
         void IDTExtensibility2.OnConnection(object Application, ext_ConnectMode ConnectMode, object AddInInst, ref Array custom)
         {
             try
@@ -76,13 +71,19 @@ namespace COMAddinTaskPaneExampleCS4
         {
             try
             {
-                _excelApplication.Dispose();
+                if (null != _excelApplication)
+                    _excelApplication.Dispose();
             }
             catch (Exception exception)
             {
                 string message = string.Format("An error occured.{0}{0}{1}", Environment.NewLine, exception.Message);
                 MessageBox.Show(message, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        void IDTExtensibility2.OnStartupComplete(ref Array custom)
+        {
+
         }
 
         void IDTExtensibility2.OnAddInsUpdate(ref Array custom)
