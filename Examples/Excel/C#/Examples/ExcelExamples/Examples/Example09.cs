@@ -6,7 +6,6 @@ using LateBindingApi.Core;
 using Excel = NetOffice.ExcelApi;
 using Office = NetOffice.OfficeApi;
 using NetOffice.OfficeApi.Enums;
-
 using ExampleBase;
 
 namespace ExcelExamples
@@ -54,6 +53,8 @@ namespace ExcelExamples
         }
 
         #endregion
+
+        #region UI Trigger
 
         private void buttonStartExample_Click(object sender, EventArgs e)
         {        
@@ -164,6 +165,10 @@ namespace ExcelExamples
             buttonQuitExample.Enabled = false;
         }
 
+        #endregion
+
+        #region Excel Trigger
+
         void commandBarBtn_Click(Office.CommandBarButton Ctrl, ref bool CancelDefault)
         {
             textBoxEvents.BeginInvoke(_updateDelegate, new object[] { "Click called." });
@@ -175,5 +180,6 @@ namespace ExcelExamples
             textBoxEvents.AppendText(Message + "\r\n");
         }
 
+        #endregion
     }
 }

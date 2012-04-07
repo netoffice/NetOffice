@@ -4,7 +4,6 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Reflection;
 using System.Text;
-
 using ExampleBase;
 
 using LateBindingApi.Core;
@@ -73,7 +72,7 @@ namespace WordExamples
 
             // apply the defined listtemplate to the selection
             wordApplication.Selection.Range.ListFormat.ApplyListTemplate(template, false,
-                    WdListApplyTo.wdListApplyToWholeList, WdDefaultListBehavior.wdWord9ListBehavior);
+                                     WdListApplyTo.wdListApplyToWholeList, WdDefaultListBehavior.wdWord9ListBehavior);
 
             //create a list
             wordApplication.Selection.TypeText("Welcoming");
@@ -108,7 +107,6 @@ namespace WordExamples
             // close word and dispose reference
             wordApplication.Quit();
             wordApplication.Dispose();
-
 
             // show dialog for the user(you!)
             _hostApplication.ShowFinishDialog(null, documentFile);
