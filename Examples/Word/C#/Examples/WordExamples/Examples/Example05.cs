@@ -13,7 +13,7 @@ using NetOffice.WordApi.Enums;
 using VB = NetOffice.VBIDEApi;
 using NetOffice.VBIDEApi.Enums;
 
-namespace WordExamples
+namespace WordExamplesCS4
 {
     class Example05 : IExample
     {
