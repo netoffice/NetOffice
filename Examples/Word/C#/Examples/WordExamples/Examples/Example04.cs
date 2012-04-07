@@ -11,7 +11,7 @@ using LateBindingApi.Core;
 using Word = NetOffice.WordApi;
 using NetOffice.WordApi.Enums;
 
-namespace WordExamples
+namespace WordExamplesCS4
 {
     class Example04 : IExample
     {

@@ -13,7 +13,7 @@ using Office = NetOffice.OfficeApi;
 using NetOffice.WordApi.Enums;
 using NetOffice.OfficeApi.Enums;
 
-namespace WordExamples
+namespace WordExamplesCS4
 {
     public partial class Example07 : UserControl, IExample
     {        
