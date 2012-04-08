@@ -6,7 +6,6 @@ using System.Reflection;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
-using Extensibility;
 
 using LateBindingApi.Core;
 using Office = NetOffice.OfficeApi;

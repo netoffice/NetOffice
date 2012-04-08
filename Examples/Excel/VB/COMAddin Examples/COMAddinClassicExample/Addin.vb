@@ -29,15 +29,7 @@ Public Class Addin
     Dim _excelApplication As Excel.Application
 
 #Region "IDTExtensibility2 Members"
-
-    Public Sub OnAddInsUpdate(ByRef custom As System.Array) Implements IDTExtensibility2.OnAddInsUpdate
-
-    End Sub
-
-    Public Sub OnBeginShutdown(ByRef custom As System.Array) Implements IDTExtensibility2.OnBeginShutdown
-
-    End Sub
-
+     
     Public Sub OnConnection(ByVal Application As Object, ByVal ConnectMode As ext_ConnectMode, ByVal AddInInst As Object, ByRef custom As System.Array) Implements IDTExtensibility2.OnConnection
 
         Try
@@ -85,6 +77,14 @@ Public Class Addin
             MessageBox.Show(message, _progId, MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         End Try
+
+    End Sub
+
+    Public Sub OnAddInsUpdate(ByRef custom As System.Array) Implements IDTExtensibility2.OnAddInsUpdate
+
+    End Sub
+
+    Public Sub OnBeginShutdown(ByRef custom As System.Array) Implements IDTExtensibility2.OnBeginShutdown
 
     End Sub
 

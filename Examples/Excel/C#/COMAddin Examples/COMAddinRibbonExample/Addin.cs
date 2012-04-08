@@ -17,7 +17,7 @@ namespace COMAddinRibbonExampleCS4
     public class Addin : IDTExtensibility2, Office.IRibbonExtensibility
     {
         private static readonly string _addinOfficeRegistryKey  = "Software\\Microsoft\\Office\\Excel\\AddIns\\";
-        private static readonly string _prodId                  = "ExcelAddinCS4.RibbonAddin";
+        private static readonly string _progId                  = "ExcelAddinCS4.RibbonAddin";
         private static readonly string _addinFriendlyName       = "NetOffice Sample Addin in C#";
         private static readonly string _addinDescription        = "NetOffice Sample Addin with custom Ribbon UI";
 
@@ -37,7 +37,7 @@ namespace COMAddinRibbonExampleCS4
             catch (Exception exception)
             {
                 string message = string.Format("An error occured.{0}{0}{1}", Environment.NewLine, exception.Message);
-                MessageBox.Show(message, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(message, _progId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -51,7 +51,7 @@ namespace COMAddinRibbonExampleCS4
             catch (Exception exception)
             {
                 string message = string.Format("An error occured.{0}{0}{1}", Environment.NewLine, exception.Message);
-                MessageBox.Show(message, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(message, _progId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -83,7 +83,7 @@ namespace COMAddinRibbonExampleCS4
             catch (Exception throwedException)
             {
                 string details = string.Format("{1}{1}Details:{1}{1}{0}", throwedException.Message, Environment.NewLine);
-                MessageBox.Show("An error occured in GetCustomUI: " + details, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("An error occured in GetCustomUI: " + details, _progId, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return "";
             }
         }
@@ -95,20 +95,20 @@ namespace COMAddinRibbonExampleCS4
                 switch (control.Id)
                 {
                     case "customButton1":
-                        MessageBox.Show("This is the first sample button.", _prodId);
+                        MessageBox.Show("This is the first sample button.", _progId);
                         break;
                     case "customButton2":
-                        MessageBox.Show("This is the second sample button.", _prodId);
+                        MessageBox.Show("This is the second sample button.", _progId);
                         break;
                     default:
-                        MessageBox.Show("Unkown Control Id: " + control.Id, _prodId);
+                        MessageBox.Show("Unkown Control Id: " + control.Id, _progId);
                         break;
                 }
             }
             catch (Exception throwedException)
             {
                 string details = string.Format("{1}{1}Details:{1}{1}{0}", throwedException.Message, Environment.NewLine);
-                MessageBox.Show("An error occured in OnAction: " + details, _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("An error occured in OnAction: " + details, _progId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -140,8 +140,8 @@ namespace COMAddinRibbonExampleCS4
                 key.Close();
 
                 // register addin in Excel
-                Registry.CurrentUser.CreateSubKey(_addinOfficeRegistryKey + _prodId);
-                RegistryKey regKeyExcel = Registry.CurrentUser.OpenSubKey(_addinOfficeRegistryKey + _prodId, true);
+                Registry.CurrentUser.CreateSubKey(_addinOfficeRegistryKey + _progId);
+                RegistryKey regKeyExcel = Registry.CurrentUser.OpenSubKey(_addinOfficeRegistryKey + _progId, true);
                 regKeyExcel.SetValue("LoadBehavior", Convert.ToInt32(3));
                 regKeyExcel.SetValue("FriendlyName", _addinFriendlyName);
                 regKeyExcel.SetValue("Description", _addinDescription);
@@ -150,7 +150,7 @@ namespace COMAddinRibbonExampleCS4
             catch (Exception ex)
             {
                 string details = string.Format("{1}{1}Details:{1}{1}{0}", ex.Message, Environment.NewLine);
-                MessageBox.Show("An error occured." + details, "Register " + _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("An error occured." + details, "Register " + _progId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -169,7 +169,7 @@ namespace COMAddinRibbonExampleCS4
             catch (Exception throwedException)
             {
                 string details = string.Format("{1}{1}Details:{1}{1}{0}", throwedException.Message, Environment.NewLine);
-                MessageBox.Show("An error occured." + details, "Unregister " + _prodId, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("An error occured." + details, "Unregister " + _progId, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
