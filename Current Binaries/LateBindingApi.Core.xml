@@ -4,248 +4,69 @@
         <name>LateBindingApi.Core</name>
     </assembly>
     <members>
-        <member name="T:LateBindingApi.Core.ConsoleMode">
+        <member name="T:LateBindingApi.Core.SinkHelper">
             <summary>
-            Operation mode for DebugConsole
+            Sink Helper Base Class for an Event Interface Sink helper class
             </summary>
         </member>
-        <member name="F:LateBindingApi.Core.ConsoleMode.None">
-            <summary>
-            debug log are not enabled
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.ConsoleMode.Console">
-            <summary>
-            debug log was redirected to System.Console
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.ConsoleMode.LogFile">
-            <summary>
-            debug log append to a logfile
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.ConsoleMode.MemoryList">
-            <summary>
-            hold all debug and exceptions logs in a internal string list
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.DebugConsole">
-            <summary>
-            offers various debug, log and diagnostic functionality
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.DebugConsole.ClearMessagesList">
-            <summary>
-            clears message buffer
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.DebugConsole.WriteLine(System.String)">
-            <summary>
-            write log message
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="M:LateBindingApi.Core.DebugConsole.WriteException(System.Exception)">
-            <summary>
-            write exception log message
-            </summary>
-            <param name="exception"></param>
-        </member>
-        <member name="M:LateBindingApi.Core.DebugConsole.AppendToLogFile(System.String)">
-            <summary>
-            append message to logfile
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="M:LateBindingApi.Core.DebugConsole.CreateExecptionLog(System.Exception)">
-            <summary>
-            convert an exception to a string
-            </summary>
-            <param name="exception"></param>
-            <returns></returns>
-        </member>
-        <member name="P:LateBindingApi.Core.DebugConsole.AppendTimeInfoEnabled">
-            <summary>
-            append current time information in messages
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.DebugConsole.Mode">
-            <summary>
-            operation mode
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.DebugConsole.FileName">
-            <summary>
-            name full file path and name of a logfile, must be set if Mode == LogFile
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.DebugConsole.Messages">
-            <summary>
-            returns all collected messages if Mode == MemoryList
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.CustomEnumeratorAttribute">
-            <summary>
-            this enumerator is not supported by the instance, its a custom service by NetOffice
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.SupportByVersionAttribute">
-            <summary>
-            Indicates which COM Type Library Version supports the entity
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.SupportByVersionAttribute.Name">
-            <summary>
-            returns library name
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.SupportByVersionAttribute.Versions">
-            <summary>
-            returns all supported library versions of entity
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.SupportByVersionAttribute.#ctor(System.String,System.Double[])">
+        <member name="M:LateBindingApi.Core.SinkHelper.#ctor(LateBindingApi.Core.COMObject)">
             <summary>
             creates instance
             </summary>
-            <param name="name"></param>
-            <param name="versions"></param>
+            <param name="eventClass"></param>
         </member>
-        <member name="T:LateBindingApi.Core.IFactoryInfo">
+        <member name="M:LateBindingApi.Core.SinkHelper.FindConnectionPoint(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
             <summary>
-            info about a lateBinding assembly
+            try to find connection point by FindConnectionPoint
             </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.IFactoryInfo.Contains(System.String)">
-            <summary>
-            returns info a class with given name exists in lateBinding assembly
-            </summary>
-            <param name="className"></param>
+            <param name="connectionPointContainer"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
             <returns></returns>
         </member>
-        <member name="P:LateBindingApi.Core.IFactoryInfo.AssemblyNamespace">
+        <member name="M:LateBindingApi.Core.SinkHelper.EnumConnectionPoint(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
             <summary>
-            namespace of assembly
+            try to find connection point by EnumConnectionPoints
             </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IFactoryInfo.ComponentGuid">
-            <summary>
-            guid of component there represents the lateBinding assembly
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IFactoryInfo.Assembly">
-            <summary>
-            assembly info of lateBinding assembly
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.IFactoryInfo.Dependencies">
-            <summary>
-            returns a name array of dependent LateBindingApi assemblies
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.EntityNotSupportedException">
-            <summary>
-            Signals the target method or property is not supported from the COM proxy in the current version
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.LateBindingApiException">
-            <summary>
-            signals an exception occured in LateBindingApi, not in corresond latebinded assembly
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.LateBindingApiException.#ctor(System.String)">
-            <summary>
-            creates instance
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="M:LateBindingApi.Core.EntityNotSupportedException.#ctor(System.String)">
-            <summary>
-            creates instance
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="T:LateBindingApi.Core.Settings">
-            <summary>
-            Core Settings
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.ThreadCulture">
-            <summary>
-            Used Thread Culture given in the Invoke Calls, default is en-US
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.EnableEvents">
-            <summary>
-            Get or set the Event support, default is true 
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.EnableMessageFilter">
-            <summary>
-            Get or set the Message Filter enabled.
-            The MessageFilter suspress any exceptional dialog messages, specialy the "Application ist waiting for another OLE Task" dialog
-            default is true
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.EnableAutomaticQuit">
-            <summary>
-            Get or set the Quit() method for an application object was automaticly called while Dispose()
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.EnableSafeMode">
-            <summary>
-            Get or set the core api checks at runtime the target method or property is supported in current version. if it doesnt a EntityNotSupportedException is thrown
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.EnableAdHocLoading">
-            <summary>
-            Get or set Factory.Initialize() try to load non loaded dependend assemblies to fetch type informations
-            </summary>
-        </member>
-        <member name="P:LateBindingApi.Core.Settings.EnableDebugOutput">
-            <summary>
-            Get or set additonal debug output is enabled for trouble shooting 
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.Utils">
-            <summary>
-            some helper methods (also for visual basic)
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.Utils.IsNothing(System.Object)">
-            <summary>
-            checks value is null or nothing. 
-            </summary>
-            <param name="value">check value</param>
-            <returns>true if null</returns>
-        </member>
-        <member name="M:LateBindingApi.Core.Utils.GetProxyEnumeratorAsProperty(LateBindingApi.Core.COMObject)">
-            <summary>
-            returns enumerator with com proxies
-            </summary>
-            <param name="comObject"></param>
+            <param name="connectionPointContainer"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
             <returns></returns>
         </member>
-        <member name="M:LateBindingApi.Core.Utils.GetProxyEnumeratorAsMethod(LateBindingApi.Core.COMObject)">
+        <member name="M:LateBindingApi.Core.SinkHelper.GetConnectionPoint(LateBindingApi.Core.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
             <summary>
-            returns enumerator with com proxies
+            get supported connection point from comProxy
             </summary>
-            <param name="comObject"></param>
+            <param name="comProxy"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
             <returns></returns>
         </member>
-        <member name="M:LateBindingApi.Core.Utils.GetScalarEnumeratorAsProperty(LateBindingApi.Core.COMObject)">
+        <member name="M:LateBindingApi.Core.SinkHelper.DisposeAll">
             <summary>
-            returns enumerator with scalar variables
+            Dispose all active event bridges
             </summary>
-            <param name="comObject"></param>
-            <returns></returns>
         </member>
-        <member name="M:LateBindingApi.Core.Utils.GetScalarEnumeratorAsMethod(LateBindingApi.Core.COMObject)">
+        <member name="M:LateBindingApi.Core.SinkHelper.SetupEventBinding(System.Runtime.InteropServices.ComTypes.IConnectionPoint)">
             <summary>
-            returns enumerator with scalar variables
+            create event binding
             </summary>
-            <param name="comObject"></param>
-            <returns></returns>
+            <param name="connectPoint"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.SinkHelper.RemoveEventBinding">
+            <summary>
+            release event binding
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.SinkHelper.RemoveEventBinding(System.Boolean)">
+            <summary>
+            release event binding
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.SinkHelper.Dispose">
+            <summary>
+            remove eventbinding
+            </summary>
         </member>
         <member name="T:LateBindingApi.Core.COMObject">
             <summary>
@@ -444,6 +265,11 @@
             NetOffice property: returns class name of native wrapped proxy
             </summary>
         </member>
+        <member name="P:LateBindingApi.Core.COMObject.UnderlyingComponentName">
+            <summary>
+            NetOffice property: returns component name of native wrapped proxy
+            </summary>
+        </member>
         <member name="P:LateBindingApi.Core.COMObject.IsDisposed">
             <summary>
             NetOffice property: returns instance is diposed means unusable
@@ -484,21 +310,178 @@
             NetOffice property: retuns instance has one or more event recipients
             </summary>
         </member>
-        <member name="T:LateBindingApi.Core.LateBindingAttribute">
+        <member name="T:LateBindingApi.Core.Settings">
             <summary>
-            Indicates assembly is a latebinding api assembly
+            Core Settings
             </summary>
         </member>
-        <member name="F:LateBindingApi.Core.LateBindingAttribute.SupportedApiVersion">
+        <member name="P:LateBindingApi.Core.Settings.ThreadCulture">
             <summary>
-            version
+            Used Thread Culture given in the Invoke Calls, default is en-US
             </summary>
         </member>
-        <member name="M:LateBindingApi.Core.LateBindingAttribute.#ctor(System.String)">
+        <member name="P:LateBindingApi.Core.Settings.EnableEvents">
+            <summary>
+            Get or set the Event support, default is true 
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableMessageFilter">
+            <summary>
+            Get or set the Message Filter enabled.
+            The MessageFilter suspress any exceptional dialog messages, specialy the "Application ist waiting for another OLE Task" dialog
+            default is true
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableAutomaticQuit">
+            <summary>
+            Get or set the Quit() method for an application object was automaticly called while Dispose()
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableSafeMode">
+            <summary>
+            Get or set the core api checks at runtime the target method or property is supported in current version. if it doesnt a EntityNotSupportedException is thrown
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableAdHocLoading">
+            <summary>
+            Get or set Factory.Initialize() try to load non loaded dependend assemblies to fetch type informations
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.Settings.EnableDebugOutput">
+            <summary>
+            Get or set additonal debug output is enabled for trouble shooting 
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.ConsoleMode">
+            <summary>
+            Operation mode for DebugConsole
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.None">
+            <summary>
+            debug log are not enabled
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.Console">
+            <summary>
+            debug log was redirected to System.Console
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.LogFile">
+            <summary>
+            debug log append to a logfile
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.ConsoleMode.MemoryList">
+            <summary>
+            hold all debug and exceptions logs in a internal string list
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.DebugConsole">
+            <summary>
+            offers various debug, log and diagnostic functionality
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.ClearMessagesList">
+            <summary>
+            clears message buffer
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.WriteLine(System.String)">
+            <summary>
+            write log message
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.WriteException(System.Exception)">
+            <summary>
+            write exception log message
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.AppendToLogFile(System.String)">
+            <summary>
+            append message to logfile
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:LateBindingApi.Core.DebugConsole.CreateExecptionLog(System.Exception)">
+            <summary>
+            convert an exception to a string
+            </summary>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.AppendTimeInfoEnabled">
+            <summary>
+            append current time information in messages
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.Mode">
+            <summary>
+            operation mode
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.FileName">
+            <summary>
+            name full file path and name of a logfile, must be set if Mode == LogFile
+            </summary>
+        </member>
+        <member name="P:LateBindingApi.Core.DebugConsole.Messages">
+            <summary>
+            returns all collected messages if Mode == MemoryList
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.LateBindingApiException">
+            <summary>
+            signals an exception occured in LateBindingApi, not in corresond latebinded assembly
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.LateBindingApiException.#ctor(System.String)">
             <summary>
             creates instance
             </summary>
-            <param name="apiVersion"></param>
+            <param name="message"></param>
+        </member>
+        <member name="T:LateBindingApi.Core.Utils">
+            <summary>
+            some helper methods (also for visual basic)
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.Utils.IsNothing(System.Object)">
+            <summary>
+            checks value is null or nothing. 
+            </summary>
+            <param name="value">check value</param>
+            <returns>true if null</returns>
+        </member>
+        <member name="M:LateBindingApi.Core.Utils.GetProxyEnumeratorAsProperty(LateBindingApi.Core.COMObject)">
+            <summary>
+            returns enumerator with com proxies
+            </summary>
+            <param name="comObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.Utils.GetProxyEnumeratorAsMethod(LateBindingApi.Core.COMObject)">
+            <summary>
+            returns enumerator with com proxies
+            </summary>
+            <param name="comObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.Utils.GetScalarEnumeratorAsProperty(LateBindingApi.Core.COMObject)">
+            <summary>
+            returns enumerator with scalar variables
+            </summary>
+            <param name="comObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LateBindingApi.Core.Utils.GetScalarEnumeratorAsMethod(LateBindingApi.Core.COMObject)">
+            <summary>
+            returns enumerator with scalar variables
+            </summary>
+            <param name="comObject"></param>
+            <returns></returns>
         </member>
         <member name="T:LateBindingApi.Core.Invoker">
             <summary>
@@ -740,6 +723,11 @@
             <param name="paramsArray">array with parameters</param>
             <returns>array copy or null</returns>
         </member>
+        <member name="T:LateBindingApi.Core.CustomEnumeratorAttribute">
+            <summary>
+            this enumerator is not supported by the instance, its a custom service by NetOffice
+            </summary>
+        </member>
         <member name="T:LateBindingApi.Core.SupportEntityType">
             <summary>
             search parameter for the EntityIsAvailable Method
@@ -759,6 +747,44 @@
             <summary>
             looking for a method only
             </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.SupportByVersionAttribute">
+            <summary>
+            Indicates which COM Type Library Version supports the entity
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.SupportByVersionAttribute.Name">
+            <summary>
+            returns library name
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.SupportByVersionAttribute.Versions">
+            <summary>
+            returns all supported library versions of entity
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.SupportByVersionAttribute.#ctor(System.String,System.Double[])">
+            <summary>
+            creates instance
+            </summary>
+            <param name="name"></param>
+            <param name="versions"></param>
+        </member>
+        <member name="T:LateBindingApi.Core.LateBindingAttribute">
+            <summary>
+            Indicates assembly is a latebinding api assembly
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.LateBindingAttribute.SupportedApiVersion">
+            <summary>
+            version
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.LateBindingAttribute.#ctor(System.String)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="apiVersion"></param>
         </member>
         <member name="T:LateBindingApi.Core.IEventBinding">
             <summary>
@@ -807,129 +833,36 @@
             returns event bridge is advised
             </summary>
         </member>
-        <member name="T:LateBindingApi.Core.CustomMethodAttribute">
+        <member name="T:LateBindingApi.Core.IFactoryInfo">
             <summary>
-            this method is a custom overload from NetOffice
+            info about a lateBinding assembly
             </summary>
         </member>
-        <member name="T:LateBindingApi.Core.EntityType">
+        <member name="M:LateBindingApi.Core.IFactoryInfo.Contains(System.String)">
             <summary>
-            Indicates original type of entity
+            returns info a class with given name exists in lateBinding assembly
             </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsCoClass">
-            <summary>
-            entity is class
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsDispatchInterface">
-            <summary>
-            entity is dispatch interface
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsInterface">
-            <summary>
-            entity is interface
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsModule">
-            <summary>
-            entity is module
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsEnum">
-            <summary>
-            entity is enum
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsStruct">
-            <summary>
-            entity is struct
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityType.IsConstants">
-            <summary>
-            entity is const module
-            </summary>
-        </member>
-        <member name="T:LateBindingApi.Core.EntityTypeAttribute">
-            <summary>
-            Indicates original type of entity in COM Type Library
-            </summary>
-        </member>
-        <member name="F:LateBindingApi.Core.EntityTypeAttribute.Type">
-            <summary>
-            returns type of entity
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.EntityTypeAttribute.#ctor(LateBindingApi.Core.EntityType)">
-            <summary>
-            creates instance
-            </summary>
-            <param name="type"></param>
-        </member>
-        <member name="T:LateBindingApi.Core.SinkHelper">
-            <summary>
-            Sink Helper Base Class for an Event Interface Sink helper class
-            </summary>
-        </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.#ctor(LateBindingApi.Core.COMObject)">
-            <summary>
-            creates instance
-            </summary>
-            <param name="eventClass"></param>
-        </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.FindConnectionPoint(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
-            <summary>
-            try to find connection point by FindConnectionPoint
-            </summary>
-            <param name="connectionPointContainer"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
+            <param name="className"></param>
             <returns></returns>
         </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.EnumConnectionPoint(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+        <member name="P:LateBindingApi.Core.IFactoryInfo.AssemblyNamespace">
             <summary>
-            try to find connection point by EnumConnectionPoints
-            </summary>
-            <param name="connectionPointContainer"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
-            <returns></returns>
-        </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.GetConnectionPoint(LateBindingApi.Core.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
-            <summary>
-            get supported connection point from comProxy
-            </summary>
-            <param name="comProxy"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
-            <returns></returns>
-        </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.DisposeAll">
-            <summary>
-            Dispose all active event bridges
+            namespace of assembly
             </summary>
         </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.SetupEventBinding(System.Runtime.InteropServices.ComTypes.IConnectionPoint)">
+        <member name="P:LateBindingApi.Core.IFactoryInfo.ComponentGuid">
             <summary>
-            create event binding
-            </summary>
-            <param name="connectPoint"></param>
-        </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.RemoveEventBinding">
-            <summary>
-            release event binding
+            guid of component there represents the lateBinding assembly
             </summary>
         </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.RemoveEventBinding(System.Boolean)">
+        <member name="P:LateBindingApi.Core.IFactoryInfo.Assembly">
             <summary>
-            release event binding
+            assembly info of lateBinding assembly
             </summary>
         </member>
-        <member name="M:LateBindingApi.Core.SinkHelper.Dispose">
+        <member name="P:LateBindingApi.Core.IFactoryInfo.Dependencies">
             <summary>
-            remove eventbinding
+            returns a name array of dependent LateBindingApi assemblies
             </summary>
         </member>
         <member name="T:LateBindingApi.Core.Factory">
@@ -1084,6 +1017,78 @@
             ProxyCountChanged delegate
             </summary>
             <param name="proxyCount"></param>
+        </member>
+        <member name="T:LateBindingApi.Core.CustomMethodAttribute">
+            <summary>
+            this method is a custom overload from NetOffice
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.EntityType">
+            <summary>
+            Indicates original type of entity
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsCoClass">
+            <summary>
+            entity is class
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsDispatchInterface">
+            <summary>
+            entity is dispatch interface
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsInterface">
+            <summary>
+            entity is interface
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsModule">
+            <summary>
+            entity is module
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsEnum">
+            <summary>
+            entity is enum
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsStruct">
+            <summary>
+            entity is struct
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityType.IsConstants">
+            <summary>
+            entity is const module
+            </summary>
+        </member>
+        <member name="T:LateBindingApi.Core.EntityTypeAttribute">
+            <summary>
+            Indicates original type of entity in COM Type Library
+            </summary>
+        </member>
+        <member name="F:LateBindingApi.Core.EntityTypeAttribute.Type">
+            <summary>
+            returns type of entity
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.EntityTypeAttribute.#ctor(LateBindingApi.Core.EntityType)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="T:LateBindingApi.Core.EntityNotSupportedException">
+            <summary>
+            Signals the target method or property is not supported from the COM proxy in the current version
+            </summary>
+        </member>
+        <member name="M:LateBindingApi.Core.EntityNotSupportedException.#ctor(System.String)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="message"></param>
         </member>
     </members>
 </doc>
