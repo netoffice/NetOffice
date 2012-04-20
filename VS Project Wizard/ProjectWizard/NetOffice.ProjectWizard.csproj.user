@@ -4,4 +4,8 @@
     <StartAction>Program</StartAction>
     <StartProgram>C:\Programme\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe</StartProgram>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Programme\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe</StartProgram>
+  </PropertyGroup>
 </Project>
