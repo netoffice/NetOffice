@@ -4,10 +4,44 @@
         <name>MSDATASRCApi</name>
     </assembly>
     <members>
-        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
+        <member name="T:NetOffice.MSDATASRCApi.DataSourceListener">
             <summary>
-            necessary factory info, used from LateBindingApi.Core.Factory while Initialize()
+             Interface DataSourceListener 
+             SupportByVersion MSDATASRC, 1
             </summary>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
+            <summary>
+            SupportByVersion MSDATASRC 1
+            </summary>
+            <param name="bstrDM">string bstrDM</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
+            <summary>
+            SupportByVersion MSDATASRC 1
+            </summary>
+            <param name="bstrDM">string bstrDM</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
+            <summary>
+            SupportByVersion MSDATASRC 1
+            </summary>
+            <param name="bstrDM">string bstrDM</param>
         </member>
         <member name="T:NetOffice.MSDATASRCApi.DataSource">
             <summary>
@@ -15,16 +49,16 @@
              SupportByVersion MSDATASRC, 1
             </summary>
         </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(NetOffice.COMObject,System.Object)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
         </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(NetOffice.COMObject,System.Object,System.Type)">
             <param name="parentObject">object there has created the proxy</param>
             <param name="comProxy">inner wrapped COM proxy</param>
             <param name="comProxyType">Type of inner wrapped COM proxy"</param>
         </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(LateBindingApi.Core.COMObject)">
+        <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(NetOffice.COMObject)">
             <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.#ctor(System.String)">
@@ -60,44 +94,10 @@
             </summary>
             <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
         </member>
-        <member name="T:NetOffice.MSDATASRCApi.DataSourceListener">
+        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
             <summary>
-             Interface DataSourceListener 
-             SupportByVersion MSDATASRC, 1
+            necessary factory info, used from NetOffice.Factory while Initialize()
             </summary>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object)">
-            <param name="parentObject">object there has created the proxy</param>
-            <param name="comProxy">inner wrapped COM proxy</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject,System.Object,System.Type)">
-            <param name="parentObject">object there has created the proxy</param>
-            <param name="comProxy">inner wrapped COM proxy</param>
-            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(LateBindingApi.Core.COMObject)">
-            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(System.String)">
-            <param name="progId">registered ProgID</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
-            <summary>
-            SupportByVersion MSDATASRC 1
-            </summary>
-            <param name="bstrDM">string bstrDM</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
-            <summary>
-            SupportByVersion MSDATASRC 1
-            </summary>
-            <param name="bstrDM">string bstrDM</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
-            <summary>
-            SupportByVersion MSDATASRC 1
-            </summary>
-            <param name="bstrDM">string bstrDM</param>
         </member>
     </members>
 </doc>
