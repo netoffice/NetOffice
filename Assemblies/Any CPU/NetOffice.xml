@@ -190,7 +190,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NetOffice.COMObject.Equals(NetOffice.COMObject)">
+        <member name="M:NetOffice.COMObject.EqualsOnServer(NetOffice.COMObject)">
             <summary>
             Determines whether two COMObject instances are equal.
             </summary>
