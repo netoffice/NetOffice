@@ -44,6 +44,11 @@
             Get or set Factory.Initialize() try to load non loaded dependend assemblies to fetch type informations. true by default
             </summary>
         </member>
+        <member name="P:NetOffice.Settings.EnableDeepLoading">
+            <summary>
+            Get or set the Initialize method perform a deep level analyzing(may cause security issues)
+            </summary>
+        </member>
         <member name="P:NetOffice.Settings.EnableDebugOutput">
             <summary>
             Get or set NetOffice logs essential system steps in the DebugConsole(if enabled). true by default
@@ -150,7 +155,7 @@
         <member name="M:NetOffice.Factory.Initialize(System.Globalization.CultureInfo,System.Boolean)">
             <summary>
             Must be called from client assembly for COMObject Support
-            Recieve factory infos from all loaded LateBindingApi Assemblies in current application domain
+            Recieve factory infos from all loaded NetOffice Assemblies in current application domain
             </summary>
             <param name="threadCulture">given value for Settings.ThreadCulture</param>
             <param name="enableThreadSafe">given value for Settings.EnableThreadSafe</param>
@@ -158,21 +163,21 @@
         <member name="M:NetOffice.Factory.Initialize(System.Globalization.CultureInfo)">
             <summary>
             Must be called from client assembly for COMObject Support
-            Recieve factory infos from all loaded LateBindingApi Assemblies in current application domain
+            Recieve factory infos from all loaded NetOffice Assemblies in current application domain
             </summary>
             <param name="threadCulture">given value for Settings.ThreadCulture</param>
         </member>
         <member name="M:NetOffice.Factory.Initialize(System.Boolean)">
             <summary>
             Must be called from client assembly for COMObject Support
-            Recieve factory infos from all loaded LateBindingApi Assemblies in current application domain
+            Recieve factory infos from all loaded NetOffice Assemblies in current application domain
             </summary>
             <param name="enableThreadSafe">given value for Settings.EnableThreadSafe</param>
         </member>
         <member name="M:NetOffice.Factory.Initialize(NetOffice.CacheOptions)">
             <summary>
             Must be called from client assembly for COMObject Support
-            Recieve factory infos from all loaded LateBindingApi Assemblies in current application domain
+            Recieve factory infos from all loaded NetOffice Assemblies in current application domain
             </summary>
             <param name="cacheOptions">settings what NetOffice does with a previous existing cache(if exists)</param>
         </member>
@@ -180,6 +185,21 @@
             <summary>
             Must be called from client assembly for COMObject Support
             Recieve factory infos from all loaded LateBindingApi Assemblies in current application domain
+            </summary>
+        </member>
+        <member name="M:NetOffice.Factory.AddNetOfficeAssemblies(System.Boolean)">
+            <summary>
+            analyze assemblies in current appdomain and connect all NetOffice assemblies to the core runtime
+            </summary>
+        </member>
+        <member name="M:NetOffice.Factory.AddDependentNetOfficeAssemblies">
+            <summary>
+            analyze loaded NetOffice assemblies and add dependent assemblies to the runtime if necessary
+            </summary>
+        </member>
+        <member name="M:NetOffice.Factory.ClearCache">
+            <summary>
+            clears proxy/type/wrapper/assembly cache etc.
             </summary>
         </member>
         <member name="M:NetOffice.Factory.CheckInitialize">
@@ -275,14 +295,6 @@
             <summary>
             returns info the assembly is a NetOffice Api Assembly
             </summary>
-            <param name="itemAssembly"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.Factory.NetOfficeAssemblyIsAlreadyLoaded(System.String,System.Reflection.Assembly)">
-            <summary>
-            checks the target is assembly is currently loaded
-            </summary>
-            <param name="name"></param>
             <param name="itemAssembly"></param>
             <returns></returns>
         </member>
@@ -959,6 +971,13 @@
             clears message buffer
             </summary>
         </member>
+        <member name="M:NetOffice.DebugConsole.WriteLine(System.String,System.Object[])">
+            <summary>
+            write log message
+            </summary>
+            <param name="message"></param>
+            <param name="args"></param>
+        </member>
         <member name="M:NetOffice.DebugConsole.WriteLine(System.String)">
             <summary>
             write log message
@@ -1243,6 +1262,11 @@
             <param name="paramsModifier">ararry with modifiers correspond paramsArray</param>
             <param name="paramsArray">array with parameters</param>
             <returns>array copy or null</returns>
+        </member>
+        <member name="T:NetOffice.DependentAssembly">
+            <summary>
+            dependent assembly description
+            </summary>
         </member>
     </members>
 </doc>
