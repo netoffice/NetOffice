@@ -298,6 +298,13 @@
             <param name="itemAssembly"></param>
             <returns></returns>
         </member>
+        <member name="M:NetOffice.Factory.ContainsNetOfficePublicKeyToken(System.Reflection.AssemblyName)">
+            <summary>
+            returns info the assembly is a NetOffice Api Assembly
+            </summary>
+            <param name="itemName"></param>
+            <returns></returns>
+        </member>
         <member name="M:NetOffice.Factory.AssemblyExistsInFactoryList(System.String)">
             <summary>
             check for loaded assembly in factory list
@@ -355,6 +362,11 @@
             <summary>
             notify info the count of proxies there open are changed
             in case of notify comes from event trigger created proxy the call comes from other thread
+            </summary>
+        </member>
+        <member name="P:NetOffice.Factory.KnownNetOfficeKeyTokens">
+            <summary>
+            contains a list of all known netoffice 
             </summary>
         </member>
         <member name="T:NetOffice.Factory.ProxyCountChangedHandler">
@@ -837,6 +849,11 @@
             this method is a custom overload from NetOffice
             </summary>
         </member>
+        <member name="T:NetOffice.DependentAssembly">
+            <summary>
+            dependent assembly description
+            </summary>
+        </member>
         <member name="T:NetOffice.IEventBinding">
             <summary>
             EventBinding Interface
@@ -1262,11 +1279,6 @@
             <param name="paramsModifier">ararry with modifiers correspond paramsArray</param>
             <param name="paramsArray">array with parameters</param>
             <returns>array copy or null</returns>
-        </member>
-        <member name="T:NetOffice.DependentAssembly">
-            <summary>
-            dependent assembly description
-            </summary>
         </member>
     </members>
 </doc>
