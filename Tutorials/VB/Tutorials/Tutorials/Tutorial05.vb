@@ -1,5 +1,6 @@
 ﻿Imports NetOffice
 Imports Excel = NetOffice.ExcelApi
+Imports Office = NetOffice.OfficeApi
 
 Public Class Tutorial05
     Implements ITutorial
@@ -12,27 +13,26 @@ Public Class Tutorial05
 
         ' start application
         Dim application As New Excel.Application()
+        application.Visible = False
         application.DisplayAlerts = False
 
-        Dim book As Excel.Workbook = application.Workbooks.Add()
+        For Each item As Office.COMAddIn In application.COMAddIns
 
-        ' ActiveSheet is defined as unkown Proxy in Excel Type Library, it can have multiple times at runtime
-        ' but its always a COM Proxy, never a scalar type like bool or int. 
-        ' In VBA oder PIA its converted to object, in NetOffice its also represents as COMObject
-        Dim sheet As Object = application.ActiveSheet
-        If (TypeName(sheet) = "Worksheet") Then
-            Dim activeSheet As Excel.Worksheet = sheet
-        End If
+            ' the application property is an unkown COM object
+            ' we need a cast at runtime 
+            Dim hostApp As Excel.Application = item.Application
 
-        ' all classes inherites from the common base type COMObject
-        ' you can use also:
-        Dim anonymSheet As COMObject = application.ActiveSheet
+            ' do some sample stuff
+            Dim hostAppName As String = hostApp.Name
+            Dim hostAppVisible As Boolean = hostApp.Visible
 
-        '3 basic properties of COMObject
-        Dim proxy As Object = anonymSheet.UnderlyingObject ' the real COM proxy, be carefull !
-        Dim proxyClassName As String = anonymSheet.UnderlyingTypeName ' the class name of the COM proxy, for example "Worksheet"
-        Dim isDisposed As Boolean = anonymSheet.IsDisposed ' info about the object is already disposed
+            'another way to use is visual basic late binding 
+            hostAppName = item.Application.Name
+            hostAppVisible = item.Application.Visible
 
+        Next
+
+        ' quit and dispose excel
         application.Quit()
         application.Dispose()
 
@@ -48,7 +48,7 @@ Public Class Tutorial05
 
     Public ReadOnly Property Description As String Implements TutorialsBase.ITutorial.Description
         Get
-            Return IIf(_hostApplication.LCID = 1033, "Understanding unkown Types", "Richtiges verwenden von unbekannten Typen")
+            Return IIf(_hostApplication.LCID = 1033, "Understanding unkown Types", "Richtiges verwenden von unbekannten COM Objekten")
         End Get
     End Property
 

@@ -9,6 +9,7 @@ using TutorialsBase;
 
 using NetOffice;
 using Excel = NetOffice.ExcelApi;
+using Office = NetOffice.OfficeApi;
 
 namespace TutorialsCS4
 {
@@ -22,29 +23,21 @@ namespace TutorialsCS4
         {
             // start application
             Excel.Application application = new Excel.Application();
+            application.Visible = false;
             application.DisplayAlerts = false;
 
-            // create new Workbook
-            Excel.Workbook book = application.Workbooks.Add();
-
-            // ActiveSheet is defined as unkown Proxy in Excel Type Library, it can have multiple times at runtime
-            // but its always a COM Proxy, never a scalar type like bool or int. 
-            // In VBA oder PIA its converted to object, in NetOffice its also represents as object
-            object sheet = application.ActiveSheet;
-            if (sheet is Excel.Worksheet)
+            foreach (Office.COMAddIn item in application.COMAddIns)
             {
-                Excel.Worksheet activeSheet = (Excel.Worksheet)sheet;
+                // the application property is an unkown COM object
+                // we need a cast at runtime
+                Excel.Application hostApp = item.Application as Excel.Application;
+                
+                // do some sample stuff
+                string hostAppName = hostApp.Name;
+                bool hostAppVisible = hostApp.Visible;
             }
-
-            // all classes inherites from the common base type COMObject
-            // you can use also:
-            COMObject unkownSheet = application.ActiveSheet as COMObject;
-
-            // 3 basic properties of COMObject
-            object proxy = unkownSheet.UnderlyingObject;            // the real COM proxy, be carefull !
-            string proxyClassName = unkownSheet.UnderlyingTypeName; // the class name of the COM proxy, for example "Worksheet"
-            bool isDisposed = unkownSheet.IsDisposed;               // info about the object is already disposed
-
+ 
+            // quit and dispose excel
             application.Quit();
             application.Dispose();
 
@@ -79,7 +72,7 @@ namespace TutorialsCS4
 
         public string Description
         {
-            get { return _hostApplication.LCID == 1033 ? "Understanding unkown Types" : "Richtiges verwenden von unbekannten Typen"; }
+            get { return _hostApplication.LCID == 1033 ? "Understanding unkown Types" : "Richtiges verwenden von unbekannten COM Objekten"; }
         }
 
         public UserControl Panel
