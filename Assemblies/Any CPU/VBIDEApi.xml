@@ -224,7 +224,7 @@
             </summary>
             <param name="progId">string ProgId</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._VBComponents.AddMTDesigner(System.Int32)">
+        <member name="M:NetOffice.VBIDEApi._VBComponents.AddMTDesigner(System.Object)">
             <summary>
             SupportByVersion VBIDE 12, 14, 5.3
             </summary>
@@ -2180,7 +2180,7 @@
             <param name="line">Int32 Line</param>
             <param name="_string">string String</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._CodeModule.DeleteLines(System.Int32,System.Int32)">
+        <member name="M:NetOffice.VBIDEApi._CodeModule.DeleteLines(System.Int32,System.Object)">
             <summary>
             SupportByVersion VBIDE 12, 14, 5.3
             </summary>
@@ -2207,7 +2207,7 @@
             <param name="eventName">string EventName</param>
             <param name="objectName">string ObjectName</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion VBIDE 12, 14, 5.3
             </summary>
@@ -2230,7 +2230,7 @@
             <param name="endLine">Int32 EndLine</param>
             <param name="endColumn">Int32 EndColumn</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion VBIDE 12, 14, 5.3
             </summary>
@@ -2241,7 +2241,7 @@
             <param name="endColumn">Int32 EndColumn</param>
             <param name="wholeWord">optional bool WholeWord = false</param>
         </member>
-        <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VBIDEApi._CodeModule.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion VBIDE 12, 14, 5.3
             </summary>

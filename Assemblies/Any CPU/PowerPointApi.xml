@@ -56,7 +56,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Slide.Export(System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Slide.Export(System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -72,7 +72,7 @@
             <param name="fileName">string FileName</param>
             <param name="filterName">string FilterName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Slide.Export(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Slide.Export(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -104,7 +104,7 @@
             </summary>
             <param name="themeColorSchemeName">string themeColorSchemeName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Slide.PublishSlides(System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Slide.PublishSlides(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -118,7 +118,7 @@
             </summary>
             <param name="slideLibraryUrl">string SlideLibraryUrl</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Slide.PublishSlides(System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Slide.PublishSlides(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -965,7 +965,7 @@
         <member name="M:NetOffice.PowerPointApi.Chart.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -985,20 +985,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="legendKey">optional object LegendKey</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1006,7 +1006,7 @@
             <param name="legendKey">optional object LegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1015,7 +1015,7 @@
             <param name="autoText">optional object AutoText</param>
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1025,7 +1025,7 @@
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
             <param name="showSeriesName">optional object ShowSeriesName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1036,7 +1036,7 @@
             <param name="showSeriesName">optional object ShowSeriesName</param>
             <param name="showCategoryName">optional object ShowCategoryName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1048,7 +1048,7 @@
             <param name="showCategoryName">optional object ShowCategoryName</param>
             <param name="showValue">optional object ShowValue</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1061,7 +1061,7 @@
             <param name="showValue">optional object ShowValue</param>
             <param name="showPercentage">optional object ShowPercentage</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1270,7 +1270,7 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1284,20 +1284,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="legendKey">optional object LegendKey</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Chart._ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1305,7 +1305,7 @@
             <param name="legendKey">optional object LegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.Axes(System.Object,NetOffice.PowerPointApi.Enums.XlAxisGroup)">
+        <member name="M:NetOffice.PowerPointApi.Chart.Axes(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1478,7 +1478,7 @@
             </summary>
             <param name="before">optional object Before</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.CopyPicture(NetOffice.PowerPointApi.Enums.XlPictureAppearance,NetOffice.PowerPointApi.Enums.XlCopyPictureFormat,NetOffice.PowerPointApi.Enums.XlPictureAppearance)">
+        <member name="M:NetOffice.PowerPointApi.Chart.CopyPicture(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1491,13 +1491,13 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.CopyPicture(NetOffice.PowerPointApi.Enums.XlPictureAppearance)">
+        <member name="M:NetOffice.PowerPointApi.Chart.CopyPicture(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="appearance">optional NetOffice.PowerPointApi.Enums.XlPictureAppearance Appearance = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Chart.CopyPicture(NetOffice.PowerPointApi.Enums.XlPictureAppearance,NetOffice.PowerPointApi.Enums.XlCopyPictureFormat)">
+        <member name="M:NetOffice.PowerPointApi.Chart.CopyPicture(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -1980,7 +1980,7 @@
         <member name="M:NetOffice.PowerPointApi.AnimationBehaviors.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.AnimationBehaviors.Add(NetOffice.PowerPointApi.Enums.MsoAnimType,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.AnimationBehaviors.Add(NetOffice.PowerPointApi.Enums.MsoAnimType,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -2193,7 +2193,7 @@
         <member name="M:NetOffice.PowerPointApi.Rows.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Rows.Add(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Rows.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -2880,7 +2880,7 @@
         <member name="M:NetOffice.PowerPointApi.DocumentWindows.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindows.Arrange(NetOffice.PowerPointApi.Enums.PpArrangeStyle)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindows.Arrange(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3688,7 +3688,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.String,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3706,14 +3706,14 @@
             </summary>
             <param name="address">string Address</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="address">string Address</param>
             <param name="subAddress">optional string SubAddress = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3721,7 +3721,7 @@
             <param name="subAddress">optional string SubAddress = </param>
             <param name="newWindow">optional bool NewWindow = false</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3730,7 +3730,7 @@
             <param name="newWindow">optional bool NewWindow = false</param>
             <param name="addHistory">optional bool AddHistory = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3740,7 +3740,7 @@
             <param name="addHistory">optional bool AddHistory = true</param>
             <param name="extraInfo">optional string ExtraInfo = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.String,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3761,7 +3761,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Int32,System.Int32,System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3776,20 +3776,20 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="from">optional Int32 From = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="from">optional Int32 From = -1</param>
             <param name="to">optional Int32 To = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Int32,System.Int32,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3797,7 +3797,7 @@
             <param name="to">optional Int32 To = -1</param>
             <param name="printToFile">optional string PrintToFile = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Int32,System.Int32,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PrintOut(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3811,7 +3811,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SaveAs(System.String,NetOffice.PowerPointApi.Enums.PpSaveAsFileType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SaveAs(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3825,14 +3825,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SaveAs(System.String,NetOffice.PowerPointApi.Enums.PpSaveAsFileType)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SaveAs(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="fileFormat">optional NetOffice.PowerPointApi.Enums.PpSaveAsFileType FileFormat = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SaveCopyAs(System.String,NetOffice.PowerPointApi.Enums.PpSaveAsFileType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SaveCopyAs(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3846,14 +3846,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SaveCopyAs(System.String,NetOffice.PowerPointApi.Enums.PpSaveAsFileType)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SaveCopyAs(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="fileFormat">optional NetOffice.PowerPointApi.Enums.PpSaveAsFileType FileFormat = 11</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.Export(System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.Export(System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3869,7 +3869,7 @@
             <param name="path">string Path</param>
             <param name="filterName">string FilterName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.Export(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.Export(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -3922,7 +3922,7 @@
             </summary>
             <param name="path">string Path</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckIn(System.Boolean,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckIn(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -3935,13 +3935,13 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckIn(System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckIn(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckIn(System.Boolean,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckIn(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -3953,7 +3953,7 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.String,System.String,System.Boolean,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -3967,20 +3967,20 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="recipients">optional string Recipients = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.String,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="recipients">optional string Recipients = </param>
             <param name="subject">optional string Subject = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendForReview(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -3988,7 +3988,7 @@
             <param name="subject">optional string Subject = </param>
             <param name="showMessage">optional bool ShowMessage = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ReplyWithChanges(System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ReplyWithChanges(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -4004,7 +4004,7 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.AddBaseline(System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.AddBaseline(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -4029,7 +4029,7 @@
             <param name="passwordEncryptionKeyLength">Int32 PasswordEncryptionKeyLength</param>
             <param name="passwordEncryptionFileProperties">bool PasswordEncryptionFileProperties</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendFaxOverInternet(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendFaxOverInternet(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 11, 12, 14, 15
             </summary>
@@ -4042,13 +4042,13 @@
             SupportByVersion PowerPoint 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendFaxOverInternet(System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendFaxOverInternet(System.Object)">
             <summary>
             SupportByVersion PowerPoint 11, 12, 14, 15
             </summary>
             <param name="recipients">optional string Recipients = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.SendFaxOverInternet(System.String,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.SendFaxOverInternet(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 11, 12, 14, 15
             </summary>
@@ -4087,7 +4087,7 @@
             </summary>
             <param name="type">NetOffice.PowerPointApi.Enums.PpRemoveDocInfoType Type</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Boolean,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4101,20 +4101,20 @@
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Boolean,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
             <param name="comments">optional object Comments</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Boolean,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CheckInWithVersion(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4122,7 +4122,7 @@
             <param name="comments">optional object Comments</param>
             <param name="makePublic">optional object MakePublic</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4150,7 +4150,7 @@
             <param name="path">string Path</param>
             <param name="fixedFormatType">NetOffice.PowerPointApi.Enums.PpFixedFormatType FixedFormatType</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4158,7 +4158,7 @@
             <param name="fixedFormatType">NetOffice.PowerPointApi.Enums.PpFixedFormatType FixedFormatType</param>
             <param name="intent">optional NetOffice.PowerPointApi.Enums.PpFixedFormatIntent Intent = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4167,7 +4167,7 @@
             <param name="intent">optional NetOffice.PowerPointApi.Enums.PpFixedFormatIntent Intent = 1</param>
             <param name="frameSlides">optional NetOffice.OfficeApi.Enums.MsoTriState FrameSlides = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4177,7 +4177,7 @@
             <param name="frameSlides">optional NetOffice.OfficeApi.Enums.MsoTriState FrameSlides = 0</param>
             <param name="handoutOrder">optional NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder HandoutOrder = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4188,7 +4188,7 @@
             <param name="handoutOrder">optional NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder HandoutOrder = 1</param>
             <param name="outputType">optional NetOffice.PowerPointApi.Enums.PpPrintOutputType OutputType = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4200,7 +4200,7 @@
             <param name="outputType">optional NetOffice.PowerPointApi.Enums.PpPrintOutputType OutputType = 1</param>
             <param name="printHiddenSlides">optional NetOffice.OfficeApi.Enums.MsoTriState PrintHiddenSlides = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4213,7 +4213,7 @@
             <param name="printHiddenSlides">optional NetOffice.OfficeApi.Enums.MsoTriState PrintHiddenSlides = 0</param>
             <param name="printRange">optional NetOffice.PowerPointApi.PrintRange PrintRange = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4227,7 +4227,7 @@
             <param name="printRange">optional NetOffice.PowerPointApi.PrintRange PrintRange = 0</param>
             <param name="rangeType">optional NetOffice.PowerPointApi.Enums.PpPrintRangeType RangeType = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4242,7 +4242,7 @@
             <param name="rangeType">optional NetOffice.PowerPointApi.Enums.PpPrintRangeType RangeType = 1</param>
             <param name="slideShowName">optional string SlideShowName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4258,7 +4258,7 @@
             <param name="slideShowName">optional string SlideShowName = </param>
             <param name="includeDocProperties">optional bool IncludeDocProperties = false</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4275,7 +4275,7 @@
             <param name="includeDocProperties">optional bool IncludeDocProperties = false</param>
             <param name="keepIRMSettings">optional bool KeepIRMSettings = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4293,7 +4293,7 @@
             <param name="keepIRMSettings">optional bool KeepIRMSettings = true</param>
             <param name="docStructureTags">optional bool DocStructureTags = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4312,7 +4312,7 @@
             <param name="docStructureTags">optional bool DocStructureTags = true</param>
             <param name="bitmapMissingFonts">optional bool BitmapMissingFonts = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4353,7 +4353,7 @@
             </summary>
             <param name="themeName">string themeName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PublishSlides(System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PublishSlides(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4367,7 +4367,7 @@
             </summary>
             <param name="slideLibraryUrl">string SlideLibraryUrl</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.PublishSlides(System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.PublishSlides(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -4407,7 +4407,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -4424,14 +4424,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="useTimingsAndNarrations">optional bool UseTimingsAndNarrations = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Boolean,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -4439,7 +4439,7 @@
             <param name="useTimingsAndNarrations">optional bool UseTimingsAndNarrations = true</param>
             <param name="defaultSlideDuration">optional Int32 DefaultSlideDuration = 5</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Boolean,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -4448,7 +4448,7 @@
             <param name="defaultSlideDuration">optional Int32 DefaultSlideDuration = 5</param>
             <param name="vertResolution">optional Int32 VertResolution = 720</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Boolean,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.CreateVideo(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -4465,7 +4465,7 @@
             <param name="fileName">string FileName</param>
             <param name="variant">string Variant</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4494,7 +4494,7 @@
             <param name="path">string Path</param>
             <param name="fixedFormatType">NetOffice.PowerPointApi.Enums.PpFixedFormatType FixedFormatType</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4502,7 +4502,7 @@
             <param name="fixedFormatType">NetOffice.PowerPointApi.Enums.PpFixedFormatType FixedFormatType</param>
             <param name="intent">optional NetOffice.PowerPointApi.Enums.PpFixedFormatIntent Intent = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4511,7 +4511,7 @@
             <param name="intent">optional NetOffice.PowerPointApi.Enums.PpFixedFormatIntent Intent = 1</param>
             <param name="frameSlides">optional NetOffice.OfficeApi.Enums.MsoTriState FrameSlides = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4521,7 +4521,7 @@
             <param name="frameSlides">optional NetOffice.OfficeApi.Enums.MsoTriState FrameSlides = 0</param>
             <param name="handoutOrder">optional NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder HandoutOrder = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4532,7 +4532,7 @@
             <param name="handoutOrder">optional NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder HandoutOrder = 1</param>
             <param name="outputType">optional NetOffice.PowerPointApi.Enums.PpPrintOutputType OutputType = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4544,7 +4544,7 @@
             <param name="outputType">optional NetOffice.PowerPointApi.Enums.PpPrintOutputType OutputType = 1</param>
             <param name="printHiddenSlides">optional NetOffice.OfficeApi.Enums.MsoTriState PrintHiddenSlides = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4557,7 +4557,7 @@
             <param name="printHiddenSlides">optional NetOffice.OfficeApi.Enums.MsoTriState PrintHiddenSlides = 0</param>
             <param name="printRange">optional NetOffice.PowerPointApi.PrintRange PrintRange = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4571,7 +4571,7 @@
             <param name="printRange">optional NetOffice.PowerPointApi.PrintRange PrintRange = 0</param>
             <param name="rangeType">optional NetOffice.PowerPointApi.Enums.PpPrintRangeType RangeType = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4586,7 +4586,7 @@
             <param name="rangeType">optional NetOffice.PowerPointApi.Enums.PpPrintRangeType RangeType = 1</param>
             <param name="slideShowName">optional string SlideShowName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4602,7 +4602,7 @@
             <param name="slideShowName">optional string SlideShowName = </param>
             <param name="includeDocProperties">optional bool IncludeDocProperties = false</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4619,7 +4619,7 @@
             <param name="includeDocProperties">optional bool IncludeDocProperties = false</param>
             <param name="keepIRMSettings">optional bool KeepIRMSettings = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4637,7 +4637,7 @@
             <param name="keepIRMSettings">optional bool KeepIRMSettings = true</param>
             <param name="docStructureTags">optional bool DocStructureTags = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4656,7 +4656,7 @@
             <param name="docStructureTags">optional bool DocStructureTags = true</param>
             <param name="bitmapMissingFonts">optional bool BitmapMissingFonts = true</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -4676,7 +4676,7 @@
             <param name="bitmapMissingFonts">optional bool BitmapMissingFonts = true</param>
             <param name="useISO19005_1">optional bool UseISO19005_1 = false</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,NetOffice.PowerPointApi.Enums.PpFixedFormatIntent,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.Enums.PpPrintHandoutOrder,NetOffice.PowerPointApi.Enums.PpPrintOutputType,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.PowerPointApi.PrintRange,NetOffice.PowerPointApi.Enums.PpPrintRangeType,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Presentation.ExportAsFixedFormat2(System.String,NetOffice.PowerPointApi.Enums.PpFixedFormatType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -5365,7 +5365,7 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,NetOffice.PowerPointApi.Enums.XlRowCol,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -5381,14 +5381,14 @@
             </summary>
             <param name="source">object Source</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,NetOffice.PowerPointApi.Enums.XlRowCol)">
+        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="source">object Source</param>
             <param name="rowcol">optional NetOffice.PowerPointApi.Enums.XlRowCol Rowcol = -4105</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,NetOffice.PowerPointApi.Enums.XlRowCol,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -5396,7 +5396,7 @@
             <param name="rowcol">optional NetOffice.PowerPointApi.Enums.XlRowCol Rowcol = -4105</param>
             <param name="seriesLabels">optional object SeriesLabels</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,NetOffice.PowerPointApi.Enums.XlRowCol,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.SeriesCollection.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -6700,7 +6700,7 @@
         <member name="M:NetOffice.PowerPointApi.FreeformBuilder.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -6722,7 +6722,7 @@
             <param name="x1">Single X1</param>
             <param name="y1">Single Y1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -6732,7 +6732,7 @@
             <param name="y1">Single Y1</param>
             <param name="x2">optional Single X2 = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -6743,7 +6743,7 @@
             <param name="x2">optional Single X2 = 0</param>
             <param name="y2">optional Single Y2 = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -9324,7 +9324,7 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindow.Edit(System.String)">
+        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindow.Edit(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -10714,7 +10714,7 @@
             </summary>
             <param name="type">NetOffice.OfficeApi.Enums.MsoFileDialogType Type</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Application.Help(System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi._Application.Help(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -10726,7 +10726,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Application.Help(System.String)">
+        <member name="M:NetOffice.PowerPointApi._Application.Help(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -10767,7 +10767,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Application.GetOptionFlag(System.Int32,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Application.GetOptionFlag(System.Int32,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -10780,7 +10780,7 @@
             </summary>
             <param name="option">Int32 Option</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi._Application.SetOptionFlag(System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi._Application.SetOptionFlag(System.Int32,System.Boolean,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -11612,7 +11612,7 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11626,20 +11626,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="legendKey">optional object LegendKey</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point._ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11647,7 +11647,7 @@
             <param name="legendKey">optional object LegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11667,20 +11667,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="legendKey">optional object LegendKey</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11688,7 +11688,7 @@
             <param name="legendKey">optional object LegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11697,7 +11697,7 @@
             <param name="autoText">optional object AutoText</param>
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11707,7 +11707,7 @@
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
             <param name="showSeriesName">optional object ShowSeriesName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11718,7 +11718,7 @@
             <param name="showSeriesName">optional object ShowSeriesName</param>
             <param name="showCategoryName">optional object ShowCategoryName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11730,7 +11730,7 @@
             <param name="showCategoryName">optional object ShowCategoryName</param>
             <param name="showValue">optional object ShowValue</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11743,7 +11743,7 @@
             <param name="showValue">optional object ShowValue</param>
             <param name="showPercentage">optional object ShowPercentage</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Point.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -11757,7 +11757,7 @@
             <param name="showPercentage">optional object ShowPercentage</param>
             <param name="showBubbleSize">optional object ShowBubbleSize</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Point.PieSliceLocation(NetOffice.PowerPointApi.Enums.XlPieSliceLocation,NetOffice.PowerPointApi.Enums.XlPieSliceIndex)">
+        <member name="M:NetOffice.PowerPointApi.Point.PieSliceLocation(NetOffice.PowerPointApi.Enums.XlPieSliceLocation,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -12428,7 +12428,7 @@
             </summary>
             <param name="scale">Single scale</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Table.ApplyStyle(System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.Table.ApplyStyle(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -12440,7 +12440,7 @@
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Table.ApplyStyle(System.String)">
+        <member name="M:NetOffice.PowerPointApi.Table.ApplyStyle(System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -12931,7 +12931,7 @@
             </summary>
             <param name="index">Int32 index</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -12947,20 +12947,20 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType)">
+        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="dataType">optional NetOffice.PowerPointApi.Enums.PpPasteDataType DataType = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="dataType">optional NetOffice.PowerPointApi.Enums.PpPasteDataType DataType = 0</param>
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String)">
+        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -12968,7 +12968,7 @@
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
             <param name="iconFileName">optional string IconFileName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -12977,7 +12977,7 @@
             <param name="iconFileName">optional string IconFileName = </param>
             <param name="iconIndex">optional Int32 IconIndex = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.PowerPointApi.View.PasteSpecial(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -12987,7 +12987,7 @@
             <param name="iconIndex">optional Int32 IconIndex = 0</param>
             <param name="iconLabel">optional string IconLabel = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Int32,System.Int32,System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -13002,20 +13002,20 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="from">optional Int32 From = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="from">optional Int32 From = -1</param>
             <param name="to">optional Int32 To = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Int32,System.Int32,System.String)">
+        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -13023,7 +13023,7 @@
             <param name="to">optional Int32 To = -1</param>
             <param name="printToFile">optional string PrintToFile = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Int32,System.Int32,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.View.PrintOut(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -14212,7 +14212,7 @@
         <member name="M:NetOffice.PowerPointApi.Research.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Research.Query(System.String,System.Object,System.Object,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.Research.Query(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -14243,7 +14243,7 @@
             <param name="queryString">optional object QueryString</param>
             <param name="queryLanguage">optional object QueryLanguage</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Research.Query(System.String,System.Object,System.Object,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.Research.Query(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -14402,7 +14402,7 @@
         <member name="M:NetOffice.PowerPointApi.DiagramNodeChildren.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNodeChildren.AddNode(System.Object,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
+        <member name="M:NetOffice.PowerPointApi.DiagramNodeChildren.AddNode(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -14500,7 +14500,7 @@
         <member name="M:NetOffice.PowerPointApi.DiagramNode.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNode.AddNode(NetOffice.OfficeApi.Enums.MsoRelativeNodePosition,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
+        <member name="M:NetOffice.PowerPointApi.DiagramNode.AddNode(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -14512,7 +14512,7 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNode.AddNode(NetOffice.OfficeApi.Enums.MsoRelativeNodePosition)">
+        <member name="M:NetOffice.PowerPointApi.DiagramNode.AddNode(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -14536,7 +14536,7 @@
             </summary>
             <param name="targetNode">NetOffice.PowerPointApi.DiagramNode TargetNode</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNode.SwapNode(NetOffice.PowerPointApi.DiagramNode,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.DiagramNode.SwapNode(NetOffice.PowerPointApi.DiagramNode,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -14549,7 +14549,7 @@
             </summary>
             <param name="targetNode">NetOffice.PowerPointApi.DiagramNode TargetNode</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DiagramNode.CloneNode(System.Boolean,NetOffice.PowerPointApi.DiagramNode,NetOffice.OfficeApi.Enums.MsoRelativeNodePosition)">
+        <member name="M:NetOffice.PowerPointApi.DiagramNode.CloneNode(System.Boolean,NetOffice.PowerPointApi.DiagramNode,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -15291,7 +15291,7 @@
         <member name="M:NetOffice.PowerPointApi.AnimationPoints.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.AnimationPoints.Add(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.AnimationPoints.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -15348,7 +15348,7 @@
         <member name="M:NetOffice.PowerPointApi.Designs.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Designs.Add(System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Designs.Add(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -15361,7 +15361,7 @@
             </summary>
             <param name="designName">string designName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Designs.Load(System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Designs.Load(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -15374,7 +15374,7 @@
             </summary>
             <param name="templateName">string TemplateName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Designs.Clone(NetOffice.PowerPointApi.Design,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Designs.Clone(NetOffice.PowerPointApi.Design,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -16868,7 +16868,7 @@
             <param name="endX">Single EndX</param>
             <param name="endY">Single EndY</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -16890,7 +16890,7 @@
             <param name="left">Single Left</param>
             <param name="top">Single Top</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -16969,7 +16969,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -16990,20 +16990,20 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="left">optional Single Left = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="left">optional Single Left = 0</param>
             <param name="top">optional Single Top = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17011,7 +17011,7 @@
             <param name="top">optional Single Top = 0</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17020,7 +17020,7 @@
             <param name="width">optional Single Width = -1</param>
             <param name="height">optional Single Height = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17030,7 +17030,7 @@
             <param name="height">optional Single Height = -1</param>
             <param name="className">optional string ClassName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17041,7 +17041,7 @@
             <param name="className">optional string ClassName = </param>
             <param name="fileName">optional string FileName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17053,7 +17053,7 @@
             <param name="fileName">optional string FileName = </param>
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17066,7 +17066,7 @@
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
             <param name="iconFileName">optional string IconFileName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17080,7 +17080,7 @@
             <param name="iconFileName">optional string IconFileName = </param>
             <param name="iconIndex">optional Int32 IconIndex = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Single,System.Single,System.Single,System.Single,System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17095,7 +17095,7 @@
             <param name="iconIndex">optional Int32 IconIndex = 0</param>
             <param name="iconLabel">optional string IconLabel = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17109,20 +17109,20 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="left">optional Single Left = 1.25</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="left">optional Single Left = 1.25</param>
             <param name="top">optional Single Top = 1.25</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddComment(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17130,7 +17130,7 @@
             <param name="top">optional Single Top = 1.25</param>
             <param name="width">optional Single Width = 145.25</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17146,14 +17146,14 @@
             </summary>
             <param name="type">NetOffice.PowerPointApi.Enums.PpPlaceholderType Type</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="type">NetOffice.PowerPointApi.Enums.PpPlaceholderType Type</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17161,7 +17161,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddPlaceholder(NetOffice.PowerPointApi.Enums.PpPlaceholderType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17170,7 +17170,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17186,14 +17186,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="left">optional Single Left = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17201,7 +17201,7 @@
             <param name="left">optional Single Left = 0</param>
             <param name="top">optional Single Top = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17215,7 +17215,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17233,7 +17233,7 @@
             <param name="numRows">Int32 NumRows</param>
             <param name="numColumns">Int32 NumColumns</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17241,7 +17241,7 @@
             <param name="numColumns">Int32 NumColumns</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17250,7 +17250,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddTable(System.Int32,System.Int32,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -17260,7 +17260,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -17276,20 +17276,20 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="dataType">optional NetOffice.PowerPointApi.Enums.PpPasteDataType DataType = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="dataType">optional NetOffice.PowerPointApi.Enums.PpPasteDataType DataType = 0</param>
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -17297,7 +17297,7 @@
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
             <param name="iconFileName">optional string IconFileName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -17306,7 +17306,7 @@
             <param name="iconFileName">optional string IconFileName = </param>
             <param name="iconIndex">optional Int32 IconIndex = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.PasteSpecial(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -17335,7 +17335,7 @@
             <param name="width">Single Width</param>
             <param name="height">Single Height</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -17350,20 +17350,20 @@
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -17371,7 +17371,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -17380,7 +17380,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17398,14 +17398,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="linkToFile">optional NetOffice.OfficeApi.Enums.MsoTriState LinkToFile = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17413,7 +17413,7 @@
             <param name="linkToFile">optional NetOffice.OfficeApi.Enums.MsoTriState LinkToFile = 0</param>
             <param name="saveWithDocument">optional NetOffice.OfficeApi.Enums.MsoTriState SaveWithDocument = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17422,7 +17422,7 @@
             <param name="saveWithDocument">optional NetOffice.OfficeApi.Enums.MsoTriState SaveWithDocument = -1</param>
             <param name="left">optional Single Left = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17432,7 +17432,7 @@
             <param name="left">optional Single Left = 0</param>
             <param name="top">optional Single Top = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObject2(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17443,7 +17443,7 @@
             <param name="top">optional Single Top = 0</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17459,14 +17459,14 @@
             </summary>
             <param name="embedTag">string EmbedTag</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="embedTag">string EmbedTag</param>
             <param name="left">optional Single Left = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17474,7 +17474,7 @@
             <param name="left">optional Single Left = 0</param>
             <param name="top">optional Single Top = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddMediaObjectFromEmbedTag(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17483,7 +17483,7 @@
             <param name="top">optional Single Top = 0</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17499,14 +17499,14 @@
             </summary>
             <param name="layout">NetOffice.OfficeApi.SmartArtLayout Layout</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="layout">NetOffice.OfficeApi.SmartArtLayout Layout</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17514,7 +17514,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -17523,7 +17523,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single,System.Single,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -17540,20 +17540,20 @@
             SupportByVersion PowerPoint 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
             <param name="style">optional Int32 Style = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
             <param name="style">optional Int32 Style = -1</param>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -17561,7 +17561,7 @@
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -17570,7 +17570,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -17580,7 +17580,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -18123,7 +18123,7 @@
             </summary>
             <param name="filePath">string FilePath</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18139,20 +18139,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="trim">optional bool Trim = false</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Boolean,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="trim">optional bool Trim = false</param>
             <param name="sampleHeight">optional Int32 SampleHeight = 768</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Boolean,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18160,7 +18160,7 @@
             <param name="sampleHeight">optional Int32 SampleHeight = 768</param>
             <param name="sampleWidth">optional Int32 SampleWidth = 1280</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Boolean,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18169,7 +18169,7 @@
             <param name="sampleWidth">optional Int32 SampleWidth = 1280</param>
             <param name="videoFrameRate">optional Int32 VideoFrameRate = 24</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.Resample(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18179,7 +18179,7 @@
             <param name="videoFrameRate">optional Int32 VideoFrameRate = 24</param>
             <param name="audioSamplingRate">optional Int32 AudioSamplingRate = 48000</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.MediaFormat.ResampleFromProfile(NetOffice.PowerPointApi.Enums.PpResampleMediaProfile)">
+        <member name="M:NetOffice.PowerPointApi.MediaFormat.ResampleFromProfile(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18326,7 +18326,7 @@
         <member name="M:NetOffice.PowerPointApi.Trendlines.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18345,20 +18345,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlTrendlineType Type = -4132</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlTrendlineType Type = -4132</param>
             <param name="order">optional object Order</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18366,7 +18366,7 @@
             <param name="order">optional object Order</param>
             <param name="period">optional object Period</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18375,7 +18375,7 @@
             <param name="period">optional object Period</param>
             <param name="forward">optional object Forward</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18385,7 +18385,7 @@
             <param name="forward">optional object Forward</param>
             <param name="backward">optional object Backward</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18396,7 +18396,7 @@
             <param name="backward">optional object Backward</param>
             <param name="intercept">optional object Intercept</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18408,7 +18408,7 @@
             <param name="intercept">optional object Intercept</param>
             <param name="displayEquation">optional object DisplayEquation</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(NetOffice.PowerPointApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18574,7 +18574,7 @@
             </summary>
             <param name="chartType">NetOffice.OfficeApi.Enums.XlChartType ChartType</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18588,20 +18588,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="legendKey">optional object LegendKey</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series._ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18609,7 +18609,7 @@
             <param name="legendKey">optional object LegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18629,20 +18629,20 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
             <param name="type">optional NetOffice.PowerPointApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="legendKey">optional object LegendKey</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18650,7 +18650,7 @@
             <param name="legendKey">optional object LegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18659,7 +18659,7 @@
             <param name="autoText">optional object AutoText</param>
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18669,7 +18669,7 @@
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
             <param name="showSeriesName">optional object ShowSeriesName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18680,7 +18680,7 @@
             <param name="showSeriesName">optional object ShowSeriesName</param>
             <param name="showCategoryName">optional object ShowCategoryName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18692,7 +18692,7 @@
             <param name="showCategoryName">optional object ShowCategoryName</param>
             <param name="showValue">optional object ShowValue</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -18705,7 +18705,7 @@
             <param name="showValue">optional object ShowValue</param>
             <param name="showPercentage">optional object ShowPercentage</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(NetOffice.PowerPointApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.Series.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -19263,7 +19263,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shape.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.PowerPointApi.Shape.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -19278,7 +19278,7 @@
             <param name="factor">Single Factor</param>
             <param name="relativeToOriginalSize">NetOffice.OfficeApi.Enums.MsoTriState RelativeToOriginalSize</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shape.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.PowerPointApi.Shape.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -19319,7 +19319,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shape.Select(NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Shape.Select(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -19335,7 +19335,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shape.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Int32,System.Int32,NetOffice.PowerPointApi.Enums.PpExportMode)">
+        <member name="M:NetOffice.PowerPointApi.Shape.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -19352,7 +19352,7 @@
             <param name="pathName">string PathName</param>
             <param name="filter">NetOffice.PowerPointApi.Enums.PpShapeFormat Filter</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shape.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Shape.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -19360,7 +19360,7 @@
             <param name="filter">NetOffice.PowerPointApi.Enums.PpShapeFormat Filter</param>
             <param name="scaleWidth">optional Int32 ScaleWidth = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Shape.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Shape.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -21479,7 +21479,7 @@
         <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.Open(System.String,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.Open(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -21493,7 +21493,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.Open(System.String,System.String)">
+        <member name="M:NetOffice.PowerPointApi.ProtectedViewWindows.Open(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -21782,7 +21782,7 @@
             <param name="endX">Single EndX</param>
             <param name="endY">Single EndY</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -21804,7 +21804,7 @@
             <param name="left">Single Left</param>
             <param name="top">Single Top</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -22512,7 +22512,7 @@
         <member name="M:NetOffice.PowerPointApi.Presentations.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Add(NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -22523,7 +22523,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -22538,14 +22538,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open(System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="readOnly">optional NetOffice.OfficeApi.Enums.MsoTriState ReadOnly = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -22553,7 +22553,7 @@
             <param name="readOnly">optional NetOffice.OfficeApi.Enums.MsoTriState ReadOnly = 0</param>
             <param name="untitled">optional NetOffice.OfficeApi.Enums.MsoTriState Untitled = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.OpenOld(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.OpenOld(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -22568,14 +22568,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.OpenOld(System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.OpenOld(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="readOnly">optional NetOffice.OfficeApi.Enums.MsoTriState ReadOnly = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.OpenOld(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.OpenOld(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -22595,7 +22595,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -22611,14 +22611,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="readOnly">optional NetOffice.OfficeApi.Enums.MsoTriState ReadOnly = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -22626,7 +22626,7 @@
             <param name="readOnly">optional NetOffice.OfficeApi.Enums.MsoTriState ReadOnly = 0</param>
             <param name="untitled">optional NetOffice.OfficeApi.Enums.MsoTriState Untitled = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.Presentations.Open2007(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -23511,7 +23511,7 @@
             </summary>
             <param name="index">Int32 index</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -23535,7 +23535,7 @@
             <param name="x1">Single X1</param>
             <param name="y1">Single Y1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -23546,7 +23546,7 @@
             <param name="y1">Single Y1</param>
             <param name="x2">optional Single X2 = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -23558,7 +23558,7 @@
             <param name="x2">optional Single X2 = 0</param>
             <param name="y2">optional Single Y2 = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.PowerPointApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -23656,7 +23656,7 @@
         <member name="M:NetOffice.PowerPointApi.ColorSchemes.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ColorSchemes.Add(NetOffice.PowerPointApi.ColorScheme)">
+        <member name="M:NetOffice.PowerPointApi.ColorSchemes.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -24318,7 +24318,7 @@
         <member name="M:NetOffice.PowerPointApi.Sequence.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimateByLevel,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -24335,7 +24335,7 @@
             <param name="shape">NetOffice.PowerPointApi.Shape Shape</param>
             <param name="effectId">NetOffice.PowerPointApi.Enums.MsoAnimEffect effectId</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimateByLevel)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -24343,7 +24343,7 @@
             <param name="effectId">NetOffice.PowerPointApi.Enums.MsoAnimEffect effectId</param>
             <param name="level">optional NetOffice.PowerPointApi.Enums.MsoAnimateByLevel Level = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimateByLevel,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.AddEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -24352,7 +24352,7 @@
             <param name="level">optional NetOffice.PowerPointApi.Enums.MsoAnimateByLevel Level = 0</param>
             <param name="trigger">optional NetOffice.PowerPointApi.Enums.MsoAnimTriggerType trigger = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.Clone(NetOffice.PowerPointApi.Effect,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.Clone(NetOffice.PowerPointApi.Effect,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -24384,7 +24384,7 @@
             <param name="effect">NetOffice.PowerPointApi.Effect Effect</param>
             <param name="level">NetOffice.PowerPointApi.Enums.MsoAnimateByLevel Level</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.ConvertToAfterEffect(NetOffice.PowerPointApi.Effect,NetOffice.PowerPointApi.Enums.MsoAnimAfterEffect,System.Int32,NetOffice.PowerPointApi.Enums.PpColorSchemeIndex)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.ConvertToAfterEffect(NetOffice.PowerPointApi.Effect,NetOffice.PowerPointApi.Enums.MsoAnimAfterEffect,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -24400,7 +24400,7 @@
             <param name="effect">NetOffice.PowerPointApi.Effect Effect</param>
             <param name="after">NetOffice.PowerPointApi.Enums.MsoAnimAfterEffect After</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.ConvertToAfterEffect(NetOffice.PowerPointApi.Effect,NetOffice.PowerPointApi.Enums.MsoAnimAfterEffect,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.ConvertToAfterEffect(NetOffice.PowerPointApi.Effect,NetOffice.PowerPointApi.Enums.MsoAnimAfterEffect,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -24429,7 +24429,7 @@
             <param name="effect">NetOffice.PowerPointApi.Effect Effect</param>
             <param name="unitEffect">NetOffice.PowerPointApi.Enums.MsoAnimTextUnitEffect unitEffect</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.AddTriggerEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType,NetOffice.PowerPointApi.Shape,System.String,NetOffice.PowerPointApi.Enums.MsoAnimateByLevel)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.AddTriggerEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType,NetOffice.PowerPointApi.Shape,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -24449,7 +24449,7 @@
             <param name="trigger">NetOffice.PowerPointApi.Enums.MsoAnimTriggerType trigger</param>
             <param name="pTriggerShape">NetOffice.PowerPointApi.Shape pTriggerShape</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequence.AddTriggerEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType,NetOffice.PowerPointApi.Shape,System.String)">
+        <member name="M:NetOffice.PowerPointApi.Sequence.AddTriggerEffect(NetOffice.PowerPointApi.Shape,NetOffice.PowerPointApi.Enums.MsoAnimEffect,NetOffice.PowerPointApi.Enums.MsoAnimTriggerType,NetOffice.PowerPointApi.Shape,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -24567,7 +24567,7 @@
         <member name="M:NetOffice.PowerPointApi.Columns.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Columns.Add(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Columns.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -25034,7 +25034,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SlideShowView.GotoSlide(System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.SlideShowView.GotoSlide(System.Int32,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -25254,7 +25254,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -25268,20 +25268,20 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="down">optional Int32 Down = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="down">optional Int32 Down = 1</param>
             <param name="up">optional Int32 Up = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.LargeScroll(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -25289,7 +25289,7 @@
             <param name="up">optional Int32 Up = 0</param>
             <param name="toRight">optional Int32 ToRight = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -25303,20 +25303,20 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="down">optional Int32 Down = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="down">optional Int32 Down = 1</param>
             <param name="up">optional Int32 Up = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.SmallScroll(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -25353,7 +25353,7 @@
             </summary>
             <param name="points">Single Points</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.DocumentWindow.ScrollIntoView(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.DocumentWindow.ScrollIntoView(System.Single,System.Single,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -26085,7 +26085,7 @@
             Get
             </summary>
         </member>
-        <member name="P:NetOffice.PowerPointApi.Axes.Item(NetOffice.PowerPointApi.Enums.XlAxisType,NetOffice.PowerPointApi.Enums.XlAxisGroup)">
+        <member name="P:NetOffice.PowerPointApi.Axes.Item(NetOffice.PowerPointApi.Enums.XlAxisType,System.Object)">
             <summary>
             SupportByVersion PowerPoint 14, 15
             </summary>
@@ -27670,7 +27670,7 @@
             </summary>
             <param name="index">Int32 Index</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.CustomLayouts.Paste(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.CustomLayouts.Paste(System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -28407,7 +28407,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -28422,7 +28422,7 @@
             <param name="factor">Single Factor</param>
             <param name="relativeToOriginalSize">NetOffice.OfficeApi.Enums.MsoTriState RelativeToOriginalSize</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -28463,7 +28463,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.Select(NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.Select(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -28518,7 +28518,7 @@
             <param name="numPointsInPolygon">Int32 numPointsInPolygon</param>
             <param name="isOpen">NetOffice.OfficeApi.Enums.MsoTriState IsOpen</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Int32,System.Int32,NetOffice.PowerPointApi.Enums.PpExportMode)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -28535,7 +28535,7 @@
             <param name="pathName">string PathName</param>
             <param name="filter">NetOffice.PowerPointApi.Enums.PpShapeFormat Filter</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -28543,7 +28543,7 @@
             <param name="filter">NetOffice.PowerPointApi.Enums.PpShapeFormat Filter</param>
             <param name="scaleWidth">optional Int32 ScaleWidth = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.Export(System.String,NetOffice.PowerPointApi.Enums.PpShapeFormat,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -28597,7 +28597,7 @@
             SupportByVersion PowerPoint 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.ShapeRange.MergeShapes(NetOffice.OfficeApi.Enums.MsoMergeCmd,NetOffice.PowerPointApi.Shape)">
+        <member name="M:NetOffice.PowerPointApi.ShapeRange.MergeShapes(NetOffice.OfficeApi.Enums.MsoMergeCmd,System.Object)">
             <summary>
             SupportByVersion PowerPoint 15
             </summary>
@@ -29082,7 +29082,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SlideRange.Export(System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.SlideRange.Export(System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -29098,7 +29098,7 @@
             <param name="fileName">string FileName</param>
             <param name="filterName">string FilterName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SlideRange.Export(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.SlideRange.Export(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -29136,7 +29136,7 @@
             </summary>
             <param name="themeColorSchemeName">string themeColorSchemeName</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SlideRange.PublishSlides(System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.SlideRange.PublishSlides(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -29150,7 +29150,7 @@
             </summary>
             <param name="slideLibraryUrl">string SlideLibraryUrl</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.SlideRange.PublishSlides(System.String,System.Boolean)">
+        <member name="M:NetOffice.PowerPointApi.SlideRange.PublishSlides(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
@@ -30425,7 +30425,7 @@
         <member name="M:NetOffice.PowerPointApi.TextRange.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Paragraphs(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Paragraphs(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30437,13 +30437,13 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Paragraphs(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Paragraphs(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="start">optional Int32 Start = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Sentences(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Sentences(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30455,13 +30455,13 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Sentences(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Sentences(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="start">optional Int32 Start = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Words(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Words(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30473,13 +30473,13 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Words(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Words(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="start">optional Int32 Start = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Characters(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Characters(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30491,13 +30491,13 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Characters(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Characters(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="start">optional Int32 Start = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Lines(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Lines(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30509,13 +30509,13 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Lines(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Lines(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="start">optional Int32 Start = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Runs(System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Runs(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30527,7 +30527,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Runs(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Runs(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30538,7 +30538,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.InsertAfter(System.String)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.InsertAfter(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30549,7 +30549,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.InsertBefore(System.String)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.InsertBefore(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30560,7 +30560,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.InsertDateTime(NetOffice.PowerPointApi.Enums.PpDateTimeFormat,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.InsertDateTime(NetOffice.PowerPointApi.Enums.PpDateTimeFormat,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30578,7 +30578,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.InsertSymbol(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.InsertSymbol(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30634,7 +30634,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Find(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30649,14 +30649,14 @@
             </summary>
             <param name="findWhat">string FindWhat</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Find(System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
             <param name="findWhat">string FindWhat</param>
             <param name="after">optional Int32 After = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Find(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30664,7 +30664,7 @@
             <param name="after">optional Int32 After = 0</param>
             <param name="matchCase">optional NetOffice.OfficeApi.Enums.MsoTriState MatchCase = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Replace(System.String,System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Replace(System.String,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30681,7 +30681,7 @@
             <param name="findWhat">string FindWhat</param>
             <param name="replaceWhat">string ReplaceWhat</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Replace(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Replace(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30689,7 +30689,7 @@
             <param name="replaceWhat">string ReplaceWhat</param>
             <param name="after">optional Int32 After = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.Replace(System.String,System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.Replace(System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -30721,7 +30721,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -30737,20 +30737,20 @@
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="dataType">optional NetOffice.PowerPointApi.Enums.PpPasteDataType DataType = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
             <param name="dataType">optional NetOffice.PowerPointApi.Enums.PpPasteDataType DataType = 0</param>
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -30758,7 +30758,7 @@
             <param name="displayAsIcon">optional NetOffice.OfficeApi.Enums.MsoTriState DisplayAsIcon = 0</param>
             <param name="iconFileName">optional string IconFileName = </param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -30767,7 +30767,7 @@
             <param name="iconFileName">optional string IconFileName = </param>
             <param name="iconIndex">optional Int32 IconIndex = 0</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(NetOffice.PowerPointApi.Enums.PpPasteDataType,NetOffice.OfficeApi.Enums.MsoTriState,System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.PowerPointApi.TextRange.PasteSpecial(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -30883,7 +30883,7 @@
         <member name="M:NetOffice.PowerPointApi.OLEFormat.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.OLEFormat.DoVerb(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.OLEFormat.DoVerb(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -31651,7 +31651,7 @@
         <member name="M:NetOffice.PowerPointApi.Sequences.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Sequences.Add(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Sequences.Add(System.Object)">
             <summary>
             SupportByVersion PowerPoint 10, 11, 12, 14, 15
             </summary>
@@ -31970,7 +31970,7 @@
             <param name="index">Int32 index</param>
             <param name="layout">NetOffice.PowerPointApi.Enums.PpSlideLayout Layout</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Slides.InsertFromFile(System.String,System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Slides.InsertFromFile(System.String,System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -31986,7 +31986,7 @@
             <param name="fileName">string FileName</param>
             <param name="index">Int32 index</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Slides.InsertFromFile(System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Slides.InsertFromFile(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -32005,7 +32005,7 @@
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.PowerPointApi.Slides.Paste(System.Int32)">
+        <member name="M:NetOffice.PowerPointApi.Slides.Paste(System.Object)">
             <summary>
             SupportByVersion PowerPoint 9, 10, 11, 12, 14, 15
             </summary>
@@ -35003,7 +35003,7 @@
         <member name="M:NetOffice.PowerPointApi.PPDialogs.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object,NetOffice.PowerPointApi.Enums.PpDialogPositioning,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35025,7 +35025,7 @@
             <param name="width">Single Width</param>
             <param name="height">Single Height</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35035,7 +35035,7 @@
             <param name="height">Single Height</param>
             <param name="modal">optional NetOffice.OfficeApi.Enums.MsoTriState Modal = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35046,7 +35046,7 @@
             <param name="modal">optional NetOffice.OfficeApi.Enums.MsoTriState Modal = -1</param>
             <param name="parentWindow">optional object ParentWindow = null (Nothing in visual basic)</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object,NetOffice.PowerPointApi.Enums.PpDialogPositioning)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddDialog(System.Single,System.Single,System.Single,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35058,7 +35058,7 @@
             <param name="parentWindow">optional object ParentWindow = null (Nothing in visual basic)</param>
             <param name="position">optional NetOffice.PowerPointApi.Enums.PpDialogPositioning Position = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object,NetOffice.PowerPointApi.Enums.PpDialogPositioning,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35080,7 +35080,7 @@
             <param name="width">Single Width</param>
             <param name="height">Single Height</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35090,7 +35090,7 @@
             <param name="height">Single Height</param>
             <param name="modal">optional NetOffice.OfficeApi.Enums.MsoTriState Modal = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35101,7 +35101,7 @@
             <param name="modal">optional NetOffice.OfficeApi.Enums.MsoTriState Modal = -1</param>
             <param name="parentWindow">optional object ParentWindow = null (Nothing in visual basic)</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object,NetOffice.PowerPointApi.Enums.PpDialogPositioning)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.AddTabDialog(System.Single,System.Single,System.Single,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35113,7 +35113,7 @@
             <param name="parentWindow">optional object ParentWindow = null (Nothing in visual basic)</param>
             <param name="position">optional NetOffice.PowerPointApi.Enums.PpDialogPositioning Position = 1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.LoadDialog(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState,System.Object,NetOffice.PowerPointApi.Enums.PpDialogPositioning)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.LoadDialog(System.String,System.Int32,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35130,7 +35130,7 @@
             <param name="resourceDLL">string resourceDLL</param>
             <param name="nResID">Int32 nResID</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.LoadDialog(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.LoadDialog(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>
@@ -35138,7 +35138,7 @@
             <param name="nResID">Int32 nResID</param>
             <param name="bModal">optional NetOffice.OfficeApi.Enums.MsoTriState bModal = -1</param>
         </member>
-        <member name="M:NetOffice.PowerPointApi.PPDialogs.LoadDialog(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
+        <member name="M:NetOffice.PowerPointApi.PPDialogs.LoadDialog(System.String,System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion PowerPoint 9
             </summary>

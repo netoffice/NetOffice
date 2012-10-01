@@ -122,7 +122,7 @@
         <member name="M:NetOffice.ADODBApi._Record.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum,System.Boolean)">
+        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -138,20 +138,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
             <param name="destination">optional string Destination = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -159,7 +159,7 @@
             <param name="destination">optional string Destination = </param>
             <param name="userName">optional string UserName</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -168,7 +168,7 @@
             <param name="userName">optional string UserName</param>
             <param name="password">optional string Password</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record.MoveRecord(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -178,7 +178,7 @@
             <param name="password">optional string Password</param>
             <param name="options">optional NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.CopyRecordOptionsEnum,System.Boolean)">
+        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -194,20 +194,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
             <param name="destination">optional string Destination = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -215,7 +215,7 @@
             <param name="destination">optional string Destination = </param>
             <param name="userName">optional string UserName</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -224,7 +224,7 @@
             <param name="userName">optional string UserName</param>
             <param name="password">optional string Password</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.CopyRecordOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record.CopyRecord(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -234,7 +234,7 @@
             <param name="password">optional string Password</param>
             <param name="options">optional NetOffice.ADODBApi.Enums.CopyRecordOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.DeleteRecord(System.String,System.Boolean)">
+        <member name="M:NetOffice.ADODBApi._Record.DeleteRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -246,13 +246,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.DeleteRecord(System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.DeleteRecord(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum,NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -282,7 +282,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum)">
+        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -290,7 +290,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -299,7 +299,7 @@
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode</param>
             <param name="createOptions">optional NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum CreateOptions = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum,NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -309,7 +309,7 @@
             <param name="createOptions">optional NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum CreateOptions = -1</param>
             <param name="options">optional NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum,NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record.Open(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -404,7 +404,7 @@
         <member name="M:NetOffice.ADODBApi.Command15.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15.Execute(System.Object,System.Object,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Command15.Execute(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -425,7 +425,7 @@
             <param name="recordsAffected">object RecordsAffected</param>
             <param name="parameters">optional object Parameters</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,NetOffice.ADODBApi.Enums.ParameterDirectionEnum,System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -440,20 +440,20 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.String)">
+        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="name">optional string Name = </param>
             <param name="type">optional NetOffice.ADODBApi.Enums.DataTypeEnum Type = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,NetOffice.ADODBApi.Enums.ParameterDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -461,7 +461,7 @@
             <param name="type">optional NetOffice.ADODBApi.Enums.DataTypeEnum Type = 0</param>
             <param name="direction">optional NetOffice.ADODBApi.Enums.ParameterDirectionEnum Direction = 1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,NetOffice.ADODBApi.Enums.ParameterDirectionEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Command15.CreateParameter(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -937,7 +937,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Delete(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Delete(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -948,7 +948,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.GetRows(System.Int32,System.Object,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.GetRows(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -961,13 +961,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.GetRows(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.GetRows(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="rows">optional Int32 Rows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.GetRows(System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.GetRows(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1007,7 +1007,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1035,7 +1035,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1043,7 +1043,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1052,7 +1052,7 @@
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
             <param name="lockType">optional NetOffice.ADODBApi.Enums.LockTypeEnum LockType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Requery(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Requery(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1063,7 +1063,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated._xResync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated._xResync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1097,7 +1097,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.UpdateBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.UpdateBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1108,7 +1108,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.CancelBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.CancelBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1136,7 +1136,7 @@
             </summary>
             <param name="cursorOptions">NetOffice.ADODBApi.Enums.CursorOptionEnum CursorOptions</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1151,14 +1151,14 @@
             </summary>
             <param name="criteria">string Criteria</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Find(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="criteria">string Criteria</param>
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15_Deprecated.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1320,7 +1320,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated._xSave(System.String,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated._xSave(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1332,13 +1332,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated._xSave(System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated._xSave(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="fileName">optional string FileName = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1353,20 +1353,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
             <param name="numRows">optional Int32 NumRows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1374,7 +1374,7 @@
             <param name="numRows">optional Int32 NumRows = -1</param>
             <param name="columnDelimeter">optional string ColumnDelimeter = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.GetString(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1390,7 +1390,7 @@
             <param name="bookmark1">object Bookmark1</param>
             <param name="bookmark2">object Bookmark2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.Clone(NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.Clone(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1401,7 +1401,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.Resync(NetOffice.ADODBApi.Enums.AffectEnum,NetOffice.ADODBApi.Enums.ResyncEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.Resync(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1413,7 +1413,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.Resync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20_Deprecated.Resync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1472,7 +1472,7 @@
         <member name="M:NetOffice.ADODBApi.Command15_Deprecated.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.Execute(System.Object,System.Object,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.Execute(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1493,7 +1493,7 @@
             <param name="recordsAffected">object RecordsAffected</param>
             <param name="parameters">optional object Parameters</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,NetOffice.ADODBApi.Enums.ParameterDirectionEnum,System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1508,20 +1508,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.String)">
+        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="name">optional string Name = </param>
             <param name="type">optional NetOffice.ADODBApi.Enums.DataTypeEnum Type = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,NetOffice.ADODBApi.Enums.ParameterDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -1529,7 +1529,7 @@
             <param name="type">optional NetOffice.ADODBApi.Enums.DataTypeEnum Type = 0</param>
             <param name="direction">optional NetOffice.ADODBApi.Enums.ParameterDirectionEnum Direction = 1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,NetOffice.ADODBApi.Enums.ParameterDirectionEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Command15_Deprecated.CreateParameter(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2184,7 +2184,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Delete(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Delete(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2195,7 +2195,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.GetRows(System.Int32,System.Object,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.GetRows(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2208,13 +2208,13 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.GetRows(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.GetRows(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="rows">optional Int32 Rows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.GetRows(System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.GetRows(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2254,7 +2254,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2282,7 +2282,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2290,7 +2290,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2299,7 +2299,7 @@
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
             <param name="lockType">optional NetOffice.ADODBApi.Enums.LockTypeEnum LockType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Requery(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Requery(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2310,7 +2310,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15._xResync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15._xResync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2344,7 +2344,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.UpdateBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.UpdateBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2355,7 +2355,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.CancelBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.CancelBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2383,7 +2383,7 @@
             </summary>
             <param name="cursorOptions">NetOffice.ADODBApi.Enums.CursorOptionEnum CursorOptions</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2398,14 +2398,14 @@
             </summary>
             <param name="criteria">string Criteria</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Find(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="criteria">string Criteria</param>
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset15.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset15.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2567,7 +2567,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.Save(System.String,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.Save(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1
             </summary>
@@ -2579,13 +2579,13 @@
             SupportByVersion ADODB 2.1
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.Save(System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.Save(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1
             </summary>
             <param name="fileName">optional string FileName</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2600,20 +2600,20 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
             <param name="numRows">optional Int32 NumRows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2621,7 +2621,7 @@
             <param name="numRows">optional Int32 NumRows = -1</param>
             <param name="columnDelimeter">optional string ColumnDelimeter</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.GetString(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2637,7 +2637,7 @@
             <param name="bookmark1">object Bookmark1</param>
             <param name="bookmark2">object Bookmark2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.Clone(NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.Clone(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2648,7 +2648,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.Resync(NetOffice.ADODBApi.Enums.AffectEnum,NetOffice.ADODBApi.Enums.ResyncEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.Resync(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -2660,13 +2660,13 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20.Resync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20.Resync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="affectRecords">optional NetOffice.ADODBApi.Enums.AffectEnum AffectRecords = 3</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20._xSave(System.String,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset20._xSave(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2678,7 +2678,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset20._xSave(System.String)">
+        <member name="M:NetOffice.ADODBApi.Recordset20._xSave(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2780,7 +2780,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Delete(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Delete(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2791,7 +2791,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.GetRows(System.Int32,System.Object,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.GetRows(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2804,13 +2804,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.GetRows(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.GetRows(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="rows">optional Int32 Rows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.GetRows(System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.GetRows(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2850,7 +2850,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2878,7 +2878,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2886,7 +2886,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2895,7 +2895,7 @@
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
             <param name="lockType">optional NetOffice.ADODBApi.Enums.LockTypeEnum LockType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Requery(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Requery(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2906,7 +2906,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21._xResync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21._xResync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2940,7 +2940,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.UpdateBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.UpdateBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2951,7 +2951,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.CancelBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.CancelBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2979,7 +2979,7 @@
             </summary>
             <param name="cursorOptions">NetOffice.ADODBApi.Enums.CursorOptionEnum CursorOptions</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -2994,14 +2994,14 @@
             </summary>
             <param name="criteria">string Criteria</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Find(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="criteria">string Criteria</param>
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3009,7 +3009,7 @@
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
             <param name="searchDirection">optional NetOffice.ADODBApi.Enums.SearchDirectionEnum SearchDirection = 1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21.Seek(System.Object,NetOffice.ADODBApi.Enums.SeekEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21.Seek(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3298,7 +3298,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields20_Deprecated._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32,NetOffice.ADODBApi.Enums.FieldAttributeEnum)">
+        <member name="M:NetOffice.ADODBApi.Fields20_Deprecated._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3314,7 +3314,7 @@
             <param name="name">string Name</param>
             <param name="type">NetOffice.ADODBApi.Enums.DataTypeEnum Type</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields20_Deprecated._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Fields20_Deprecated._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3364,7 +3364,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32,NetOffice.ADODBApi.Enums.FieldAttributeEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3381,7 +3381,7 @@
             <param name="name">string Name</param>
             <param name="type">NetOffice.ADODBApi.Enums.DataTypeEnum Type</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3389,7 +3389,7 @@
             <param name="type">NetOffice.ADODBApi.Enums.DataTypeEnum Type</param>
             <param name="definedSize">optional Int32 DefinedSize = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32,NetOffice.ADODBApi.Enums.FieldAttributeEnum)">
+        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3403,7 +3403,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Resync(NetOffice.ADODBApi.Enums.ResyncEnum)">
+        <member name="M:NetOffice.ADODBApi.Fields_Deprecated.Resync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3683,7 +3683,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields20._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32,NetOffice.ADODBApi.Enums.FieldAttributeEnum)">
+        <member name="M:NetOffice.ADODBApi.Fields20._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3699,7 +3699,7 @@
             <param name="name">string Name</param>
             <param name="type">NetOffice.ADODBApi.Enums.DataTypeEnum Type</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields20._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Fields20._Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -3755,7 +3755,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15.Execute(System.String,System.Object,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Connection15.Execute(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -3785,7 +3785,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.String,System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -3799,20 +3799,20 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.String)">
+        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="connectionString">optional string ConnectionString = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="connectionString">optional string ConnectionString = </param>
             <param name="userID">optional string UserID = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Connection15.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5239,7 +5239,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Delete(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Delete(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5250,7 +5250,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetRows(System.Int32,System.Object,System.Object)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetRows(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5263,13 +5263,13 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetRows(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetRows(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="rows">optional Int32 Rows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetRows(System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetRows(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5309,7 +5309,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5337,7 +5337,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5345,7 +5345,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5354,7 +5354,7 @@
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
             <param name="lockType">optional NetOffice.ADODBApi.Enums.LockTypeEnum LockType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Requery(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Requery(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5365,7 +5365,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset._xResync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset._xResync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5399,7 +5399,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.UpdateBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.UpdateBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5410,7 +5410,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.CancelBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.CancelBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5438,7 +5438,7 @@
             </summary>
             <param name="cursorOptions">NetOffice.ADODBApi.Enums.CursorOptionEnum CursorOptions</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5453,14 +5453,14 @@
             </summary>
             <param name="criteria">string Criteria</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Find(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
             <param name="criteria">string Criteria</param>
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -5468,7 +5468,7 @@
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
             <param name="searchDirection">optional NetOffice.ADODBApi.Enums.SearchDirectionEnum SearchDirection = 1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Seek(System.Object,NetOffice.ADODBApi.Enums.SeekEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Seek(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1
             </summary>
@@ -5486,7 +5486,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset._xSave(System.String,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset._xSave(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -5498,13 +5498,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset._xSave(System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset._xSave(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="fileName">optional string FileName</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetString(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -5519,20 +5519,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetString(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetString(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
             <param name="numRows">optional Int32 NumRows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetString(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -5540,7 +5540,7 @@
             <param name="numRows">optional Int32 NumRows = -1</param>
             <param name="columnDelimeter">optional string ColumnDelimeter</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset.GetString(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -5556,7 +5556,7 @@
             <param name="bookmark1">object Bookmark1</param>
             <param name="bookmark2">object Bookmark2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Clone(NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Clone(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -5567,7 +5567,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Resync(NetOffice.ADODBApi.Enums.AffectEnum,NetOffice.ADODBApi.Enums.ResyncEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Resync(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -5579,13 +5579,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Resync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Resync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="affectRecords">optional NetOffice.ADODBApi.Enums.AffectEnum AffectRecords = 3</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset.Save(System.Object,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset.Save(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6004,7 +6004,7 @@
         <member name="M:NetOffice.ADODBApi._Record_Deprecated.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum,System.Boolean)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6020,20 +6020,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
             <param name="destination">optional string Destination = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6041,7 +6041,7 @@
             <param name="destination">optional string Destination = </param>
             <param name="userName">optional string UserName = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6050,7 +6050,7 @@
             <param name="userName">optional string UserName = </param>
             <param name="password">optional string Password = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.MoveRecord(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6060,7 +6060,7 @@
             <param name="password">optional string Password = </param>
             <param name="options">optional NetOffice.ADODBApi.Enums.MoveRecordOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.CopyRecordOptionsEnum,System.Boolean)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6076,20 +6076,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
             <param name="destination">optional string Destination = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6097,7 +6097,7 @@
             <param name="destination">optional string Destination = </param>
             <param name="userName">optional string UserName = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6106,7 +6106,7 @@
             <param name="userName">optional string UserName = </param>
             <param name="password">optional string Password = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.String,System.String,System.String,System.String,NetOffice.ADODBApi.Enums.CopyRecordOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.CopyRecord(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6116,7 +6116,7 @@
             <param name="password">optional string Password = </param>
             <param name="options">optional NetOffice.ADODBApi.Enums.CopyRecordOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.DeleteRecord(System.String,System.Boolean)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.DeleteRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6128,13 +6128,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.DeleteRecord(System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.DeleteRecord(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional string Source = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum,NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6164,7 +6164,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6172,7 +6172,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6181,7 +6181,7 @@
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode = 0</param>
             <param name="createOptions">optional NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum CreateOptions = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum,NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6191,7 +6191,7 @@
             <param name="createOptions">optional NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum CreateOptions = -1</param>
             <param name="options">optional NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.RecordCreateOptionsEnum,NetOffice.ADODBApi.Enums.RecordOpenOptionsEnum,System.String)">
+        <member name="M:NetOffice.ADODBApi._Record_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6291,7 +6291,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Execute(System.String,System.Object,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Execute(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6321,7 +6321,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.String,System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6335,20 +6335,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.String)">
+        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="connectionString">optional string ConnectionString = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="connectionString">optional string ConnectionString = </param>
             <param name="userID">optional string UserID = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi.Connection15_Deprecated.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6563,7 +6563,7 @@
         <member name="M:NetOffice.ADODBApi._Stream.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.Read(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Stream.Read(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6574,7 +6574,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6595,14 +6595,14 @@
             </summary>
             <param name="source">optional object Source</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional object Source</param>
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6610,7 +6610,7 @@
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode = 0</param>
             <param name="options">optional NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum,System.String)">
+        <member name="M:NetOffice.ADODBApi._Stream.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6640,7 +6640,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.CopyTo(NetOffice.ADODBApi._Stream,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Stream.CopyTo(NetOffice.ADODBApi._Stream,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6658,7 +6658,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.SaveToFile(System.String,NetOffice.ADODBApi.Enums.SaveOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream.SaveToFile(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6677,7 +6677,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.ReadText(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Stream.ReadText(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -6688,7 +6688,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream.WriteText(System.String,NetOffice.ADODBApi.Enums.StreamWriteEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream.WriteText(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7239,7 +7239,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Delete(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Delete(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7250,7 +7250,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.GetRows(System.Int32,System.Object,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.GetRows(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7263,13 +7263,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.GetRows(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.GetRows(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="rows">optional Int32 Rows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.GetRows(System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.GetRows(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7309,7 +7309,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7337,7 +7337,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7345,7 +7345,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7354,7 +7354,7 @@
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
             <param name="lockType">optional NetOffice.ADODBApi.Enums.LockTypeEnum LockType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Requery(System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Requery(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7365,7 +7365,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated._xResync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated._xResync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7399,7 +7399,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.UpdateBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.UpdateBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7410,7 +7410,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.CancelBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.CancelBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7438,7 +7438,7 @@
             </summary>
             <param name="cursorOptions">NetOffice.ADODBApi.Enums.CursorOptionEnum CursorOptions</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7453,14 +7453,14 @@
             </summary>
             <param name="criteria">string Criteria</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Find(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="criteria">string Criteria</param>
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -7468,7 +7468,7 @@
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
             <param name="searchDirection">optional NetOffice.ADODBApi.Enums.SearchDirectionEnum SearchDirection = 1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Seek(System.Object,NetOffice.ADODBApi.Enums.SeekEnum)">
+        <member name="M:NetOffice.ADODBApi.Recordset21_Deprecated.Seek(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8714,7 +8714,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Delete(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Delete(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8725,7 +8725,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetRows(System.Int32,System.Object,System.Object)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetRows(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8738,13 +8738,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetRows(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetRows(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="rows">optional Int32 Rows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetRows(System.Int32,System.Object)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetRows(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8784,7 +8784,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8812,7 +8812,7 @@
             <param name="source">optional object Source</param>
             <param name="activeConnection">optional object ActiveConnection</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8820,7 +8820,7 @@
             <param name="activeConnection">optional object ActiveConnection</param>
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Open(System.Object,System.Object,NetOffice.ADODBApi.Enums.CursorTypeEnum,NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8829,7 +8829,7 @@
             <param name="cursorType">optional NetOffice.ADODBApi.Enums.CursorTypeEnum CursorType = -1</param>
             <param name="lockType">optional NetOffice.ADODBApi.Enums.LockTypeEnum LockType = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Requery(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Requery(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8840,7 +8840,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated._xResync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated._xResync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8874,7 +8874,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.UpdateBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.UpdateBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8885,7 +8885,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.CancelBatch(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.CancelBatch(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8913,7 +8913,7 @@
             </summary>
             <param name="cursorOptions">NetOffice.ADODBApi.Enums.CursorOptionEnum CursorOptions</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8928,14 +8928,14 @@
             </summary>
             <param name="criteria">string Criteria</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Find(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="criteria">string Criteria</param>
             <param name="skipRecords">optional Int32 SkipRecords = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Find(System.String,System.Int32,NetOffice.ADODBApi.Enums.SearchDirectionEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8948,7 +8948,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated._xSave(System.String,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated._xSave(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8960,13 +8960,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated._xSave(System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated._xSave(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="fileName">optional string FileName = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -8981,20 +8981,20 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="stringFormat">optional NetOffice.ADODBApi.Enums.StringFormatEnum StringFormat = 2</param>
             <param name="numRows">optional Int32 NumRows = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -9002,7 +9002,7 @@
             <param name="numRows">optional Int32 NumRows = -1</param>
             <param name="columnDelimeter">optional string ColumnDelimeter = </param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(NetOffice.ADODBApi.Enums.StringFormatEnum,System.Int32,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.GetString(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -9018,7 +9018,7 @@
             <param name="bookmark1">object Bookmark1</param>
             <param name="bookmark2">object Bookmark2</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Clone(NetOffice.ADODBApi.Enums.LockTypeEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Clone(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -9029,7 +9029,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Resync(NetOffice.ADODBApi.Enums.AffectEnum,NetOffice.ADODBApi.Enums.ResyncEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Resync(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -9041,13 +9041,13 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Resync(NetOffice.ADODBApi.Enums.AffectEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Resync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="affectRecords">optional NetOffice.ADODBApi.Enums.AffectEnum AffectRecords = 3</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Save(System.Object,NetOffice.ADODBApi.Enums.PersistFormatEnum)">
+        <member name="M:NetOffice.ADODBApi._Recordset_Deprecated.Save(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -9774,7 +9774,7 @@
             SupportByVersion ADODB 2.1, 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32,NetOffice.ADODBApi.Enums.FieldAttributeEnum)">
+        <member name="M:NetOffice.ADODBApi.Fields.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -9783,7 +9783,7 @@
             <param name="definedSize">optional Int32 DefinedSize = 0</param>
             <param name="attrib">optional NetOffice.ADODBApi.Enums.FieldAttributeEnum Attrib = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32,NetOffice.ADODBApi.Enums.FieldAttributeEnum,System.Object)">
+        <member name="M:NetOffice.ADODBApi.Fields.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -9800,7 +9800,7 @@
             <param name="name">string Name</param>
             <param name="type">NetOffice.ADODBApi.Enums.DataTypeEnum Type</param>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Int32)">
+        <member name="M:NetOffice.ADODBApi.Fields.Append(System.String,NetOffice.ADODBApi.Enums.DataTypeEnum,System.Object)">
             <summary>
             SupportByVersion ADODB 2.1, 2.5
             </summary>
@@ -9819,7 +9819,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi.Fields.Resync(NetOffice.ADODBApi.Enums.ResyncEnum)">
+        <member name="M:NetOffice.ADODBApi.Fields.Resync(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10468,7 +10468,7 @@
         <member name="M:NetOffice.ADODBApi._Stream_Deprecated.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Read(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Read(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10479,7 +10479,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum,System.String,System.String)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10500,14 +10500,14 @@
             </summary>
             <param name="source">optional object Source</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
             <param name="source">optional object Source</param>
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode = 0</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10515,7 +10515,7 @@
             <param name="mode">optional NetOffice.ADODBApi.Enums.ConnectModeEnum Mode = 0</param>
             <param name="options">optional NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum Options = -1</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,NetOffice.ADODBApi.Enums.ConnectModeEnum,NetOffice.ADODBApi.Enums.StreamOpenOptionsEnum,System.String)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10545,7 +10545,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.CopyTo(NetOffice.ADODBApi._Stream_Deprecated,System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.CopyTo(NetOffice.ADODBApi._Stream_Deprecated,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10563,7 +10563,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.SaveToFile(System.String,NetOffice.ADODBApi.Enums.SaveOptionsEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.SaveToFile(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10582,7 +10582,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.ReadText(System.Int32)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.ReadText(System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>
@@ -10593,7 +10593,7 @@
             SupportByVersion ADODB 2.5
             </summary>
         </member>
-        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.WriteText(System.String,NetOffice.ADODBApi.Enums.StreamWriteEnum)">
+        <member name="M:NetOffice.ADODBApi._Stream_Deprecated.WriteText(System.String,System.Object)">
             <summary>
             SupportByVersion ADODB 2.5
             </summary>

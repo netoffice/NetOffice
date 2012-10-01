@@ -8265,7 +8265,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Form.GoToPage(System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Form.GoToPage(System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -8279,7 +8279,7 @@
             </summary>
             <param name="pageNumber">Int32 PageNumber</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Form.GoToPage(System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Form.GoToPage(System.Int32,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -15240,7 +15240,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Form2.GoToPage(System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Form2.GoToPage(System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -15254,7 +15254,7 @@
             </summary>
             <param name="pageNumber">Int32 PageNumber</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Form2.GoToPage(System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Form2.GoToPage(System.Int32,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -16667,7 +16667,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Form3.GoToPage(System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Form3.GoToPage(System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -16681,7 +16681,7 @@
             </summary>
             <param name="pageNumber">Int32 PageNumber</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Form3.GoToPage(System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Form3.GoToPage(System.Int32,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32213,7 +32213,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat,System.Object,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -32223,14 +32223,14 @@
             <param name="siteAddress">optional string SiteAddress = </param>
             <param name="listID">optional string ListID = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat)">
+        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
             <param name="filepath">string filepath</param>
             <param name="fileFormat">optional NetOffice.AccessApi.Enums.AcNewDatabaseFormat FileFormat = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -32238,7 +32238,7 @@
             <param name="fileFormat">optional NetOffice.AccessApi.Enums.AcNewDatabaseFormat FileFormat = 0</param>
             <param name="template">optional object Template</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat,System.Object,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.NewCurrentDatabase(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -32247,14 +32247,14 @@
             <param name="template">optional object Template</param>
             <param name="siteAddress">optional string SiteAddress = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.OpenCurrentDatabase(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.OpenCurrentDatabase(System.String,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="filepath">string filepath</param>
             <param name="exclusive">optional bool Exclusive = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.OpenCurrentDatabase(System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.OpenCurrentDatabase(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -32281,7 +32281,7 @@
             <param name="optionName">string OptionName</param>
             <param name="setting">object Setting</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.Echo(System.Int16,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.Echo(System.Int16,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32299,7 +32299,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.Quit(NetOffice.AccessApi.Enums.AcQuitOption)">
+        <member name="M:NetOffice.AccessApi._Application.Quit(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32367,7 +32367,7 @@
             </summary>
             <param name="database">optional object Database</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32388,7 +32388,7 @@
             <param name="formName">string FormName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32396,7 +32396,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32405,7 +32405,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32415,7 +32415,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32426,7 +32426,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32438,7 +32438,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32451,7 +32451,7 @@
             <param name="top">optional object Top</param>
             <param name="width">optional object Width</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32472,7 +32472,7 @@
             <param name="reportName">string ReportName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32480,7 +32480,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32489,7 +32489,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32499,7 +32499,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32510,7 +32510,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -32522,7 +32522,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33595,7 +33595,7 @@
             </summary>
             <param name="id">Int32 id</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.Object,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33613,14 +33613,14 @@
             </summary>
             <param name="address">string Address</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="address">string Address</param>
             <param name="subAddress">optional string SubAddress = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33628,7 +33628,7 @@
             <param name="subAddress">optional string SubAddress = </param>
             <param name="newWindow">optional bool NewWindow = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33637,7 +33637,7 @@
             <param name="newWindow">optional bool NewWindow = false</param>
             <param name="addHistory">optional bool AddHistory = true</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33647,7 +33647,7 @@
             <param name="addHistory">optional bool AddHistory = true</param>
             <param name="extraInfo">optional object ExtraInfo</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.Object,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod)">
+        <member name="M:NetOffice.AccessApi._Application.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33690,7 +33690,7 @@
             </summary>
             <param name="command">NetOffice.AccessApi.Enums.AcCommand Command</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.HyperlinkPart(System.Object,NetOffice.AccessApi.Enums.AcHyperlinkPart)">
+        <member name="M:NetOffice.AccessApi._Application.HyperlinkPart(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33718,7 +33718,7 @@
             <param name="objectName">string ObjectName</param>
             <param name="fHidden">bool fHidden</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateDataAccessPage(System.Object,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.CreateDataAccessPage(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33749,7 +33749,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.OpenAccessProject(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.OpenAccessProject(System.String,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -33802,7 +33802,7 @@
             <param name="targetCurrency">string TargetCurrency</param>
             <param name="fullPrecision">optional object FullPrecision</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.OpenCurrentDatabaseOld(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.OpenCurrentDatabaseOld(System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33815,7 +33815,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.String,System.String,System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33830,20 +33830,20 @@
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.String)">
+        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
             <param name="path">optional string Path =  </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
             <param name="path">optional string Path =  </param>
             <param name="name">optional string Name =  </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33851,7 +33851,7 @@
             <param name="name">optional string Name =  </param>
             <param name="company">optional string Company =  </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.CreateNewWorkgroupFile(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33874,7 +33874,7 @@
             <param name="destinationFilename">string DestinationFilename</param>
             <param name="destinationFileFormat">NetOffice.AccessApi.Enums.AcFileFormat DestinationFileFormat</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CompactRepair(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.CompactRepair(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33889,7 +33889,7 @@
             <param name="sourceFile">string SourceFile</param>
             <param name="destinationFile">string DestinationFile</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33902,7 +33902,7 @@
             <param name="encoding">optional NetOffice.AccessApi.Enums.AcExportXMLEncoding Encoding = 0</param>
             <param name="otherFlags">optional Int32 OtherFlags = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,NetOffice.AccessApi.Enums.AcExportXMLOtherFlags,System.String,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -33924,7 +33924,7 @@
             <param name="objectType">NetOffice.AccessApi.Enums.AcExportXMLObjectType ObjectType</param>
             <param name="dataSource">string DataSource</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33932,7 +33932,7 @@
             <param name="dataSource">string DataSource</param>
             <param name="dataTarget">optional string DataTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33941,7 +33941,7 @@
             <param name="dataTarget">optional string DataTarget = </param>
             <param name="schemaTarget">optional string SchemaTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33951,7 +33951,7 @@
             <param name="schemaTarget">optional string SchemaTarget = </param>
             <param name="presentationTarget">optional string PresentationTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33962,7 +33962,7 @@
             <param name="presentationTarget">optional string PresentationTarget = </param>
             <param name="imageTarget">optional string ImageTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -33974,7 +33974,7 @@
             <param name="imageTarget">optional string ImageTarget = </param>
             <param name="encoding">optional NetOffice.AccessApi.Enums.AcExportXMLEncoding Encoding = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,NetOffice.AccessApi.Enums.AcExportXMLOtherFlags,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -33988,7 +33988,7 @@
             <param name="otherFlags">optional NetOffice.AccessApi.Enums.AcExportXMLOtherFlags OtherFlags = 0</param>
             <param name="whereCondition">optional string WhereCondition = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ImportXML(System.String,NetOffice.AccessApi.Enums.AcImportXMLOption)">
+        <member name="M:NetOffice.AccessApi._Application.ImportXML(System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -34001,7 +34001,7 @@
             </summary>
             <param name="dataSource">string DataSource</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34021,7 +34021,7 @@
             <param name="objectType">NetOffice.AccessApi.Enums.AcExportXMLObjectType ObjectType</param>
             <param name="dataSource">string DataSource</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34029,7 +34029,7 @@
             <param name="dataSource">string DataSource</param>
             <param name="dataTarget">optional string DataTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34038,7 +34038,7 @@
             <param name="dataTarget">optional string DataTarget = </param>
             <param name="schemaTarget">optional string SchemaTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34048,7 +34048,7 @@
             <param name="schemaTarget">optional string SchemaTarget = </param>
             <param name="presentationTarget">optional string PresentationTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34059,7 +34059,7 @@
             <param name="presentationTarget">optional string PresentationTarget = </param>
             <param name="imageTarget">optional string ImageTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding)">
+        <member name="M:NetOffice.AccessApi._Application.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34071,7 +34071,7 @@
             <param name="imageTarget">optional string ImageTarget = </param>
             <param name="encoding">optional NetOffice.AccessApi.Enums.AcExportXMLEncoding Encoding = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.TransformXML(System.String,System.String,System.String,System.Boolean,NetOffice.AccessApi.Enums.AcTransformXMLScriptOption)">
+        <member name="M:NetOffice.AccessApi._Application.TransformXML(System.String,System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34089,7 +34089,7 @@
             <param name="transformSource">string TransformSource</param>
             <param name="outputTarget">string OutputTarget</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.TransformXML(System.String,System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.TransformXML(System.String,System.String,System.String,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -34115,7 +34115,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34136,7 +34136,7 @@
             <param name="formName">string FormName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34144,7 +34144,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34153,7 +34153,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34163,7 +34163,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34174,7 +34174,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34186,7 +34186,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34199,7 +34199,7 @@
             <param name="top">optional object Top</param>
             <param name="width">optional object Width</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34220,7 +34220,7 @@
             <param name="reportName">string ReportName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34228,7 +34228,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34237,7 +34237,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34247,7 +34247,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34258,7 +34258,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34270,7 +34270,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._Application.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34350,7 +34350,7 @@
             </summary>
             <param name="path">string Path</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ImportNavigationPane(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.ImportNavigationPane(System.String,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34371,7 +34371,7 @@
             <param name="columnName">string ColumnName</param>
             <param name="queryString">string queryString</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Boolean,System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Application.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34392,7 +34392,7 @@
             <param name="objectName">string ObjectName</param>
             <param name="objectType">NetOffice.AccessApi.Enums.AcOutputObjectType ObjectType</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Application.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -34402,7 +34402,7 @@
             <param name="objectType">NetOffice.AccessApi.Enums.AcOutputObjectType ObjectType</param>
             <param name="selectedRecords">optional bool SelectedRecords = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Application.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Boolean,System.Int32)">
+        <member name="M:NetOffice.AccessApi._Application.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -44599,7 +44599,7 @@
         <member name="M:NetOffice.AccessApi.Operation.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Operation.Execute(System.String)">
+        <member name="M:NetOffice.AccessApi.Operation.Execute(System.Object)">
             <summary>
             SupportByVersion Access 14, 15
             </summary>
@@ -44782,7 +44782,7 @@
             <param name="eventName">string EventName</param>
             <param name="objectName">string ObjectName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Module.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.Module.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -44805,7 +44805,7 @@
             <param name="endLine">Int32 EndLine</param>
             <param name="endColumn">Int32 EndColumn</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Module.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.Module.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -44816,7 +44816,7 @@
             <param name="endColumn">Int32 EndColumn</param>
             <param name="wholeWord">optional bool WholeWord = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi.Module.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.Module.Find(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -44897,7 +44897,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Boolean,System.Boolean,System.Object,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod,System.String)">
+        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -44912,20 +44912,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="newWindow">optional bool NewWindow = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="newWindow">optional bool NewWindow = false</param>
             <param name="addHistory">optional bool AddHistory = true</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -44933,7 +44933,7 @@
             <param name="addHistory">optional bool AddHistory = true</param>
             <param name="extraInfo">optional object ExtraInfo</param>
         </member>
-        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Boolean,System.Boolean,System.Object,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod)">
+        <member name="M:NetOffice.AccessApi._Hyperlink.Follow(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46419,7 +46419,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat,System.Object,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -46429,14 +46429,14 @@
             <param name="siteAddress">optional string SiteAddress = </param>
             <param name="listID">optional string ListID = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
             <param name="filepath">string filepath</param>
             <param name="fileFormat">optional NetOffice.AccessApi.Enums.AcNewDatabaseFormat FileFormat = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -46444,7 +46444,7 @@
             <param name="fileFormat">optional NetOffice.AccessApi.Enums.AcNewDatabaseFormat FileFormat = 0</param>
             <param name="template">optional object Template</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,NetOffice.AccessApi.Enums.AcNewDatabaseFormat,System.Object,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.NewCurrentDatabase(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -46453,14 +46453,14 @@
             <param name="template">optional object Template</param>
             <param name="siteAddress">optional string SiteAddress = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenCurrentDatabase(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenCurrentDatabase(System.String,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="filepath">string filepath</param>
             <param name="exclusive">optional bool Exclusive = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenCurrentDatabase(System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenCurrentDatabase(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -46487,7 +46487,7 @@
             <param name="optionName">string OptionName</param>
             <param name="setting">object Setting</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.Echo(System.Int16,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.Echo(System.Int16,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46505,7 +46505,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.Quit(NetOffice.AccessApi.Enums.AcQuitOption)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.Quit(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46573,7 +46573,7 @@
             </summary>
             <param name="database">optional object Database</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46594,7 +46594,7 @@
             <param name="formName">string FormName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46602,7 +46602,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46611,7 +46611,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46621,7 +46621,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46632,7 +46632,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46644,7 +46644,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46657,7 +46657,7 @@
             <param name="top">optional object Top</param>
             <param name="width">optional object Width</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46678,7 +46678,7 @@
             <param name="reportName">string ReportName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46686,7 +46686,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46695,7 +46695,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46705,7 +46705,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46716,7 +46716,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -46728,7 +46728,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControl(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47801,7 +47801,7 @@
             </summary>
             <param name="id">Int32 id</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.Object,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47819,14 +47819,14 @@
             </summary>
             <param name="address">string Address</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="address">string Address</param>
             <param name="subAddress">optional string SubAddress = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47834,7 +47834,7 @@
             <param name="subAddress">optional string SubAddress = </param>
             <param name="newWindow">optional bool NewWindow = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47843,7 +47843,7 @@
             <param name="newWindow">optional bool NewWindow = false</param>
             <param name="addHistory">optional bool AddHistory = true</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47853,7 +47853,7 @@
             <param name="addHistory">optional bool AddHistory = true</param>
             <param name="extraInfo">optional object ExtraInfo</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.String,System.Boolean,System.Boolean,System.Object,NetOffice.OfficeApi.Enums.MsoExtraInfoMethod)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.FollowHyperlink(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47896,7 +47896,7 @@
             </summary>
             <param name="command">NetOffice.AccessApi.Enums.AcCommand Command</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.HyperlinkPart(System.Object,NetOffice.AccessApi.Enums.AcHyperlinkPart)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.HyperlinkPart(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47924,7 +47924,7 @@
             <param name="objectName">string ObjectName</param>
             <param name="fHidden">bool fHidden</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateDataAccessPage(System.Object,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateDataAccessPage(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -47955,7 +47955,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenAccessProject(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenAccessProject(System.String,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -48008,7 +48008,7 @@
             <param name="targetCurrency">string TargetCurrency</param>
             <param name="fullPrecision">optional object FullPrecision</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenCurrentDatabaseOld(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.OpenCurrentDatabaseOld(System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48021,7 +48021,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.String,System.String,System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48036,20 +48036,20 @@
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
             <param name="path">optional string Path =  </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
             <param name="path">optional string Path =  </param>
             <param name="name">optional string Name =  </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48057,7 +48057,7 @@
             <param name="name">optional string Name =  </param>
             <param name="company">optional string Company =  </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateNewWorkgroupFile(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48080,7 +48080,7 @@
             <param name="destinationFilename">string DestinationFilename</param>
             <param name="destinationFileFormat">NetOffice.AccessApi.Enums.AcFileFormat DestinationFileFormat</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CompactRepair(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CompactRepair(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48095,7 +48095,7 @@
             <param name="sourceFile">string SourceFile</param>
             <param name="destinationFile">string DestinationFile</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,System.Int32)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48108,7 +48108,7 @@
             <param name="encoding">optional NetOffice.AccessApi.Enums.AcExportXMLEncoding Encoding = 0</param>
             <param name="otherFlags">optional Int32 OtherFlags = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,NetOffice.AccessApi.Enums.AcExportXMLOtherFlags,System.String,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48130,7 +48130,7 @@
             <param name="objectType">NetOffice.AccessApi.Enums.AcExportXMLObjectType ObjectType</param>
             <param name="dataSource">string DataSource</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48138,7 +48138,7 @@
             <param name="dataSource">string DataSource</param>
             <param name="dataTarget">optional string DataTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48147,7 +48147,7 @@
             <param name="dataTarget">optional string DataTarget = </param>
             <param name="schemaTarget">optional string SchemaTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48157,7 +48157,7 @@
             <param name="schemaTarget">optional string SchemaTarget = </param>
             <param name="presentationTarget">optional string PresentationTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48168,7 +48168,7 @@
             <param name="presentationTarget">optional string PresentationTarget = </param>
             <param name="imageTarget">optional string ImageTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48180,7 +48180,7 @@
             <param name="imageTarget">optional string ImageTarget = </param>
             <param name="encoding">optional NetOffice.AccessApi.Enums.AcExportXMLEncoding Encoding = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,NetOffice.AccessApi.Enums.AcExportXMLOtherFlags,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXML(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48194,7 +48194,7 @@
             <param name="otherFlags">optional NetOffice.AccessApi.Enums.AcExportXMLOtherFlags OtherFlags = 0</param>
             <param name="whereCondition">optional string WhereCondition = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ImportXML(System.String,NetOffice.AccessApi.Enums.AcImportXMLOption)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ImportXML(System.String,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -48207,7 +48207,7 @@
             </summary>
             <param name="dataSource">string DataSource</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding,System.Int32)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48227,7 +48227,7 @@
             <param name="objectType">NetOffice.AccessApi.Enums.AcExportXMLObjectType ObjectType</param>
             <param name="dataSource">string DataSource</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48235,7 +48235,7 @@
             <param name="dataSource">string DataSource</param>
             <param name="dataTarget">optional string DataTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48244,7 +48244,7 @@
             <param name="dataTarget">optional string DataTarget = </param>
             <param name="schemaTarget">optional string SchemaTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48254,7 +48254,7 @@
             <param name="schemaTarget">optional string SchemaTarget = </param>
             <param name="presentationTarget">optional string PresentationTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48265,7 +48265,7 @@
             <param name="presentationTarget">optional string PresentationTarget = </param>
             <param name="imageTarget">optional string ImageTarget = </param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.String,System.String,System.String,System.String,NetOffice.AccessApi.Enums.AcExportXMLEncoding)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportXMLOld(NetOffice.AccessApi.Enums.AcExportXMLObjectType,System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48277,7 +48277,7 @@
             <param name="imageTarget">optional string ImageTarget = </param>
             <param name="encoding">optional NetOffice.AccessApi.Enums.AcExportXMLEncoding Encoding = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.TransformXML(System.String,System.String,System.String,System.Boolean,NetOffice.AccessApi.Enums.AcTransformXMLScriptOption)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.TransformXML(System.String,System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48295,7 +48295,7 @@
             <param name="transformSource">string TransformSource</param>
             <param name="outputTarget">string OutputTarget</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.TransformXML(System.String,System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.TransformXML(System.String,System.String,System.String,System.Object)">
             <summary>
             SupportByVersion Access 11, 12, 14, 15
             </summary>
@@ -48321,7 +48321,7 @@
             </summary>
             <param name="filepath">string filepath</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48342,7 +48342,7 @@
             <param name="formName">string FormName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48350,7 +48350,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48359,7 +48359,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48369,7 +48369,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48380,7 +48380,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48392,7 +48392,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48405,7 +48405,7 @@
             <param name="top">optional object Top</param>
             <param name="width">optional object Width</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48426,7 +48426,7 @@
             <param name="reportName">string ReportName</param>
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48434,7 +48434,7 @@
             <param name="controlType">NetOffice.AccessApi.Enums.AcControlType ControlType</param>
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48443,7 +48443,7 @@
             <param name="section">optional NetOffice.AccessApi.Enums.AcSection Section = 0</param>
             <param name="parent">optional object Parent</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48453,7 +48453,7 @@
             <param name="parent">optional object Parent</param>
             <param name="columnName">optional object ColumnName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48464,7 +48464,7 @@
             <param name="columnName">optional object ColumnName</param>
             <param name="left">optional object Left</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48476,7 +48476,7 @@
             <param name="left">optional object Left</param>
             <param name="top">optional object Top</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,NetOffice.AccessApi.Enums.AcSection,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.CreateReportControlOld(System.String,NetOffice.AccessApi.Enums.AcControlType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48556,7 +48556,7 @@
             </summary>
             <param name="path">string Path</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ImportNavigationPane(System.String,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ImportNavigationPane(System.String,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48577,7 +48577,7 @@
             <param name="columnName">string ColumnName</param>
             <param name="queryString">string queryString</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Boolean,System.Int32,System.Int32)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48598,7 +48598,7 @@
             <param name="objectName">string ObjectName</param>
             <param name="objectType">NetOffice.AccessApi.Enums.AcOutputObjectType ObjectType</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Boolean)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -48608,7 +48608,7 @@
             <param name="objectType">NetOffice.AccessApi.Enums.AcOutputObjectType ObjectType</param>
             <param name="selectedRecords">optional bool SelectedRecords = false</param>
         </member>
-        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Boolean,System.Int32)">
+        <member name="M:NetOffice.AccessApi.GlobalHelperModules.GlobalModule.ExportCustomFixedFormat(System.Object,System.String,System.String,NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -53579,7 +53579,7 @@
         <member name="M:NetOffice.AccessApi._FormatCondition.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.AccessApi._FormatCondition.Modify(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi._FormatCondition.Modify(NetOffice.AccessApi.Enums.AcFormatConditionType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -53594,14 +53594,14 @@
             </summary>
             <param name="type">NetOffice.AccessApi.Enums.AcFormatConditionType Type</param>
         </member>
-        <member name="M:NetOffice.AccessApi._FormatCondition.Modify(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator)">
+        <member name="M:NetOffice.AccessApi._FormatCondition.Modify(NetOffice.AccessApi.Enums.AcFormatConditionType,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="type">NetOffice.AccessApi.Enums.AcFormatConditionType Type</param>
             <param name="_operator">optional NetOffice.AccessApi.Enums.AcFormatConditionOperator Operator = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi._FormatCondition.Modify(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator,System.Object)">
+        <member name="M:NetOffice.AccessApi._FormatCondition.Modify(NetOffice.AccessApi.Enums.AcFormatConditionType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -54142,7 +54142,7 @@
         <member name="M:NetOffice.AccessApi.FormatConditions.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -54157,14 +54157,14 @@
             </summary>
             <param name="type">NetOffice.AccessApi.Enums.AcFormatConditionType Type</param>
         </member>
-        <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator)">
+        <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="type">NetOffice.AccessApi.Enums.AcFormatConditionType Type</param>
             <param name="_operator">optional NetOffice.AccessApi.Enums.AcFormatConditionOperator Operator = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,NetOffice.AccessApi.Enums.AcFormatConditionOperator,System.Object)">
+        <member name="M:NetOffice.AccessApi.FormatConditions.Add(NetOffice.AccessApi.Enums.AcFormatConditionType,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -54946,7 +54946,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Close(NetOffice.AccessApi.Enums.AcObjectType,System.Object,NetOffice.AccessApi.Enums.AcCloseSave)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Close(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -54959,20 +54959,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Close(NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Close(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcObjectType ObjectType = -1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Close(NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Close(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcObjectType ObjectType = -1</param>
             <param name="objectName">optional object ObjectName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.CopyObject(System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.CopyObject(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -54999,7 +54999,7 @@
             <param name="destinationDatabase">optional object DestinationDatabase</param>
             <param name="newName">optional object NewName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.CopyObject(System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.CopyObject(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55052,7 +55052,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,NetOffice.AccessApi.Enums.AcFindMatch,System.Object,NetOffice.AccessApi.Enums.AcSearchDirection,System.Object,NetOffice.AccessApi.Enums.AcFindField,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55070,14 +55070,14 @@
             </summary>
             <param name="findWhat">object FindWhat</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,NetOffice.AccessApi.Enums.AcFindMatch)">
+        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="findWhat">object FindWhat</param>
             <param name="match">optional NetOffice.AccessApi.Enums.AcFindMatch Match = 1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,NetOffice.AccessApi.Enums.AcFindMatch,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55085,7 +55085,7 @@
             <param name="match">optional NetOffice.AccessApi.Enums.AcFindMatch Match = 1</param>
             <param name="matchCase">optional object MatchCase</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,NetOffice.AccessApi.Enums.AcFindMatch,System.Object,NetOffice.AccessApi.Enums.AcSearchDirection)">
+        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55094,7 +55094,7 @@
             <param name="matchCase">optional object MatchCase</param>
             <param name="search">optional NetOffice.AccessApi.Enums.AcSearchDirection Search = 2</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,NetOffice.AccessApi.Enums.AcFindMatch,System.Object,NetOffice.AccessApi.Enums.AcSearchDirection,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55104,7 +55104,7 @@
             <param name="search">optional NetOffice.AccessApi.Enums.AcSearchDirection Search = 2</param>
             <param name="searchAsFormatted">optional object SearchAsFormatted</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,NetOffice.AccessApi.Enums.AcFindMatch,System.Object,NetOffice.AccessApi.Enums.AcSearchDirection,System.Object,NetOffice.AccessApi.Enums.AcFindField)">
+        <member name="M:NetOffice.AccessApi.DoCmd.FindRecord(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55142,7 +55142,7 @@
             <param name="pageNumber">object PageNumber</param>
             <param name="right">optional object Right</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(NetOffice.AccessApi.Enums.AcDataObjectType,System.Object,NetOffice.AccessApi.Enums.AcRecord,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55156,20 +55156,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(NetOffice.AccessApi.Enums.AcDataObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcDataObjectType ObjectType = -1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(NetOffice.AccessApi.Enums.AcDataObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcDataObjectType ObjectType = -1</param>
             <param name="objectName">optional object ObjectName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(NetOffice.AccessApi.Enums.AcDataObjectType,System.Object,NetOffice.AccessApi.Enums.AcRecord)">
+        <member name="M:NetOffice.AccessApi.DoCmd.GoToRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55228,7 +55228,7 @@
             <param name="down">optional object Down</param>
             <param name="width">optional object Width</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,NetOffice.AccessApi.Enums.AcFormView,System.Object,System.Object,NetOffice.AccessApi.Enums.AcFormOpenDataMode,NetOffice.AccessApi.Enums.AcWindowMode,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55246,14 +55246,14 @@
             </summary>
             <param name="formName">object FormName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,NetOffice.AccessApi.Enums.AcFormView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="formName">object FormName</param>
             <param name="view">optional NetOffice.AccessApi.Enums.AcFormView View = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,NetOffice.AccessApi.Enums.AcFormView,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55261,7 +55261,7 @@
             <param name="view">optional NetOffice.AccessApi.Enums.AcFormView View = 0</param>
             <param name="filterName">optional object FilterName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,NetOffice.AccessApi.Enums.AcFormView,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55270,7 +55270,7 @@
             <param name="filterName">optional object FilterName</param>
             <param name="whereCondition">optional object WhereCondition</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,NetOffice.AccessApi.Enums.AcFormView,System.Object,System.Object,NetOffice.AccessApi.Enums.AcFormOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55280,7 +55280,7 @@
             <param name="whereCondition">optional object WhereCondition</param>
             <param name="dataMode">optional NetOffice.AccessApi.Enums.AcFormOpenDataMode DataMode = -1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,NetOffice.AccessApi.Enums.AcFormView,System.Object,System.Object,NetOffice.AccessApi.Enums.AcFormOpenDataMode,NetOffice.AccessApi.Enums.AcWindowMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenForm(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55291,7 +55291,7 @@
             <param name="dataMode">optional NetOffice.AccessApi.Enums.AcFormOpenDataMode DataMode = -1</param>
             <param name="windowMode">optional NetOffice.AccessApi.Enums.AcWindowMode WindowMode = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenQuery(System.Object,NetOffice.AccessApi.Enums.AcView,NetOffice.AccessApi.Enums.AcOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenQuery(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55305,14 +55305,14 @@
             </summary>
             <param name="queryName">object QueryName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenQuery(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenQuery(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="queryName">object QueryName</param>
             <param name="view">optional NetOffice.AccessApi.Enums.AcView View = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenTable(System.Object,NetOffice.AccessApi.Enums.AcView,NetOffice.AccessApi.Enums.AcOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenTable(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55326,14 +55326,14 @@
             </summary>
             <param name="tableName">object TableName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenTable(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenTable(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="tableName">object TableName</param>
             <param name="view">optional NetOffice.AccessApi.Enums.AcView View = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(NetOffice.AccessApi.Enums.AcPrintRange,System.Object,System.Object,NetOffice.AccessApi.Enums.AcPrintQuality,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55349,20 +55349,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(NetOffice.AccessApi.Enums.AcPrintRange)">
+        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="printRange">optional NetOffice.AccessApi.Enums.AcPrintRange PrintRange = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(NetOffice.AccessApi.Enums.AcPrintRange,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="printRange">optional NetOffice.AccessApi.Enums.AcPrintRange PrintRange = 0</param>
             <param name="pageFrom">optional object PageFrom</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(NetOffice.AccessApi.Enums.AcPrintRange,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55370,7 +55370,7 @@
             <param name="pageFrom">optional object PageFrom</param>
             <param name="pageTo">optional object PageTo</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(NetOffice.AccessApi.Enums.AcPrintRange,System.Object,System.Object,NetOffice.AccessApi.Enums.AcPrintQuality)">
+        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55379,7 +55379,7 @@
             <param name="pageTo">optional object PageTo</param>
             <param name="printQuality">optional NetOffice.AccessApi.Enums.AcPrintQuality PrintQuality = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(NetOffice.AccessApi.Enums.AcPrintRange,System.Object,System.Object,NetOffice.AccessApi.Enums.AcPrintQuality,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.PrintOut(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55389,7 +55389,7 @@
             <param name="printQuality">optional NetOffice.AccessApi.Enums.AcPrintQuality PrintQuality = 0</param>
             <param name="copies">optional object Copies</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Quit(NetOffice.AccessApi.Enums.AcQuitOption)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Quit(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55411,7 +55411,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.RepaintObject(NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.RepaintObject(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55423,13 +55423,13 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.RepaintObject(NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.RepaintObject(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcObjectType ObjectType = -1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Rename(System.Object,NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Rename(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55443,7 +55443,7 @@
             </summary>
             <param name="newName">object NewName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Rename(System.Object,NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Rename(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55521,7 +55521,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,NetOffice.AccessApi.Enums.AcView,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55530,7 +55530,7 @@
             <param name="filterName">optional object FilterName</param>
             <param name="whereCondition">optional object WhereCondition</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,NetOffice.AccessApi.Enums.AcView,System.Object,System.Object,NetOffice.AccessApi.Enums.AcWindowMode,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -55547,14 +55547,14 @@
             </summary>
             <param name="reportName">object ReportName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="reportName">object ReportName</param>
             <param name="view">optional NetOffice.AccessApi.Enums.AcView View = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,NetOffice.AccessApi.Enums.AcView,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55562,7 +55562,7 @@
             <param name="view">optional NetOffice.AccessApi.Enums.AcView View = 0</param>
             <param name="filterName">optional object FilterName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,NetOffice.AccessApi.Enums.AcView,System.Object,System.Object,NetOffice.AccessApi.Enums.AcWindowMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReport(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -55572,7 +55572,7 @@
             <param name="whereCondition">optional object WhereCondition</param>
             <param name="windowMode">optional NetOffice.AccessApi.Enums.AcWindowMode WindowMode = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55590,20 +55590,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="transferType">optional NetOffice.AccessApi.Enums.AcDataTransferType TransferType = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="transferType">optional NetOffice.AccessApi.Enums.AcDataTransferType TransferType = 0</param>
             <param name="databaseType">optional object DatabaseType</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55611,7 +55611,7 @@
             <param name="databaseType">optional object DatabaseType</param>
             <param name="databaseName">optional object DatabaseName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55620,7 +55620,7 @@
             <param name="databaseName">optional object DatabaseName</param>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcObjectType ObjectType = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55630,7 +55630,7 @@
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcObjectType ObjectType = 0</param>
             <param name="source">optional object Source</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55641,7 +55641,7 @@
             <param name="source">optional object Source</param>
             <param name="destination">optional object Destination</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(NetOffice.AccessApi.Enums.AcDataTransferType,System.Object,System.Object,NetOffice.AccessApi.Enums.AcObjectType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferDatabase(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55653,7 +55653,7 @@
             <param name="destination">optional object Destination</param>
             <param name="structureOnly">optional object StructureOnly</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType,NetOffice.AccessApi.Enums.AcSpreadSheetType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55670,20 +55670,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="transferType">optional NetOffice.AccessApi.Enums.AcDataTransferType TransferType = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType,NetOffice.AccessApi.Enums.AcSpreadSheetType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="transferType">optional NetOffice.AccessApi.Enums.AcDataTransferType TransferType = 0</param>
             <param name="spreadsheetType">optional NetOffice.AccessApi.Enums.AcSpreadSheetType SpreadsheetType = 8</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType,NetOffice.AccessApi.Enums.AcSpreadSheetType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55691,7 +55691,7 @@
             <param name="spreadsheetType">optional NetOffice.AccessApi.Enums.AcSpreadSheetType SpreadsheetType = 8</param>
             <param name="tableName">optional object TableName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType,NetOffice.AccessApi.Enums.AcSpreadSheetType,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55700,7 +55700,7 @@
             <param name="tableName">optional object TableName</param>
             <param name="fileName">optional object FileName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType,NetOffice.AccessApi.Enums.AcSpreadSheetType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55710,7 +55710,7 @@
             <param name="fileName">optional object FileName</param>
             <param name="hasFieldNames">optional object HasFieldNames</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(NetOffice.AccessApi.Enums.AcDataTransferType,NetOffice.AccessApi.Enums.AcSpreadSheetType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferSpreadsheet(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55721,7 +55721,7 @@
             <param name="hasFieldNames">optional object HasFieldNames</param>
             <param name="range">optional object Range</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55738,20 +55738,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="transferType">optional NetOffice.AccessApi.Enums.AcTextTransferType TransferType = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="transferType">optional NetOffice.AccessApi.Enums.AcTextTransferType TransferType = 0</param>
             <param name="specificationName">optional object SpecificationName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55759,7 +55759,7 @@
             <param name="specificationName">optional object SpecificationName</param>
             <param name="tableName">optional object TableName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55768,7 +55768,7 @@
             <param name="tableName">optional object TableName</param>
             <param name="fileName">optional object FileName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55778,7 +55778,7 @@
             <param name="fileName">optional object FileName</param>
             <param name="hasFieldNames">optional object HasFieldNames</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(NetOffice.AccessApi.Enums.AcTextTransferType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.TransferText(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55812,7 +55812,7 @@
             <param name="templateFile">optional object TemplateFile</param>
             <param name="encoding">optional object Encoding</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OutputTo(NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,NetOffice.AccessApi.Enums.AcExportQuality)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OutputTo(NetOffice.AccessApi.Enums.AcOutputObjectType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -55865,7 +55865,7 @@
             <param name="outputFile">optional object OutputFile</param>
             <param name="autoStart">optional object AutoStart</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.DeleteObject(NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.DeleteObject(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55877,7 +55877,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.DeleteObject(NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.DeleteObject(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55901,7 +55901,7 @@
             </summary>
             <param name="moduleName">optional object ModuleName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55921,20 +55921,20 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcSendObjectType ObjectType = -1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcSendObjectType ObjectType = -1</param>
             <param name="objectName">optional object ObjectName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55942,7 +55942,7 @@
             <param name="objectName">optional object ObjectName</param>
             <param name="outputFormat">optional object OutputFormat</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55951,7 +55951,7 @@
             <param name="outputFormat">optional object OutputFormat</param>
             <param name="to">optional object To</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55961,7 +55961,7 @@
             <param name="to">optional object To</param>
             <param name="cc">optional object Cc</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55972,7 +55972,7 @@
             <param name="cc">optional object Cc</param>
             <param name="bcc">optional object Bcc</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55984,7 +55984,7 @@
             <param name="bcc">optional object Bcc</param>
             <param name="subject">optional object Subject</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -55997,7 +55997,7 @@
             <param name="subject">optional object Subject</param>
             <param name="messageText">optional object MessageText</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(NetOffice.AccessApi.Enums.AcSendObjectType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SendObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56011,7 +56011,7 @@
             <param name="messageText">optional object MessageText</param>
             <param name="editMessage">optional object EditMessage</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.ShowToolbar(System.Object,NetOffice.AccessApi.Enums.AcShowToolbar)">
+        <member name="M:NetOffice.AccessApi.DoCmd.ShowToolbar(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56024,7 +56024,7 @@
             </summary>
             <param name="toolbarName">object ToolbarName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Save(NetOffice.AccessApi.Enums.AcObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Save(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56036,7 +56036,7 @@
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.Save(NetOffice.AccessApi.Enums.AcObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.Save(System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56078,7 +56078,7 @@
             </summary>
             <param name="command">NetOffice.AccessApi.Enums.AcCommand Command</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenDataAccessPage(System.Object,NetOffice.AccessApi.Enums.AcDataAccessPageView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenDataAccessPage(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56091,7 +56091,7 @@
             </summary>
             <param name="dataAccessPageName">object DataAccessPageName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenView(System.Object,NetOffice.AccessApi.Enums.AcView,NetOffice.AccessApi.Enums.AcOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenView(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56105,7 +56105,7 @@
             </summary>
             <param name="viewName">object ViewName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenView(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenView(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56118,7 +56118,7 @@
             </summary>
             <param name="diagramName">object DiagramName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenStoredProcedure(System.Object,NetOffice.AccessApi.Enums.AcView,NetOffice.AccessApi.Enums.AcOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenStoredProcedure(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
@@ -56132,14 +56132,14 @@
             </summary>
             <param name="procedureName">object ProcedureName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenStoredProcedure(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenStoredProcedure(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 9, 10, 11, 12, 14, 15
             </summary>
             <param name="procedureName">object ProcedureName</param>
             <param name="view">optional NetOffice.AccessApi.Enums.AcView View = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReportOld0(System.Object,NetOffice.AccessApi.Enums.AcView,System.Object,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReportOld0(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -56154,14 +56154,14 @@
             </summary>
             <param name="reportName">object ReportName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReportOld0(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReportOld0(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
             <param name="reportName">object ReportName</param>
             <param name="view">optional NetOffice.AccessApi.Enums.AcView View = 0</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenReportOld0(System.Object,NetOffice.AccessApi.Enums.AcView,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenReportOld0(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -56286,7 +56286,7 @@
             <param name="databaseFileName">object DatabaseFileName</param>
             <param name="overwriteExistingFile">optional object OverwriteExistingFile</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenFunction(System.Object,NetOffice.AccessApi.Enums.AcView,NetOffice.AccessApi.Enums.AcOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenFunction(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -56300,7 +56300,7 @@
             </summary>
             <param name="functionName">object FunctionName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.OpenFunction(System.Object,NetOffice.AccessApi.Enums.AcView)">
+        <member name="M:NetOffice.AccessApi.DoCmd.OpenFunction(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 10, 11, 12, 14, 15
             </summary>
@@ -56449,7 +56449,7 @@
             </summary>
             <param name="category">optional object Category</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(NetOffice.AccessApi.Enums.AcDataObjectType,System.Object,NetOffice.AccessApi.Enums.AcRecord,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -56463,20 +56463,20 @@
             SupportByVersion Access 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(NetOffice.AccessApi.Enums.AcDataObjectType)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcDataObjectType ObjectType = -1</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(NetOffice.AccessApi.Enums.AcDataObjectType,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
             <param name="objectType">optional NetOffice.AccessApi.Enums.AcDataObjectType ObjectType = -1</param>
             <param name="objectName">optional object ObjectName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(NetOffice.AccessApi.Enums.AcDataObjectType,System.Object,NetOffice.AccessApi.Enums.AcRecord)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SearchForRecord(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -56484,7 +56484,7 @@
             <param name="objectName">optional object ObjectName</param>
             <param name="record">optional NetOffice.AccessApi.Enums.AcRecord Record = 2</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SetProperty(System.Object,NetOffice.AccessApi.Enums.AcProperty,System.Object)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SetProperty(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -56498,7 +56498,7 @@
             </summary>
             <param name="controlName">object ControlName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.SetProperty(System.Object,NetOffice.AccessApi.Enums.AcProperty)">
+        <member name="M:NetOffice.AccessApi.DoCmd.SetProperty(System.Object,System.Object)">
             <summary>
             SupportByVersion Access 12, 14, 15
             </summary>
@@ -56540,7 +56540,7 @@
             </summary>
             <param name="savedImportExportName">object SavedImportExportName</param>
         </member>
-        <member name="M:NetOffice.AccessApi.DoCmd.BrowseTo(NetOffice.AccessApi.Enums.AcBrowseToObjectType,System.Object,System.Object,System.Object,System.Object,NetOffice.AccessApi.Enums.AcFormOpenDataMode)">
+        <member name="M:NetOffice.AccessApi.DoCmd.BrowseTo(NetOffice.AccessApi.Enums.AcBrowseToObjectType,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Access 14, 15
             </summary>

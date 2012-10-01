@@ -478,7 +478,7 @@
             </summary>
             <param name="nWhichStatistic">Int32 nWhichStatistic</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVInvisibleApp.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVInvisibleApp.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -498,7 +498,7 @@
             <param name="unitsOut">object UnitsOut</param>
             <param name="format">string Format</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVInvisibleApp.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVInvisibleApp.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4259,7 +4259,7 @@
             <param name="dx">Double dx</param>
             <param name="dy">Double dy</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes,System.Double,System.Double,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4284,7 +4284,7 @@
             <param name="angle">Double Angle</param>
             <param name="angleUnitsNameOrCode">optional object AngleUnitsNameOrCode</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4292,7 +4292,7 @@
             <param name="angleUnitsNameOrCode">optional object AngleUnitsNameOrCode</param>
             <param name="blastGuards">optional bool BlastGuards = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4301,7 +4301,7 @@
             <param name="blastGuards">optional bool BlastGuards = false</param>
             <param name="rotationType">optional NetOffice.VisioApi.Enums.VisRotationTypes RotationType = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4311,7 +4311,7 @@
             <param name="rotationType">optional NetOffice.VisioApi.Enums.VisRotationTypes RotationType = 0</param>
             <param name="pinX">optional Double PinX = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Rotate(System.Double,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4322,7 +4322,7 @@
             <param name="pinX">optional Double PinX = 0</param>
             <param name="pinY">optional Double PinY = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Align(NetOffice.VisioApi.Enums.VisHorizontalAlignTypes,NetOffice.VisioApi.Enums.VisVerticalAlignTypes,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Align(NetOffice.VisioApi.Enums.VisHorizontalAlignTypes,NetOffice.VisioApi.Enums.VisVerticalAlignTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4337,7 +4337,7 @@
             <param name="alignHorizontal">NetOffice.VisioApi.Enums.VisHorizontalAlignTypes AlignHorizontal</param>
             <param name="alignVertical">NetOffice.VisioApi.Enums.VisVerticalAlignTypes AlignVertical</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Distribute(NetOffice.VisioApi.Enums.VisDistributeTypes,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Distribute(NetOffice.VisioApi.Enums.VisDistributeTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4366,7 +4366,7 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean,System.Double,System.Double,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4383,14 +4383,14 @@
             </summary>
             <param name="flipDirection">NetOffice.VisioApi.Enums.VisFlipDirection FlipDirection</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="flipDirection">NetOffice.VisioApi.Enums.VisFlipDirection FlipDirection</param>
             <param name="flipType">optional NetOffice.VisioApi.Enums.VisFlipTypes FlipType = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4398,7 +4398,7 @@
             <param name="flipType">optional NetOffice.VisioApi.Enums.VisFlipTypes FlipType = 0</param>
             <param name="blastGuards">optional bool BlastGuards = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4407,7 +4407,7 @@
             <param name="blastGuards">optional bool BlastGuards = false</param>
             <param name="pinX">optional Double PinX = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -4417,7 +4417,7 @@
             <param name="pinX">optional Double PinX = 0</param>
             <param name="pinY">optional Double PinY = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.LinkToData(System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.LinkToData(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -4495,7 +4495,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -4551,7 +4551,7 @@
             </summary>
             <param name="formatType">NetOffice.VisioApi.Enums.VisContainerFormatType FormatType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.ReplaceShape(System.Object,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSELECTION.ReplaceShape(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -11230,7 +11230,7 @@
             <param name="format">Int32 Format</param>
             <param name="link">optional object Link</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVMaster.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVMaster.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -11244,7 +11244,7 @@
             </summary>
             <param name="selType">NetOffice.VisioApi.Enums.VisSelectionTypes SelType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVMaster.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode)">
+        <member name="M:NetOffice.VisioApi.IVMaster.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -11280,7 +11280,7 @@
             <param name="yEnd">Double yEnd</param>
             <param name="sweepFlag">NetOffice.VisioApi.Enums.VisArcSweepFlags SweepFlag</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVMaster.DrawCircularArc(System.Double,System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVMaster.DrawCircularArc(System.Double,System.Double,System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -11298,7 +11298,7 @@
             <param name="yCenter">Double yCenter</param>
             <param name="radius">Double Radius</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVMaster.DrawCircularArc(System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVMaster.DrawCircularArc(System.Double,System.Double,System.Double,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -12651,7 +12651,7 @@
             </summary>
             <param name="nWhichStatistic">Int32 nWhichStatistic</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplication.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVApplication.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -12671,7 +12671,7 @@
             <param name="unitsOut">object UnitsOut</param>
             <param name="format">string Format</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplication.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVApplication.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -14030,28 +14030,28 @@
         <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.get_AreaIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.get_AreaIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get
             </summary>
             <param name="fIncludeSubShapes">optional bool fIncludeSubShapes</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.AreaIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.AreaIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Alias for get_AreaIU
             </summary>
             <param name="fIncludeSubShapes">optional bool fIncludeSubShapes</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.get_LengthIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.get_LengthIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get
             </summary>
             <param name="fIncludeSubShapes">optional bool fIncludeSubShapes</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.LengthIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE_.LengthIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Alias for get_LengthIU
@@ -14992,7 +14992,7 @@
             <param name="format">Int32 Format</param>
             <param name="link">optional object Link</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -15006,7 +15006,7 @@
             </summary>
             <param name="selType">NetOffice.VisioApi.Enums.VisSelectionTypes SelType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -15048,7 +15048,7 @@
             <param name="yEnd">Double yEnd</param>
             <param name="sweepFlag">NetOffice.VisioApi.Enums.VisArcSweepFlags SweepFlag</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.DrawCircularArc(System.Double,System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.DrawCircularArc(System.Double,System.Double,System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -15066,7 +15066,7 @@
             <param name="yCenter">Double yCenter</param>
             <param name="radius">Double Radius</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.DrawCircularArc(System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.DrawCircularArc(System.Double,System.Double,System.Double,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -15075,7 +15075,7 @@
             <param name="radius">Double Radius</param>
             <param name="startAngle">optional Double StartAngle = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.LinkToData(System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.LinkToData(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -15157,7 +15157,7 @@
             <param name="flags">NetOffice.VisioApi.Enums.VisConnectedShapesFlags Flags</param>
             <param name="categoryFilter">string CategoryFilter</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.GluedShapes(NetOffice.VisioApi.Enums.VisGluedShapesFlags,System.String,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.GluedShapes(NetOffice.VisioApi.Enums.VisGluedShapesFlags,System.String,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -15204,7 +15204,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -15225,7 +15225,7 @@
             </summary>
             <param name="delFlags">Int32 DelFlags</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.ReplaceShape(System.Object,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.ReplaceShape(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -15251,7 +15251,7 @@
             <param name="shadowColor">NetOffice.VisioApi.Enums.VisQuickStyleColors shadowColor</param>
             <param name="fontColor">NetOffice.VisioApi.Enums.VisQuickStyleColors fontColor</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.ChangePicture(System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOSHAPE.ChangePicture(System.String,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -19251,7 +19251,7 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVCharacters.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVCharacters.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19269,7 +19269,7 @@
             <param name="code">NetOffice.VisioApi.Enums.VisFieldCodes Code</param>
             <param name="format">NetOffice.VisioApi.Enums.VisFieldFormats Format</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVCharacters.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVCharacters.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19895,7 +19895,7 @@
             <param name="dx">Double dx</param>
             <param name="dy">Double dy</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes,System.Double,System.Double,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19920,7 +19920,7 @@
             <param name="angle">Double Angle</param>
             <param name="angleUnitsNameOrCode">optional object AngleUnitsNameOrCode</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19928,7 +19928,7 @@
             <param name="angleUnitsNameOrCode">optional object AngleUnitsNameOrCode</param>
             <param name="blastGuards">optional bool BlastGuards = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19937,7 +19937,7 @@
             <param name="blastGuards">optional bool BlastGuards = false</param>
             <param name="rotationType">optional NetOffice.VisioApi.Enums.VisRotationTypes RotationType = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19947,7 +19947,7 @@
             <param name="rotationType">optional NetOffice.VisioApi.Enums.VisRotationTypes RotationType = 0</param>
             <param name="pinX">optional Double PinX = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Boolean,NetOffice.VisioApi.Enums.VisRotationTypes,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Rotate(System.Double,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19958,7 +19958,7 @@
             <param name="pinX">optional Double PinX = 0</param>
             <param name="pinY">optional Double PinY = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Align(NetOffice.VisioApi.Enums.VisHorizontalAlignTypes,NetOffice.VisioApi.Enums.VisVerticalAlignTypes,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Align(NetOffice.VisioApi.Enums.VisHorizontalAlignTypes,NetOffice.VisioApi.Enums.VisVerticalAlignTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -19973,7 +19973,7 @@
             <param name="alignHorizontal">NetOffice.VisioApi.Enums.VisHorizontalAlignTypes AlignHorizontal</param>
             <param name="alignVertical">NetOffice.VisioApi.Enums.VisVerticalAlignTypes AlignVertical</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Distribute(NetOffice.VisioApi.Enums.VisDistributeTypes,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Distribute(NetOffice.VisioApi.Enums.VisDistributeTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -20002,7 +20002,7 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean,System.Double,System.Double,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -20019,14 +20019,14 @@
             </summary>
             <param name="flipDirection">NetOffice.VisioApi.Enums.VisFlipDirection FlipDirection</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="flipDirection">NetOffice.VisioApi.Enums.VisFlipDirection FlipDirection</param>
             <param name="flipType">optional NetOffice.VisioApi.Enums.VisFlipTypes FlipType = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -20034,7 +20034,7 @@
             <param name="flipType">optional NetOffice.VisioApi.Enums.VisFlipTypes FlipType = 0</param>
             <param name="blastGuards">optional bool BlastGuards = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -20043,7 +20043,7 @@
             <param name="blastGuards">optional bool BlastGuards = false</param>
             <param name="pinX">optional Double PinX = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,NetOffice.VisioApi.Enums.VisFlipTypes,System.Boolean,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVSelection.Flip(NetOffice.VisioApi.Enums.VisFlipDirection,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -20053,7 +20053,7 @@
             <param name="pinX">optional Double PinX = 0</param>
             <param name="pinY">optional Double PinY = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.LinkToData(System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVSelection.LinkToData(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -20131,7 +20131,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.IVSelection.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -20187,7 +20187,7 @@
             </summary>
             <param name="formatType">NetOffice.VisioApi.Enums.VisContainerFormatType FormatType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVSelection.ReplaceShape(System.Object,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVSelection.ReplaceShape(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -21730,7 +21730,7 @@
             </summary>
             <param name="nameU">string NameU</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATIONRULESETS.AddCopy(NetOffice.VisioApi.IVValidationRuleSet,System.String)">
+        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATIONRULESETS.AddCopy(NetOffice.VisioApi.IVValidationRuleSet,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -24176,28 +24176,28 @@
         <member name="M:NetOffice.VisioApi.IVShape_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape_.get_AreaIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVShape_.get_AreaIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get
             </summary>
             <param name="fIncludeSubShapes">optional bool fIncludeSubShapes</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape_.AreaIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVShape_.AreaIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Alias for get_AreaIU
             </summary>
             <param name="fIncludeSubShapes">optional bool fIncludeSubShapes</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape_.get_LengthIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVShape_.get_LengthIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get
             </summary>
             <param name="fIncludeSubShapes">optional bool fIncludeSubShapes</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape_.LengthIU(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVShape_.LengthIU(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Alias for get_LengthIU
@@ -25132,7 +25132,7 @@
             <param name="format">Int32 Format</param>
             <param name="link">optional object Link</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVShape.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -25146,7 +25146,7 @@
             </summary>
             <param name="selType">NetOffice.VisioApi.Enums.VisSelectionTypes SelType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode)">
+        <member name="M:NetOffice.VisioApi.IVShape.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -25188,7 +25188,7 @@
             <param name="yEnd">Double yEnd</param>
             <param name="sweepFlag">NetOffice.VisioApi.Enums.VisArcSweepFlags SweepFlag</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.DrawCircularArc(System.Double,System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVShape.DrawCircularArc(System.Double,System.Double,System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -25206,7 +25206,7 @@
             <param name="yCenter">Double yCenter</param>
             <param name="radius">Double Radius</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.DrawCircularArc(System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVShape.DrawCircularArc(System.Double,System.Double,System.Double,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -25215,7 +25215,7 @@
             <param name="radius">Double Radius</param>
             <param name="startAngle">optional Double StartAngle = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.LinkToData(System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVShape.LinkToData(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -25297,7 +25297,7 @@
             <param name="flags">NetOffice.VisioApi.Enums.VisConnectedShapesFlags Flags</param>
             <param name="categoryFilter">string CategoryFilter</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.GluedShapes(NetOffice.VisioApi.Enums.VisGluedShapesFlags,System.String,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.IVShape.GluedShapes(NetOffice.VisioApi.Enums.VisGluedShapesFlags,System.String,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -25344,7 +25344,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.IVShape.MoveToSubprocess(NetOffice.VisioApi.IVPage,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -25365,7 +25365,7 @@
             </summary>
             <param name="delFlags">Int32 DelFlags</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.ReplaceShape(System.Object,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVShape.ReplaceShape(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -25391,7 +25391,7 @@
             <param name="shadowColor">NetOffice.VisioApi.Enums.VisQuickStyleColors shadowColor</param>
             <param name="fontColor">NetOffice.VisioApi.Enums.VisQuickStyleColors fontColor</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVShape.ChangePicture(System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVShape.ChangePicture(System.String,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -27347,7 +27347,7 @@
             <param name="format">Int32 Format</param>
             <param name="link">optional object Link</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -27361,7 +27361,7 @@
             </summary>
             <param name="selType">NetOffice.VisioApi.Enums.VisSelectionTypes SelType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -27389,7 +27389,7 @@
             <param name="yEnd">Double yEnd</param>
             <param name="sweepFlag">NetOffice.VisioApi.Enums.VisArcSweepFlags SweepFlag</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.DrawCircularArc(System.Double,System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.DrawCircularArc(System.Double,System.Double,System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -27407,7 +27407,7 @@
             <param name="yCenter">Double yCenter</param>
             <param name="radius">Double Radius</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.DrawCircularArc(System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.DrawCircularArc(System.Double,System.Double,System.Double,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -27431,7 +27431,7 @@
             <param name="dataRowID">Int32 DataRowID</param>
             <param name="shapeIDs">Int32[] ShapeIDs</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.LinkShapesToDataRows(System.Int32,System.Int32[],System.Int32[],System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.LinkShapesToDataRows(System.Int32,System.Int32[],System.Int32[],System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -27654,7 +27654,7 @@
             <param name="varEffectScheme">optional object varEffectScheme</param>
             <param name="varConnectorScheme">optional object varConnectorScheme</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.GetThemeVariant(System.Int16@,System.Int16@,System.Int16)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.GetThemeVariant(System.Int16@,System.Int16@,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -27669,7 +27669,7 @@
             <param name="pVariantColor">Int16 pVariantColor</param>
             <param name="pVariantStyle">Int16 pVariantStyle</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.SetThemeVariant(System.Int16,System.Int16,System.Int16)">
+        <member name="M:NetOffice.VisioApi.LPVISIOPAGE.SetThemeVariant(System.Int16,System.Int16,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -27942,7 +27942,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENTS.AddEx(System.String,NetOffice.VisioApi.Enums.VisMeasurementSystem,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENTS.AddEx(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -27957,14 +27957,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENTS.AddEx(System.String,NetOffice.VisioApi.Enums.VisMeasurementSystem)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENTS.AddEx(System.String,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="measurementSystem">optional NetOffice.VisioApi.Enums.VisMeasurementSystem MeasurementSystem = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENTS.AddEx(System.String,NetOffice.VisioApi.Enums.VisMeasurementSystem,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENTS.AddEx(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -29620,7 +29620,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVValidationRule.AddIssue(NetOffice.VisioApi.IVPage,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.IVValidationRule.AddIssue(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -29632,7 +29632,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVValidationRule.AddIssue(NetOffice.VisioApi.IVPage)">
+        <member name="M:NetOffice.VisioApi.IVValidationRule.AddIssue(System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -30755,7 +30755,7 @@
         <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Double,System.Double,NetOffice.VisioApi.Enums.VisRasterExportResolutionUnits)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -30770,14 +30770,14 @@
             </summary>
             <param name="resolution">NetOffice.VisioApi.Enums.VisRasterExportResolution resolution</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
             <param name="resolution">NetOffice.VisioApi.Enums.VisRasterExportResolution resolution</param>
             <param name="width">optional Double Width = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -30794,7 +30794,7 @@
             <param name="pHeight">Double pHeight</param>
             <param name="pResolutionUnits">NetOffice.VisioApi.Enums.VisRasterExportResolutionUnits pResolutionUnits</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Double,System.Double,NetOffice.VisioApi.Enums.VisRasterExportSizeUnits)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -30809,14 +30809,14 @@
             </summary>
             <param name="size">NetOffice.VisioApi.Enums.VisRasterExportSize size</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
             <param name="size">NetOffice.VisioApi.Enums.VisRasterExportSize size</param>
             <param name="width">optional Double Width = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPSETTINGS.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -31451,21 +31451,21 @@
         <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.get_ReviewerMarkupVisible(System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.get_ReviewerMarkupVisible(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get/Set
             </summary>
             <param name="reviewerID">optional Int32 ReviewerID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.set_ReviewerMarkupVisible(System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.set_ReviewerMarkupVisible(System.Object,System.Boolean)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get/Set
             </summary>
             <param name="reviewerID">optional Int32 ReviewerID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.ReviewerMarkupVisible(System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOWINDOW_.ReviewerMarkupVisible(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Alias for get_ReviewerMarkupVisible
@@ -33371,7 +33371,7 @@
             </summary>
             <param name="iD">Int32 ID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDataRecordsets.Add(System.Object,System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.VisioApi.IVDataRecordsets.Add(System.Object,System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -33388,7 +33388,7 @@
             <param name="commandString">string CommandString</param>
             <param name="addOptions">Int32 AddOptions</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDataRecordsets.AddFromXML(System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.VisioApi.IVDataRecordsets.AddFromXML(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -33403,7 +33403,7 @@
             <param name="xMLString">string XMLString</param>
             <param name="addOptions">Int32 AddOptions</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDataRecordsets.AddFromConnectionFile(System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.VisioApi.IVDataRecordsets.AddFromConnectionFile(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -38163,7 +38163,7 @@
             </summary>
             <param name="nameU">string NameU</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVValidationRuleSets.AddCopy(NetOffice.VisioApi.IVValidationRuleSet,System.String)">
+        <member name="M:NetOffice.VisioApi.IVValidationRuleSets.AddCopy(NetOffice.VisioApi.IVValidationRuleSet,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -38613,7 +38613,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocuments.AddEx(System.String,NetOffice.VisioApi.Enums.VisMeasurementSystem,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocuments.AddEx(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -38628,14 +38628,14 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocuments.AddEx(System.String,NetOffice.VisioApi.Enums.VisMeasurementSystem)">
+        <member name="M:NetOffice.VisioApi.IVDocuments.AddEx(System.String,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="fileName">string FileName</param>
             <param name="measurementSystem">optional NetOffice.VisioApi.Enums.VisMeasurementSystem MeasurementSystem = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocuments.AddEx(System.String,NetOffice.VisioApi.Enums.VisMeasurementSystem,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocuments.AddEx(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -39552,7 +39552,7 @@
             <param name="format">Int32 Format</param>
             <param name="link">optional object Link</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -39566,7 +39566,7 @@
             </summary>
             <param name="selType">NetOffice.VisioApi.Enums.VisSelectionTypes SelType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode)">
+        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -39602,7 +39602,7 @@
             <param name="yEnd">Double yEnd</param>
             <param name="sweepFlag">NetOffice.VisioApi.Enums.VisArcSweepFlags SweepFlag</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.DrawCircularArc(System.Double,System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.DrawCircularArc(System.Double,System.Double,System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -39620,7 +39620,7 @@
             <param name="yCenter">Double yCenter</param>
             <param name="radius">Double Radius</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.DrawCircularArc(System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.LPVISIOMASTER.DrawCircularArc(System.Double,System.Double,System.Double,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -46275,7 +46275,7 @@
         <member name="M:NetOffice.VisioApi.IVApplicationSettings.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Double,System.Double,NetOffice.VisioApi.Enums.VisRasterExportResolutionUnits)">
+        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -46290,14 +46290,14 @@
             </summary>
             <param name="resolution">NetOffice.VisioApi.Enums.VisRasterExportResolution resolution</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
             <param name="resolution">NetOffice.VisioApi.Enums.VisRasterExportResolution resolution</param>
             <param name="width">optional Double Width = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportResolution(NetOffice.VisioApi.Enums.VisRasterExportResolution,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -46314,7 +46314,7 @@
             <param name="pHeight">Double pHeight</param>
             <param name="pResolutionUnits">NetOffice.VisioApi.Enums.VisRasterExportResolutionUnits pResolutionUnits</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Double,System.Double,NetOffice.VisioApi.Enums.VisRasterExportSizeUnits)">
+        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -46329,14 +46329,14 @@
             </summary>
             <param name="size">NetOffice.VisioApi.Enums.VisRasterExportSize size</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
             <param name="size">NetOffice.VisioApi.Enums.VisRasterExportSize size</param>
             <param name="width">optional Double Width = 0</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVApplicationSettings.SetRasterExportSize(NetOffice.VisioApi.Enums.VisRasterExportSize,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -47522,7 +47522,7 @@
         <member name="M:NetOffice.VisioApi.IVValidation.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVValidation.Validate(NetOffice.VisioApi.IVValidationRuleSet,NetOffice.VisioApi.Enums.VisValidationFlags)">
+        <member name="M:NetOffice.VisioApi.IVValidation.Validate(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -47534,7 +47534,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVValidation.Validate(NetOffice.VisioApi.IVValidationRuleSet)">
+        <member name="M:NetOffice.VisioApi.IVValidation.Validate(System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -47980,7 +47980,7 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOCHARS.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOCHARS.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -47998,7 +47998,7 @@
             <param name="code">NetOffice.VisioApi.Enums.VisFieldCodes Code</param>
             <param name="format">NetOffice.VisioApi.Enums.VisFieldFormats Format</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOCHARS.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOCHARS.AddFieldEx(NetOffice.VisioApi.Enums.VisFieldCategories,NetOffice.VisioApi.Enums.VisFieldCodes,NetOffice.VisioApi.Enums.VisFieldFormats,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -49245,7 +49245,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATIONRULE.AddIssue(NetOffice.VisioApi.IVPage,NetOffice.VisioApi.IVShape)">
+        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATIONRULE.AddIssue(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -49257,7 +49257,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATIONRULE.AddIssue(NetOffice.VisioApi.IVPage)">
+        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATIONRULE.AddIssue(System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -49468,7 +49468,7 @@
             </summary>
             <param name="iD">Int32 ID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODATARECORDSETS.Add(System.Object,System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.VisioApi.LPVISIODATARECORDSETS.Add(System.Object,System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -49485,7 +49485,7 @@
             <param name="commandString">string CommandString</param>
             <param name="addOptions">Int32 AddOptions</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODATARECORDSETS.AddFromXML(System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.VisioApi.LPVISIODATARECORDSETS.AddFromXML(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -49500,7 +49500,7 @@
             <param name="xMLString">string XMLString</param>
             <param name="addOptions">Int32 AddOptions</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODATARECORDSETS.AddFromConnectionFile(System.String,System.Int32,System.String)">
+        <member name="M:NetOffice.VisioApi.LPVISIODATARECORDSETS.AddFromConnectionFile(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50646,7 +50646,7 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.CheckIn(System.Boolean,System.Object,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.CheckIn(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50659,20 +50659,20 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.CheckIn(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.CheckIn(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.CheckIn(System.Boolean,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.CheckIn(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
             <param name="comments">optional object Comments</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50693,14 +50693,14 @@
             </summary>
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
             <param name="fromPage">optional Int32 FromPage = 1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50708,7 +50708,7 @@
             <param name="fromPage">optional Int32 FromPage = 1</param>
             <param name="toPage">optional Int32 ToPage = -1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50717,7 +50717,7 @@
             <param name="toPage">optional Int32 ToPage = -1</param>
             <param name="scaleCurrentViewToPaper">optional bool ScaleCurrentViewToPaper = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50727,7 +50727,7 @@
             <param name="scaleCurrentViewToPaper">optional bool ScaleCurrentViewToPaper = false</param>
             <param name="printerName">optional string PrinterName = </param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50738,7 +50738,7 @@
             <param name="printerName">optional string PrinterName = </param>
             <param name="printToFile">optional bool PrintToFile = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50750,7 +50750,7 @@
             <param name="printToFile">optional bool PrintToFile = false</param>
             <param name="outputFileName">optional string OutputFileName = </param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50763,7 +50763,7 @@
             <param name="outputFileName">optional string OutputFileName = </param>
             <param name="copies">optional Int32 Copies = 1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -50837,7 +50837,7 @@
             SupportByVersion Visio 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50863,7 +50863,7 @@
             <param name="intent">NetOffice.VisioApi.Enums.VisDocExIntent Intent</param>
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50873,7 +50873,7 @@
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
             <param name="fromPage">optional Int32 FromPage = 1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50884,7 +50884,7 @@
             <param name="fromPage">optional Int32 FromPage = 1</param>
             <param name="toPage">optional Int32 ToPage = -1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50896,7 +50896,7 @@
             <param name="toPage">optional Int32 ToPage = -1</param>
             <param name="colorAsBlack">optional bool ColorAsBlack = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50909,7 +50909,7 @@
             <param name="colorAsBlack">optional bool ColorAsBlack = false</param>
             <param name="includeBackground">optional bool IncludeBackground = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50923,7 +50923,7 @@
             <param name="includeBackground">optional bool IncludeBackground = true</param>
             <param name="includeDocumentProperties">optional bool IncludeDocumentProperties = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -50938,7 +50938,7 @@
             <param name="includeDocumentProperties">optional bool IncludeDocumentProperties = true</param>
             <param name="includeStructureTags">optional bool IncludeStructureTags = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.LPVISIODOCUMENT.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -54793,7 +54793,7 @@
         <member name="M:NetOffice.VisioApi.LPVISIOVALIDATION.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATION.Validate(NetOffice.VisioApi.IVValidationRuleSet,NetOffice.VisioApi.Enums.VisValidationFlags)">
+        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATION.Validate(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -54805,7 +54805,7 @@
             SupportByVersion Visio 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATION.Validate(NetOffice.VisioApi.IVValidationRuleSet)">
+        <member name="M:NetOffice.VisioApi.LPVISIOVALIDATION.Validate(System.Object)">
             <summary>
             SupportByVersion Visio 14, 15
             </summary>
@@ -57624,7 +57624,7 @@
             <param name="format">Int32 Format</param>
             <param name="link">optional object Link</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVPage.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -57638,7 +57638,7 @@
             </summary>
             <param name="selType">NetOffice.VisioApi.Enums.VisSelectionTypes SelType</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,NetOffice.VisioApi.Enums.VisSelectMode)">
+        <member name="M:NetOffice.VisioApi.IVPage.CreateSelection(NetOffice.VisioApi.Enums.VisSelectionTypes,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -57666,7 +57666,7 @@
             <param name="yEnd">Double yEnd</param>
             <param name="sweepFlag">NetOffice.VisioApi.Enums.VisArcSweepFlags SweepFlag</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.DrawCircularArc(System.Double,System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVPage.DrawCircularArc(System.Double,System.Double,System.Double,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -57684,7 +57684,7 @@
             <param name="yCenter">Double yCenter</param>
             <param name="radius">Double Radius</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.DrawCircularArc(System.Double,System.Double,System.Double,System.Double)">
+        <member name="M:NetOffice.VisioApi.IVPage.DrawCircularArc(System.Double,System.Double,System.Double,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -57708,7 +57708,7 @@
             <param name="dataRowID">Int32 DataRowID</param>
             <param name="shapeIDs">Int32[] ShapeIDs</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.LinkShapesToDataRows(System.Int32,System.Int32[],System.Int32[],System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVPage.LinkShapesToDataRows(System.Int32,System.Int32[],System.Int32[],System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -57931,7 +57931,7 @@
             <param name="varEffectScheme">optional object varEffectScheme</param>
             <param name="varConnectorScheme">optional object varConnectorScheme</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.GetThemeVariant(System.Int16@,System.Int16@,System.Int16)">
+        <member name="M:NetOffice.VisioApi.IVPage.GetThemeVariant(System.Int16@,System.Int16@,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -57946,7 +57946,7 @@
             <param name="pVariantColor">Int16 pVariantColor</param>
             <param name="pVariantStyle">Int16 pVariantStyle</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVPage.SetThemeVariant(System.Int16,System.Int16,System.Int16)">
+        <member name="M:NetOffice.VisioApi.IVPage.SetThemeVariant(System.Int16,System.Int16,System.Object)">
             <summary>
             SupportByVersion Visio 15
             </summary>
@@ -60511,21 +60511,21 @@
         <member name="M:NetOffice.VisioApi.IVWindow_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVWindow_.get_ReviewerMarkupVisible(System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVWindow_.get_ReviewerMarkupVisible(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get/Set
             </summary>
             <param name="reviewerID">optional Int32 ReviewerID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVWindow_.set_ReviewerMarkupVisible(System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVWindow_.set_ReviewerMarkupVisible(System.Object,System.Boolean)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Get/Set
             </summary>
             <param name="reviewerID">optional Int32 ReviewerID</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVWindow_.ReviewerMarkupVisible(System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVWindow_.ReviewerMarkupVisible(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             Alias for get_ReviewerMarkupVisible
@@ -61837,7 +61837,7 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.CheckIn(System.Boolean,System.Object,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.CheckIn(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61850,20 +61850,20 @@
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.CheckIn(System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.CheckIn(System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.CheckIn(System.Boolean,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVDocument.CheckIn(System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="saveChanges">optional bool SaveChanges = true</param>
             <param name="comments">optional object Comments</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61884,14 +61884,14 @@
             </summary>
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
             <param name="fromPage">optional Int32 FromPage = 1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61899,7 +61899,7 @@
             <param name="fromPage">optional Int32 FromPage = 1</param>
             <param name="toPage">optional Int32 ToPage = -1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61908,7 +61908,7 @@
             <param name="toPage">optional Int32 ToPage = -1</param>
             <param name="scaleCurrentViewToPaper">optional bool ScaleCurrentViewToPaper = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61918,7 +61918,7 @@
             <param name="scaleCurrentViewToPaper">optional bool ScaleCurrentViewToPaper = false</param>
             <param name="printerName">optional string PrinterName = </param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61929,7 +61929,7 @@
             <param name="printerName">optional string PrinterName = </param>
             <param name="printToFile">optional bool PrintToFile = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61941,7 +61941,7 @@
             <param name="printToFile">optional bool PrintToFile = false</param>
             <param name="outputFileName">optional string OutputFileName = </param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -61954,7 +61954,7 @@
             <param name="outputFileName">optional string OutputFileName = </param>
             <param name="copies">optional Int32 Copies = 1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.String,System.Boolean,System.String,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.PrintOut(NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -62028,7 +62028,7 @@
             SupportByVersion Visio 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62054,7 +62054,7 @@
             <param name="intent">NetOffice.VisioApi.Enums.VisDocExIntent Intent</param>
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62064,7 +62064,7 @@
             <param name="printRange">NetOffice.VisioApi.Enums.VisPrintOutRange PrintRange</param>
             <param name="fromPage">optional Int32 FromPage = 1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62075,7 +62075,7 @@
             <param name="fromPage">optional Int32 FromPage = 1</param>
             <param name="toPage">optional Int32 ToPage = -1</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62087,7 +62087,7 @@
             <param name="toPage">optional Int32 ToPage = -1</param>
             <param name="colorAsBlack">optional bool ColorAsBlack = false</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62100,7 +62100,7 @@
             <param name="colorAsBlack">optional bool ColorAsBlack = false</param>
             <param name="includeBackground">optional bool IncludeBackground = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62114,7 +62114,7 @@
             <param name="includeBackground">optional bool IncludeBackground = true</param>
             <param name="includeDocumentProperties">optional bool IncludeDocumentProperties = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -62129,7 +62129,7 @@
             <param name="includeDocumentProperties">optional bool IncludeDocumentProperties = true</param>
             <param name="includeStructureTags">optional bool IncludeStructureTags = true</param>
         </member>
-        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.VisioApi.IVDocument.ExportAsFixedFormat(NetOffice.VisioApi.Enums.VisFixedFormatTypes,System.String,NetOffice.VisioApi.Enums.VisDocExIntent,NetOffice.VisioApi.Enums.VisPrintOutRange,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 12, 14, 15
             </summary>
@@ -63993,7 +63993,7 @@
             </summary>
             <param name="nWhichStatistic">Int32 nWhichStatistic</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPLICATION.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPLICATION.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>
@@ -64013,7 +64013,7 @@
             <param name="unitsOut">object UnitsOut</param>
             <param name="format">string Format</param>
         </member>
-        <member name="M:NetOffice.VisioApi.LPVISIOAPPLICATION.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Int32)">
+        <member name="M:NetOffice.VisioApi.LPVISIOAPPLICATION.FormatResultEx(System.Object,System.Object,System.Object,System.String,System.Object)">
             <summary>
             SupportByVersion Visio 11, 12, 14, 15
             </summary>

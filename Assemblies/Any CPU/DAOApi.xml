@@ -575,7 +575,7 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi.Recordset.CancelUpdate(System.Int32)">
+        <member name="M:NetOffice.DAOApi.Recordset.CancelUpdate(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
@@ -586,7 +586,7 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi.Recordset.Update(System.Int32,System.Boolean)">
+        <member name="M:NetOffice.DAOApi.Recordset.Update(System.Object,System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
@@ -598,13 +598,13 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi.Recordset.Update(System.Int32)">
+        <member name="M:NetOffice.DAOApi.Recordset.Update(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
             <param name="updateType">optional Int32 UpdateType = 1</param>
         </member>
-        <member name="M:NetOffice.DAOApi.Recordset.MoveLast(System.Int32)">
+        <member name="M:NetOffice.DAOApi.Recordset.MoveLast(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
@@ -2192,7 +2192,7 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi._DBEngine.CommitTrans(System.Int32)">
+        <member name="M:NetOffice.DAOApi._DBEngine.CommitTrans(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
@@ -3108,7 +3108,7 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi.GlobalHelperModules.GlobalModule.CommitTrans(System.Int32)">
+        <member name="M:NetOffice.DAOApi.GlobalHelperModules.GlobalModule.CommitTrans(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
@@ -5267,7 +5267,7 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi.Database.CommitTrans(System.Int32)">
+        <member name="M:NetOffice.DAOApi.Database.CommitTrans(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>
@@ -5686,7 +5686,7 @@
             SupportByVersion DAO 12, 3.6
             </summary>
         </member>
-        <member name="M:NetOffice.DAOApi.Workspace.CommitTrans(System.Int32)">
+        <member name="M:NetOffice.DAOApi.Workspace.CommitTrans(System.Object)">
             <summary>
             SupportByVersion DAO 12, 3.6
             </summary>

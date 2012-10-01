@@ -197,7 +197,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.ISpreadsheet.EndUndo(System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.ISpreadsheet.EndUndo(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -220,7 +220,7 @@
             </summary>
             <param name="expression">object Expression</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ISpreadsheet.Export(System.String,NetOffice.OWC10Api.Enums.SheetExportActionEnum,NetOffice.OWC10Api.Enums.SheetExportFormat)">
+        <member name="M:NetOffice.OWC10Api.ISpreadsheet.Export(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -233,13 +233,13 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.ISpreadsheet.Export(System.String)">
+        <member name="M:NetOffice.OWC10Api.ISpreadsheet.Export(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filename">optional string Filename = </param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ISpreadsheet.Export(System.String,NetOffice.OWC10Api.Enums.SheetExportActionEnum)">
+        <member name="M:NetOffice.OWC10Api.ISpreadsheet.Export(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -2101,7 +2101,7 @@
             </summary>
             <param name="iTopic">Int32 iTopic</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -2115,20 +2115,20 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.String)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filename">optional string Filename = chart.gif</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.String,System.String)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filename">optional string Filename = chart.gif</param>
             <param name="filterName">optional string FilterName = gif</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.ExportPicture(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -2209,7 +2209,7 @@
             <param name="y">Int32 y</param>
             <param name="menu">object Menu</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.GetPicture(System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.GetPicture(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -2222,20 +2222,20 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.GetPicture(System.String)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.GetPicture(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filterName">optional string FilterName = gif</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.GetPicture(System.String,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.GetPicture(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filterName">optional string FilterName = gif</param>
             <param name="width">optional Int32 Width = -1</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChartSpace.SetSpreadsheetData(System.String,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.ChChartSpace.SetSpreadsheetData(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -4054,7 +4054,7 @@
         <member name="M:NetOffice.OWC10Api.IDataSourceControl.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IDataSourceControl.Execute(System.String,NetOffice.ADODBApi.Enums.ExecuteOptionEnum,NetOffice.OWC10Api.Enums.DscFetchTypeEnum)">
+        <member name="M:NetOffice.OWC10Api.IDataSourceControl.Execute(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -4068,7 +4068,7 @@
             </summary>
             <param name="recordsetName">string RecordsetName</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IDataSourceControl.Execute(System.String,NetOffice.ADODBApi.Enums.ExecuteOptionEnum)">
+        <member name="M:NetOffice.OWC10Api.IDataSourceControl.Execute(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -4221,7 +4221,7 @@
             <param name="exportType">NetOffice.OWC10Api.Enums.ExportableConnectStringEnum ExportType</param>
             <param name="connectString">string ConnectString</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IDataSourceControl.ExportXML(NetOffice.OWC10Api.Enums.DscEncodingEnum)">
+        <member name="M:NetOffice.OWC10Api.IDataSourceControl.ExportXML(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -4248,7 +4248,7 @@
             <param name="offlineServer">string OfflineServer</param>
             <param name="offlineDatabase">string OfflineDatabase</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IDataSourceControl.Refresh(NetOffice.OWC10Api.Enums.RefreshType)">
+        <member name="M:NetOffice.OWC10Api.IDataSourceControl.Refresh(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -6102,7 +6102,7 @@
             <param name="gradientVarient">NetOffice.OWC10Api.Enums.ChartGradientVariantEnum gradientVarient</param>
             <param name="gradientPreset">NetOffice.OWC10Api.Enums.ChartPresetGradientTypeEnum gradientPreset</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChInterior.SetTextured(System.Object,NetOffice.OWC10Api.Enums.ChartTextureFormatEnum,System.Double,NetOffice.OWC10Api.Enums.ChartTexturePlacementEnum)">
+        <member name="M:NetOffice.OWC10Api.ChInterior.SetTextured(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -6117,14 +6117,14 @@
             </summary>
             <param name="textureFile">object textureFile</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChInterior.SetTextured(System.Object,NetOffice.OWC10Api.Enums.ChartTextureFormatEnum)">
+        <member name="M:NetOffice.OWC10Api.ChInterior.SetTextured(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="textureFile">object textureFile</param>
             <param name="textureFormat">optional NetOffice.OWC10Api.Enums.ChartTextureFormatEnum TextureFormat = 4</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChInterior.SetTextured(System.Object,NetOffice.OWC10Api.Enums.ChartTextureFormatEnum,System.Double)">
+        <member name="M:NetOffice.OWC10Api.ChInterior.SetTextured(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -6917,7 +6917,7 @@
         <member name="M:NetOffice.OWC10Api._NumberFormat.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._NumberFormat.get_Format(System.Object,System.Int32)">
+        <member name="M:NetOffice.OWC10Api._NumberFormat.get_Format(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
@@ -6925,7 +6925,7 @@
             <param name="value">object Value</param>
             <param name="count">optional Int32 Count</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._NumberFormat.Format(System.Object,System.Int32)">
+        <member name="M:NetOffice.OWC10Api._NumberFormat.Format(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_Format
@@ -7619,7 +7619,7 @@
         <member name="M:NetOffice.OWC10Api.ChSeriesCollection.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChSeriesCollection.Add(System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChSeriesCollection.Add(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -7960,7 +7960,7 @@
             <param name="path">string Path</param>
             <param name="format">NetOffice.OWC10Api.Enums.PivotMemberFindFormatEnum Format</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotColumnMember.MoveDetailLeft(System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.PivotColumnMember.MoveDetailLeft(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -8103,7 +8103,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotHyperlink.Follow(System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.PivotHyperlink.Follow(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -8166,7 +8166,7 @@
         <member name="M:NetOffice.OWC10Api.PivotAxis.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotAxis.InsertFieldSet(NetOffice.OWC10Api.PivotFieldSet,System.Object,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.PivotAxis.InsertFieldSet(NetOffice.OWC10Api.PivotFieldSet,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10317,7 +10317,7 @@
         <member name="M:NetOffice.OWC10Api.IPivotControl.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.Export(System.String,NetOffice.OWC10Api.Enums.PivotExportActionEnum)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.Export(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10329,7 +10329,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.Export(System.String)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.Export(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10340,7 +10340,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10354,20 +10354,20 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.String)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filename">optional string Filename = pivot.gif</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.String,System.String)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="filename">optional string Filename = pivot.gif</param>
             <param name="filterName">optional string FilterName = gif</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.ExportPicture(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10400,7 +10400,7 @@
             <param name="target">NetOffice.OWC10Api.DropTarget Target</param>
             <param name="dwLegalEffect">Int32 dwLegalEffect</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.Select(System.Object,System.Object,NetOffice.OWC10Api.Enums.PivotScrollTypeEnum,System.Boolean,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.Select(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10417,7 +10417,7 @@
             <param name="selection">object Selection</param>
             <param name="activeObject">object ActiveObject</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.Select(System.Object,System.Object,NetOffice.OWC10Api.Enums.PivotScrollTypeEnum)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.Select(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10425,7 +10425,7 @@
             <param name="activeObject">object ActiveObject</param>
             <param name="scrollType">optional NetOffice.OWC10Api.Enums.PivotScrollTypeEnum ScrollType = 0</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.Select(System.Object,System.Object,NetOffice.OWC10Api.Enums.PivotScrollTypeEnum,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.Select(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10453,7 +10453,7 @@
             <param name="y">Int32 y</param>
             <param name="menu">object Menu</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.StartEdit(System.Object,NetOffice.OWC10Api.Enums.PivotArrowModeEnum,NetOffice.OWC10Api.Enums.PivotCaretPositionEnum)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.StartEdit(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -10472,14 +10472,14 @@
             </summary>
             <param name="initialValue">optional object InitialValue</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.StartEdit(System.Object,NetOffice.OWC10Api.Enums.PivotArrowModeEnum)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.StartEdit(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="initialValue">optional object InitialValue</param>
             <param name="arrowMode">optional NetOffice.OWC10Api.Enums.PivotArrowModeEnum ArrowMode = 0</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotControl.EndEdit(System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.IPivotControl.EndEdit(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -11668,7 +11668,7 @@
             </summary>
             <param name="index">object Index</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PageFields.Add(System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.DscTotalTypeEnum,System.Object)">
+        <member name="M:NetOffice.OWC10Api.PageFields.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -11699,7 +11699,7 @@
             <param name="fieldType">optional object FieldType</param>
             <param name="name">optional object Name</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PageFields.Add(System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.DscTotalTypeEnum)">
+        <member name="M:NetOffice.OWC10Api.PageFields.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -11708,7 +11708,7 @@
             <param name="name">optional object Name</param>
             <param name="totalType">optional NetOffice.OWC10Api.Enums.DscTotalTypeEnum TotalType = 0</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PageFields.AddBroken(System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.DscTotalTypeEnum,System.Object)">
+        <member name="M:NetOffice.OWC10Api.PageFields.AddBroken(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -11739,7 +11739,7 @@
             <param name="fieldType">optional object FieldType</param>
             <param name="name">optional object Name</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PageFields.AddBroken(System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.DscTotalTypeEnum)">
+        <member name="M:NetOffice.OWC10Api.PageFields.AddBroken(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -13048,7 +13048,7 @@
             <param name="topLeft">NetOffice.OWC10Api.PivotDetailCell TopLeft</param>
             <param name="bottomRight">NetOffice.OWC10Api.PivotDetailCell BottomRight</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotCell.MoveDetailTop(System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.PivotCell.MoveDetailTop(System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -13730,7 +13730,7 @@
         <member name="M:NetOffice.OWC10Api.ElementExtensions.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ElementExtensions.Add(System.String,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.ElementExtensions.Add(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -14728,7 +14728,7 @@
             <param name="dataSourceIndex">object DataSourceIndex</param>
             <param name="dataReference">object DataReference</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChChart.SetSpreadsheetData(System.String,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.ChChart.SetSpreadsheetData(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -19933,7 +19933,7 @@
             </summary>
             <param name="subtotals">Int32 Subtotals</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotField.AddCustomGroupMember(System.Object,System.Object,System.String)">
+        <member name="M:NetOffice.OWC10Api.PivotField.AddCustomGroupMember(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22356,7 +22356,7 @@
         <member name="M:NetOffice.OWC10Api._Range_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range_.get_Address(System.Object,System.Object,NetOffice.OWC10Api.Enums.XlReferenceStyle,System.Object,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range_.get_Address(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
@@ -22367,7 +22367,7 @@
             <param name="external">optional object External</param>
             <param name="relativeTo">optional object RelativeTo</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range_.Address(System.Object,System.Object,NetOffice.OWC10Api.Enums.XlReferenceStyle,System.Object,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range_.Address(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_Address
@@ -22408,7 +22408,7 @@
             <param name="rowAbsolute">optional object RowAbsolute</param>
             <param name="columnAbsolute">optional object ColumnAbsolute</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range_.get_Address(System.Object,System.Object,NetOffice.OWC10Api.Enums.XlReferenceStyle)">
+        <member name="M:NetOffice.OWC10Api._Range_.get_Address(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
@@ -22417,7 +22417,7 @@
             <param name="columnAbsolute">optional object ColumnAbsolute</param>
             <param name="referenceStyle">optional NetOffice.OWC10Api.Enums.XlReferenceStyle ReferenceStyle</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range_.Address(System.Object,System.Object,NetOffice.OWC10Api.Enums.XlReferenceStyle)">
+        <member name="M:NetOffice.OWC10Api._Range_.Address(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_Address
@@ -22426,7 +22426,7 @@
             <param name="columnAbsolute">optional object ColumnAbsolute</param>
             <param name="referenceStyle">optional NetOffice.OWC10Api.Enums.XlReferenceStyle ReferenceStyle</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range_.get_Address(System.Object,System.Object,NetOffice.OWC10Api.Enums.XlReferenceStyle,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range_.get_Address(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
@@ -22436,7 +22436,7 @@
             <param name="referenceStyle">optional NetOffice.OWC10Api.Enums.XlReferenceStyle ReferenceStyle</param>
             <param name="external">optional object External</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range_.Address(System.Object,System.Object,NetOffice.OWC10Api.Enums.XlReferenceStyle,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range_.Address(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_Address
@@ -22611,7 +22611,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.BorderAround(System.Object,NetOffice.OWC10Api.Enums.XlBorderWeight,NetOffice.OWC10Api.Enums.XlColorIndex,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range.BorderAround(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22631,14 +22631,14 @@
             </summary>
             <param name="lineStyle">optional object LineStyle</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.BorderAround(System.Object,NetOffice.OWC10Api.Enums.XlBorderWeight)">
+        <member name="M:NetOffice.OWC10Api._Range.BorderAround(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="lineStyle">optional object LineStyle</param>
             <param name="weight">optional NetOffice.OWC10Api.Enums.XlBorderWeight Weight = 2</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.BorderAround(System.Object,NetOffice.OWC10Api.Enums.XlBorderWeight,NetOffice.OWC10Api.Enums.XlColorIndex)">
+        <member name="M:NetOffice.OWC10Api._Range.BorderAround(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22730,7 +22730,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.Find(System.Object,System.Object,System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.XlSearchDirection,System.Object,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range.Find(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22783,7 +22783,7 @@
             <param name="lookAt">optional object LookAt</param>
             <param name="searchOrder">optional object SearchOrder</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.Find(System.Object,System.Object,System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.XlSearchDirection)">
+        <member name="M:NetOffice.OWC10Api._Range.Find(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22794,7 +22794,7 @@
             <param name="searchOrder">optional object SearchOrder</param>
             <param name="searchDirection">optional NetOffice.OWC10Api.Enums.XlSearchDirection SearchDirection = 1</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.Find(System.Object,System.Object,System.Object,System.Object,System.Object,NetOffice.OWC10Api.Enums.XlSearchDirection,System.Object)">
+        <member name="M:NetOffice.OWC10Api._Range.Find(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22839,7 +22839,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.LoadText(System.String,System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.OWC10Api._Range.LoadText(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22854,14 +22854,14 @@
             </summary>
             <param name="file">string File</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.LoadText(System.String,System.String)">
+        <member name="M:NetOffice.OWC10Api._Range.LoadText(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="file">string File</param>
             <param name="delimiters">optional string Delimiters = </param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.LoadText(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api._Range.LoadText(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22880,7 +22880,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.ParseText(System.String,System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.OWC10Api._Range.ParseText(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22895,14 +22895,14 @@
             </summary>
             <param name="text">string Text</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.ParseText(System.String,System.String)">
+        <member name="M:NetOffice.OWC10Api._Range.ParseText(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="text">string Text</param>
             <param name="delimiters">optional string Delimiters = </param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.ParseText(System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api._Range.ParseText(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22925,7 +22925,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.Sort(System.Int32,NetOffice.OWC10Api.Enums.XlSortOrder,NetOffice.OWC10Api.Enums.XlYesNoGuess)">
+        <member name="M:NetOffice.OWC10Api._Range.Sort(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -22938,13 +22938,13 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.Sort(System.Int32)">
+        <member name="M:NetOffice.OWC10Api._Range.Sort(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="columnKey">optional Int32 ColumnKey = 1</param>
         </member>
-        <member name="M:NetOffice.OWC10Api._Range.Sort(System.Int32,NetOffice.OWC10Api.Enums.XlSortOrder)">
+        <member name="M:NetOffice.OWC10Api._Range.Sort(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -23620,7 +23620,7 @@
         <member name="M:NetOffice.OWC10Api.IPivotCopy.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.IPivotCopy.Render(System.Int32,System.String)">
+        <member name="M:NetOffice.OWC10Api.IPivotCopy.Render(System.Int32,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -24804,7 +24804,7 @@
             <param name="column">NetOffice.OWC10Api.PivotColumnMember Column</param>
             <param name="page">NetOffice.OWC10Api.PivotPageMember Page</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotData.MoveTop(NetOffice.OWC10Api.PivotRowMember,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.PivotData.MoveTop(NetOffice.OWC10Api.PivotRowMember,System.Int32,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -24819,7 +24819,7 @@
             <param name="top">NetOffice.OWC10Api.PivotRowMember Top</param>
             <param name="topOffset">Int32 TopOffset</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotData.MoveLeft(NetOffice.OWC10Api.PivotColumnMember,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.PivotData.MoveLeft(NetOffice.OWC10Api.PivotColumnMember,System.Int32,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -24991,7 +24991,7 @@
         <member name="M:NetOffice.OWC10Api.ChCharts.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChCharts.Add(System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChCharts.Add(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -26803,7 +26803,7 @@
         <member name="M:NetOffice.OWC10Api.GroupLevels.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.GroupLevels.Add(System.String,System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.GroupLevels.Add(System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -26966,14 +26966,14 @@
         <member name="M:NetOffice.OWC10Api.RecordsetDef_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.RecordsetDef_.get_ShapeText(NetOffice.OWC10Api.Enums.DscFetchTypeEnum)">
+        <member name="M:NetOffice.OWC10Api.RecordsetDef_.get_ShapeText(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
             </summary>
             <param name="fetchType">optional NetOffice.OWC10Api.Enums.DscFetchTypeEnum FetchType</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.RecordsetDef_.ShapeText(NetOffice.OWC10Api.Enums.DscFetchTypeEnum)">
+        <member name="M:NetOffice.OWC10Api.RecordsetDef_.ShapeText(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_ShapeText
@@ -27241,7 +27241,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChSeries.Ungroup(System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.ChSeries.Ungroup(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -27489,7 +27489,7 @@
             </summary>
             <param name="fieldSet">object FieldSet</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotView.AutoLayout(System.Int32)">
+        <member name="M:NetOffice.OWC10Api.PivotView.AutoLayout(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -27500,7 +27500,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotView.AddCalculatedTotal(System.String,System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.OWC10Api.PivotView.AddCalculatedTotal(System.String,System.String,System.String,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -29414,14 +29414,14 @@
         <member name="M:NetOffice.OWC10Api.ChCategoryLabels_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChCategoryLabels_.get_ItemCount(System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChCategoryLabels_.get_ItemCount(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
             </summary>
             <param name="level">optional Int32 Level</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.ChCategoryLabels_.ItemCount(System.Int32)">
+        <member name="M:NetOffice.OWC10Api.ChCategoryLabels_.ItemCount(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_ItemCount
@@ -29477,7 +29477,7 @@
             Get
             </summary>
         </member>
-        <member name="P:NetOffice.OWC10Api.ChCategoryLabels.Item(System.Object,System.Int32)">
+        <member name="P:NetOffice.OWC10Api.ChCategoryLabels.Item(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
@@ -29883,7 +29883,7 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.Section.MakeCurrent(System.Boolean)">
+        <member name="M:NetOffice.OWC10Api.Section.MakeCurrent(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -30451,7 +30451,7 @@
         <member name="M:NetOffice.OWC10Api.PivotFieldSet.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFieldSet.get_FindMember(System.Object,NetOffice.OWC10Api.Enums.PivotMemberFindFormatEnum)">
+        <member name="M:NetOffice.OWC10Api.PivotFieldSet.get_FindMember(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Get
@@ -30459,7 +30459,7 @@
             <param name="nameOrPath">object NameOrPath</param>
             <param name="format">optional NetOffice.OWC10Api.Enums.PivotMemberFindFormatEnum Format</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFieldSet.FindMember(System.Object,NetOffice.OWC10Api.Enums.PivotMemberFindFormatEnum)">
+        <member name="M:NetOffice.OWC10Api.PivotFieldSet.FindMember(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             Alias for get_FindMember
@@ -30490,7 +30490,7 @@
             <param name="dataField">string DataField</param>
             <param name="expression">string Expression</param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFieldSet.AddCustomGroupField(System.String,System.String,System.Object)">
+        <member name="M:NetOffice.OWC10Api.PivotFieldSet.AddCustomGroupField(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
@@ -30503,13 +30503,13 @@
             SupportByVersion OWC10 1
             </summary>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFieldSet.AddCustomGroupField(System.String)">
+        <member name="M:NetOffice.OWC10Api.PivotFieldSet.AddCustomGroupField(System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.OWC10Api.PivotFieldSet.AddCustomGroupField(System.String,System.String)">
+        <member name="M:NetOffice.OWC10Api.PivotFieldSet.AddCustomGroupField(System.Object,System.Object)">
             <summary>
             SupportByVersion OWC10 1
             </summary>

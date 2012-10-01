@@ -266,7 +266,7 @@
             </summary>
             <param name="index">Int32 Index</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.String,System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -280,20 +280,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="namespaceURI">optional string NamespaceURI = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="namespaceURI">optional string NamespaceURI = </param>
             <param name="alias">optional string Alias = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.String,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLSchemaCollection.Add(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -854,7 +854,7 @@
             <param name="endX">Single EndX</param>
             <param name="endY">Single EndY</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -876,7 +876,7 @@
             <param name="left">Single Left</param>
             <param name="top">Single Top</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -964,7 +964,7 @@
             <param name="width">Single Width</param>
             <param name="height">Single Height</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -979,20 +979,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -1000,7 +1000,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -1020,7 +1020,7 @@
             <param name="width">Single Width</param>
             <param name="height">Single Height</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -1036,14 +1036,14 @@
             </summary>
             <param name="layout">NetOffice.OfficeApi.SmartArtLayout Layout</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
             <param name="layout">NetOffice.OfficeApi.SmartArtLayout Layout</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -1051,7 +1051,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddSmartArt(NetOffice.OfficeApi.SmartArtLayout,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -1060,7 +1060,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single,System.Single,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -1077,20 +1077,20 @@
             SupportByVersion Office 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
             <param name="style">optional Int32 Style = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
             <param name="style">optional Int32 Style = -1</param>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -1098,7 +1098,7 @@
             <param name="type">optional NetOffice.OfficeApi.Enums.XlChartType Type = -1</param>
             <param name="left">optional Single Left = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -1107,7 +1107,7 @@
             <param name="left">optional Single Left = -1</param>
             <param name="top">optional Single Top = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -1117,7 +1117,7 @@
             <param name="top">optional Single Top = -1</param>
             <param name="width">optional Single Width = -1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Int32,NetOffice.OfficeApi.Enums.XlChartType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -1190,7 +1190,7 @@
         <member name="M:NetOffice.OfficeApi.Scripts.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,NetOffice.OfficeApi.Enums.MsoScriptLocation,NetOffice.OfficeApi.Enums.MsoScriptLanguage,System.String,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -1212,14 +1212,14 @@
             </summary>
             <param name="anchor">optional object Anchor = null (Nothing in visual basic)</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,NetOffice.OfficeApi.Enums.MsoScriptLocation)">
+        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
             <param name="anchor">optional object Anchor = null (Nothing in visual basic)</param>
             <param name="location">optional NetOffice.OfficeApi.Enums.MsoScriptLocation Location = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,NetOffice.OfficeApi.Enums.MsoScriptLocation,NetOffice.OfficeApi.Enums.MsoScriptLanguage)">
+        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -1227,7 +1227,7 @@
             <param name="location">optional NetOffice.OfficeApi.Enums.MsoScriptLocation Location = 2</param>
             <param name="language">optional NetOffice.OfficeApi.Enums.MsoScriptLanguage Language = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,NetOffice.OfficeApi.Enums.MsoScriptLocation,NetOffice.OfficeApi.Enums.MsoScriptLanguage,System.String)">
+        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -1236,7 +1236,7 @@
             <param name="language">optional NetOffice.OfficeApi.Enums.MsoScriptLanguage Language = 2</param>
             <param name="id">optional string Id = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,NetOffice.OfficeApi.Enums.MsoScriptLocation,NetOffice.OfficeApi.Enums.MsoScriptLanguage,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.Scripts.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -2168,7 +2168,7 @@
         <member name="M:NetOffice.OfficeApi.DiagramNode.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNode.AddNode(NetOffice.OfficeApi.Enums.MsoRelativeNodePosition,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
+        <member name="M:NetOffice.OfficeApi.DiagramNode.AddNode(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -2180,7 +2180,7 @@
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNode.AddNode(NetOffice.OfficeApi.Enums.MsoRelativeNodePosition)">
+        <member name="M:NetOffice.OfficeApi.DiagramNode.AddNode(System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -2204,7 +2204,7 @@
             </summary>
             <param name="targetNode">NetOffice.OfficeApi.DiagramNode TargetNode</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNode.SwapNode(NetOffice.OfficeApi.DiagramNode,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.DiagramNode.SwapNode(NetOffice.OfficeApi.DiagramNode,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -2217,7 +2217,7 @@
             </summary>
             <param name="targetNode">NetOffice.OfficeApi.DiagramNode TargetNode</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNode.CloneNode(System.Boolean,NetOffice.OfficeApi.DiagramNode,NetOffice.OfficeApi.Enums.MsoRelativeNodePosition)">
+        <member name="M:NetOffice.OfficeApi.DiagramNode.CloneNode(System.Boolean,NetOffice.OfficeApi.DiagramNode,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -6225,7 +6225,7 @@
             <param name="endX">Single EndX</param>
             <param name="endY">Single EndY</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -6247,7 +6247,7 @@
             <param name="left">Single Left</param>
             <param name="top">Single Top</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.CanvasShapes.AddPicture(System.String,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -6776,7 +6776,7 @@
             </summary>
             <param name="index">Int32 Index</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -6800,7 +6800,7 @@
             <param name="x1">Single X1</param>
             <param name="y1">Single Y1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -6811,7 +6811,7 @@
             <param name="y1">Single Y1</param>
             <param name="x2">optional Single X2 = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -6823,7 +6823,7 @@
             <param name="x2">optional Single X2 = 0</param>
             <param name="y2">optional Single Y2 = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.ShapeNodes.Insert(System.Int32,NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -8609,14 +8609,14 @@
             </summary>
             <param name="axisType">optional object axisType</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart_.get_Walls(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart_.get_Walls(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="fBackWall">optional bool fBackWall</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart_.Walls(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart_.Walls(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Walls
@@ -8711,7 +8711,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8725,20 +8725,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart._ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8746,7 +8746,7 @@
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8766,20 +8766,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8787,7 +8787,7 @@
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8796,7 +8796,7 @@
             <param name="autoText">optional object AutoText</param>
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8806,7 +8806,7 @@
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
             <param name="showSeriesName">optional object ShowSeriesName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8817,7 +8817,7 @@
             <param name="showSeriesName">optional object ShowSeriesName</param>
             <param name="showCategoryName">optional object ShowCategoryName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8829,7 +8829,7 @@
             <param name="showCategoryName">optional object ShowCategoryName</param>
             <param name="showValue">optional object ShowValue</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8842,7 +8842,7 @@
             <param name="showValue">optional object ShowValue</param>
             <param name="showPercentage">optional object ShowPercentage</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -8892,7 +8892,7 @@
             </summary>
             <param name="source">string Source</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.Axes(System.Object,NetOffice.OfficeApi.Enums.XlAxisGroup)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.Axes(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -9055,7 +9055,7 @@
             <param name="varCategoryTitle">optional object varCategoryTitle</param>
             <param name="varValueTitle">optional object varValueTitle</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.CopyPicture(System.Int32,System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.CopyPicture(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -9068,13 +9068,13 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.CopyPicture(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.CopyPicture(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="appearance">optional Int32 Appearance = 1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoChart.CopyPicture(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.IMsoChart.CopyPicture(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -9941,7 +9941,7 @@
         <member name="M:NetOffice.OfficeApi.PropertyTests.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PropertyTests.Add(System.String,NetOffice.OfficeApi.Enums.MsoCondition,System.Object,System.Object,NetOffice.OfficeApi.Enums.MsoConnector)">
+        <member name="M:NetOffice.OfficeApi.PropertyTests.Add(System.String,NetOffice.OfficeApi.Enums.MsoCondition,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -14931,7 +14931,7 @@
         <member name="M:NetOffice.OfficeApi.GradientStops.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.Delete(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.GradientStops.Delete(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -14942,7 +14942,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.Insert(System.Int32,System.Single,System.Single,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.GradientStops.Insert(System.Int32,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -14958,7 +14958,7 @@
             <param name="rGB">Int32 RGB</param>
             <param name="position">Single Position</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.Insert(System.Int32,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.GradientStops.Insert(System.Int32,System.Single,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -14966,7 +14966,7 @@
             <param name="position">Single Position</param>
             <param name="transparency">optional Single Transparency = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.Insert2(System.Int32,System.Single,System.Single,System.Int32,System.Single)">
+        <member name="M:NetOffice.OfficeApi.GradientStops.Insert2(System.Int32,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -14983,7 +14983,7 @@
             <param name="rGB">Int32 RGB</param>
             <param name="position">Single Position</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.Insert2(System.Int32,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.GradientStops.Insert2(System.Int32,System.Single,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -14991,7 +14991,7 @@
             <param name="position">Single Position</param>
             <param name="transparency">optional Single Transparency = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.GradientStops.Insert2(System.Int32,System.Single,System.Single,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.GradientStops.Insert2(System.Int32,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -15308,7 +15308,7 @@
         <member name="M:NetOffice.OfficeApi.FileSearch.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FileSearch.Execute(NetOffice.OfficeApi.Enums.MsoSortBy,NetOffice.OfficeApi.Enums.MsoSortOrder,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.FileSearch.Execute(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -15321,13 +15321,13 @@
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.FileSearch.Execute(NetOffice.OfficeApi.Enums.MsoSortBy)">
+        <member name="M:NetOffice.OfficeApi.FileSearch.Execute(System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
             <param name="sortBy">optional NetOffice.OfficeApi.Enums.MsoSortBy SortBy = 1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FileSearch.Execute(NetOffice.OfficeApi.Enums.MsoSortBy,NetOffice.OfficeApi.Enums.MsoSortOrder)">
+        <member name="M:NetOffice.OfficeApi.FileSearch.Execute(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -15665,7 +15665,7 @@
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeRange.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.OfficeApi.ShapeRange.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -15680,7 +15680,7 @@
             <param name="factor">Single Factor</param>
             <param name="relativeToOriginalSize">NetOffice.OfficeApi.Enums.MsoTriState RelativeToOriginalSize</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeRange.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.OfficeApi.ShapeRange.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -15756,7 +15756,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ShapeRange.MergeShapes(NetOffice.OfficeApi.Enums.MsoMergeCmd,NetOffice.OfficeApi.Shape)">
+        <member name="M:NetOffice.OfficeApi.ShapeRange.MergeShapes(NetOffice.OfficeApi.Enums.MsoMergeCmd,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -16162,7 +16162,7 @@
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shape.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.OfficeApi.Shape.ScaleHeight(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -16177,7 +16177,7 @@
             <param name="factor">Single Factor</param>
             <param name="relativeToOriginalSize">NetOffice.OfficeApi.Enums.MsoTriState RelativeToOriginalSize</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Shape.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoScaleFrom)">
+        <member name="M:NetOffice.OfficeApi.Shape.ScaleWidth(System.Single,NetOffice.OfficeApi.Enums.MsoTriState,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -19112,7 +19112,7 @@
             Get
             </summary>
         </member>
-        <member name="P:NetOffice.OfficeApi.Axes.Item(NetOffice.OfficeApi.Enums.XlAxisType,NetOffice.OfficeApi.Enums.XlAxisGroup)">
+        <member name="P:NetOffice.OfficeApi.Axes.Item(NetOffice.OfficeApi.Enums.XlAxisType,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             Get
@@ -19349,7 +19349,7 @@
         <member name="M:NetOffice.OfficeApi.SmartDocument.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartDocument.PickSolution(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.SmartDocument.PickSolution(System.Object)">
             <summary>
             SupportByVersion Office 11, 12, 14, 15
             </summary>
@@ -19792,7 +19792,7 @@
         <member name="M:NetOffice.OfficeApi.IMsoSeries.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19806,20 +19806,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries._ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19918,7 +19918,7 @@
             </summary>
             <param name="chartType">NetOffice.OfficeApi.Enums.XlChartType ChartType</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19938,20 +19938,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19959,7 +19959,7 @@
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19968,7 +19968,7 @@
             <param name="autoText">optional object AutoText</param>
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19978,7 +19978,7 @@
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
             <param name="showSeriesName">optional object ShowSeriesName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -19989,7 +19989,7 @@
             <param name="showSeriesName">optional object ShowSeriesName</param>
             <param name="showCategoryName">optional object ShowCategoryName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -20001,7 +20001,7 @@
             <param name="showCategoryName">optional object ShowCategoryName</param>
             <param name="showValue">optional object ShowValue</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -20014,7 +20014,7 @@
             <param name="showValue">optional object ShowValue</param>
             <param name="showPercentage">optional object ShowPercentage</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.IMsoSeries.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -21097,7 +21097,7 @@
             SupportByVersion Office 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerDialog.Show(System.Boolean,NetOffice.OfficeApi.PickerResults)">
+        <member name="M:NetOffice.OfficeApi.PickerDialog.Show(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -21109,7 +21109,7 @@
             SupportByVersion Office 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerDialog.Show(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.PickerDialog.Show(System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -21230,7 +21230,7 @@
         <member name="M:NetOffice.OfficeApi.SmartArtNode.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartArtNode.AddNode(NetOffice.OfficeApi.Enums.MsoSmartArtNodePosition,NetOffice.OfficeApi.Enums.MsoSmartArtNodeType)">
+        <member name="M:NetOffice.OfficeApi.SmartArtNode.AddNode(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -21242,7 +21242,7 @@
             SupportByVersion Office 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.SmartArtNode.AddNode(NetOffice.OfficeApi.Enums.MsoSmartArtNodePosition)">
+        <member name="M:NetOffice.OfficeApi.SmartArtNode.AddNode(System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -21645,7 +21645,7 @@
         <member name="M:NetOffice.OfficeApi.IAssistance.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IAssistance.ShowHelp(System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.IAssistance.ShowHelp(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -21657,13 +21657,13 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.IAssistance.ShowHelp(System.String)">
+        <member name="M:NetOffice.OfficeApi.IAssistance.ShowHelp(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="helpId">optional string HelpId = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IAssistance.SearchHelp(System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.IAssistance.SearchHelp(System.String,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -22019,7 +22019,7 @@
         <member name="M:NetOffice.OfficeApi._CustomXMLPart.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,NetOffice.OfficeApi.CustomXMLNode,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType,System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -22036,14 +22036,14 @@
             </summary>
             <param name="parent">NetOffice.OfficeApi.CustomXMLNode Parent</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="parent">NetOffice.OfficeApi.CustomXMLNode Parent</param>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -22051,7 +22051,7 @@
             <param name="name">optional string Name = </param>
             <param name="namespaceURI">optional string NamespaceURI = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,NetOffice.OfficeApi.CustomXMLNode)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -22060,7 +22060,7 @@
             <param name="namespaceURI">optional string NamespaceURI = </param>
             <param name="nextSibling">optional NetOffice.OfficeApi.CustomXMLNode NextSibling = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,NetOffice.OfficeApi.CustomXMLNode,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLPart.AddNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -22379,7 +22379,7 @@
         <member name="M:NetOffice.OfficeApi.IMsoEServicesDialog.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.IMsoEServicesDialog.Close(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.IMsoEServicesDialog.Close(System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -24536,7 +24536,7 @@
         <member name="M:NetOffice.OfficeApi._CustomXMLParts.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLParts.Add(System.String,System.Object)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLParts.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -24548,7 +24548,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi._CustomXMLParts.Add(System.String)">
+        <member name="M:NetOffice.OfficeApi._CustomXMLParts.Add(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -25430,7 +25430,7 @@
         <member name="M:NetOffice.OfficeApi.FreeformBuilder.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -25452,7 +25452,7 @@
             <param name="x1">Single X1</param>
             <param name="y1">Single Y1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -25462,7 +25462,7 @@
             <param name="y1">Single Y1</param>
             <param name="x2">optional Single X2 = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -25473,7 +25473,7 @@
             <param name="x2">optional Single X2 = 0</param>
             <param name="y2">optional Single Y2 = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Single,System.Single,System.Single)">
+        <member name="M:NetOffice.OfficeApi.FreeformBuilder.AddNodes(NetOffice.OfficeApi.Enums.MsoSegmentType,NetOffice.OfficeApi.Enums.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -26833,7 +26833,7 @@
         <member name="M:NetOffice.OfficeApi.PictureEffects.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PictureEffects.Insert(NetOffice.OfficeApi.Enums.MsoPictureEffectType,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.PictureEffects.Insert(NetOffice.OfficeApi.Enums.MsoPictureEffectType,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -26846,7 +26846,7 @@
             </summary>
             <param name="effectType">NetOffice.OfficeApi.Enums.MsoPictureEffectType EffectType</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PictureEffects.Delete(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.PictureEffects.Delete(System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -27890,7 +27890,7 @@
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ILicWizExternal.FormatDate(System.DateTime,System.String)">
+        <member name="M:NetOffice.OfficeApi.ILicWizExternal.FormatDate(System.DateTime,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -28993,7 +28993,7 @@
         <member name="M:NetOffice.OfficeApi.TextRange2_.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Paragraphs(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Paragraphs(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
@@ -29001,7 +29001,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Paragraphs(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Paragraphs(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Paragraphs
@@ -29009,21 +29009,21 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Paragraphs(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Paragraphs(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Paragraphs(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Paragraphs(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Paragraphs
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Sentences(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Sentences(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
@@ -29031,7 +29031,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Sentences(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Sentences(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Sentences
@@ -29039,21 +29039,21 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Sentences(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Sentences(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Sentences(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Sentences(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Sentences
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Words(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Words(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
@@ -29061,7 +29061,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Words(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Words(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Words
@@ -29069,21 +29069,21 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Words(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Words(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Words(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Words(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Words
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Characters(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Characters(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
@@ -29091,7 +29091,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Characters(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Characters(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Characters
@@ -29099,21 +29099,21 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Characters(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Characters(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Characters(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Characters(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Characters
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Lines(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Lines(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
@@ -29121,7 +29121,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Lines(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Lines(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Lines
@@ -29129,21 +29129,21 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Lines(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Lines(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Lines(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Lines(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Lines
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Runs(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Runs(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
@@ -29151,7 +29151,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Runs(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Runs(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Runs
@@ -29159,21 +29159,21 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Runs(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_Runs(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.Runs(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.Runs(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             Alias for get_Runs
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_MathZones(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_MathZones(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             Get
@@ -29181,7 +29181,7 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.MathZones(System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.MathZones(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             Alias for get_MathZones
@@ -29189,14 +29189,14 @@
             <param name="start">optional Int32 Start</param>
             <param name="length">optional Int32 Length</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.get_MathZones(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.get_MathZones(System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             Get
             </summary>
             <param name="start">optional Int32 Start</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2_.MathZones(System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2_.MathZones(System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             Alias for get_MathZones
@@ -29229,7 +29229,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.InsertAfter(System.String)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.InsertAfter(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29240,7 +29240,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.InsertBefore(System.String)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.InsertBefore(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29251,7 +29251,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.InsertSymbol(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.InsertSymbol(System.String,System.Int32,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29313,7 +29313,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Find(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.Find(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29328,14 +29328,14 @@
             </summary>
             <param name="findWhat">string FindWhat</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Find(System.String,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.Find(System.String,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="findWhat">string FindWhat</param>
             <param name="after">optional Int32 After = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Find(System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.Find(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29343,7 +29343,7 @@
             <param name="after">optional Int32 After = 0</param>
             <param name="matchCase">optional NetOffice.OfficeApi.Enums.MsoTriState MatchCase = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Replace(System.String,System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.Replace(System.String,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29360,7 +29360,7 @@
             <param name="findWhat">string FindWhat</param>
             <param name="replaceWhat">string ReplaceWhat</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Replace(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.Replace(System.String,System.String,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29368,7 +29368,7 @@
             <param name="replaceWhat">string ReplaceWhat</param>
             <param name="after">optional Int32 After = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.Replace(System.String,System.String,System.Int32,NetOffice.OfficeApi.Enums.MsoTriState)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.Replace(System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -29400,7 +29400,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.InsertChartField(NetOffice.OfficeApi.Enums.MsoChartFieldType,System.String,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.InsertChartField(NetOffice.OfficeApi.Enums.MsoChartFieldType,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -29414,7 +29414,7 @@
             </summary>
             <param name="chartFieldType">NetOffice.OfficeApi.Enums.MsoChartFieldType ChartFieldType</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.TextRange2.InsertChartField(NetOffice.OfficeApi.Enums.MsoChartFieldType,System.String)">
+        <member name="M:NetOffice.OfficeApi.TextRange2.InsertChartField(NetOffice.OfficeApi.Enums.MsoChartFieldType,System.Object)">
             <summary>
             SupportByVersion Office 15
             </summary>
@@ -29758,7 +29758,7 @@
         <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Move(NetOffice.OfficeApi.Enums.MsoMoveRow,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Move(NetOffice.OfficeApi.Enums.MsoMoveRow,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29771,7 +29771,7 @@
             </summary>
             <param name="msoMoveRow">NetOffice.OfficeApi.Enums.MsoMoveRow MsoMoveRow</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.String,System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29786,20 +29786,20 @@
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.String)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
             <param name="bstrSrc">optional string bstrSrc = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
             <param name="bstrSrc">optional string bstrSrc = </param>
             <param name="bstrConnect">optional string bstrConnect = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.String,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29807,7 +29807,7 @@
             <param name="bstrConnect">optional string bstrConnect = </param>
             <param name="bstrTable">optional string bstrTable = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.String,System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.Open(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29816,7 +29816,7 @@
             <param name="bstrTable">optional string bstrTable = </param>
             <param name="fOpenExclusive">optional Int32 fOpenExclusive = 0</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29833,14 +29833,14 @@
             </summary>
             <param name="sortField1">string SortField1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
             <param name="sortField1">string SortField1</param>
             <param name="sortAscending1">optional bool SortAscending1 = true</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29848,7 +29848,7 @@
             <param name="sortAscending1">optional bool SortAscending1 = true</param>
             <param name="sortField2">optional string SortField2 = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -29857,7 +29857,7 @@
             <param name="sortField2">optional string SortField2 = </param>
             <param name="sortAscending2">optional bool SortAscending2 = true</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String)">
+        <member name="M:NetOffice.OfficeApi.OfficeDataSourceObject.SetSortOrder(System.String,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -30088,7 +30088,7 @@
         <member name="M:NetOffice.OfficeApi.Trendlines.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30107,20 +30107,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlTrendlineType Type = -4132</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlTrendlineType Type = -4132</param>
             <param name="order">optional object Order</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30128,7 +30128,7 @@
             <param name="order">optional object Order</param>
             <param name="period">optional object Period</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30137,7 +30137,7 @@
             <param name="period">optional object Period</param>
             <param name="forward">optional object Forward</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30147,7 +30147,7 @@
             <param name="forward">optional object Forward</param>
             <param name="backward">optional object Backward</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30158,7 +30158,7 @@
             <param name="backward">optional object Backward</param>
             <param name="intercept">optional object Intercept</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30170,7 +30170,7 @@
             <param name="intercept">optional object Intercept</param>
             <param name="displayEquation">optional object DisplayEquation</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.Trendlines.Add(NetOffice.OfficeApi.Enums.XlTrendlineType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.Trendlines.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30247,7 +30247,7 @@
         <member name="M:NetOffice.OfficeApi.SeriesCollection.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30263,14 +30263,14 @@
             </summary>
             <param name="source">object Source</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,NetOffice.OfficeApi.Enums.XlRowCol)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="source">object Source</param>
             <param name="rowcol">optional NetOffice.OfficeApi.Enums.XlRowCol Rowcol = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,NetOffice.OfficeApi.Enums.XlRowCol,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30278,7 +30278,7 @@
             <param name="rowcol">optional NetOffice.OfficeApi.Enums.XlRowCol Rowcol = 2</param>
             <param name="seriesLabels">optional object SeriesLabels</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Add(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30308,7 +30308,7 @@
             <param name="source">object Source</param>
             <param name="rowcol">optional object Rowcol</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30323,20 +30323,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(NetOffice.OfficeApi.Enums.XlRowCol)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="rowcol">optional NetOffice.OfficeApi.Enums.XlRowCol Rowcol = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(NetOffice.OfficeApi.Enums.XlRowCol,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="rowcol">optional NetOffice.OfficeApi.Enums.XlRowCol Rowcol = 2</param>
             <param name="seriesLabels">optional object SeriesLabels</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -30344,7 +30344,7 @@
             <param name="seriesLabels">optional object SeriesLabels</param>
             <param name="categoryLabels">optional object CategoryLabels</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(NetOffice.OfficeApi.Enums.XlRowCol,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.SeriesCollection.Paste(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -34424,7 +34424,7 @@
         <member name="M:NetOffice.OfficeApi.PickerResults.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.String,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -34443,7 +34443,7 @@
             <param name="displayName">string DisplayName</param>
             <param name="type">string Type</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -34452,7 +34452,7 @@
             <param name="type">string Type</param>
             <param name="sIPId">optional string SIPId = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.String,System.Object)">
+        <member name="M:NetOffice.OfficeApi.PickerResults.Add(System.String,System.String,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -34886,7 +34886,7 @@
         <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.Add(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.Add(NetOffice.OfficeApi.CustomXMLNode,System.String,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -34902,7 +34902,7 @@
             <param name="node">NetOffice.OfficeApi.CustomXMLNode Node</param>
             <param name="errorName">string ErrorName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.Add(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLValidationErrors.Add(NetOffice.OfficeApi.CustomXMLNode,System.String,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -34961,7 +34961,7 @@
         <member name="M:NetOffice.OfficeApi.ODSOFilters.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ODSOFilters.Add(System.String,NetOffice.OfficeApi.Enums.MsoFilterComparison,NetOffice.OfficeApi.Enums.MsoFilterConjunction,System.String,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.ODSOFilters.Add(System.String,NetOffice.OfficeApi.Enums.MsoFilterComparison,NetOffice.OfficeApi.Enums.MsoFilterConjunction,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -34979,7 +34979,7 @@
             <param name="comparison">NetOffice.OfficeApi.Enums.MsoFilterComparison Comparison</param>
             <param name="conjunction">NetOffice.OfficeApi.Enums.MsoFilterConjunction Conjunction</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ODSOFilters.Add(System.String,NetOffice.OfficeApi.Enums.MsoFilterComparison,NetOffice.OfficeApi.Enums.MsoFilterConjunction,System.String)">
+        <member name="M:NetOffice.OfficeApi.ODSOFilters.Add(System.String,NetOffice.OfficeApi.Enums.MsoFilterComparison,NetOffice.OfficeApi.Enums.MsoFilterConjunction,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -34988,7 +34988,7 @@
             <param name="conjunction">NetOffice.OfficeApi.Enums.MsoFilterConjunction Conjunction</param>
             <param name="bstrCompareTo">optional string bstrCompareTo = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ODSOFilters.Delete(System.Int32,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.ODSOFilters.Delete(System.Int32,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -35511,7 +35511,7 @@
         <member name="M:NetOffice.OfficeApi.ChartPoint.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35525,20 +35525,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint._ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35571,7 +35571,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35591,20 +35591,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="type">optional NetOffice.OfficeApi.Enums.XlDataLabelsType Type = 2</param>
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35612,7 +35612,7 @@
             <param name="iMsoLegendKey">optional object IMsoLegendKey</param>
             <param name="autoText">optional object AutoText</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35621,7 +35621,7 @@
             <param name="autoText">optional object AutoText</param>
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35631,7 +35631,7 @@
             <param name="hasLeaderLines">optional object HasLeaderLines</param>
             <param name="showSeriesName">optional object ShowSeriesName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35642,7 +35642,7 @@
             <param name="showSeriesName">optional object ShowSeriesName</param>
             <param name="showCategoryName">optional object ShowCategoryName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35654,7 +35654,7 @@
             <param name="showCategoryName">optional object ShowCategoryName</param>
             <param name="showValue">optional object ShowValue</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35667,7 +35667,7 @@
             <param name="showValue">optional object ShowValue</param>
             <param name="showPercentage">optional object ShowPercentage</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(NetOffice.OfficeApi.Enums.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.ApplyDataLabels(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -35681,7 +35681,7 @@
             <param name="showPercentage">optional object ShowPercentage</param>
             <param name="showBubbleSize">optional object ShowBubbleSize</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.ChartPoint.PieSliceLocation(NetOffice.OfficeApi.Enums.XlPieSliceLocation,NetOffice.OfficeApi.Enums.XlPieSliceIndex)">
+        <member name="M:NetOffice.OfficeApi.ChartPoint.PieSliceLocation(NetOffice.OfficeApi.Enums.XlPieSliceLocation,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -38184,7 +38184,7 @@
         <member name="M:NetOffice.OfficeApi.DiagramNodeChildren.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.DiagramNodeChildren.AddNode(System.Object,NetOffice.OfficeApi.Enums.MsoDiagramNodeType)">
+        <member name="M:NetOffice.OfficeApi.DiagramNodeChildren.AddNode(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 10, 11, 12, 14, 15
             </summary>
@@ -38275,7 +38275,7 @@
             </summary>
             <param name="fileName">string FileName</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.HTMLProjectItem.Open(NetOffice.OfficeApi.Enums.MsoHTMLProjectOpen)">
+        <member name="M:NetOffice.OfficeApi.HTMLProjectItem.Open(System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -39739,7 +39739,7 @@
             SupportByVersion Office 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.ContactCard.Show(NetOffice.OfficeApi.Enums.MsoContactCardStyle,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.ContactCard.Show(NetOffice.OfficeApi.Enums.MsoContactCardStyle,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
             <summary>
             SupportByVersion Office 14, 15
             </summary>
@@ -40251,7 +40251,7 @@
         <member name="M:NetOffice.OfficeApi.CustomXMLNode.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40265,20 +40265,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="name">optional string Name = </param>
             <param name="namespaceURI">optional string NamespaceURI = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.AppendChildNode(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40302,7 +40302,7 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType,System.String,NetOffice.OfficeApi.CustomXMLNode)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.Object,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40317,20 +40317,20 @@
             SupportByVersion Office 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="name">optional string Name = </param>
             <param name="namespaceURI">optional string NamespaceURI = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40338,7 +40338,7 @@
             <param name="namespaceURI">optional string NamespaceURI = </param>
             <param name="nodeType">optional NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType NodeType = 1</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertNodeBefore(System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40347,7 +40347,7 @@
             <param name="nodeType">optional NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType NodeType = 1</param>
             <param name="nodeValue">optional string NodeValue = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertSubtreeBefore(System.String,NetOffice.OfficeApi.CustomXMLNode)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.InsertSubtreeBefore(System.String,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40366,7 +40366,7 @@
             </summary>
             <param name="child">NetOffice.OfficeApi.CustomXMLNode Child</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40382,14 +40382,14 @@
             </summary>
             <param name="oldNode">NetOffice.OfficeApi.CustomXMLNode OldNode</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
             <param name="oldNode">NetOffice.OfficeApi.CustomXMLNode OldNode</param>
             <param name="name">optional string Name = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40397,7 +40397,7 @@
             <param name="name">optional string Name = </param>
             <param name="namespaceURI">optional string NamespaceURI = </param>
         </member>
-        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.String,System.String,NetOffice.OfficeApi.Enums.MsoCustomXMLNodeType)">
+        <member name="M:NetOffice.OfficeApi.CustomXMLNode.ReplaceChildNode(NetOffice.OfficeApi.CustomXMLNode,System.Object,System.Object,System.Object)">
             <summary>
             SupportByVersion Office 12, 14, 15
             </summary>
@@ -40967,7 +40967,7 @@
         <member name="M:NetOffice.OfficeApi.HTMLProject.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OfficeApi.HTMLProject.RefreshProject(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.HTMLProject.RefreshProject(System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -40978,7 +40978,7 @@
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.HTMLProject.RefreshDocument(System.Boolean)">
+        <member name="M:NetOffice.OfficeApi.HTMLProject.RefreshDocument(System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
@@ -40989,7 +40989,7 @@
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OfficeApi.HTMLProject.Open(NetOffice.OfficeApi.Enums.MsoHTMLProjectOpen)">
+        <member name="M:NetOffice.OfficeApi.HTMLProject.Open(System.Object)">
             <summary>
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>

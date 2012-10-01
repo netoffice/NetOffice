@@ -4233,7 +4233,7 @@
             SupportByVersion Outlook 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._IconView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._IconView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 12, 14, 15
             </summary>
@@ -13671,7 +13671,7 @@
             SupportByVersion Outlook 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._TimelineView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._TimelineView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 12, 14, 15
             </summary>
@@ -15909,7 +15909,7 @@
             SupportByVersion Outlook 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._CardView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._CardView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 12, 14, 15
             </summary>
@@ -22515,7 +22515,7 @@
             SupportByVersion Outlook 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._CalendarView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._CalendarView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 12, 14, 15
             </summary>
@@ -26777,7 +26777,7 @@
         <member name="M:NetOffice.OutlookApi.PropertyPages.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OutlookApi.PropertyPages.Add(System.Object,System.String)">
+        <member name="M:NetOffice.OutlookApi.PropertyPages.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Outlook 9, 10, 11, 12, 14, 15
             </summary>
@@ -27204,7 +27204,7 @@
         <member name="M:NetOffice.OutlookApi._Views.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Views.Add(System.String,NetOffice.OutlookApi.Enums.OlViewType,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._Views.Add(System.String,NetOffice.OutlookApi.Enums.OlViewType,System.Object)">
             <summary>
             SupportByVersion Outlook 10, 11, 12, 14, 15
             </summary>
@@ -31579,7 +31579,7 @@
             SupportByVersion Outlook 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._BusinessCardView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._BusinessCardView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 12, 14, 15
             </summary>
@@ -32106,7 +32106,7 @@
             SupportByVersion Outlook 10, 11, 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi.View.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi.View.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 10, 11, 12, 14, 15
             </summary>
@@ -32414,7 +32414,7 @@
             SupportByVersion Outlook 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._PeopleView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._PeopleView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 15
             </summary>
@@ -32553,7 +32553,7 @@
             SupportByVersion Outlook 12, 14, 15
             </summary>
         </member>
-        <member name="M:NetOffice.OutlookApi._TableView.Copy(System.String,NetOffice.OutlookApi.Enums.OlViewSaveOption)">
+        <member name="M:NetOffice.OutlookApi._TableView.Copy(System.String,System.Object)">
             <summary>
             SupportByVersion Outlook 12, 14, 15
             </summary>
@@ -36301,7 +36301,7 @@
         <member name="M:NetOffice.OutlookApi._Explorers.#ctor(System.String)">
             <param name="progId">registered ProgID</param>
         </member>
-        <member name="M:NetOffice.OutlookApi._Explorers.Add(System.Object,NetOffice.OutlookApi.Enums.OlFolderDisplayMode)">
+        <member name="M:NetOffice.OutlookApi._Explorers.Add(System.Object,System.Object)">
             <summary>
             SupportByVersion Outlook 9, 10, 11, 12, 14, 15
             </summary>
