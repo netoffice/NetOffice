@@ -1,0 +1,17 @@
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\ProjectTestsCSharp.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\ProjectTestsCSharp.pdb
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\MSHTMLApi.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\MSProjectApi.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\NetOffice.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\OfficeApi.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\Tests.Core.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\VBIDEApi.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\Tests.Core.pdb
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\MSHTMLApi.xml
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\MSProjectApi.xml
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\NetOffice.xml
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\OfficeApi.xml
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\bin\Debug\VBIDEApi.xml
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\obj\Debug\ProjectTestsCSharp.dll
+C:\!NetOffice\Tests\Main Tests\ProjectTestsCSharp\obj\Debug\ProjectTestsCSharp.pdb
