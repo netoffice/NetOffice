@@ -1033,6 +1033,11 @@
             Core Settings
             </summary>
         </member>
+        <member name="M:NetOffice.Settings.#cctor">
+            <summary>
+            Static Type Constructor 
+            </summary>
+        </member>
         <member name="P:NetOffice.Settings.UseExceptionMessage">
             <summary>
             NetOffice wrap all thrown exceptions from Office applications in a COMException. This option can be used to set the exception message
@@ -1053,9 +1058,9 @@
             Get or set the Event support. true by default
             </summary>
         </member>
-        <member name="P:NetOffice.Settings.EnableMessageFilter">
+        <member name="P:NetOffice.Settings.MessageFilter">
             <summary>
-            Get or set the Message Filter is enabled. false by default
+            A predefined implementation of IMessageFilter
             </summary>
         </member>
         <member name="P:NetOffice.Settings.EnableAutomaticQuit">
@@ -1101,6 +1106,125 @@
         <member name="P:NetOffice.Settings.EnableOperatorOverlads">
             <summary>
             Get or set NetOffice spend custom overloads for the "==" and "!=" operators for semanticly comparsion. true by default
+            </summary>
+        </member>
+        <member name="T:NetOffice.INTERFACEINFO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.INTERFACEINFO.punk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.INTERFACEINFO.iid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.INTERFACEINFO.wMethod">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:NetOffice.IMessageFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NetOffice.IMessageFilter.HandleInComingCall(System.UInt32,System.IntPtr,System.UInt32,NetOffice.INTERFACEINFO[])">
+            <summary>
+            
+            </summary>
+            <param name="dwCallType"></param>
+            <param name="htaskCaller"></param>
+            <param name="dwTickCount"></param>
+            <param name="lpInterfaceInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.IMessageFilter.RetryRejectedCall(System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="htaskCallee"></param>
+            <param name="dwTickCount"></param>
+            <param name="dwRejectType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.IMessageFilter.MessagePending(System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="htaskCallee"></param>
+            <param name="dwTickCount"></param>
+            <param name="dwPendingType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NetOffice.RetryMessageFilterMode">
+            <summary>
+            Specify the filter for an RetryMessageFilter instance
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterMode.Immediately">
+            <summary>
+            Try rejected call again immediately
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterMode.Delayed">
+            <summary>
+            Try rejected call again after few milliseconds
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterMode.None">
+            <summary>
+            Dont try rejected call again
+            </summary>
+        </member>
+        <member name="T:NetOffice.RetryMessageFilterLogMode">
+            <summary>
+            Specify log behaviour for an RetryMessageFilter instance
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.None">
+            <summary>
+            Disable Log
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.RetryRejectedCall">
+            <summary>
+            Call DebugConsole.WriteLine in IMessageFilter.RetryRejectedCall
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.MessagePending">
+            <summary>
+            Call DebugConsole.WriteLine in IMessageFilter.MessagePending
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.Both">
+            <summary>
+            Call DebugConsole.WriteLine in IMessageFilter.RetryRejectedCall and IMessageFilter.MessagePending
+            </summary>
+        </member>
+        <member name="T:NetOffice.RetryMessageFilter">
+            <summary>
+            An IMessageFilter Implementation
+            Learn more about: http://netoffice.codeplex.com/wikipage?title=Settings.MessageFilter_EN
+            </summary>
+        </member>
+        <member name="P:NetOffice.RetryMessageFilter.Enabled">
+            <summary>
+            Get or set the message filter is enabled
+            </summary>
+        </member>
+        <member name="P:NetOffice.RetryMessageFilter.RetryMode">
+            <summary>
+            Get or set retry options
+            </summary>
+        </member>
+        <member name="P:NetOffice.RetryMessageFilter.LogMode">
+            <summary>
+            Get or set log options
             </summary>
         </member>
         <member name="T:NetOffice.IFactoryInfo">
