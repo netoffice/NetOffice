@@ -5597,6 +5597,69 @@
             </summary>
             <remarks>6</remarks>
         </member>
+        <member name="T:NetOffice.OfficeApi.Tools.RegisterIn">
+            <summary>
+            Set a target office product for registering
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.Excel">
+            <summary>
+            MS Excel in any version
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.Word">
+            <summary>
+            MS Word in any version
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.Outlook">
+            <summary>
+            MS Outlook in any version
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.PowerPoint">
+            <summary>
+            MS PowerPoint in any version
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.Access">
+            <summary>
+            MS Access in any version
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.MSProject">
+            <summary>
+            MS Project in any version
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.RegisterIn.Visio">
+            <summary>
+            MS Visio in any version
+            </summary>
+        </member>
+        <member name="T:NetOffice.OfficeApi.Tools.MultiRegisterAttribute">
+            <summary>
+            This attribute can be used from NetOffice.OfficeApi.Tools.COMAddin to specify multipe office products
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.Products">
+            <summary>
+            The office products for addin registration
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.#ctor(NetOffice.OfficeApi.Tools.RegisterIn[])">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="products">The office products for addin registration</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.GetAttribute(System.Type)">
+            <summary>
+            Looks for the MultiRegisterAttribute. Throws an exception if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>MultiRegisterAttribute</returns>
+        </member>
         <member name="T:NetOffice.OfficeApi.IMsoHiLoLines">
             <summary>
              DispatchInterface IMsoHiLoLines 
@@ -7951,6 +8014,173 @@
             </summary>
             <remarks>6</remarks>
         </member>
+        <member name="T:NetOffice.OfficeApi.Tools.ITaskPane">
+            <summary>
+            UserControls for a CustomTaskPane can implement these interface. The COMAddin class call the methods.
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.ITaskPane.OnConnection(NetOffice.COMObject,System.Object[])">
+            <summary>
+            Called from the COMAddin class while creation in CTPFactoryAvailable
+            </summary>
+            <param name="application">Host Application Instance</param>
+            <param name="customArguments">optional arguments</param>
+        </member>
+        <member name="T:NetOffice.OfficeApi.Tools.COMAddin">
+            <summary>
+            The class provides a lot of essential functionality for an MS-Excel COMAddin
+            </summary>
+        </member>
+        <member name="T:NetOffice.OfficeApi.IRibbonExtensibility">
+            <summary>
+             DispatchInterface IRibbonExtensibility SupportByVersionAttribute Office, 12,14,15
+            </summary>
+        </member>
+        <member name="T:NetOffice.OfficeApi.ICustomTaskPaneConsumer">
+            <summary>
+             DispatchInterface ICustomTaskPaneConsumer SupportByVersionAttribute Office, 12,14,15
+            </summary>
+        </member>
+        <member name="F:NetOffice.OfficeApi.Tools.COMAddin._addinOfficeRegistryKey">
+            <summary>
+            MS-Excel Registry Path 
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.#ctor">
+            <summary>
+            Creates an instance of the class
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.GetCustomUI(System.String)">
+            <summary>
+            IRibbonExtensibility implementation
+            </summary>
+            <param name="RibbonID">target ribbon id, only used from Outlook and ignored in this standard impklementation. overwrite this method if you need a custom behavior</param>
+            <returns>XML content oder string.Empty</returns>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.CTPFactoryAvailable(System.Object)">
+            <summary>
+            ICustomTaskPaneConsumer implementation
+            </summary>
+            <param name="CTPFactoryInst">factory proxy from host application</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.RaiseStaticErrorHandlerMethod(System.Type,System.Exception,System.Boolean@)">
+            <summary>
+            Checks for a static method, signed with the ErrorHandlerAttribute and call them if its available
+            </summary>
+            <param name="type">type information for the class wtih static method </param>
+            <param name="exception">occured exception</param>
+            <param name="handled">must set to true when the error is handled by the client other the exception was thrown</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.RaiseErrorHandlerMethod(System.Exception,System.Boolean@)">
+            <summary>
+            checks for IErrorHandler implementation and call OnError, otherwhise redirect to RaiseStaticErrorHandlerMethod
+            </summary>
+            <param name="exception">occured exception</param>
+            <param name="handled">must set to true when the error is handled by the client other the exception was thrown</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.RegisterFunction(System.Type)">
+            <summary>
+            Called from regasm while register 
+            </summary>
+            <param name="type">Type information for the class</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.UnregisterFunction(System.Type)">
+            <summary>
+            Called from regasm while ungregister
+            </summary>
+            <param name="type">Type information for the class</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.CallDerivedRegisterMethod(System.Type,System.Reflection.MethodInfo,NetOffice.Tools.RegisterFunctionAttribute)">
+            <summary>
+            Derived Register Call Helper
+            </summary>
+            <param name="type">type for derived class</param>
+            <param name="registerMethod">the method to call</param>
+            <param name="registerAttribute">arguments</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.CallDerivedUnRegisterMethod(System.Type,System.Reflection.MethodInfo,NetOffice.Tools.UnRegisterFunctionAttribute)">
+            <summary>
+            Derived Unregister Call Helper
+            </summary>
+            <param name="type">type for derived class</param>
+            <param name="registerMethod">the method to call</param>
+            <param name="registerAttribute">arguments</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.COMAddin.ReadRessourceFile(System.String)">
+            <summary>
+            reads text file from ressource
+            </summary>
+            <param name="fileName">ressourceLocation</param>
+            <returns>text content</returns>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.COMAddin.Type">
+            <summary>
+            Type Information of the instance
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.COMAddin.Application">
+            <summary>
+            Host Application Instance
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.COMAddin.TaskPanes">
+            <summary>
+            Collection with all created custom Task Panes
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.COMAddin.TaskPaneFactory">
+            <summary>
+            TaskPaneFactory from CTPFactoryAvailable
+            </summary>
+        </member>
+        <member name="E:NetOffice.OfficeApi.Tools.COMAddin.OnStartupComplete">
+            <summary>
+            The OnStartupComplete event occurs when the host application completes its startup routines, in the case where the COM add-in loads at startup. 
+            If the add-in is not loaded when the application loads, the OnStartupComplete event does not occur — 
+            even when the user loads the add-in in the COM Add-ins dialog box. When this event does occur, it occurs after the OnConnection event.
+            You can use the OnStartupComplete  event procedure to run code that interacts with the application and that should not be run until the application has finished loading. 
+            For example, if you want to display a form that gives users a choice of documents to create when they start the application, 
+            you can put that code in the OnStartupComplete event procedure.
+            </summary>
+        </member>
+        <member name="E:NetOffice.OfficeApi.Tools.COMAddin.OnDisconnection">
+            <summary>
+            The Shutdown event occurs when the COM add-in is unloaded. 
+            You can use the OnDisconnection event procedure to run code that restores any changes made to the application by the add-in and to perform general clean-up operations.
+            An add-in can be unloaded in one of the following ways:
+            - The user clears the check box next to the add-in in the COM Add-ins dialog box.
+            - The host application closes. If the add-in is loaded when the application closes, it is unloaded. 
+              If the add-in's load behavior is set to Startup, it is reloaded when the application starts again.
+            - The Connect property of the corresponding COMAddIn object is set to False.
+            </summary>
+        </member>
+        <member name="E:NetOffice.OfficeApi.Tools.COMAddin.OnConnection">
+            <summary>
+            The OnConnection event occurs when the COM add-in is loaded (connected). An add-in can be loaded in one of the following ways:
+            The user starts the host application and the add-in's load behavior is specified to load when the application starts.
+            The user loads the add-in in the COM Add-ins dialog box.
+            The Connect property of the corresponding COMAddIn object is set to True.
+            For more information about the COMAddIn object, search the Microsoft® Office Visual Basic Reference Help index for "COMAddIn object."
+            </summary>
+        </member>
+        <member name="E:NetOffice.OfficeApi.Tools.COMAddin.OnAddInsUpdate">
+            <summary>
+            The OnAddInsUpdate event occurs when the set of loaded COM add-ins changes. 
+            When an add-in is loaded or unloaded, the OnAddInsUpdate event occurs in any other loaded add-ins. 
+            For example, if add-ins A and B both are loaded currently, and then add-in C is loaded, 
+            the OnAddInsUpdate event occurs in add-ins A and B. If C is unloaded, the OnAddInsUpdate event occurs again in add-ins A and B. 
+            </summary>
+        </member>
+        <member name="E:NetOffice.OfficeApi.Tools.COMAddin.OnBeginShutdown">
+            <summary>
+            The OnBeginShutdown event occurs when the host application begins its shutdown routines, 
+            in the case where the application closes while the COM add-in is still loaded. 
+            If the add-in is not loaded when the application closes, 
+            the OnBeginShutdown event does not occur. When this event does occur, it occurs before the OnDisconnection event.
+            You can use the OnBeginShutdown event procedure to run code when the user closes the application. For example, you can run code that saves form data to a file.
+            </summary>
+        </member>
         <member name="T:NetOffice.OfficeApi.CustomTaskPane">
             <summary>
              CoClass CustomTaskPane 
@@ -9685,11 +9915,6 @@
             <summary>
             SupportByVersion Office 15
             Get/Set
-            </summary>
-        </member>
-        <member name="T:NetOffice.OfficeApi.IRibbonExtensibility">
-            <summary>
-             DispatchInterface IRibbonExtensibility SupportByVersionAttribute Office, 12,14,15
             </summary>
         </member>
         <member name="T:NetOffice.OfficeApi.GlowFormat">
@@ -31493,11 +31718,6 @@
             Unknown COM Proxy
             </summary>
         </member>
-        <member name="T:NetOffice.OfficeApi.ICustomTaskPaneConsumer">
-            <summary>
-             DispatchInterface ICustomTaskPaneConsumer SupportByVersionAttribute Office, 12,14,15
-            </summary>
-        </member>
         <member name="T:NetOffice.OfficeApi.ThemeEffectScheme">
             <summary>
              DispatchInterface ThemeEffectScheme 
@@ -39649,6 +39869,115 @@
             SupportByVersion Office 9, 10, 11, 12, 14, 15
             </summary>
             <remarks>4</remarks>
+        </member>
+        <member name="T:NetOffice.OfficeApi.Tools.TaskPaneInfo">
+            <summary>
+            wrapper class for CustomTaskPane instance
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.TaskPaneInfo.#ctor(System.Type,System.String)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="type">Type information for the specified UserControl</param>
+            <param name="title">title of the control</param>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.ChangedProperties">
+            <summary>
+            properties was set from the client before the instance was created. The COMAddin class perfom latebind property set calls during this dictionary
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.IsLoaded">
+            <summary>
+            info about the inner taskpane instance is already created
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Visible">
+            <summary>
+            SupportByVersion Office 12, 14, 15
+            Get/Set
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Width">
+            <summary>
+            SupportByVersion Office 12, 14, 15
+            Get/Set
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Height">
+            <summary>
+            SupportByVersion Office 12, 14, 15
+            Get/Set
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Title">
+            <summary>
+            SupportByVersion Office 12, 14, 15
+            Get
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.DockPosition">
+            <summary>
+            SupportByVersion Office 12, 14, 15
+            Get/Set
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.DockPositionRestrict">
+            <summary>
+            SupportByVersion Office 12, 14, 15
+            Get/Set
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Pane">
+            <summary>
+            CustomTaskPane instance
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Type">
+            <summary>
+            UserControl type info
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.Arguments">
+            <summary>
+            Additional Arguments for OnConnection. The UserControl must implement ITaskPane to use it
+            </summary>
+        </member>
+        <member name="T:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection">
+            <summary>
+            TaskCollection for COMAddin
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.#ctor">
+            <summary>
+            Creates an instance of the class
+            </summary>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.Add(System.Type,System.String)">
+            <summary>
+            Add a new child to the list
+            </summary>
+            <param name="taskPaneType">new child</param>
+            <param name="title">title(caption) of the child</param>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.GetEnumerator">
+            <summary>
+            Returns an Enumerator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an Enumerator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.Item(System.Int32)">
+            <summary>
+            Returns an element from specified index
+            </summary>
+            <param name="index">specified index</param>
+            <returns>TaskPaneInfo instance</returns>
         </member>
         <member name="T:NetOffice.OfficeApi.CommandBars">
             <summary>

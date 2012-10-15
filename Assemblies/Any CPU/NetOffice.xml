@@ -4,6 +4,40 @@
         <name>NetOffice</name>
     </assembly>
     <members>
+        <member name="T:NetOffice.Tools.OnStartupCompleteEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="T:NetOffice.Tools.OnDisconnectionEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="RemoveMode"></param>
+            <param name="custom"></param>
+        </member>
+        <member name="T:NetOffice.Tools.OnConnectionEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="Application"></param>
+            <param name="ConnectMode"></param>
+            <param name="AddInInst"></param>
+            <param name="custom"></param>
+        </member>
+        <member name="T:NetOffice.Tools.OnAddInsUpdateEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="T:NetOffice.Tools.OnBeginShutdownEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
         <member name="T:NetOffice.SinkHelper">
             <summary>
             Sink Helper Base Class for an Event Interface Sink helper class
@@ -621,10 +655,144 @@
             NetOffice event: these event was called from Dispose and you can skip the dipose operation here if you want. the event can be helpful for troubleshooting if you dont know why your objects beeing disposed
             </summary>
         </member>
+        <member name="T:NetOffice.Tools.RegisterMode">
+            <summary>
+            Specify the kind and condition of an register method call
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterMode.Replace">
+            <summary>
+            the base class COMAddin doesnt perform any register operations and call the specified register method with the parameter RegisterCall.Replace. The specified register method has to do all register operations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterMode.CallBefore">
+            <summary>
+            the method was called with parameter RegisterCall.CallBefore before the base class do any register operations. 
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterMode.CallAfter">
+            <summary>
+            the method was called with parameter RegisterCall.CallAfter when the base register operations is done. 
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterMode.CallBeforeAndAfter">
+            <summary>
+            this means a combination of CallBefore and CallAfter
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegisterCall">
+            <summary>
+            Parameter for Register/Unregister Methods
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterCall.Replace">
+            <summary>
+            the method was called without any register/unregister action from the base class. The specified register method has to do all register operations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterCall.CallBefore">
+            <summary>
+            the method is called before the base class perform all register operation
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterCall.CallAfter">
+            <summary>
+            the method was called when the base class register operations are done
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegisterFunctionAttribute">
+            <summary>
+            Mark a static method as Register method. the method need the following signature public void Register(Type type, RegisterCall callType)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterFunctionAttribute.Value">
+            <summary>
+            Register Call Condition
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.RegisterFunctionAttribute.#ctor(NetOffice.Tools.RegisterMode)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="mode">register call condition</param>
+        </member>
         <member name="T:NetOffice.CustomMethodAttribute">
             <summary>
             this method is a custom overload from NetOffice
             </summary>
+        </member>
+        <member name="T:NetOffice.Tools.COMAddinAttribute">
+            <summary>
+            Specify essential COMAddin informations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.Name">
+            <summary>
+            Display Name for the Addin
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.Description">
+            <summary>
+            Description for the Addin
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.LoadBehavior">
+            <summary>
+            LoadBehavior for the Addin
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.CommandLineSafe">
+            <summary>
+            Gives info the Addin is commandline safe
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.COMAddinAttribute.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="name">Display Name for the Addin</param>
+            <param name="description">Description for the Addin</param>
+            <param name="loadBehavior">LoadBehavior for the Addin</param>
+        </member>
+        <member name="M:NetOffice.Tools.COMAddinAttribute.#ctor(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="name">Display Name for the Addin</param>
+            <param name="description">Description for the Addin</param>
+            <param name="loadBehavior">LoadBehavior for the Addin</param>
+            <param name="commandLineSafe">Gives info the Addin is commandline safe</param>
+        </member>
+        <member name="T:NetOffice.Tools.RegistrySaveLocation">
+            <summary>
+            specifiy possible registry locations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegistrySaveLocation.CurrentUser">
+            <summary>
+            CurrentUser Key
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegistrySaveLocation.LocalMachine">
+            <summary>
+            LocalMachineKey (permissions required)
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegistryLocationAttribute">
+            <summary>
+            Specify the addin registry keys for office was created in the Machine key or current user
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegistryLocationAttribute.Value">
+            <summary>
+            Registry Location
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.RegistryLocationAttribute.#ctor(NetOffice.Tools.RegistrySaveLocation)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="value">Registry location</param>
         </member>
         <member name="T:NetOffice.ConsoleMode">
             <summary>
@@ -732,6 +900,22 @@
             <summary>
             any new infos in Initialize was added to the existing cache
             </summary>
+        </member>
+        <member name="T:NetOffice.Tools.UnRegisterFunctionAttribute">
+            <summary>
+            Mark a static method as UnRegister method. the method need the following signature public void UnRegister(Type type, RegisterCall callType)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.UnRegisterFunctionAttribute.Value">
+            <summary>
+            Register Call Condition
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.UnRegisterFunctionAttribute.#ctor(NetOffice.Tools.RegisterMode)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="mode">register call condition</param>
         </member>
         <member name="T:NetOffice.Factory">
             <summary>
@@ -960,6 +1144,18 @@
             ProxyCountChanged delegate
             </summary>
             <param name="proxyCount"></param>
+        </member>
+        <member name="T:NetOffice.Tools.IErrorHandler">
+            <summary>
+            Notify Addins about any exception in base class COMAddin
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.IErrorHandler.OnError(System.Exception)">
+            <summary>
+            Error Handler method
+            </summary>
+            <param name="exception">the occured exception</param>
+            <returns>true when the error is handled by the client</returns>
         </member>
         <member name="T:NetOffice.OnDisposeEventArgs">
             <summary>
@@ -1259,6 +1455,89 @@
             returns a name array of dependent NetOfficeApi assemblies
             </summary>
         </member>
+        <member name="T:NetOffice.Tools.CustomUIAttribute">
+            <summary>
+            Specify an embedded XML File for RibbonUI
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.CustomUIAttribute.Value">
+            <summary>
+            Full qualified location
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.CustomUIAttribute.#ctor(System.String)">
+            <summary>
+            Creates an instance of the Attribute
+            </summary>
+            <param name="value">Full qualified location</param>
+        </member>
+        <member name="T:NetOffice.Tools.AttributeHelper">
+            <summary>
+            Provides Attribute Helper functions
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetErrorAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.ErrorHandlerFunctionAttribute@)">
+            <summary>
+            Looks for a method with the ErrorHandlerFunctionAttribute
+            </summary>
+            <param name="type">the type you want looking for the method</param>
+            <param name="method">the method when its found</param>
+            <param name="attribute">the attribute when its found</param>
+            <returns>true when the method was found</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.RegisterFunctionAttribute@)">
+            <summary>
+             Looks for a method with the RegisterFunctionAttribute
+            </summary>
+            <param name="type">the type you want looking for the method</param>
+            <param name="method">the method when its found</param>
+            <param name="attribute">the attribute when its found</param>
+            <returns>true when the method was found</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetUnRegisterAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.UnRegisterFunctionAttribute@)">
+            <summary>
+            Looks for a method with the UnRegisterFunctionAttribute
+            </summary>
+            <param name="type">the type you want looking for the method</param>
+            <param name="method">the method when its found</param>
+            <param name="attribute">the attribute when its found</param>
+            <returns>true when the method was found</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRibbonAttribute(System.Type)">
+            <summary>
+            Looks for the CustomUIAttribute
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>CustomUIAttribute or null</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetGuidAttribute(System.Type)">
+            <summary>
+            Looks for the GuidAttribute. Throws an exception if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>GuidAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetProgIDAttribute(System.Type)">
+            <summary>
+            Looks for the ProgIdAttribute. Throws an exception if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>ProgIdAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRegistryLocationAttribute(System.Type)">
+            <summary>
+            Looks for the RegistryLocationAttribute. Returns a default RegistryLocationAttribute(CurrentUser) if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>RegistryLocationAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetCOMAddinAttribute(System.Type)">
+            <summary>
+            Looks for the COMAddinAttribute. Throws an exception if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>COMAddinAttribute</returns>
+        </member>
         <member name="T:NetOffice.RunningObjectTable">
             <summary>
             ROT Wrapper
@@ -1308,10 +1587,119 @@
             </summary>
             <param name="message"></param>
         </member>
+        <member name="T:NetOffice.Tools.ErrorHandlerFunctionAttribute">
+            <summary>
+            Mark a static Method as Error Handler. The method need the following signature: public void bool ErrorHandler(Exception exception)
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.ErrorHandlerFunctionAttribute.#ctor">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+        </member>
         <member name="T:NetOffice.CustomEnumeratorAttribute">
             <summary>
             this enumerator is not supported by the instance, its a custom service by NetOffice
             </summary>
+        </member>
+        <member name="T:NetOffice.Tools.ext_ConnectMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_AfterStartup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_External">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_CommandLine">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_Solution">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_UISetup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.ext_DisconnectMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_HostShutdown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_UserClosed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_UISetupComplete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_SolutionClosed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.IDTExtensibility2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnConnection(System.Object,NetOffice.Tools.ext_ConnectMode,System.Object,System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="Application"></param>
+            <param name="ConnectMode"></param>
+            <param name="AddInInst"></param>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnDisconnection(NetOffice.Tools.ext_DisconnectMode,System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="RemoveMode"></param>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnAddInsUpdate(System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnStartupComplete(System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnBeginShutdown(System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
         </member>
         <member name="T:NetOffice.NetOfficeAssemblyAttribute">
             <summary>

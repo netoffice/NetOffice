@@ -52014,6 +52014,128 @@
             </summary>
             <remarks>1</remarks>
         </member>
+        <member name="T:NetOffice.VisioApi.Tools.COMAddin">
+            <summary>
+            The class provides a lot of essential functionality for an MS-Project COMAddin
+            </summary>
+        </member>
+        <member name="F:NetOffice.VisioApi.Tools.COMAddin._addinOfficeRegistryKey">
+            <summary>
+            MS-Visio Registry Path 
+            </summary>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.#ctor">
+            <summary>
+            Creates an instance of the class
+            </summary>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.RaiseStaticErrorHandlerMethod(System.Type,System.Exception,System.Boolean@)">
+            <summary>
+            Checks for a static method, signed with the ErrorHandlerAttribute and call them if its available
+            </summary>
+            <param name="type">type information for the class wtih static method </param>
+            <param name="exception">occured exception</param>
+            <param name="handled">must set to true when the error is handled by the client other the exception was thrown</param>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.RaiseErrorHandlerMethod(System.Exception,System.Boolean@)">
+            <summary>
+            checks for IErrorHandler implementation and call OnError, otherwhise redirect to RaiseStaticErrorHandlerMethod
+            </summary>
+            <param name="exception">occured exception</param>
+            <param name="handled">must set to true when the error is handled by the client other the exception was thrown</param>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.RegisterFunction(System.Type)">
+            <summary>
+            Called from regasm while register 
+            </summary>
+            <param name="type">Type information for the class</param>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.UnregisterFunction(System.Type)">
+            <summary>
+            Called from regasm while ungregister
+            </summary>
+            <param name="type">Type information for the class</param>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.CallDerivedRegisterMethod(System.Type,System.Reflection.MethodInfo,NetOffice.Tools.RegisterFunctionAttribute)">
+            <summary>
+            Derived Register Call Helper
+            </summary>
+            <param name="type">type for derived class</param>
+            <param name="registerMethod">the method to call</param>
+            <param name="registerAttribute">arguments</param>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.CallDerivedUnRegisterMethod(System.Type,System.Reflection.MethodInfo,NetOffice.Tools.UnRegisterFunctionAttribute)">
+            <summary>
+            Derived Unregister Call Helper
+            </summary>
+            <param name="type">type for derived class</param>
+            <param name="registerMethod">the method to call</param>
+            <param name="registerAttribute">arguments</param>
+        </member>
+        <member name="M:NetOffice.VisioApi.Tools.COMAddin.ReadRessourceFile(System.String)">
+            <summary>
+            reads text file from ressource
+            </summary>
+            <param name="fileName">ressourceLocation</param>
+            <returns>text content</returns>
+        </member>
+        <member name="P:NetOffice.VisioApi.Tools.COMAddin.Type">
+            <summary>
+            Type Information of the instance
+            </summary>
+        </member>
+        <member name="P:NetOffice.VisioApi.Tools.COMAddin.Application">
+            <summary>
+            Host Application Instance
+            </summary>
+        </member>
+        <member name="E:NetOffice.VisioApi.Tools.COMAddin.OnStartupComplete">
+            <summary>
+            The OnStartupComplete event occurs when the host application completes its startup routines, in the case where the COM add-in loads at startup. 
+            If the add-in is not loaded when the application loads, the OnStartupComplete event does not occur — 
+            even when the user loads the add-in in the COM Add-ins dialog box. When this event does occur, it occurs after the OnConnection event.
+            You can use the OnStartupComplete  event procedure to run code that interacts with the application and that should not be run until the application has finished loading. 
+            For example, if you want to display a form that gives users a choice of documents to create when they start the application, 
+            you can put that code in the OnStartupComplete event procedure.
+            </summary>
+        </member>
+        <member name="E:NetOffice.VisioApi.Tools.COMAddin.OnDisconnection">
+            <summary>
+            The Shutdown event occurs when the COM add-in is unloaded. 
+            You can use the OnDisconnection event procedure to run code that restores any changes made to the application by the add-in and to perform general clean-up operations.
+            An add-in can be unloaded in one of the following ways:
+            - The user clears the check box next to the add-in in the COM Add-ins dialog box.
+            - The host application closes. If the add-in is loaded when the application closes, it is unloaded. 
+              If the add-in's load behavior is set to Startup, it is reloaded when the application starts again.
+            - The Connect property of the corresponding COMAddIn object is set to False.
+            </summary>
+        </member>
+        <member name="E:NetOffice.VisioApi.Tools.COMAddin.OnConnection">
+            <summary>
+            The OnConnection event occurs when the COM add-in is loaded (connected). An add-in can be loaded in one of the following ways:
+            The user starts the host application and the add-in's load behavior is specified to load when the application starts.
+            The user loads the add-in in the COM Add-ins dialog box.
+            The Connect property of the corresponding COMAddIn object is set to True.
+            For more information about the COMAddIn object, search the Microsoft® Office Visual Basic Reference Help index for "COMAddIn object."
+            </summary>
+        </member>
+        <member name="E:NetOffice.VisioApi.Tools.COMAddin.OnAddInsUpdate">
+            <summary>
+            The OnAddInsUpdate event occurs when the set of loaded COM add-ins changes. 
+            When an add-in is loaded or unloaded, the OnAddInsUpdate event occurs in any other loaded add-ins. 
+            For example, if add-ins A and B both are loaded currently, and then add-in C is loaded, 
+            the OnAddInsUpdate event occurs in add-ins A and B. If C is unloaded, the OnAddInsUpdate event occurs again in add-ins A and B. 
+            </summary>
+        </member>
+        <member name="E:NetOffice.VisioApi.Tools.COMAddin.OnBeginShutdown">
+            <summary>
+            The OnBeginShutdown event occurs when the host application begins its shutdown routines, 
+            in the case where the application closes while the COM add-in is still loaded. 
+            If the add-in is not loaded when the application closes, 
+            the OnBeginShutdown event does not occur. When this event does occur, it occurs before the OnDisconnection event.
+            You can use the OnBeginShutdown event procedure to run code when the user closes the application. For example, you can run code that saves form data to a file.
+            </summary>
+        </member>
         <member name="T:NetOffice.VisioApi.RelatedShapePairEvent">
             <summary>
              CoClass RelatedShapePairEvent 
