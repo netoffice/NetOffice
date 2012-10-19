@@ -10480,6 +10480,11 @@
             TaskPaneFactory from CTPFactoryAvailable
             </summary>
         </member>
+        <member name="P:NetOffice.OutlookApi.Tools.COMAddin.TaskPaneInstances">
+            <summary>
+            ITaskPane Instances
+            </summary>
+        </member>
         <member name="E:NetOffice.OutlookApi.Tools.COMAddin.OnStartupComplete">
             <summary>
             The OnStartupComplete event occurs when the host application completes its startup routines, in the case where the COM add-in loads at startup. 
@@ -39542,6 +39547,11 @@
             </summary>
             <param name="application">Host Application Instance</param>
             <param name="customArguments">optional arguments</param>
+        </member>
+        <member name="M:NetOffice.OutlookApi.Tools.ITaskPane.OnDisconnection">
+            <summary>
+            Called from the COMAddin class while OnDisconnection
+            </summary>
         </member>
         <member name="T:NetOffice.OutlookApi.PeopleView">
             <summary>

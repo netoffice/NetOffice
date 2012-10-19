@@ -8026,6 +8026,11 @@
             <param name="application">Host Application Instance</param>
             <param name="customArguments">optional arguments</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.Tools.ITaskPane.OnDisconnection">
+            <summary>
+            Called from the COMAddin class while OnDisconnection
+            </summary>
+        </member>
         <member name="T:NetOffice.OfficeApi.Tools.COMAddin">
             <summary>
             The class provides a lot of essential functionality for an MS-Excel COMAddin
@@ -8132,6 +8137,11 @@
         <member name="P:NetOffice.OfficeApi.Tools.COMAddin.TaskPaneFactory">
             <summary>
             TaskPaneFactory from CTPFactoryAvailable
+            </summary>
+        </member>
+        <member name="P:NetOffice.OfficeApi.Tools.COMAddin.TaskPaneInstances">
+            <summary>
+            ITaskPane Instances
             </summary>
         </member>
         <member name="E:NetOffice.OfficeApi.Tools.COMAddin.OnStartupComplete">

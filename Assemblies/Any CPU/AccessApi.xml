@@ -41940,6 +41940,11 @@
             <param name="application">Host Application Instance</param>
             <param name="customArguments">optional arguments</param>
         </member>
+        <member name="M:NetOffice.AccessApi.Tools.ITaskPane.OnDisconnection">
+            <summary>
+            Called from the COMAddin class while OnDisconnection
+            </summary>
+        </member>
         <member name="T:NetOffice.AccessApi.Tools.COMAddin">
             <summary>
             The class provides a lot of essential functionality for an MS-Access COMAddin
@@ -42036,6 +42041,11 @@
         <member name="P:NetOffice.AccessApi.Tools.COMAddin.TaskPaneFactory">
             <summary>
             TaskPaneFactory from CTPFactoryAvailable
+            </summary>
+        </member>
+        <member name="P:NetOffice.AccessApi.Tools.COMAddin.TaskPaneInstances">
+            <summary>
+            ITaskPane Instances
             </summary>
         </member>
         <member name="E:NetOffice.AccessApi.Tools.COMAddin.OnStartupComplete">
