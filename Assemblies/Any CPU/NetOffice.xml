@@ -1817,6 +1817,11 @@
             Static Type Constructor 
             </summary>
         </member>
+        <member name="P:NetOffice.Settings.EnableProxyManagement">
+            <summary>
+            Enable the NetOffice COM proxy management. true by default
+            </summary>
+        </member>
         <member name="P:NetOffice.Settings.UseExceptionMessage">
             <summary>
             NetOffice wrap all thrown exceptions from Office applications in a COMException. This option can be used to set the exception message
