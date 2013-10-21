@@ -117,6 +117,12 @@
             </summary>
             <param name="isDefault">Mark this instance as default instance</param>
         </member>
+        <member name="M:NetOffice.Core.RaiseProxyCountChanged(System.Int32)">
+            <summary>
+            Raise the ProxyCountChanged event (and optional, send channel message to console)
+            </summary>
+            <param name="proxyCount"></param>
+        </member>
         <member name="M:NetOffice.Core.Initialize">
             <summary>
             Must be called from client assembly for COMObject Support
@@ -2390,6 +2396,16 @@
         <member name="P:NetOffice.Settings.EnableEventDebugOutput">
             <summary>
             Get or set NetOffice logs essential system steps for event operations in the DebugConsole(if enabled). false by default
+            </summary>
+        </member>
+        <member name="P:NetOffice.Settings.EnableProxyCountChannel">
+            <summary>
+            Get or set NetOffice logs the current proxy count from a core factory to a ConsoleMonitor channel
+            </summary>
+        </member>
+        <member name="P:NetOffice.Settings.ProxyCountChannelName">
+            <summary>
+            A ConsoleMonitor channel name for the option EnableProxyCountChannel 
             </summary>
         </member>
         <member name="P:NetOffice.Settings.CacheOptions">
