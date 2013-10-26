@@ -4,6 +4,61 @@
         <name>MSDATASRCApi</name>
     </assembly>
     <members>
+        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
+            <summary>
+            necessary factory info, used from NetOffice.Factory while Initialize()
+            </summary>
+        </member>
+        <member name="T:NetOffice.MSDATASRCApi.DataSourceListener">
+            <summary>
+             Interface DataSourceListener 
+             SupportByVersion MSDATASRC, 4
+            </summary>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.Core,NetOffice.COMObject,System.Object)">
+            <param name="factory">current used factory core</param>
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject,System.Object)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.Core,NetOffice.COMObject,System.Object,System.Type)">
+            <param name="factory">current used factory core</param>
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject,System.Object,System.Type)">
+            <param name="parentObject">object there has created the proxy</param>
+            <param name="comProxy">inner wrapped COM proxy</param>
+            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject)">
+            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(System.String)">
+            <param name="progId">registered ProgID</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
+            <summary>
+            SupportByVersion MSDATASRC 4
+            </summary>
+            <param name="bstrDM">string bstrDM</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
+            <summary>
+            SupportByVersion MSDATASRC 4
+            </summary>
+            <param name="bstrDM">string bstrDM</param>
+        </member>
+        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
+            <summary>
+            SupportByVersion MSDATASRC 4
+            </summary>
+            <param name="bstrDM">string bstrDM</param>
+        </member>
         <member name="T:NetOffice.MSDATASRCApi.DataSource">
             <summary>
              Interface DataSource 
@@ -65,61 +120,6 @@
             SupportByVersion MSDATASRC 4
             </summary>
             <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
-        </member>
-        <member name="T:NetOffice.MSDATASRCApi.DataSourceListener">
-            <summary>
-             Interface DataSourceListener 
-             SupportByVersion MSDATASRC, 4
-            </summary>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.Core,NetOffice.COMObject,System.Object)">
-            <param name="factory">current used factory core</param>
-            <param name="parentObject">object there has created the proxy</param>
-            <param name="comProxy">inner wrapped COM proxy</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject,System.Object)">
-            <param name="parentObject">object there has created the proxy</param>
-            <param name="comProxy">inner wrapped COM proxy</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.Core,NetOffice.COMObject,System.Object,System.Type)">
-            <param name="factory">current used factory core</param>
-            <param name="parentObject">object there has created the proxy</param>
-            <param name="comProxy">inner wrapped COM proxy</param>
-            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject,System.Object,System.Type)">
-            <param name="parentObject">object there has created the proxy</param>
-            <param name="comProxy">inner wrapped COM proxy</param>
-            <param name="comProxyType">Type of inner wrapped COM proxy"</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(NetOffice.COMObject)">
-            <param name="replacedObject">object to replaced. replacedObject are not usable after this action</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.#ctor(System.String)">
-            <param name="progId">registered ProgID</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
-            <summary>
-            SupportByVersion MSDATASRC 4
-            </summary>
-            <param name="bstrDM">string bstrDM</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
-            <summary>
-            SupportByVersion MSDATASRC 4
-            </summary>
-            <param name="bstrDM">string bstrDM</param>
-        </member>
-        <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
-            <summary>
-            SupportByVersion MSDATASRC 4
-            </summary>
-            <param name="bstrDM">string bstrDM</param>
-        </member>
-        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
-            <summary>
-            necessary factory info, used from NetOffice.Factory while Initialize()
-            </summary>
         </member>
     </members>
 </doc>

@@ -4,412 +4,19 @@
         <name>NetOffice</name>
     </assembly>
     <members>
-        <member name="T:NetOffice.Tools.Tweaks">
+        <member name="T:NetOffice.CacheOptions">
             <summary>
-            Tweak Handler to customize some settings at runtime (if wanted)
+            Cache options for the Factory->Initialize method
             </summary>
         </member>
-        <member name="M:NetOffice.Tools.Tweaks.#cctor">
+        <member name="F:NetOffice.CacheOptions.ClearExistingCache">
             <summary>
-            Creates no instance of the class
+            clear current infos about existing types and and loaded NetOffice assemblies
             </summary>
         </member>
-        <member name="M:NetOffice.Tools.Tweaks.ApplyTweaks(NetOffice.Core,System.Object,System.Type,System.String)">
+        <member name="F:NetOffice.CacheOptions.KeepExistingCacheAlive">
             <summary>
-            Analyze a COMAddin for the TweakAttribute and try to set given arguments(registry) if exists
-            </summary>
-            <param name="factory">current used factory or null for default</param>
-            <param name="addinInstance">COMAddin instance</param>
-            <param name="addinType">Type info from COMAddin instance</param>
-            <param name="registryEndPoint">specific office registry key endpoint</param>
-        </member>
-        <member name="M:NetOffice.Tools.Tweaks.DisposeTweaks(NetOffice.Core,System.Object,System.Type)">
-            <summary>
-            Dispose applied tweaks for COMAddin instance
-            </summary>
-            <param name="factory">current used factory or null for default</param>
-            <param name="addinInstance">COMAddin instance</param>
-            <param name="addinType">Type info from COMAddin instance</param>
-        </member>
-        <member name="M:NetOffice.Tools.Tweaks.IsWellKnownName(System.String)">
-            <summary>
-            Returns info the regkey value name is addin standard or NetOffice tweak
-            </summary>
-            <param name="name">target regky name</param>
-            <returns>true if found</returns>
-        </member>
-        <member name="P:NetOffice.Tools.Tweaks.CustomTweaks">
-            <summary>
-            Store applied custom teaks. int = GetHashCode() from COMAddin instance. Dictionary string string = name, value of applied tweak
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.RegistrySaveLocation">
-            <summary>
-            specifiy possible registry locations
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegistrySaveLocation.CurrentUser">
-            <summary>
-            CurrentUser Key
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegistrySaveLocation.LocalMachine">
-            <summary>
-            LocalMachineKey (permissions required)
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.RegistryLocationAttribute">
-            <summary>
-            Specify the addin registry keys for office was created in the Machine key or current user
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegistryLocationAttribute.Value">
-            <summary>
-            Registry Location
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.RegistryLocationAttribute.#ctor(NetOffice.Tools.RegistrySaveLocation)">
-            <summary>
-            Creates an instance of the attribute
-            </summary>
-            <param name="value">Registry location</param>
-        </member>
-        <member name="T:NetOffice.Tools.ext_ConnectMode">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_AfterStartup">
-            <summary>
-            The add-in was loaded after Application started.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_Startup">
-            <summary>
-            The add-in was loaded when Application started.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_External">
-            <summary>
-            The add-in was loaded by an external client.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_CommandLine">
-            <summary>
-            The add-in was loaded from the command line.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_Solution">
-            <summary>
-            The add-in was loaded with a solution.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_UISetup">
-            <summary>
-            The add-in was loaded for user interface setup.
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.ext_DisconnectMode">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_HostShutdown">
-            <summary>
-            The add-in was unloaded when Application was shut down.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_UserClosed">
-            <summary>
-            The add-in was unloaded while Application was running.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_UISetupComplete">
-            <summary>
-            The add-in was unloaded after the user interface was set up.
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_SolutionClosed">
-            <summary>
-            The add-in was unloaded when the solution was closed.
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.IDTExtensibility2">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.IDTExtensibility2.OnConnection(System.Object,NetOffice.Tools.ext_ConnectMode,System.Object,System.Array@)">
-            <summary>
-            
-            </summary>
-            <param name="Application"></param>
-            <param name="ConnectMode"></param>
-            <param name="AddInInst"></param>
-            <param name="custom"></param>
-        </member>
-        <member name="M:NetOffice.Tools.IDTExtensibility2.OnDisconnection(NetOffice.Tools.ext_DisconnectMode,System.Array@)">
-            <summary>
-            
-            </summary>
-            <param name="RemoveMode"></param>
-            <param name="custom"></param>
-        </member>
-        <member name="M:NetOffice.Tools.IDTExtensibility2.OnAddInsUpdate(System.Array@)">
-            <summary>
-            
-            </summary>
-            <param name="custom"></param>
-        </member>
-        <member name="M:NetOffice.Tools.IDTExtensibility2.OnStartupComplete(System.Array@)">
-            <summary>
-            
-            </summary>
-            <param name="custom"></param>
-        </member>
-        <member name="M:NetOffice.Tools.IDTExtensibility2.OnBeginShutdown(System.Array@)">
-            <summary>
-            
-            </summary>
-            <param name="custom"></param>
-        </member>
-        <member name="T:NetOffice.Tools.TweakAttribute">
-            <summary>
-            Activate COMAddin tweak options. you can add various values in the office add-in regristry location
-            to customize NetOffice diagnostic/log settings at runtime. This can be very helpful in troubleshooting.
-            See tweak overview here: http://netoffice.codeplex.com/wikipage?title=Tweaks_EN
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.TweakAttribute.Enabled">
-            <summary>
-            Enable or disable possible tweaking is possible
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.TweakAttribute.#ctor(System.Boolean)">
-            <summary>
-            Creates an instance of the class
-            </summary>
-            <param name="enabled">Enable or disable possible tweaking is possible</param>
-        </member>
-        <member name="T:NetOffice.INTERFACEINFO">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:NetOffice.INTERFACEINFO.punk">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:NetOffice.INTERFACEINFO.iid">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:NetOffice.INTERFACEINFO.wMethod">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:NetOffice.IMessageFilter">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:NetOffice.IMessageFilter.HandleInComingCall(System.UInt32,System.IntPtr,System.UInt32,NetOffice.INTERFACEINFO[])">
-            <summary>
-            
-            </summary>
-            <param name="dwCallType"></param>
-            <param name="htaskCaller"></param>
-            <param name="dwTickCount"></param>
-            <param name="lpInterfaceInfo"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.IMessageFilter.RetryRejectedCall(System.IntPtr,System.UInt32,System.UInt32)">
-            <summary>
-            
-            </summary>
-            <param name="htaskCallee"></param>
-            <param name="dwTickCount"></param>
-            <param name="dwRejectType"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.IMessageFilter.MessagePending(System.IntPtr,System.UInt32,System.UInt32)">
-            <summary>
-            
-            </summary>
-            <param name="htaskCallee"></param>
-            <param name="dwTickCount"></param>
-            <param name="dwPendingType"></param>
-            <returns></returns>
-        </member>
-        <member name="T:NetOffice.RetryMessageFilterMode">
-            <summary>
-            Specify the filter for an RetryMessageFilter instance
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterMode.Immediately">
-            <summary>
-            Try rejected call again immediately
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterMode.Delayed">
-            <summary>
-            Try rejected call again after few milliseconds
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterMode.None">
-            <summary>
-            Dont try rejected call again
-            </summary>
-        </member>
-        <member name="T:NetOffice.RetryMessageFilterLogMode">
-            <summary>
-            Specify log behaviour for an RetryMessageFilter instance
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterLogMode.None">
-            <summary>
-            Disable Log
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterLogMode.RetryRejectedCall">
-            <summary>
-            Call DebugConsole.WriteLine in IMessageFilter.RetryRejectedCall
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterLogMode.MessagePending">
-            <summary>
-            Call DebugConsole.WriteLine in IMessageFilter.MessagePending
-            </summary>
-        </member>
-        <member name="F:NetOffice.RetryMessageFilterLogMode.Both">
-            <summary>
-            Call DebugConsole.WriteLine in IMessageFilter.RetryRejectedCall and IMessageFilter.MessagePending
-            </summary>
-        </member>
-        <member name="T:NetOffice.RetryMessageFilter">
-            <summary>
-            An IMessageFilter Implementation
-            Learn more about: http://netoffice.codeplex.com/wikipage?title=Settings.MessageFilter_EN
-            </summary>
-        </member>
-        <member name="P:NetOffice.RetryMessageFilter.Enabled">
-            <summary>
-            Get or set the message filter is enabled
-            </summary>
-        </member>
-        <member name="P:NetOffice.RetryMessageFilter.RetryMode">
-            <summary>
-            Get or set retry options
-            </summary>
-        </member>
-        <member name="P:NetOffice.RetryMessageFilter.LogMode">
-            <summary>
-            Get or set log options
-            </summary>
-        </member>
-        <member name="T:NetOffice.CustomEnumeratorAttribute">
-            <summary>
-            This enumerator is not supported from the com proxy instance, its a custom service from NetOffice
-            </summary>
-        </member>
-        <member name="T:NetOffice.Utils">
-            <summary>
-            some helper methods (also for visual basic)
-            </summary>
-        </member>
-        <member name="F:NetOffice.Utils._lockUtils">
-            <summary>
-            lock instance to perform threadsafe operations
-            </summary>
-        </member>
-        <member name="M:NetOffice.Utils.IsNothing(System.Object)">
-            <summary>
-            checks value is null or nothing. 
-            </summary>
-            <param name="value">check value</param>
-            <returns>true if null</returns>
-        </member>
-        <member name="M:NetOffice.Utils.GetProxyEnumeratorAsProperty(NetOffice.COMObject)">
-            <summary>
-            returns enumerator with com proxies
-            </summary>
-            <param name="comObject"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.Utils.GetProxyEnumeratorAsMethod(NetOffice.COMObject)">
-            <summary>
-            returns enumerator with com proxies
-            </summary>
-            <param name="comObject"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.Utils.GetScalarEnumeratorAsProperty(NetOffice.COMObject)">
-            <summary>
-            returns enumerator with scalar variables
-            </summary>
-            <param name="comObject"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.Utils.GetScalarEnumeratorAsMethod(NetOffice.COMObject)">
-            <summary>
-            returns enumerator with scalar variables
-            </summary>
-            <param name="comObject"></param>
-            <returns></returns>
-        </member>
-        <member name="P:NetOffice.Utils.Default">
-            <summary>
-            Shared Default Invoker
-            </summary>
-        </member>
-        <member name="T:NetOffice.IEventBinding">
-            <summary>
-            EventBinding Interface
-            </summary>
-        </member>
-        <member name="M:NetOffice.IEventBinding.HasEventRecipients">
-            <summary>
-            retuns instance has one or more event recipients
-            </summary>
-        </member>
-        <member name="M:NetOffice.IEventBinding.GetEventRecipients(System.String)">
-            <summary>
-            returns recipient delegates for an event
-            </summary>
-            <param name="eventName">name of the even</param>
-            <returns>recipients delegates</returns>
-        </member>
-        <member name="M:NetOffice.IEventBinding.GetCountOfEventRecipients(System.String)">
-            <summary>
-            retuns instance has one or more event recipients for a specific event
-            </summary>
-            <param name="eventName">name of the event</param>
-            <returns>the count of recipients</returns>
-        </member>
-        <member name="M:NetOffice.IEventBinding.RaiseCustomEvent(System.String,System.Object[]@)">
-            <summary>
-            call a specific event for all recipients
-            </summary>
-            <param name="eventName">name of the event</param>
-            <param name="paramsArray">argument array</param>
-            <returns>count of recipients</returns>
-        </member>
-        <member name="M:NetOffice.IEventBinding.CreateEventBridge">
-            <summary>
-            Create the event eventbridge for the object
-            </summary>
-        </member>
-        <member name="M:NetOffice.IEventBinding.DisposeEventBridge">
-            <summary>
-            Dispose the event eventbridge for the object
-            </summary>
-        </member>
-        <member name="P:NetOffice.IEventBinding.EventBridgeInitialized">
-            <summary>
-            returns event bridge is advised
+            any new infos in Initialize was added to the existing cache
             </summary>
         </member>
         <member name="T:NetOffice.Invoker">
@@ -776,89 +383,6 @@
             Associated Settings
             </summary>
         </member>
-        <member name="T:NetOffice.Tools.OnStartupCompleteEventHandler">
-            <summary>
-            OnStartupComplete Event Handler
-            </summary>
-            <param name="custom">custom arguments</param>
-        </member>
-        <member name="T:NetOffice.Tools.OnDisconnectionEventHandler">
-            <summary>
-            OnDisconnection Event Handler
-            </summary>
-            <param name="RemoveMode">kind of remove</param>
-            <param name="custom">custom arguments</param>
-        </member>
-        <member name="T:NetOffice.Tools.OnConnectionEventHandler">
-            <summary>
-            OnConnection Event Handler
-            </summary>
-            <param name="Application">application host instance</param>
-            <param name="ConnectMode">kind of connect</param>
-            <param name="AddInInst">addin instance</param>
-            <param name="custom">custom arguments</param>
-        </member>
-        <member name="T:NetOffice.Tools.OnAddInsUpdateEventHandler">
-            <summary>
-            OnAddInsUpdate Event Handler
-            </summary>
-            <param name="custom">custom arguments</param>
-        </member>
-        <member name="T:NetOffice.Tools.OnBeginShutdownEventHandler">
-            <summary>
-            OnBeginShutdown Event Handler
-            </summary>
-            <param name="custom">custom arguments</param>
-        </member>
-        <member name="T:NetOffice.SupportByVersionAttribute">
-            <summary>
-            Indicates which COM Type Library Version supports the entity
-            </summary>
-        </member>
-        <member name="F:NetOffice.SupportByVersionAttribute.Name">
-            <summary>
-            returns library name
-            </summary>
-        </member>
-        <member name="F:NetOffice.SupportByVersionAttribute.Versions">
-            <summary>
-            returns all supported library versions of entity
-            </summary>
-        </member>
-        <member name="M:NetOffice.SupportByVersionAttribute.#ctor(System.String,System.Double[])">
-            <summary>
-            creates instance
-            </summary>
-            <param name="name">name of the library</param>
-            <param name="versions">version of the library</param>
-        </member>
-        <member name="T:NetOffice.RunningObjectTable">
-            <summary>
-            ROT Wrapper
-            </summary>
-        </member>
-        <member name="F:NetOffice.RunningObjectTable._ballmersPlace">
-            <summary>
-            some office applications in specific version use the "Microsoft" prefix in the COM server name
-            </summary>
-        </member>
-        <member name="M:NetOffice.RunningObjectTable.GetActiveProxyFromROT(System.String,System.String,System.Boolean)">
-            <summary>
-            returns a running com proxy from the running object table. the method takes the first proxy there matched with the input parameters
-            </summary>
-            <param name="componentName">component name, for example Excel</param>
-            <param name="className">class name, for example Application</param>
-            <param name="throwOnError">throw an exception if no proxy was found</param>
-            <returns>a native COM proxy</returns>
-        </member>
-        <member name="M:NetOffice.RunningObjectTable.GetActiveProxiesFromROT(System.String,System.String)">
-            <summary>
-            returns all running com proxies from the running object table there matched with the input parameters 
-            </summary>
-            <param name="componentName">component name, for example Excel</param>
-            <param name="className">class name, for example Application</param>
-            <returns>COM proxy list</returns>
-        </member>
         <member name="T:NetOffice.DebugConsole">
             <summary>
             offers various debug, log and diagnostic functionality
@@ -987,120 +511,416 @@
             returns all collected messages if Mode == MemoryList
             </summary>
         </member>
-        <member name="T:NetOffice.CacheOptions">
+        <member name="T:NetOffice.CustomEnumeratorAttribute">
             <summary>
-            Cache options for the Factory->Initialize method
+            This enumerator is not supported from the com proxy instance, its a custom service from NetOffice
             </summary>
         </member>
-        <member name="F:NetOffice.CacheOptions.ClearExistingCache">
+        <member name="T:NetOffice.Utils">
             <summary>
-            clear current infos about existing types and and loaded NetOffice assemblies
+            some helper methods (also for visual basic)
             </summary>
         </member>
-        <member name="F:NetOffice.CacheOptions.KeepExistingCacheAlive">
+        <member name="F:NetOffice.Utils._lockUtils">
             <summary>
-            any new infos in Initialize was added to the existing cache
+            lock instance to perform threadsafe operations
             </summary>
         </member>
-        <member name="M:NetOffice.NamedPipes.PipeClient.SendConsoleMessage(System.String,System.String)">
+        <member name="M:NetOffice.Utils.IsNothing(System.Object)">
             <summary>
-            Send a message to specific console
+            checks value is null or nothing. 
             </summary>
-            <param name="console">name of the console. use null for main console</param>
-            <param name="message">given message as any</param>        
-            <returns>loghandle from server if recieved</returns>
+            <param name="value">check value</param>
+            <returns>true if null</returns>
         </member>
-        <member name="M:NetOffice.NamedPipes.PipeClient.SendConsoleMessage(System.String,System.String,System.String)">
+        <member name="M:NetOffice.Utils.GetProxyEnumeratorAsProperty(NetOffice.COMObject)">
             <summary>
-            Send a message to specific console
+            returns enumerator with com proxies
             </summary>
-            <param name="console">name of the console. use null for main console</param>
-            <param name="message">given message as any</param>  
-            <param name="parentMessageID">parent loghandle or null</param>  
-            <returns>loghandle from server if recieved</returns>
+            <param name="comObject"></param>
+            <returns></returns>
         </member>
-        <member name="M:NetOffice.NamedPipes.PipeClient.SendChannelMessage(System.String,System.String)">
+        <member name="M:NetOffice.Utils.GetProxyEnumeratorAsMethod(NetOffice.COMObject)">
             <summary>
-            Send a message to specific channel
+            returns enumerator with com proxies
             </summary>
-            <param name="channel">name of the channel</param>
-            <param name="message">given message as any</param>
-            <returns>loghandle from server if recieved</returns>
+            <param name="comObject"></param>
+            <returns></returns>
         </member>
-        <member name="T:NetOffice.SinkHelper">
+        <member name="M:NetOffice.Utils.GetScalarEnumeratorAsProperty(NetOffice.COMObject)">
             <summary>
-            Sink Helper Base Class for an Event Interface Sink helper class
+            returns enumerator with scalar variables
+            </summary>
+            <param name="comObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.Utils.GetScalarEnumeratorAsMethod(NetOffice.COMObject)">
+            <summary>
+            returns enumerator with scalar variables
+            </summary>
+            <param name="comObject"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NetOffice.Utils.Default">
+            <summary>
+            Shared Default Invoker
             </summary>
         </member>
-        <member name="M:NetOffice.SinkHelper.#ctor(NetOffice.COMObject)">
+        <member name="T:NetOffice.INTERFACEINFO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.INTERFACEINFO.punk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.INTERFACEINFO.iid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:NetOffice.INTERFACEINFO.wMethod">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:NetOffice.IMessageFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NetOffice.IMessageFilter.HandleInComingCall(System.UInt32,System.IntPtr,System.UInt32,NetOffice.INTERFACEINFO[])">
+            <summary>
+            
+            </summary>
+            <param name="dwCallType"></param>
+            <param name="htaskCaller"></param>
+            <param name="dwTickCount"></param>
+            <param name="lpInterfaceInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.IMessageFilter.RetryRejectedCall(System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="htaskCallee"></param>
+            <param name="dwTickCount"></param>
+            <param name="dwRejectType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.IMessageFilter.MessagePending(System.IntPtr,System.UInt32,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="htaskCallee"></param>
+            <param name="dwTickCount"></param>
+            <param name="dwPendingType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NetOffice.RetryMessageFilterMode">
+            <summary>
+            Specify the filter for an RetryMessageFilter instance
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterMode.Immediately">
+            <summary>
+            Try rejected call again immediately
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterMode.Delayed">
+            <summary>
+            Try rejected call again after few milliseconds
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterMode.None">
+            <summary>
+            Dont try rejected call again
+            </summary>
+        </member>
+        <member name="T:NetOffice.RetryMessageFilterLogMode">
+            <summary>
+            Specify log behaviour for an RetryMessageFilter instance
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.None">
+            <summary>
+            Disable Log
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.RetryRejectedCall">
+            <summary>
+            Call DebugConsole.WriteLine in IMessageFilter.RetryRejectedCall
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.MessagePending">
+            <summary>
+            Call DebugConsole.WriteLine in IMessageFilter.MessagePending
+            </summary>
+        </member>
+        <member name="F:NetOffice.RetryMessageFilterLogMode.Both">
+            <summary>
+            Call DebugConsole.WriteLine in IMessageFilter.RetryRejectedCall and IMessageFilter.MessagePending
+            </summary>
+        </member>
+        <member name="T:NetOffice.RetryMessageFilter">
+            <summary>
+            An IMessageFilter Implementation
+            Learn more about: http://netoffice.codeplex.com/wikipage?title=Settings.MessageFilter_EN
+            </summary>
+        </member>
+        <member name="P:NetOffice.RetryMessageFilter.Enabled">
+            <summary>
+            Get or set the message filter is enabled
+            </summary>
+        </member>
+        <member name="P:NetOffice.RetryMessageFilter.RetryMode">
+            <summary>
+            Get or set retry options
+            </summary>
+        </member>
+        <member name="P:NetOffice.RetryMessageFilter.LogMode">
+            <summary>
+            Get or set log options
+            </summary>
+        </member>
+        <member name="T:NetOffice.IFactoryInfo">
+            <summary>
+            info about a NetOffice assembly
+            </summary>
+        </member>
+        <member name="M:NetOffice.IFactoryInfo.Contains(System.String)">
+            <summary>
+            returns info a class with given name exists in NetOfficeApi assembly
+            </summary>
+            <param name="className"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NetOffice.IFactoryInfo.AssemblyNamespace">
+            <summary>
+            namespace of assembly
+            </summary>
+        </member>
+        <member name="P:NetOffice.IFactoryInfo.ComponentGuid">
+            <summary>
+            guid of component there represents the NetOfficeApi assembly
+            </summary>
+        </member>
+        <member name="P:NetOffice.IFactoryInfo.Assembly">
+            <summary>
+            assembly info of NetOfficeApi assembly
+            </summary>
+        </member>
+        <member name="P:NetOffice.IFactoryInfo.Dependencies">
+            <summary>
+            returns a name array of dependent NetOfficeApi assemblies
+            </summary>
+        </member>
+        <member name="T:NetOffice.COMObjectExpandableObjectConverter">
+            <summary>
+            COMObject ExpandableObjectConverter (for future use)
+            </summary>
+        </member>
+        <member name="T:NetOffice.IEventBinding">
+            <summary>
+            EventBinding Interface
+            </summary>
+        </member>
+        <member name="M:NetOffice.IEventBinding.HasEventRecipients">
+            <summary>
+            retuns instance has one or more event recipients
+            </summary>
+        </member>
+        <member name="M:NetOffice.IEventBinding.GetEventRecipients(System.String)">
+            <summary>
+            returns recipient delegates for an event
+            </summary>
+            <param name="eventName">name of the even</param>
+            <returns>recipients delegates</returns>
+        </member>
+        <member name="M:NetOffice.IEventBinding.GetCountOfEventRecipients(System.String)">
+            <summary>
+            retuns instance has one or more event recipients for a specific event
+            </summary>
+            <param name="eventName">name of the event</param>
+            <returns>the count of recipients</returns>
+        </member>
+        <member name="M:NetOffice.IEventBinding.RaiseCustomEvent(System.String,System.Object[]@)">
+            <summary>
+            call a specific event for all recipients
+            </summary>
+            <param name="eventName">name of the event</param>
+            <param name="paramsArray">argument array</param>
+            <returns>count of recipients</returns>
+        </member>
+        <member name="M:NetOffice.IEventBinding.CreateEventBridge">
+            <summary>
+            Create the event eventbridge for the object
+            </summary>
+        </member>
+        <member name="M:NetOffice.IEventBinding.DisposeEventBridge">
+            <summary>
+            Dispose the event eventbridge for the object
+            </summary>
+        </member>
+        <member name="P:NetOffice.IEventBinding.EventBridgeInitialized">
+            <summary>
+            returns event bridge is advised
+            </summary>
+        </member>
+        <member name="T:NetOffice.SupportByVersionAttribute">
+            <summary>
+            Indicates which COM Type Library Version supports the entity
+            </summary>
+        </member>
+        <member name="F:NetOffice.SupportByVersionAttribute.Name">
+            <summary>
+            returns library name
+            </summary>
+        </member>
+        <member name="F:NetOffice.SupportByVersionAttribute.Versions">
+            <summary>
+            returns all supported library versions of entity
+            </summary>
+        </member>
+        <member name="M:NetOffice.SupportByVersionAttribute.#ctor(System.String,System.Double[])">
             <summary>
             creates instance
             </summary>
-            <param name="eventClass"></param>
+            <param name="name">name of the library</param>
+            <param name="versions">version of the library</param>
         </member>
-        <member name="M:NetOffice.SinkHelper.FindConnectionPoint(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+        <member name="T:NetOffice.Tools.ErrorMethodKind">
             <summary>
-            try to find connection point by FindConnectionPoint
-            </summary>
-            <param name="comInstance"></param>
-            <param name="connectionPointContainer"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.SinkHelper.EnumConnectionPoint(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
-            <summary>
-            try to find connection point by EnumConnectionPoints
-            </summary>
-            <param name="comInstance"></param>
-            <param name="connectionPointContainer"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.SinkHelper.GetConnectionPoint(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
-            <summary>
-            get supported connection point from comProxy
-            </summary>
-            <param name="comInstance"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.SinkHelper.GetConnectionPoint2(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
-            <summary>
-            get supported connection point from comProxy in reverse order to GetConnectionPoint
-            </summary>
-            <param name="comInstance"></param>
-            <param name="point"></param>
-            <param name="sinkIds"></param>
-            <returns></returns>
-        </member>
-        <member name="M:NetOffice.SinkHelper.DisposeAll">
-            <summary>
-            Dispose all active event bridges
+            Indicates in which method the error is occured
             </summary>
         </member>
-        <member name="M:NetOffice.SinkHelper.SetupEventBinding(System.Runtime.InteropServices.ComTypes.IConnectionPoint)">
+        <member name="F:NetOffice.Tools.ErrorMethodKind.OnStartupComplete">
             <summary>
-            create event binding
-            </summary>
-            <param name="connectPoint"></param>
-        </member>
-        <member name="M:NetOffice.SinkHelper.RemoveEventBinding">
-            <summary>
-            release event binding
+            the error is occured in void IDTExtensibility2.OnStartupComplete(ref Array custom)
             </summary>
         </member>
-        <member name="M:NetOffice.SinkHelper.RemoveEventBinding(System.Boolean)">
+        <member name="F:NetOffice.Tools.ErrorMethodKind.OnDisconnection">
             <summary>
-            release event binding
+            the error is occured in void IDTExtensibility2.OnDisconnection(ext_DisconnectMode RemoveMode, ref Array custom)
             </summary>
         </member>
-        <member name="M:NetOffice.SinkHelper.Dispose">
+        <member name="F:NetOffice.Tools.ErrorMethodKind.OnConnection">
             <summary>
-            remove eventbinding
+            the error is occured in void IDTExtensibility2.OnConnection(object Application, ext_ConnectMode ConnectMode, object AddInInst, ref Array custom)
             </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ErrorMethodKind.OnAddInsUpdate">
+            <summary>
+             the error is occured in void IDTExtensibility2.OnAddInsUpdate(ref Array custom)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ErrorMethodKind.OnBeginShutdown">
+            <summary>
+            the error is occured in void IDTExtensibility2.OnBeginShutdown(ref Array custom)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ErrorMethodKind.GetCustomUI">
+            <summary>
+            the error is occured in public virtual string GetCustomUI(string RibbonID)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ErrorMethodKind.CTPFactoryAvailable">
+            <summary>
+            the error is occured in public virtual void CTPFactoryAvailable(object CTPFactoryInst)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.ErrorMethodKind.CreateFactory">
+            <summary>
+             the error is occured in protected virtual Factory CreateFactory()
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.CustomUIAttribute">
+            <summary>
+            Specify an embedded XML File for RibbonUI
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.CustomUIAttribute.Value">
+            <summary>
+            Full qualified location
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.CustomUIAttribute.#ctor(System.String)">
+            <summary>
+            Creates an instance of the Attribute
+            </summary>
+            <param name="value">Full qualified location</param>
+        </member>
+        <member name="T:NetOffice.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:NetOffice.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:NetOffice.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+        <member name="T:NetOffice.RunningObjectTable">
+            <summary>
+            ROT Wrapper
+            </summary>
+        </member>
+        <member name="F:NetOffice.RunningObjectTable._ballmersPlace">
+            <summary>
+            some office applications in specific version use the "Microsoft" prefix in the COM server name
+            </summary>
+        </member>
+        <member name="M:NetOffice.RunningObjectTable.GetActiveProxyFromROT(System.String,System.String,System.Boolean)">
+            <summary>
+            returns a running com proxy from the running object table. the method takes the first proxy there matched with the input parameters
+            </summary>
+            <param name="componentName">component name, for example Excel</param>
+            <param name="className">class name, for example Application</param>
+            <param name="throwOnError">throw an exception if no proxy was found</param>
+            <returns>a native COM proxy</returns>
+        </member>
+        <member name="M:NetOffice.RunningObjectTable.GetActiveProxiesFromROT(System.String,System.String)">
+            <summary>
+            returns all running com proxies from the running object table there matched with the input parameters 
+            </summary>
+            <param name="componentName">component name, for example Excel</param>
+            <param name="className">class name, for example Application</param>
+            <returns>COM proxy list</returns>
+        </member>
+        <member name="T:NetOffice.OnDisposeEventArgs">
+            <summary>
+            event args for OnDispose
+            </summary>
+        </member>
+        <member name="M:NetOffice.OnDisposeEventArgs.#ctor(NetOffice.COMObject)">
+            <summary>
+            creates a new instance
+            </summary>
+            <param name="sender">the target COM object</param>
+        </member>
+        <member name="P:NetOffice.OnDisposeEventArgs.Sender">
+            <summary>
+            the target COM object
+            </summary>
+        </member>
+        <member name="P:NetOffice.OnDisposeEventArgs.Cancel">
+            <summary>
+            Skip flag, you can cancel the operation if you want
+            </summary>
+        </member>
+        <member name="T:NetOffice.OnDisposeEventHandler">
+            <summary>
+            EventHandler delegate for COMObject.OnDispose
+            </summary>
+            <param name="eventArgs"></param>
         </member>
         <member name="T:NetOffice.NetOfficeException">
             <summary>
@@ -1120,25 +940,66 @@
             <param name="message">given exception info</param>
             <param name="innerException">inner exception</param>
         </member>
-        <member name="T:NetOffice.ExceptionMessageHandling">
+        <member name="T:NetOffice.Tools.RegisterMode">
             <summary>
-            NetOffice wrap all thrown exceptions from Office applications in a COMException. This enum can be used to set the exception message
+            Specify the kind and condition of an register method call
             </summary>
         </member>
-        <member name="F:NetOffice.ExceptionMessageHandling.Default">
+        <member name="F:NetOffice.Tools.RegisterMode.Replace">
             <summary>
-            The standard message from NetOffice.Settings.Exception
+            the base class COMAddin doesnt perform any register operations and call the specified register method with the parameter RegisterCall.Replace. The specified register method has to do all register operations
             </summary>
         </member>
-        <member name="F:NetOffice.ExceptionMessageHandling.CopyInnerExceptionMessageToTopLevelException">
+        <member name="F:NetOffice.Tools.RegisterMode.CallBefore">
             <summary>
-            The message from the source exception
+            the method was called with parameter RegisterCall.CallBefore before the base class do any register operations. 
             </summary>
         </member>
-        <member name="F:NetOffice.ExceptionMessageHandling.CopyAllInnerExceptionMessagesToTopLevelException">
+        <member name="F:NetOffice.Tools.RegisterMode.CallAfter">
             <summary>
-            All inner exception messages as a summary
+            the method was called with parameter RegisterCall.CallAfter when the base register operations is done. 
             </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterMode.CallBeforeAndAfter">
+            <summary>
+            this means a combination of CallBefore and CallAfter
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegisterCall">
+            <summary>
+            Parameter for Register/Unregister Methods
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterCall.Replace">
+            <summary>
+            the method was called without any register/unregister action from the base class. The specified register method has to do all register operations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterCall.CallBefore">
+            <summary>
+            the method is called before the base class perform all register operation
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterCall.CallAfter">
+            <summary>
+            the method was called when the base class register operations are done
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegisterFunctionAttribute">
+            <summary>
+            Mark a static method as Register method. the method need the following signature public void Register(Type type, RegisterCall callType)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterFunctionAttribute.Value">
+            <summary>
+            Register Call Condition
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.RegisterFunctionAttribute.#ctor(NetOffice.Tools.RegisterMode)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="mode">register call condition</param>
         </member>
         <member name="T:NetOffice.Core">
             <summary>
@@ -1408,113 +1269,219 @@
             </summary>
             <param name="proxyCount"></param>
         </member>
-        <member name="T:NetOffice.EntityNotSupportedException">
+        <member name="T:NetOffice.Tools.ext_ConnectMode">
             <summary>
-            Signals the target method or property is not supported from the COM proxy in the current version
+            
             </summary>
         </member>
-        <member name="M:NetOffice.EntityNotSupportedException.#ctor(System.String)">
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_AfterStartup">
             <summary>
-            creates instance
-            </summary>
-            <param name="message"></param>
-        </member>
-        <member name="T:NetOffice.CustomMethodAttribute">
-            <summary>
-            This method is a custom overload from NetOffice
+            The add-in was loaded after Application started.
             </summary>
         </member>
-        <member name="T:NetOffice.COMObjectExpandableObjectConverter">
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_Startup">
             <summary>
-            COMObject ExpandableObjectConverter (for future use)
+            The add-in was loaded when Application started.
             </summary>
         </member>
-        <member name="T:NetOffice.Tools.ErrorMethodKind">
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_External">
             <summary>
-            Indicates in which method the error is occured
+            The add-in was loaded by an external client.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.OnStartupComplete">
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_CommandLine">
             <summary>
-            the error is occured in void IDTExtensibility2.OnStartupComplete(ref Array custom)
+            The add-in was loaded from the command line.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.OnDisconnection">
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_Solution">
             <summary>
-            the error is occured in void IDTExtensibility2.OnDisconnection(ext_DisconnectMode RemoveMode, ref Array custom)
+            The add-in was loaded with a solution.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.OnConnection">
+        <member name="F:NetOffice.Tools.ext_ConnectMode.ext_cm_UISetup">
             <summary>
-            the error is occured in void IDTExtensibility2.OnConnection(object Application, ext_ConnectMode ConnectMode, object AddInInst, ref Array custom)
+            The add-in was loaded for user interface setup.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.OnAddInsUpdate">
+        <member name="T:NetOffice.Tools.ext_DisconnectMode">
             <summary>
-             the error is occured in void IDTExtensibility2.OnAddInsUpdate(ref Array custom)
+            
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.OnBeginShutdown">
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_HostShutdown">
             <summary>
-            the error is occured in void IDTExtensibility2.OnBeginShutdown(ref Array custom)
+            The add-in was unloaded when Application was shut down.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.GetCustomUI">
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_UserClosed">
             <summary>
-            the error is occured in public virtual string GetCustomUI(string RibbonID)
+            The add-in was unloaded while Application was running.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.CTPFactoryAvailable">
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_UISetupComplete">
             <summary>
-            the error is occured in public virtual void CTPFactoryAvailable(object CTPFactoryInst)
+            The add-in was unloaded after the user interface was set up.
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.ErrorMethodKind.CreateFactory">
+        <member name="F:NetOffice.Tools.ext_DisconnectMode.ext_dm_SolutionClosed">
             <summary>
-             the error is occured in protected virtual Factory CreateFactory()
+            The add-in was unloaded when the solution was closed.
             </summary>
         </member>
-        <member name="T:NetOffice.Tools.COMAddinAttribute">
+        <member name="T:NetOffice.Tools.IDTExtensibility2">
             <summary>
-            Specify essential COMAddin informations
+            
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.COMAddinAttribute.Name">
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnConnection(System.Object,NetOffice.Tools.ext_ConnectMode,System.Object,System.Array@)">
             <summary>
-            Display Name for the Addin
+            
+            </summary>
+            <param name="Application"></param>
+            <param name="ConnectMode"></param>
+            <param name="AddInInst"></param>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnDisconnection(NetOffice.Tools.ext_DisconnectMode,System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="RemoveMode"></param>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnAddInsUpdate(System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnStartupComplete(System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="M:NetOffice.Tools.IDTExtensibility2.OnBeginShutdown(System.Array@)">
+            <summary>
+            
+            </summary>
+            <param name="custom"></param>
+        </member>
+        <member name="T:NetOffice.Tools.OnStartupCompleteEventHandler">
+            <summary>
+            OnStartupComplete Event Handler
+            </summary>
+            <param name="custom">custom arguments</param>
+        </member>
+        <member name="T:NetOffice.Tools.OnDisconnectionEventHandler">
+            <summary>
+            OnDisconnection Event Handler
+            </summary>
+            <param name="RemoveMode">kind of remove</param>
+            <param name="custom">custom arguments</param>
+        </member>
+        <member name="T:NetOffice.Tools.OnConnectionEventHandler">
+            <summary>
+            OnConnection Event Handler
+            </summary>
+            <param name="Application">application host instance</param>
+            <param name="ConnectMode">kind of connect</param>
+            <param name="AddInInst">addin instance</param>
+            <param name="custom">custom arguments</param>
+        </member>
+        <member name="T:NetOffice.Tools.OnAddInsUpdateEventHandler">
+            <summary>
+            OnAddInsUpdate Event Handler
+            </summary>
+            <param name="custom">custom arguments</param>
+        </member>
+        <member name="T:NetOffice.Tools.OnBeginShutdownEventHandler">
+            <summary>
+            OnBeginShutdown Event Handler
+            </summary>
+            <param name="custom">custom arguments</param>
+        </member>
+        <member name="T:NetOffice.Tools.AttributeHelper">
+            <summary>
+            Provides Attribute Helper functions
             </summary>
         </member>
-        <member name="F:NetOffice.Tools.COMAddinAttribute.Description">
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterErrorMethod(System.Type)">
             <summary>
-            Description for the Addin
+            Anyalyze first parameter and returns the register error method delegate if exists
             </summary>
+            <param name="type">Type of target addin</param>
+            <returns>delegate or null</returns>
         </member>
-        <member name="F:NetOffice.Tools.COMAddinAttribute.LoadBehavior">
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterErrorAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.RegisterErrorHandlerAttribute@)">
             <summary>
-            LoadBehavior for the Addin
+            Looks for a method with the RegisterErrorHandlerFunctionAttribute
             </summary>
+            <param name="type">the type you want looking for the method</param>
+            <param name="method">the method when its found</param>
+            <param name="attribute">the attribute when its found</param>
+            <returns>true when the method was found</returns>
         </member>
-        <member name="F:NetOffice.Tools.COMAddinAttribute.CommandLineSafe">
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.RegisterFunctionAttribute@)">
             <summary>
-            Gives info the Addin is commandline safe
+             Looks for a method with the RegisterFunctionAttribute
             </summary>
+            <param name="type">the type you want looking for the method</param>
+            <param name="method">the method when its found</param>
+            <param name="attribute">the attribute when its found</param>
+            <returns>true when the method was found</returns>
         </member>
-        <member name="M:NetOffice.Tools.COMAddinAttribute.#ctor(System.String,System.String,System.Int32)">
+        <member name="M:NetOffice.Tools.AttributeHelper.GetUnRegisterAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.UnRegisterFunctionAttribute@)">
             <summary>
-            Creates an instance of the attribute
+            Looks for a method with the UnRegisterFunctionAttribute
             </summary>
-            <param name="name">Display Name for the Addin</param>
-            <param name="description">Description for the Addin</param>
-            <param name="loadBehavior">LoadBehavior for the Addin</param>
+            <param name="type">the type you want looking for the method</param>
+            <param name="method">the method when its found</param>
+            <param name="attribute">the attribute when its found</param>
+            <returns>true when the method was found</returns>
         </member>
-        <member name="M:NetOffice.Tools.COMAddinAttribute.#ctor(System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRibbonAttribute(System.Type)">
             <summary>
-            Creates an instance of the attribute
+            Looks for the CustomUIAttribute
             </summary>
-            <param name="name">Display Name for the Addin</param>
-            <param name="description">Description for the Addin</param>
-            <param name="loadBehavior">LoadBehavior for the Addin</param>
-            <param name="commandLineSafe">Gives info the Addin is commandline safe</param>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>CustomUIAttribute or null</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetGuidAttribute(System.Type)">
+            <summary>
+            Looks for the GuidAttribute. Throws an exception if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>GuidAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetProgIDAttribute(System.Type)">
+            <summary>
+            Looks for the ProgIdAttribute. Throws an exception if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>ProgIdAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetTweakAttribute(System.Type)">
+            Looks for the TweakAttribute.
+            <summary>
+            <param name="type">the type you want looking for the attribute</param>
+            </summary>
+            <returns>TweakAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetRegistryLocationAttribute(System.Type)">
+            <summary>
+            Looks for the RegistryLocationAttribute. Returns a default RegistryLocationAttribute(CurrentUser) if not found
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>RegistryLocationAttribute</returns>
+        </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetCOMAddinAttribute(System.Type)">
+            <summary>
+            Looks for the COMAddinAttribute.
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>COMAddinAttribute</returns>
         </member>
         <member name="T:NetOffice.Settings">
             <summary>
@@ -1612,6 +1579,421 @@
             <summary>
             Get or set NetOffice spend custom overloads for the "==" and "!=" operators for semanticly comparsion. true by default
             </summary>
+        </member>
+        <member name="T:NetOffice.ExceptionMessageHandling">
+            <summary>
+            NetOffice wrap all thrown exceptions from Office applications in a COMException. This enum can be used to set the exception message
+            </summary>
+        </member>
+        <member name="F:NetOffice.ExceptionMessageHandling.Default">
+            <summary>
+            The standard message from NetOffice.Settings.Exception
+            </summary>
+        </member>
+        <member name="F:NetOffice.ExceptionMessageHandling.CopyInnerExceptionMessageToTopLevelException">
+            <summary>
+            The message from the source exception
+            </summary>
+        </member>
+        <member name="F:NetOffice.ExceptionMessageHandling.CopyAllInnerExceptionMessagesToTopLevelException">
+            <summary>
+            All inner exception messages as a summary
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.TweakAttribute">
+            <summary>
+            Activate COMAddin tweak options. you can add various values in the office add-in regristry location
+            to customize NetOffice diagnostic/log settings at runtime. This can be very helpful in troubleshooting.
+            See tweak overview here: http://netoffice.codeplex.com/wikipage?title=Tweaks_EN
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.TweakAttribute.Enabled">
+            <summary>
+            Enable or disable possible tweaking is possible
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.TweakAttribute.#ctor(System.Boolean)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="enabled">Enable or disable possible tweaking is possible</param>
+        </member>
+        <member name="T:NetOffice.Tools.RegistrySaveLocation">
+            <summary>
+            specifiy possible registry locations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegistrySaveLocation.CurrentUser">
+            <summary>
+            CurrentUser Key
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegistrySaveLocation.LocalMachine">
+            <summary>
+            LocalMachineKey (permissions required)
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegistryLocationAttribute">
+            <summary>
+            Specify the addin registry keys for office was created in the Machine key or current user
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegistryLocationAttribute.Value">
+            <summary>
+            Registry Location
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.RegistryLocationAttribute.#ctor(NetOffice.Tools.RegistrySaveLocation)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="value">Registry location</param>
+        </member>
+        <member name="T:NetOffice.CustomMethodAttribute">
+            <summary>
+            This method is a custom overload from NetOffice
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.UnRegisterFunctionAttribute">
+            <summary>
+            Mark a static method as UnRegister method. the method need the following signature public void UnRegister(Type type, RegisterCall callType)
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.UnRegisterFunctionAttribute.Value">
+            <summary>
+            Register Call Condition
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.UnRegisterFunctionAttribute.#ctor(NetOffice.Tools.RegisterMode)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="mode">register call condition</param>
+        </member>
+        <member name="T:NetOffice.NetOfficeAssemblyAttribute">
+            <summary>
+            Indicates assembly is a NetOffice api assembly
+            </summary>
+        </member>
+        <member name="F:NetOffice.NetOfficeAssemblyAttribute.SupportedApiVersion">
+            <summary>
+            version
+            </summary>
+        </member>
+        <member name="M:NetOffice.NetOfficeAssemblyAttribute.#ctor(System.String)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="apiVersion"></param>
+        </member>
+        <member name="T:NetOffice.DebugConsoleMode">
+            <summary>
+            DebugConsole operation mode 
+            </summary>
+        </member>
+        <member name="F:NetOffice.DebugConsoleMode.None">
+            <summary>
+            debug log are not enabled
+            </summary>
+        </member>
+        <member name="F:NetOffice.DebugConsoleMode.Console">
+            <summary>
+            debug log was redirected to System.Console
+            </summary>
+        </member>
+        <member name="F:NetOffice.DebugConsoleMode.LogFile">
+            <summary>
+            debug log append to a logfile
+            </summary>
+        </member>
+        <member name="F:NetOffice.DebugConsoleMode.MemoryList">
+            <summary>
+            hold all debug and exceptions logs in a internal string list
+            </summary>
+        </member>
+        <member name="F:NetOffice.DebugConsoleMode.Trace">
+            <summary>
+            debug log was redirected to System.Diagnostics.Trace
+            </summary>
+        </member>
+        <member name="T:NetOffice.SupportEntityType">
+            <summary>
+            search parameter for the EntityIsAvailable Method
+            </summary>
+        </member>
+        <member name="F:NetOffice.SupportEntityType.Both">
+            <summary>
+            looking for a method or a property
+            </summary>
+        </member>
+        <member name="F:NetOffice.SupportEntityType.Property">
+            <summary>
+            looking for a property only
+            </summary>
+        </member>
+        <member name="F:NetOffice.SupportEntityType.Method">
+            <summary>
+            looking for a method only
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.COMAddinAttribute">
+            <summary>
+            Specify essential COMAddin informations
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.Name">
+            <summary>
+            Display Name for the Addin
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.Description">
+            <summary>
+            Description for the Addin
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.LoadBehavior">
+            <summary>
+            LoadBehavior for the Addin
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.COMAddinAttribute.CommandLineSafe">
+            <summary>
+            Gives info the Addin is commandline safe
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.COMAddinAttribute.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="name">Display Name for the Addin</param>
+            <param name="description">Description for the Addin</param>
+            <param name="loadBehavior">LoadBehavior for the Addin</param>
+        </member>
+        <member name="M:NetOffice.Tools.COMAddinAttribute.#ctor(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates an instance of the attribute
+            </summary>
+            <param name="name">Display Name for the Addin</param>
+            <param name="description">Description for the Addin</param>
+            <param name="loadBehavior">LoadBehavior for the Addin</param>
+            <param name="commandLineSafe">Gives info the Addin is commandline safe</param>
+        </member>
+        <member name="T:NetOffice.SharedOutputMode">
+            <summary>
+            Shared output connection technique
+            </summary>
+        </member>
+        <member name="F:NetOffice.SharedOutputMode.LocalNamedPipes">
+            <summary>
+            IPC named pipes
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.Tweaks">
+            <summary>
+            Tweak Handler to customize some settings at runtime (if wanted)
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.Tweaks.#cctor">
+            <summary>
+            Creates no instance of the class
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.Tweaks.ApplyTweaks(NetOffice.Core,System.Object,System.Type,System.String)">
+            <summary>
+            Analyze a COMAddin for the TweakAttribute and try to set given arguments(registry) if exists
+            </summary>
+            <param name="factory">current used factory or null for default</param>
+            <param name="addinInstance">COMAddin instance</param>
+            <param name="addinType">Type info from COMAddin instance</param>
+            <param name="registryEndPoint">specific office registry key endpoint</param>
+        </member>
+        <member name="M:NetOffice.Tools.Tweaks.DisposeTweaks(NetOffice.Core,System.Object,System.Type)">
+            <summary>
+            Dispose applied tweaks for COMAddin instance
+            </summary>
+            <param name="factory">current used factory or null for default</param>
+            <param name="addinInstance">COMAddin instance</param>
+            <param name="addinType">Type info from COMAddin instance</param>
+        </member>
+        <member name="M:NetOffice.Tools.Tweaks.IsWellKnownName(System.String)">
+            <summary>
+            Returns info the regkey value name is addin standard or NetOffice tweak
+            </summary>
+            <param name="name">target regky name</param>
+            <returns>true if found</returns>
+        </member>
+        <member name="P:NetOffice.Tools.Tweaks.CustomTweaks">
+            <summary>
+            Store applied custom teaks. int = GetHashCode() from COMAddin instance. Dictionary string string = name, value of applied tweak
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegisterErrorHandlerAttribute">
+            <summary>
+            Mark a static method as error handler for COMAddin methods. The static method need the following signature: public static void ErrorHandler(RegisterErrorMethodKind methodKind, Exception exception)
+            Rethrow the exception(second argument) in the method body to the runtime system if you want signalize an error to the environment(typical not wanted)
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.RegisterErrorMethodKind">
+            <summary>
+            Indicates in which method the error is occured
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterErrorMethodKind.Register">
+            <summary>
+            the error is occured in the Register operation
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.RegisterErrorMethodKind.UnRegister">
+            <summary>
+             the error is occured in the Unregister operation
+            </summary>
+        </member>
+        <member name="T:NetOffice.SinkHelper">
+            <summary>
+            Sink Helper Base Class for an Event Interface Sink helper class
+            </summary>
+        </member>
+        <member name="M:NetOffice.SinkHelper.#ctor(NetOffice.COMObject)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="eventClass"></param>
+        </member>
+        <member name="M:NetOffice.SinkHelper.FindConnectionPoint(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+            <summary>
+            try to find connection point by FindConnectionPoint
+            </summary>
+            <param name="comInstance"></param>
+            <param name="connectionPointContainer"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.SinkHelper.EnumConnectionPoint(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPointContainer,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+            <summary>
+            try to find connection point by EnumConnectionPoints
+            </summary>
+            <param name="comInstance"></param>
+            <param name="connectionPointContainer"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.SinkHelper.GetConnectionPoint(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+            <summary>
+            get supported connection point from comProxy
+            </summary>
+            <param name="comInstance"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.SinkHelper.GetConnectionPoint2(NetOffice.COMObject,System.Runtime.InteropServices.ComTypes.IConnectionPoint@,System.String[])">
+            <summary>
+            get supported connection point from comProxy in reverse order to GetConnectionPoint
+            </summary>
+            <param name="comInstance"></param>
+            <param name="point"></param>
+            <param name="sinkIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetOffice.SinkHelper.DisposeAll">
+            <summary>
+            Dispose all active event bridges
+            </summary>
+        </member>
+        <member name="M:NetOffice.SinkHelper.SetupEventBinding(System.Runtime.InteropServices.ComTypes.IConnectionPoint)">
+            <summary>
+            create event binding
+            </summary>
+            <param name="connectPoint"></param>
+        </member>
+        <member name="M:NetOffice.SinkHelper.RemoveEventBinding">
+            <summary>
+            release event binding
+            </summary>
+        </member>
+        <member name="M:NetOffice.SinkHelper.RemoveEventBinding(System.Boolean)">
+            <summary>
+            release event binding
+            </summary>
+        </member>
+        <member name="M:NetOffice.SinkHelper.Dispose">
+            <summary>
+            remove eventbinding
+            </summary>
+        </member>
+        <member name="T:NetOffice.EntityNotSupportedException">
+            <summary>
+            Signals the target method or property is not supported from the COM proxy in the current version
+            </summary>
+        </member>
+        <member name="M:NetOffice.EntityNotSupportedException.#ctor(System.String)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:NetOffice.DependentAssembly">
+            <summary>
+            dependent assembly description
+            </summary>
+        </member>
+        <member name="T:NetOffice.EntityType">
+            <summary>
+            Indicates original type of entity
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsCoClass">
+            <summary>
+            entity is class
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsDispatchInterface">
+            <summary>
+            entity is dispatch interface
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsInterface">
+            <summary>
+            entity is interface
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsModule">
+            <summary>
+            entity is module
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsEnum">
+            <summary>
+            entity is enum
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsStruct">
+            <summary>
+            entity is struct
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityType.IsConstants">
+            <summary>
+            entity is const module
+            </summary>
+        </member>
+        <member name="T:NetOffice.EntityTypeAttribute">
+            <summary>
+            Indicates original type of entity in COM Type Library
+            </summary>
+        </member>
+        <member name="F:NetOffice.EntityTypeAttribute.Type">
+            <summary>
+            returns type of entity
+            </summary>
+        </member>
+        <member name="M:NetOffice.EntityTypeAttribute.#ctor(NetOffice.EntityType)">
+            <summary>
+            creates instance
+            </summary>
+            <param name="type"></param>
         </member>
         <member name="T:NetOffice.COMObject">
             <summary>
@@ -1998,412 +2380,30 @@
             NetOffice event: these event was called from Dispose and you can skip the dipose operation here if you want. the event can be helpful for troubleshooting if you dont know why your objects beeing disposed
             </summary>
         </member>
-        <member name="T:NetOffice.OnDisposeEventArgs">
+        <member name="M:NetOffice.NamedPipes.PipeClient.SendConsoleMessage(System.String,System.String)">
             <summary>
-            event args for OnDispose
+            Send a message to specific console
             </summary>
+            <param name="console">name of the console. use null for main console</param>
+            <param name="message">given message as any</param>        
+            <returns>loghandle from server if recieved</returns>
         </member>
-        <member name="M:NetOffice.OnDisposeEventArgs.#ctor(NetOffice.COMObject)">
+        <member name="M:NetOffice.NamedPipes.PipeClient.SendConsoleMessage(System.String,System.String,System.String)">
             <summary>
-            creates a new instance
+            Send a message to specific console
             </summary>
-            <param name="sender">the target COM object</param>
+            <param name="console">name of the console. use null for main console</param>
+            <param name="message">given message as any</param>  
+            <param name="parentMessageID">parent loghandle or null</param>  
+            <returns>loghandle from server if recieved</returns>
         </member>
-        <member name="P:NetOffice.OnDisposeEventArgs.Sender">
+        <member name="M:NetOffice.NamedPipes.PipeClient.SendChannelMessage(System.String,System.String)">
             <summary>
-            the target COM object
+            Send a message to specific channel
             </summary>
-        </member>
-        <member name="P:NetOffice.OnDisposeEventArgs.Cancel">
-            <summary>
-            Skip flag, you can cancel the operation if you want
-            </summary>
-        </member>
-        <member name="T:NetOffice.OnDisposeEventHandler">
-            <summary>
-            EventHandler delegate for COMObject.OnDispose
-            </summary>
-            <param name="eventArgs"></param>
-        </member>
-        <member name="T:NetOffice.EntityType">
-            <summary>
-            Indicates original type of entity
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsCoClass">
-            <summary>
-            entity is class
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsDispatchInterface">
-            <summary>
-            entity is dispatch interface
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsInterface">
-            <summary>
-            entity is interface
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsModule">
-            <summary>
-            entity is module
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsEnum">
-            <summary>
-            entity is enum
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsStruct">
-            <summary>
-            entity is struct
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityType.IsConstants">
-            <summary>
-            entity is const module
-            </summary>
-        </member>
-        <member name="T:NetOffice.EntityTypeAttribute">
-            <summary>
-            Indicates original type of entity in COM Type Library
-            </summary>
-        </member>
-        <member name="F:NetOffice.EntityTypeAttribute.Type">
-            <summary>
-            returns type of entity
-            </summary>
-        </member>
-        <member name="M:NetOffice.EntityTypeAttribute.#ctor(NetOffice.EntityType)">
-            <summary>
-            creates instance
-            </summary>
-            <param name="type"></param>
-        </member>
-        <member name="T:NetOffice.Tools.RegisterErrorHandlerAttribute">
-            <summary>
-            Mark a static method as error handler for COMAddin methods. The static method need the following signature: public static void ErrorHandler(RegisterErrorMethodKind methodKind, Exception exception)
-            Rethrow the exception(second argument) in the method body to the runtime system if you want signalize an error to the environment(typical not wanted)
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.RegisterErrorMethodKind">
-            <summary>
-            Indicates in which method the error is occured
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterErrorMethodKind.Register">
-            <summary>
-            the error is occured in the Register operation
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterErrorMethodKind.UnRegister">
-            <summary>
-             the error is occured in the Unregister operation
-            </summary>
-        </member>
-        <member name="T:NetOffice.Properties.Resources">
-            <summary>
-              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
-            </summary>
-        </member>
-        <member name="P:NetOffice.Properties.Resources.ResourceManager">
-            <summary>
-              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
-            </summary>
-        </member>
-        <member name="P:NetOffice.Properties.Resources.Culture">
-            <summary>
-              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
-              Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
-            </summary>
-        </member>
-        <member name="T:NetOffice.DebugConsoleMode">
-            <summary>
-            DebugConsole operation mode 
-            </summary>
-        </member>
-        <member name="F:NetOffice.DebugConsoleMode.None">
-            <summary>
-            debug log are not enabled
-            </summary>
-        </member>
-        <member name="F:NetOffice.DebugConsoleMode.Console">
-            <summary>
-            debug log was redirected to System.Console
-            </summary>
-        </member>
-        <member name="F:NetOffice.DebugConsoleMode.LogFile">
-            <summary>
-            debug log append to a logfile
-            </summary>
-        </member>
-        <member name="F:NetOffice.DebugConsoleMode.MemoryList">
-            <summary>
-            hold all debug and exceptions logs in a internal string list
-            </summary>
-        </member>
-        <member name="F:NetOffice.DebugConsoleMode.Trace">
-            <summary>
-            debug log was redirected to System.Diagnostics.Trace
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.AttributeHelper">
-            <summary>
-            Provides Attribute Helper functions
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterErrorMethod(System.Type)">
-            <summary>
-            Anyalyze first parameter and returns the register error method delegate if exists
-            </summary>
-            <param name="type">Type of target addin</param>
-            <returns>delegate or null</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterErrorAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.RegisterErrorHandlerAttribute@)">
-            <summary>
-            Looks for a method with the RegisterErrorHandlerFunctionAttribute
-            </summary>
-            <param name="type">the type you want looking for the method</param>
-            <param name="method">the method when its found</param>
-            <param name="attribute">the attribute when its found</param>
-            <returns>true when the method was found</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetRegisterAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.RegisterFunctionAttribute@)">
-            <summary>
-             Looks for a method with the RegisterFunctionAttribute
-            </summary>
-            <param name="type">the type you want looking for the method</param>
-            <param name="method">the method when its found</param>
-            <param name="attribute">the attribute when its found</param>
-            <returns>true when the method was found</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetUnRegisterAttribute(System.Type,System.Reflection.MethodInfo@,NetOffice.Tools.UnRegisterFunctionAttribute@)">
-            <summary>
-            Looks for a method with the UnRegisterFunctionAttribute
-            </summary>
-            <param name="type">the type you want looking for the method</param>
-            <param name="method">the method when its found</param>
-            <param name="attribute">the attribute when its found</param>
-            <returns>true when the method was found</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetRibbonAttribute(System.Type)">
-            <summary>
-            Looks for the CustomUIAttribute
-            </summary>
-            <param name="type">the type you want looking for the attribute</param>
-            <returns>CustomUIAttribute or null</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetGuidAttribute(System.Type)">
-            <summary>
-            Looks for the GuidAttribute. Throws an exception if not found
-            </summary>
-            <param name="type">the type you want looking for the attribute</param>
-            <returns>GuidAttribute</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetProgIDAttribute(System.Type)">
-            <summary>
-            Looks for the ProgIdAttribute. Throws an exception if not found
-            </summary>
-            <param name="type">the type you want looking for the attribute</param>
-            <returns>ProgIdAttribute</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetTweakAttribute(System.Type)">
-            Looks for the TweakAttribute.
-            <summary>
-            <param name="type">the type you want looking for the attribute</param>
-            </summary>
-            <returns>TweakAttribute</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetRegistryLocationAttribute(System.Type)">
-            <summary>
-            Looks for the RegistryLocationAttribute. Returns a default RegistryLocationAttribute(CurrentUser) if not found
-            </summary>
-            <param name="type">the type you want looking for the attribute</param>
-            <returns>RegistryLocationAttribute</returns>
-        </member>
-        <member name="M:NetOffice.Tools.AttributeHelper.GetCOMAddinAttribute(System.Type)">
-            <summary>
-            Looks for the COMAddinAttribute.
-            </summary>
-            <param name="type">the type you want looking for the attribute</param>
-            <returns>COMAddinAttribute</returns>
-        </member>
-        <member name="T:NetOffice.SharedOutputMode">
-            <summary>
-            Shared output connection technique
-            </summary>
-        </member>
-        <member name="F:NetOffice.SharedOutputMode.LocalNamedPipes">
-            <summary>
-            IPC named pipes
-            </summary>
-        </member>
-        <member name="T:NetOffice.SupportEntityType">
-            <summary>
-            search parameter for the EntityIsAvailable Method
-            </summary>
-        </member>
-        <member name="F:NetOffice.SupportEntityType.Both">
-            <summary>
-            looking for a method or a property
-            </summary>
-        </member>
-        <member name="F:NetOffice.SupportEntityType.Property">
-            <summary>
-            looking for a property only
-            </summary>
-        </member>
-        <member name="F:NetOffice.SupportEntityType.Method">
-            <summary>
-            looking for a method only
-            </summary>
-        </member>
-        <member name="T:NetOffice.NetOfficeAssemblyAttribute">
-            <summary>
-            Indicates assembly is a NetOffice api assembly
-            </summary>
-        </member>
-        <member name="F:NetOffice.NetOfficeAssemblyAttribute.SupportedApiVersion">
-            <summary>
-            version
-            </summary>
-        </member>
-        <member name="M:NetOffice.NetOfficeAssemblyAttribute.#ctor(System.String)">
-            <summary>
-            creates instance
-            </summary>
-            <param name="apiVersion"></param>
-        </member>
-        <member name="T:NetOffice.IFactoryInfo">
-            <summary>
-            info about a NetOffice assembly
-            </summary>
-        </member>
-        <member name="M:NetOffice.IFactoryInfo.Contains(System.String)">
-            <summary>
-            returns info a class with given name exists in NetOfficeApi assembly
-            </summary>
-            <param name="className"></param>
-            <returns></returns>
-        </member>
-        <member name="P:NetOffice.IFactoryInfo.AssemblyNamespace">
-            <summary>
-            namespace of assembly
-            </summary>
-        </member>
-        <member name="P:NetOffice.IFactoryInfo.ComponentGuid">
-            <summary>
-            guid of component there represents the NetOfficeApi assembly
-            </summary>
-        </member>
-        <member name="P:NetOffice.IFactoryInfo.Assembly">
-            <summary>
-            assembly info of NetOfficeApi assembly
-            </summary>
-        </member>
-        <member name="P:NetOffice.IFactoryInfo.Dependencies">
-            <summary>
-            returns a name array of dependent NetOfficeApi assemblies
-            </summary>
-        </member>
-        <member name="T:NetOffice.DependentAssembly">
-            <summary>
-            dependent assembly description
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.UnRegisterFunctionAttribute">
-            <summary>
-            Mark a static method as UnRegister method. the method need the following signature public void UnRegister(Type type, RegisterCall callType)
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.UnRegisterFunctionAttribute.Value">
-            <summary>
-            Register Call Condition
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.UnRegisterFunctionAttribute.#ctor(NetOffice.Tools.RegisterMode)">
-            <summary>
-            Creates an instance of the attribute
-            </summary>
-            <param name="mode">register call condition</param>
-        </member>
-        <member name="T:NetOffice.Tools.RegisterMode">
-            <summary>
-            Specify the kind and condition of an register method call
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterMode.Replace">
-            <summary>
-            the base class COMAddin doesnt perform any register operations and call the specified register method with the parameter RegisterCall.Replace. The specified register method has to do all register operations
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterMode.CallBefore">
-            <summary>
-            the method was called with parameter RegisterCall.CallBefore before the base class do any register operations. 
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterMode.CallAfter">
-            <summary>
-            the method was called with parameter RegisterCall.CallAfter when the base register operations is done. 
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterMode.CallBeforeAndAfter">
-            <summary>
-            this means a combination of CallBefore and CallAfter
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.RegisterCall">
-            <summary>
-            Parameter for Register/Unregister Methods
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterCall.Replace">
-            <summary>
-            the method was called without any register/unregister action from the base class. The specified register method has to do all register operations
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterCall.CallBefore">
-            <summary>
-            the method is called before the base class perform all register operation
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterCall.CallAfter">
-            <summary>
-            the method was called when the base class register operations are done
-            </summary>
-        </member>
-        <member name="T:NetOffice.Tools.RegisterFunctionAttribute">
-            <summary>
-            Mark a static method as Register method. the method need the following signature public void Register(Type type, RegisterCall callType)
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.RegisterFunctionAttribute.Value">
-            <summary>
-            Register Call Condition
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.RegisterFunctionAttribute.#ctor(NetOffice.Tools.RegisterMode)">
-            <summary>
-            Creates an instance of the attribute
-            </summary>
-            <param name="mode">register call condition</param>
-        </member>
-        <member name="T:NetOffice.Tools.CustomUIAttribute">
-            <summary>
-            Specify an embedded XML File for RibbonUI
-            </summary>
-        </member>
-        <member name="F:NetOffice.Tools.CustomUIAttribute.Value">
-            <summary>
-            Full qualified location
-            </summary>
-        </member>
-        <member name="M:NetOffice.Tools.CustomUIAttribute.#ctor(System.String)">
-            <summary>
-            Creates an instance of the Attribute
-            </summary>
-            <param name="value">Full qualified location</param>
+            <param name="channel">name of the channel</param>
+            <param name="message">given message as any</param>
+            <returns>loghandle from server if recieved</returns>
         </member>
     </members>
 </doc>
