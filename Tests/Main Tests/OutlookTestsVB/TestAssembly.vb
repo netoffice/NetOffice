@@ -15,9 +15,6 @@ Public Class TestAssembly
 
         If IsNothing(_listPackages) Then
 
-            NetOffice.DebugConsole.Default.Mode = NetOffice.DebugConsoleMode.Console
-            NetOffice.DebugConsole.Default.EnableSharedOutput = True
-
             _listPackages = New List(Of ITestPackage)
             _listPackages.Add(New Test01())
             _listPackages.Add(New Test02())

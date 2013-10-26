@@ -16,10 +16,6 @@ Public Class TestAssembly
 
         If IsNothing(_listPackages) Then
 
-            NetOffice.DebugConsole.Default.Mode = NetOffice.DebugConsoleMode.Console
-            NetOffice.DebugConsole.Default.EnableSharedOutput = True
-            AddRegistryTweaks()
-
             _listPackages = New List(Of ITestPackage)
             _listPackages.Add(New Test01())
             _listPackages.Add(New Test02())
@@ -42,16 +38,5 @@ Public Class TestAssembly
             Return "Word"
         End Get
     End Property
-
-    Private Sub AddRegistryTweaks()
-
-        Dim key As RegistryKey = Registry.LocalMachine.OpenSubKey("Software\\Microsoft\\Office\\Word\\Addins\\NOTestsMain.WordTestAddinVB", True)
-        If Not IsNothing(key) Then
-            key.SetValue("NOExceptionMessage", "WordTweakVB", RegistryValueKind.String)
-            key.Close()
-            key.Dispose()
-        End If
-
-    End Sub
 
 End Class

@@ -109,6 +109,13 @@ Public Class TestAddin
 
     End Sub
 
+    Protected Overrides Function AllowApplyTweak(ByVal name As String, ByVal value As String) As Boolean
+
+        Factory.Console.SendPipeConsoleMessage("ExcelTestAddinVB", String.Format("AllowApplyTweak {0}:{1}", name, value))
+        Return True
+
+    End Function
+
     Protected Overrides Sub OnError(ByVal methodKind As NetOffice.Tools.ErrorMethodKind, ByVal exception As System.Exception)
 
         If (IsNothing(GeneralError)) Then
@@ -116,6 +123,13 @@ Public Class TestAddin
         End If
 
         GeneralError += methodKind.ToString() + Environment.NewLine + exception.GetType().Name + Environment.NewLine + exception.Message
+
+    End Sub
+
+    <RegisterFunction(RegisterMode.CallAfter)> _
+    Public Shared Sub Register(ByVal type As Type, ByVal registerCall As RegisterCall)
+
+        SetTweakPersistenceEntry(type, "NOExceptionMessage", "Test09TweakVB", False)
 
     End Sub
 

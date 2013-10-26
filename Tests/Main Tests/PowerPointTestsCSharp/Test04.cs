@@ -46,7 +46,7 @@ namespace PowerPointTestsCSharp
                 PowerPoint.Presentation presentation = application.Presentations.Add(MsoTriState.msoTrue);
                 PowerPoint.Slide slide = presentation.Slides.Add(1, PpSlideLayout.ppLayoutBlank);
 
-                // add a chart
+                // add a chart. MSGraph.Chart is may not installed
                 slide.Shapes.AddOLEObject(120, 111, 480, 320, "MSGraph.Chart", "", MsoTriState.msoFalse, "", 0, "", MsoTriState.msoFalse); 
 
                 return new TestResult(true, DateTime.Now.Subtract(startTime), "", null, "");

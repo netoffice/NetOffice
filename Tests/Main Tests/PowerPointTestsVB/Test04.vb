@@ -43,7 +43,7 @@ Public Class Test04
             Dim presentation As PowerPoint.Presentation = application.Presentations.Add(MsoTriState.msoTrue)
             Dim slide As PowerPoint.Slide = presentation.Slides.Add(1, PpSlideLayout.ppLayoutBlank)
 
-            ' add a chart
+            ' add a chart. MSGraph.Chart is may not installed
             slide.Shapes.AddOLEObject(120, 111, 480, 320, "MSGraph.Chart", "", MsoTriState.msoFalse, "", 0, "", MsoTriState.msoFalse)
 
             Return New TestResult(True, DateTime.Now.Subtract(startTime), "", Nothing, "")

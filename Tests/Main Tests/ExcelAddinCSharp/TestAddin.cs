@@ -11,10 +11,13 @@ namespace ExcelAddinCSharp
 {
     [COMAddin("NOTestsMain.ExcelTestAddinCSharp", "This is a test addin from NOTests.Main", 3), Tweak(true)]
     [Guid("D48A7B31-8C03-43A8-8504-3883843799A8"), ProgId("NOTestsMain.ExcelTestAddinCSharp"), CustomUI("ExcelAddinCSharp.RibbonUI.xml")]
-    public class TestAddin : COMAddin 
+    public class TestAddin : COMAddin
     {
+        #region Ctor
+        
         public TestAddin()
         {
+            Factory.Console.Name = "ExcelTestAddinCSharp";
             TaskPanes.Add(typeof(SampleControl), "NOTestsMain - C# Excel Pane");
             TaskPanes[0].DockPosition = MsoCTPDockPosition.msoCTPDockPositionRight;
             TaskPanes[0].DockPositionRestrict = MsoCTPDockPositionRestrict.msoCTPDockPositionRestrictNoHorizontal;
@@ -25,6 +28,10 @@ namespace ExcelAddinCSharp
             this.OnConnection += new OnConnectionEventHandler(TestAddin_OnConnection);
         }
 
+        #endregion
+
+        #region Properties
+        
         public bool StatusOkay
         {
             get
@@ -79,6 +86,10 @@ namespace ExcelAddinCSharp
 
         internal Office.IRibbonUI RibbonUI { get; private set; }
 
+        #endregion
+
+        #region Trigger
+        
         private void TestAddin_OnConnection(object Application, NetOffice.Tools.ext_ConnectMode ConnectMode, object AddInInst, ref Array custom)
         {
             Factory.Initialize();
@@ -97,6 +108,16 @@ namespace ExcelAddinCSharp
             return Factory.Settings.ExceptionMessage;
         }
 
+        #endregion
+
+        #region Overrides
+
+        protected override bool AllowApplyTweak(string name, string value)
+        {
+            Factory.Console.SendPipeConsoleMessage("ExcelTestAddinCSharp", String.Format("AllowApplyTweak {0}:{1}", name, value));
+            return true;
+        }
+
         protected override void OnError(ErrorMethodKind methodKind, Exception exception)
         {
             if (null == GeneralError)
@@ -104,5 +125,13 @@ namespace ExcelAddinCSharp
             GeneralError += methodKind.ToString() + Environment.NewLine + exception.GetType().Name + Environment.NewLine + exception.Message;
 
         }
+
+        [RegisterFunction(RegisterMode.CallAfter)]
+        public static void Register(Type type, RegisterCall registerCall)
+        {
+            SetTweakPersistenceEntry(type, "NOExceptionMessage", "Test09TweakCS", false);
+        }
+
+        #endregion
     }
 }
