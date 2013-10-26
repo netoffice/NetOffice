@@ -34,11 +34,6 @@ namespace ExcelTestsCSharp
         {
             if (null == _listPackages)
             {
-                AddRegistryTweaks();
-
-                NetOffice.DebugConsole.Default.Mode = NetOffice.DebugConsoleMode.Console;
-                NetOffice.DebugConsole.Default.EnableSharedOutput = true;
-
                 _listPackages = new List<ITestPackage>();
                 _listPackages.Add(new Test01());
                 _listPackages.Add(new Test02());
@@ -54,16 +49,5 @@ namespace ExcelTestsCSharp
         }
 
         #endregion
-
-        private void AddRegistryTweaks()
-        {
-            RegistryKey key = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Office\\Excel\\Addins\\NOTestsMain.ExcelTestAddinCSharp", true);
-            if (null != key)
-            {
-                key.SetValue("NOExceptionMessage", "Test09TweakCS", RegistryValueKind.String);
-                key.Close();
-                key.Dispose();
-            }
-        }
     }
 }

@@ -33,9 +33,6 @@ namespace AccessTestsCSharp
         {
             if (null == _listPackages)
             {
-                NetOffice.DebugConsole.Default.Mode = NetOffice.DebugConsoleMode.Console;
-                NetOffice.DebugConsole.Default.EnableSharedOutput = true;
-
                 _listPackages = new List<ITestPackage>();
                 _listPackages.Add(new Test01());
                 _listPackages.Add(new Test02());

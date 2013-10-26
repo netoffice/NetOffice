@@ -34,11 +34,6 @@ namespace WordTestsCSharp
         {
             if (null == _listPackages)
             {
-                NetOffice.DebugConsole.Default.Mode = NetOffice.DebugConsoleMode.Console;
-                NetOffice.DebugConsole.Default.EnableSharedOutput = true;
-
-                AddRegistryTweaks();
-
                 _listPackages = new List<ITestPackage>();
                 _listPackages.Add(new Test01());
                 _listPackages.Add(new Test02());
@@ -54,16 +49,5 @@ namespace WordTestsCSharp
         }
 
         #endregion
-
-        private void AddRegistryTweaks()
-        {
-            RegistryKey key = Registry.LocalMachine.OpenSubKey("Software\\Microsoft\\Office\\Word\\Addins\\NOTestsMain.WordTestAddinCSharp", true);
-            if (null != key)
-            {
-                key.SetValue("NOExceptionMessage", "WordTweakCS", RegistryValueKind.String);
-                key.Close();
-                key.Dispose();
-            }
-        }
     }
 }

@@ -76,6 +76,9 @@ namespace Host
 
         private void RunExcelTests()
         {
+            NetOffice.Core.Default.Console.Name = "ExcelTests";
+            NetOffice.Core.Default.Console.EnableSharedOutput = true;
+
             ExcelTestsVB.TestAssembly excelVB = new ExcelTestsVB.TestAssembly();
             foreach (ITestPackage item in excelVB.LoadTestPackages())
             {
@@ -111,6 +114,9 @@ namespace Host
 
         private void RunOutlookTests()
         {
+            NetOffice.Core.Default.Console.Name = "OutlookTests";
+            NetOffice.Core.Default.Console.EnableSharedOutput = true;
+
             OutlookTestsVB.TestAssembly outlookVB = new OutlookTestsVB.TestAssembly();
             foreach (ITestPackage item in outlookVB.LoadTestPackages())
             {
@@ -146,6 +152,9 @@ namespace Host
 
         private void RunWordTests()
         {
+            NetOffice.Core.Default.Console.Name = "WordTests";
+            NetOffice.Core.Default.Console.EnableSharedOutput = true;
+
             WordTestsVB.TestAssembly wordVB = new WordTestsVB.TestAssembly();
             foreach (ITestPackage item in wordVB.LoadTestPackages())
             {
@@ -181,6 +190,9 @@ namespace Host
 
         private void RunPowerPointTests()
         {
+            NetOffice.Core.Default.Console.Name = "PowerPointTests";
+            NetOffice.Core.Default.Console.EnableSharedOutput = true;
+
             PowerPointTestsVB.TestAssembly powerVB = new PowerPointTestsVB.TestAssembly();
             foreach (ITestPackage item in powerVB.LoadTestPackages())
             {
@@ -216,6 +228,9 @@ namespace Host
 
         private void RunAccessTests()
         {
+            NetOffice.Core.Default.Console.Name = "AccessTests";
+            NetOffice.Core.Default.Console.EnableSharedOutput = true;
+
             AccessTestsVB.TestAssembly accessVB = new AccessTestsVB.TestAssembly();
             foreach (ITestPackage item in accessVB.LoadTestPackages())
             {
@@ -251,6 +266,9 @@ namespace Host
 
         private void RunProjectTests()
         {
+            NetOffice.Core.Default.Console.Name = "ProjectTests";
+            NetOffice.Core.Default.Console.EnableSharedOutput = true;
+
             ProjectTestsVB.TestAssembly projectVB = new ProjectTestsVB.TestAssembly();
             foreach (ITestPackage item in projectVB.LoadTestPackages())
             {

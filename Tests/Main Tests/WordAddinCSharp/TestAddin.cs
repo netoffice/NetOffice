@@ -106,5 +106,16 @@ namespace WordAddinCSharp
             GeneralError += methodKind.ToString() + Environment.NewLine + exception.GetType().Name + Environment.NewLine + exception.Message;
 
         }
+        protected override bool AllowApplyTweak(string name, string value)
+        {
+            Factory.Console.SendPipeConsoleMessage("WordTestAddinCSharp", String.Format("AllowApplyTweak {0}:{1}", name, value));
+            return true;
+        }
+
+        [RegisterFunction(RegisterMode.CallAfter)]
+        public static void Register(Type type, RegisterCall registerCall)
+        {
+            SetTweakPersistenceEntry(type, "NOExceptionMessage", "WordTweakCS", false);
+        }
     }
 }
