@@ -39,20 +39,28 @@
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberChanged(System.String)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberAdded(System.String)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="bstrDM">string bstrDM</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSourceListener.dataMemberRemoved(System.String)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="bstrDM">string bstrDM</param>
+        </member>
+        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
+            <summary>
+            necessary factory info, used from NetOffice.Factory while Initialize()
+            </summary>
         </member>
         <member name="T:NetOffice.MSDATASRCApi.DataSource">
             <summary>
@@ -89,6 +97,7 @@
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMember(System.String,System.Guid)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="bstrDM">string bstrDM</param>
             <param name="riid">Guid riid</param>
@@ -96,30 +105,29 @@
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMemberName(System.Int32)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="lIndex">Int32 lIndex</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.getDataMemberCount">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.addDataSourceListener(NetOffice.MSDATASRCApi.DataSourceListener)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
         </member>
         <member name="M:NetOffice.MSDATASRCApi.DataSource.removeDataSourceListener(NetOffice.MSDATASRCApi.DataSourceListener)">
             <summary>
             SupportByVersion MSDATASRC 4
+            
             </summary>
             <param name="pDSL">NetOffice.MSDATASRCApi.DataSourceListener pDSL</param>
-        </member>
-        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
-            <summary>
-            necessary factory info, used from NetOffice.Factory while Initialize()
-            </summary>
         </member>
     </members>
 </doc>
