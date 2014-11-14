@@ -535,12 +535,12 @@
         </member>
         <member name="F:NetOffice.Tools.CustomPaneAttribute.Width">
             <summary>
-            Pane Width (Default is 60)
+            Pane Width (Default is 150)
             </summary>
         </member>
         <member name="F:NetOffice.Tools.CustomPaneAttribute.Height">
             <summary>
-            Pane Height (Default is 60)
+            Pane Height (Default is 150)
             </summary>
         </member>
         <member name="M:NetOffice.Tools.CustomPaneAttribute.#ctor(System.Type)">

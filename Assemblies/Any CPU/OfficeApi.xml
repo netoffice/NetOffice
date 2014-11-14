@@ -132,6 +132,11 @@
             </summary>
             <returns>IEnumerator instance</returns>
         </member>
+        <member name="P:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.Count">
+            <summary>
+            Collection items count
+            </summary>
+        </member>
         <member name="P:NetOffice.OfficeApi.Tools.CustomTaskPaneCollection.Item(System.Int32)">
             <summary>
             Returns an element from specified index
