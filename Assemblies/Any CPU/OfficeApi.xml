@@ -51448,6 +51448,14 @@
             <param name="dialog">new instance</param>
             <param name="dialogName">name of the dialog</param>
         </member>
+        <member name="M:NetOffice.OfficeApi.Tools.Utils.DialogUtils.TryGetApplicationVisible(System.Boolean)">
+            <summary>
+            Try to detect the visibilty of host application main window.
+            The implementation want find a Visible property and analyze its current state
+            </summary>
+            <param name="defaultResult">fallback result if its failed</param>
+            <returns>true if application is visible, otherwise false</returns>
+        </member>
         <member name="P:NetOffice.OfficeApi.Tools.Utils.DialogUtils.CurrentLanguage">
             <summary>
             Current used language in dialogs. Default is 1033(en-us) If its failed to find a dialog localization set for current language en-us want be used

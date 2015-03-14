@@ -82,29 +82,6 @@
             </summary>
             <param name="value">Registry location</param>
         </member>
-        <member name="T:NetOffice.WndUtils.WindowEnumerator">
-            <summary>
-            Enumerate Top Level Windows on Desktop
-            </summary>
-        </member>
-        <member name="M:NetOffice.WndUtils.WindowEnumerator.#ctor(System.String)">
-            <summary>
-            Creates an instance of the class
-            </summary>
-            <param name="filter">optional class name filter or null</param>
-        </member>
-        <member name="M:NetOffice.WndUtils.WindowEnumerator.EnumerateWindows(System.Int32)">
-            <summary>
-            Enumerates all top level windows on desktop. WARNING: The method returns null if operation timeout is reached.
-            </summary>
-            <param name="milliSecondsTimeout">a timeout for the operation. when a desktop windows is busy or non responding these method freeze. you can handle this with the operation timeout</param>
-            <returns>result array or null</returns>
-        </member>
-        <member name="P:NetOffice.WndUtils.WindowEnumerator.Filter">
-            <summary>
-            Optional class name filter or null
-            </summary>
-        </member>
         <member name="T:NetOffice.Utils">
             <summary>
             some helper methods (also for visual basic)
@@ -262,20 +239,6 @@
             <summary>
             debug log was redirected to System.Diagnostics.Trace
             </summary>
-        </member>
-        <member name="M:NetOffice.WndUtils.ExcelApplicationWindow.GetApplicationProxyFromHandle(System.IntPtr)">
-            <summary>
-            Try get the com application proxy from application window handle
-            </summary>
-            <param name="hwnd">excel application window handle</param>
-            <returns>com proxy or null</returns>
-        </member>
-        <member name="M:NetOffice.WndUtils.ExcelApplicationWindow.GetApplicationProxiesFromHandle(System.IntPtr[])">
-            <summary>
-            Returns a list with application proxies
-            </summary>
-            <param name="hwnds">main window handles</param>
-            <returns>list of application proxies</returns>
         </member>
         <member name="T:NetOffice.EntityType">
             <summary>
@@ -832,6 +795,73 @@
         <member name="P:NetOffice.IFactoryInfo.Dependencies">
             <summary>
             returns a name array of dependent NetOfficeApi assemblies
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.WndUtils.WindowEnumerator">
+            <summary>
+            Enumerate Top Level Windows on Desktop
+            </summary>
+        </member>
+        <member name="M:NetOffice.Tools.WndUtils.WindowEnumerator.#ctor(System.String)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="filter">optional class name filter or null</param>
+        </member>
+        <member name="M:NetOffice.Tools.WndUtils.WindowEnumerator.#ctor(System.String,System.String)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="startsWithfilter">starts with class name filter</param>
+            <param name="endsWithFilter">ends with class name filter</param>
+        </member>
+        <member name="M:NetOffice.Tools.WndUtils.WindowEnumerator.EnumerateWindows(System.Int32)">
+            <summary>
+            Enumerates all top level windows on desktop. WARNING: The method returns null if operation timeout is reached.
+            </summary>
+            <param name="milliSecondsTimeout">a timeout for the operation. when a desktop windows is busy or non responding these method freeze. you can handle this with the operation timeout</param>
+            <returns>result array or null</returns>
+        </member>
+        <member name="M:NetOffice.Tools.WndUtils.WindowEnumerator.IsVisible(System.IntPtr)">
+            <summary>
+            Returns information a window is currently visible
+            </summary>
+            <param name="handle">target window handle</param>
+            <returns>true if window is visible, otherwise false</returns>
+        </member>
+        <member name="P:NetOffice.Tools.WndUtils.WindowEnumerator.Filter">
+            <summary>
+            Optional class name filter or null
+            </summary>
+        </member>
+        <member name="P:NetOffice.Tools.WndUtils.WindowEnumerator.StartsWithFilter">
+            <summary>
+            Class name begin
+            </summary>
+        </member>
+        <member name="P:NetOffice.Tools.WndUtils.WindowEnumerator.EndsWithFilter">
+            <summary>
+            Class name end
+            </summary>
+        </member>
+        <member name="P:NetOffice.Tools.WndUtils.WindowEnumerator.Mode">
+            <summary>
+            Current Filter Mode
+            </summary>
+        </member>
+        <member name="T:NetOffice.Tools.WndUtils.WindowEnumerator.FilterMode">
+            <summary>
+            Internal operatotion mode 
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.WndUtils.WindowEnumerator.FilterMode.Full">
+            <summary>
+             Class name must match totaly 
+            </summary>
+        </member>
+        <member name="F:NetOffice.Tools.WndUtils.WindowEnumerator.FilterMode.StartEnd">
+            <summary>
+            Class name must match in start and end of name
             </summary>
         </member>
         <member name="T:NetOffice.ExceptionMessageHandling">
@@ -1758,6 +1788,20 @@
             </summary>
             <param name="name">name of the library</param>
             <param name="versions">version of the library</param>
+        </member>
+        <member name="M:NetOffice.Tools.WndUtils.ExcelApplicationWindow.GetApplicationProxyFromHandle(System.IntPtr)">
+            <summary>
+            Try get the com application proxy from application window handle
+            </summary>
+            <param name="hwnd">excel application window handle</param>
+            <returns>com proxy or null</returns>
+        </member>
+        <member name="M:NetOffice.Tools.WndUtils.ExcelApplicationWindow.GetApplicationProxiesFromHandle(System.IntPtr[])">
+            <summary>
+            Returns a list with application proxies
+            </summary>
+            <param name="hwnds">main window handles</param>
+            <returns>list of application proxies</returns>
         </member>
         <member name="T:NetOffice.COMObject">
             <summary>

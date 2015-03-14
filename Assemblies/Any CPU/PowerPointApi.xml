@@ -18809,6 +18809,12 @@
             <param name="isAutomation">indicates the host application is currently in automation</param>
             <param name="ownerAssembly">owner application</param>
         </member>
+        <member name="M:NetOffice.PowerPointApi.Tools.CommonUtils.OnCreateApplicationUtils">
+            <summary>
+            Creates an instance of ApplicationUtils
+            </summary>
+            <returns>instance of ApplicationUtils</returns>
+        </member>
         <member name="M:NetOffice.PowerPointApi.Tools.CommonUtils.OnCreateFileUtils">
             <summary>
             Creates an instance of FileUtils
@@ -18818,6 +18824,11 @@
         <member name="P:NetOffice.PowerPointApi.Tools.CommonUtils.File">
             <summary>
             File related utils
+            </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Tools.CommonUtils.Application">
+            <summary>
+            Application related utils
             </summary>
         </member>
         <member name="T:NetOffice.PowerPointApi.Guides">
@@ -33846,6 +33857,22 @@
             SupportByVersion PowerPoint 12, 14, 15
             </summary>
             <remarks>5</remarks>
+        </member>
+        <member name="T:NetOffice.PowerPointApi.Tools.Utils.ApplicationUtils">
+            <summary>
+            Application related utils
+            </summary>
+        </member>
+        <member name="M:NetOffice.PowerPointApi.Tools.Utils.ApplicationUtils.#ctor(NetOffice.PowerPointApi.Tools.CommonUtils)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="owner">owner instance</param>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Tools.Utils.ApplicationUtils.HWND">
+            <summary>
+            Host application main window handle
+            </summary>
         </member>
         <member name="T:NetOffice.PowerPointApi.CategoryCollection">
             <summary>

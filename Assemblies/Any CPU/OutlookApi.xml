@@ -8114,6 +8114,30 @@
             </summary>
             <remarks>4</remarks>
         </member>
+        <member name="T:NetOffice.OutlookApi.Tools.OutlookDialogUtils">
+            <summary>
+            Outlook dialog related utils
+            </summary>
+        </member>
+        <member name="M:NetOffice.OutlookApi.Tools.OutlookDialogUtils.#ctor(NetOffice.OutlookApi.Tools.CommonUtils)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="owner">owner instance</param>
+        </member>
+        <member name="M:NetOffice.OutlookApi.Tools.OutlookDialogUtils.TryGetApplicationVisible(System.Boolean)">
+            <summary>
+            Try to detect the visibilty of host application main window.
+            The implementation try to find a visible Outlook application main window and returns true if found.
+            </summary>
+            <param name="defaultResult">fallback result if its failed</param>
+            <returns>true if application is visible, otherwise false</returns>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Tools.OutlookDialogUtils.HostVisible">
+            <summary>
+            Host application is currently visible
+            </summary>
+        </member>
         <member name="T:NetOffice.OutlookApi.Tools.ITaskPane">
             <summary>
             Task pane UserControl instances can implement these interface in a NetOffice Tools Addin as a special service
@@ -33972,6 +33996,22 @@
             </summary>
             <remarks>2</remarks>
         </member>
+        <member name="T:NetOffice.OutlookApi.Tools.ApplicationUtils">
+            <summary>
+            Application related utils
+            </summary>
+        </member>
+        <member name="M:NetOffice.OutlookApi.Tools.ApplicationUtils.#ctor(NetOffice.OutlookApi.Tools.CommonUtils)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="owner">owner instance</param>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Tools.ApplicationUtils.Visible">
+            <summary>
+            Host application is currently visible
+            </summary>
+        </member>
         <member name="T:NetOffice.OutlookApi.MobileItem">
             <summary>
              CoClass MobileItem 
@@ -43264,6 +43304,23 @@
             <param name="owner">addin owner</param>
             <param name="isAutomation">indicates the host application is currently in automation</param>
             <param name="ownerAssembly">owner application</param>
+        </member>
+        <member name="M:NetOffice.OutlookApi.Tools.CommonUtils.OnCreateApplicationUtils">
+            <summary>
+            Creates an instance of ApplicationUtils
+            </summary>
+            <returns>instance of ApplicationUtils</returns>
+        </member>
+        <member name="M:NetOffice.OutlookApi.Tools.CommonUtils.OnCreateDialogUtils">
+            <summary>
+            Creates an instance of DialogUtils
+            </summary>
+            <returns>instance of DialogUtils</returns>
+        </member>
+        <member name="P:NetOffice.OutlookApi.Tools.CommonUtils.Application">
+            <summary>
+            Application related utils
+            </summary>
         </member>
         <member name="T:NetOffice.OutlookApi.GlobalHelperModules.GlobalModule">
             <summary>
