@@ -18831,6 +18831,11 @@
             Application related utils
             </summary>
         </member>
+        <member name="P:NetOffice.PowerPointApi.Tools.CommonUtils.PowerPointApplication">
+            <summary>
+            Encapsulate the owner application to make accessible for child utils
+            </summary>
+        </member>
         <member name="T:NetOffice.PowerPointApi.Guides">
             <summary>
              DispatchInterface Guides 
@@ -33872,6 +33877,16 @@
         <member name="P:NetOffice.PowerPointApi.Tools.Utils.ApplicationUtils.HWND">
             <summary>
             Host application main window handle
+            </summary>
+        </member>
+        <member name="T:NetOffice.PowerPointApi.Tools.Utils.ApplicationUtils.VTableApplication">
+            <summary>
+            Application VTable interface
+            </summary>
+        </member>
+        <member name="P:NetOffice.PowerPointApi.Tools.Utils.ApplicationUtils.VTableApplication.HWND">
+            <summary>
+            Main window handle from application window
             </summary>
         </member>
         <member name="T:NetOffice.PowerPointApi.CategoryCollection">
