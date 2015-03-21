@@ -31508,6 +31508,13 @@
             <param name="type">the type you want looking for the attribute</param>
             <returns>MultiRegisterAttribute</returns>
         </member>
+        <member name="M:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.RegistryEntry(NetOffice.OfficeApi.Tools.RegisterIn)">
+            <summary>
+            Get registry value string
+            </summary>
+            <param name="register">target office application</param>
+            <returns>registry sub string from office application</returns>
+        </member>
         <member name="T:NetOffice.OfficeApi.CustomTaskPane">
             <summary>
              CoClass CustomTaskPane 

@@ -655,14 +655,6 @@
             <param name="comProxy">new created proxy</param>
             <returns>factory info from corresponding assembly</returns>
         </member>
-        <member name="M:NetOffice.Core.CurrentDomain_AssemblyResolve(System.Object,System.ResolveEventArgs)">
-            <summary>
-            Occurs when the resolution of an assembly fails.
-            </summary>
-            <param name="sender">The source of the event</param>
-            <param name="args">A System.ResolveEventArgs that contains the event data</param>
-            <returns>The System.Reflection.Assembly that resolves the type, assembly, or resource or null if the assembly cannot be resolved</returns>
-        </member>
         <member name="M:NetOffice.Core.TryLoadAssembly(System.String)">
             <summary>
             Assembly loader for multitargeting(host) scenarios
@@ -676,6 +668,11 @@
             </summary>
             <param name="comProxy">new created proxy</param>
             <returns>type info or null if unkown</returns>
+        </member>
+        <member name="P:NetOffice.Core.ThisAssembly">
+            <summary>
+            Current NetOffice Assembly
+            </summary>
         </member>
         <member name="P:NetOffice.Core.IsInitialized">
             <summary>
@@ -1863,6 +1860,11 @@
             monitor lock object for accessing the child list
             </summary>
         </member>
+        <member name="F:NetOffice.COMObject._factory">
+            <summary>
+            associated factory
+            </summary>
+        </member>
         <member name="M:NetOffice.COMObject.#ctor(NetOffice.Core,NetOffice.COMObject)">
             <summary>
             creates instance and replace the given replacedObject in proxy management
@@ -2280,6 +2282,76 @@
             </summary>
             <param name="type">the type you want looking for the attribute</param>
             <returns>COMAddinAttribute</returns>
+        </member>
+        <member name="T:NetOffice.CurrentAppDomain">
+            <summary>
+            Encapsulate current appdomain with exception tolerant methods
+            </summary>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.#ctor(NetOffice.Core)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="owner">owner core</param>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.GetAssemblies">
+            <summary>
+            Returns all loaded assemblies in current appdomain
+            </summary>
+            <returns>loaded assemblies</returns>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.Load(System.String)">
+            <summary>
+            Try load an assembly
+            </summary>
+            <param name="fileName">full qualified file path</param>
+            <returns>Assembly instance or null</returns>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.Load(System.Reflection.AssemblyName)">
+            <summary>
+            Try load an assembly
+            </summary>
+            <param name="name">assembly reference name</param>
+            <returns>Assembly instance or null</returns>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.LoadFile(System.String)">
+            <summary>
+            Try load an assembly
+            </summary>
+            <param name="fileName">full qualified name</param>
+            <returns>Assembly instance or null</returns>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.LoadFrom(System.String)">
+            <summary>
+            Try load an assembly
+            </summary>
+            <param name="fileName">full qualified file name</param>
+            <returns>Assembly instance or null</returns>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.ValidateVersion(System.String)">
+            <summary>
+            Try to validate argument file version match with current NO version. The method does nothing if argument file not exists
+            </summary>
+            <param name="fileName">target file to load</param>
+            <returns>true if file exists in current NO version</returns>
+        </member>
+        <member name="M:NetOffice.CurrentAppDomain.CurrentDomain_AssemblyResolve(System.Object,System.ResolveEventArgs)">
+            <summary>
+            Occurs when the resolution of an assembly fails.
+            </summary>
+            <param name="sender">The source of the event</param>
+            <param name="args">A System.ResolveEventArgs that contains the event data</param>
+            <returns>The System.Reflection.Assembly that resolves the type, assembly, or resource or null if the assembly cannot be resolved</returns>
+        </member>
+        <member name="P:NetOffice.CurrentAppDomain.Owner">
+            <summary>
+            Owner Core
+            </summary>
+        </member>
+        <member name="P:NetOffice.CurrentAppDomain.AssemblyVersion">
+            <summary>
+            Current Assembly Version
+            </summary>
         </member>
         <member name="T:NetOffice.SinkHelper">
             <summary>

@@ -4,11 +4,6 @@
         <name>MSDATASRCApi</name>
     </assembly>
     <members>
-        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
-            <summary>
-            necessary factory info, used from NetOffice.Factory while Initialize()
-            </summary>
-        </member>
         <member name="T:NetOffice.MSDATASRCApi.DataSource">
             <summary>
              Interface DataSource 
@@ -128,6 +123,11 @@
             
             </summary>
             <param name="bstrDM">string bstrDM</param>
+        </member>
+        <member name="T:MSDATASRCApi.Utils.ProjectInfo">
+            <summary>
+            necessary factory info, used from NetOffice.Factory while Initialize()
+            </summary>
         </member>
     </members>
 </doc>
