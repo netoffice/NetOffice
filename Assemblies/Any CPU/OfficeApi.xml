@@ -41647,6 +41647,11 @@
             Occurs when dock postion state is changed
             </summary>
         </member>
+        <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.DefaultSize">
+            <summary>
+            Default Height or Width if unset - 150
+            </summary>
+        </member>
         <member name="P:NetOffice.OfficeApi.Tools.TaskPaneInfo.ChangedProperties">
             <summary>
             properties was set from the client before the instance was created. The COMAddin class perfom latebind property set calls during this dictionary

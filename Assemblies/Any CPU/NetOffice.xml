@@ -110,6 +110,13 @@
             <param name="type">the type you want looking for the attribute</param>
             <returns>CustomPaneAttribute or null</returns>
         </member>
+        <member name="M:NetOffice.Tools.AttributeHelper.GetCustomPaneAttributes(System.Type)">
+            <summary>
+            Looks the CustomPaneAttributes
+            </summary>
+            <param name="type">the type you want looking for the attribute</param>
+            <returns>CustomPaneAttribute[] instance</returns>
+        </member>
         <member name="M:NetOffice.Tools.AttributeHelper.GetGuidAttribute(System.Type)">
             <summary>
             Looks for the GuidAttribute. Throws an exception if not found
