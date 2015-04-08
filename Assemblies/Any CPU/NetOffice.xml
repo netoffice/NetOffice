@@ -464,6 +464,13 @@
             </summary>
             <param name="isDefault">Mark this instance as default instance</param>
         </member>
+        <member name="M:NetOffice.Core.RaiseCreateInstance(NetOffice.COMObject,System.Type@)">
+            <summary>
+            Raise CreateInstance event
+            </summary>
+            <param name="instance">origin instance</param>
+            <param name="replace">type to replace the instance</param>
+        </member>
         <member name="M:NetOffice.Core.RaiseProxyCountChanged(System.Int32)">
             <summary>
             Raise the ProxyCountChanged event (and optional, send channel message to console)
@@ -569,6 +576,15 @@
             <param name="caller">parent there have created comProxy</param>
             <param name="comProxyArray">new created proxy array</param>
             <returns>corresponding Wrapper class Instance array or plain COMObject array</returns>
+        </member>
+        <member name="M:NetOffice.Core.TryReplaceInstance(NetOffice.COMObject,NetOffice.COMObject,System.Type)">
+            <summary>
+            Try to replace new created instance on CreateInstance event
+            </summary>
+            <param name="caller">parent instance</param>
+            <param name="instance">origin instance</param>
+            <param name="comProxyType">type of native com proxy</param>
+            <returns>replace instance or origin instance</returns>
         </member>
         <member name="M:NetOffice.Core.DisposeAllCOMProxies">
             <summary>
@@ -696,6 +712,11 @@
             Returns current count of open proxies
             </summary>
         </member>
+        <member name="E:NetOffice.Core.CreateInstance">
+            <summary>
+            Occours when a new COMObject instance has been created
+            </summary>
+        </member>
         <member name="E:NetOffice.Core.ProxyCountChanged">
             <summary>
             notify info the count of proxies there open are changed
@@ -706,6 +727,34 @@
             <summary>
             contains a list of all known netoffice 
             </summary>
+        </member>
+        <member name="T:NetOffice.Core.OnCreateInstanceEventArgs">
+            <summary>
+            Arguments in CreateInstance event
+            </summary>
+        </member>
+        <member name="M:NetOffice.Core.OnCreateInstanceEventArgs.#ctor(NetOffice.COMObject)">
+            <summary>
+            Creates an instance of the class
+            </summary>
+            <param name="instance">origin instane</param>
+        </member>
+        <member name="P:NetOffice.Core.OnCreateInstanceEventArgs.Instance">
+            <summary>
+            DisposeChildInstance is called for the instance after event triger
+            </summary>
+        </member>
+        <member name="P:NetOffice.Core.OnCreateInstanceEventArgs.Replace">
+            <summary>
+            Type muste inherit from originInstance class type and make COMObject public .ctors available
+            </summary>
+        </member>
+        <member name="T:NetOffice.Core.OnCreateInstanceEventHandler">
+            <summary>
+            OnCreateInstance event handler
+            </summary>
+            <param name="sender">Core sender instance</param>
+            <param name="args"></param>
         </member>
         <member name="T:NetOffice.Core.ProxyCountChangedHandler">
             <summary>

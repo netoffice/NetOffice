@@ -14937,6 +14937,12 @@
             </summary>
             <returns>loaded assemblies as name=>version collection</returns>
         </member>
+        <member name="M:NetOffice.OfficeApi.Tools.Informations.AppDomainInfo.GetEnumerator">
+            <summary>
+            Returns an enumerator to retrieve the collection
+            </summary>
+            <returns>IEnumerator instance</returns>
+        </member>
         <member name="P:NetOffice.OfficeApi.Tools.Informations.AppDomainInfo.HeaderCaptionLine">
             <summary>
             Header caption seperator line in summary
@@ -28893,7 +28899,8 @@
         </member>
         <member name="T:NetOffice.OfficeApi.Tools.ITaskPane">
             <summary>
-            Task pane UserControl instances can implement these interface in a NetOffice Tools Addin as a special service
+            Office TaskPane UserControl classes can implement these interface in a NetOffice Tools Addin(COMAddin) as a special service.
+            NetOffice want call ITaskPane members automaticly 
             </summary>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.ITaskPane.OnConnection(NetOffice.COMObject,NetOffice.OfficeApi._CustomTaskPane,System.Object[])">
@@ -28906,7 +28913,7 @@
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.ITaskPane.OnDisconnection">
             <summary>
-            While Excel Application shutdown. The method is not called in case of unexpected termination (may user kill the instance in task manager)
+            While Office Application shutdown. The method is not called in case of unexpected termination (may user kills the instance in task manager)
             </summary>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.ITaskPane.OnDockPositionChanged(NetOffice.OfficeApi.Enums.MsoCTPDockPosition)">
@@ -39073,12 +39080,12 @@
         </member>
         <member name="T:NetOffice.OfficeApi.Tools.MultiRegisterAttribute">
             <summary>
-            This attribute can be used from NetOffice.OfficeApi.Tools.COMAddin to specify multipe office products
+            This attribute must be used for NetOffice.OfficeApi.Tools.COMAddin to specify multipe office products you want support
             </summary>
         </member>
         <member name="F:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.Products">
             <summary>
-            The office products for addin registration
+            The office products for addin (un-)registration
             </summary>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.#ctor(NetOffice.OfficeApi.Tools.RegisterIn[])">
@@ -39092,7 +39099,7 @@
             Looks for the MultiRegisterAttribute. Throws an exception if not found
             </summary>
             <param name="type">the type you want looking for the attribute</param>
-            <returns>MultiRegisterAttribute</returns>
+            <returns>MultiRegisterAttribute instance</returns>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.MultiRegisterAttribute.RegistryEntry(NetOffice.OfficeApi.Tools.RegisterIn)">
             <summary>
@@ -41493,7 +41500,7 @@
         </member>
         <member name="T:NetOffice.OfficeApi.Tools.Informations.HostInfo">
             <summary>
-            Office Application and NetOffice related utils
+            Office Application and NetOffice related diagnostic informations
             </summary>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.Informations.HostInfo.#ctor(NetOffice.OfficeApi.Tools.CommonUtils)">
@@ -41510,9 +41517,9 @@
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.Informations.HostInfo.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String@System#String}}#GetEnumerator">
             <summary>
-            Returns a summary enumerator collect instance properties
+            Returns an enumerator to retrieve the collection
             </summary>
-            <returns>summary enumerator</returns>
+            <returns>IEnumerator instance</returns>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.Informations.HostInfo.System#Collections#IEnumerable#GetEnumerator">
             <summary>
@@ -41555,15 +41562,9 @@
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.Informations.AssemblyInfo.GetEnumerator">
             <summary>
-            Returns a summary enumerator collect instance properties
+            Returns an enumerator to retrieve the collection
             </summary>
-            <returns>summary enumerator</returns>
-        </member>
-        <member name="M:NetOffice.OfficeApi.Tools.Informations.AssemblyInfo.System#Collections#IEnumerable#GetEnumerator">
-            <summary>
-            Returns a summary enumerator collect instance properties
-            </summary>
-            <returns>summary enumerator</returns>
+            <returns>IEnumerator instance</returns>
         </member>
         <member name="P:NetOffice.OfficeApi.Tools.Informations.AssemblyInfo.AssemblyTitle">
             <summary>
@@ -41612,7 +41613,7 @@
         </member>
         <member name="T:NetOffice.OfficeApi.Tools.TaskPaneInfo">
             <summary>
-            wrapper class for CustomTaskPane instance
+            Wrapper class for CustomTaskPane instance, also used as creation definition if its create before CTPFactoryAvailable is called from MS-Office host application. (Best use in .ctor for creation definition)
             </summary>
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.TaskPaneInfo.#ctor(System.Type,System.String)">
@@ -46173,15 +46174,9 @@
         </member>
         <member name="M:NetOffice.OfficeApi.Tools.Informations.EnvironmentInfo.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String@System#String}}#GetEnumerator">
             <summary>
-            Returns a summary enumerator collect instance properties
+            Returns an enumerator to retrieve the collection
             </summary>
-            <returns>summary enumerator</returns>
-        </member>
-        <member name="M:NetOffice.OfficeApi.Tools.Informations.EnvironmentInfo.System#Collections#IEnumerable#GetEnumerator">
-            <summary>
-            Returns a summary enumerator collect instance properties
-            </summary>
-            <returns>summary enumerator</returns>
+            <returns>IEnumerator instance</returns>
         </member>
         <member name="P:NetOffice.OfficeApi.Tools.Informations.EnvironmentInfo.Is64BitOperatingSystem">
             <summary>
