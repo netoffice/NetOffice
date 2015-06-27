@@ -5,20 +5,19 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Security.Principal;
-using NetOffice.WordApi.Tools.Utils;
+using NetOffice.ExcelApi.Tools.Utils;
 
-namespace NetOffice.WordApi.Tools
+namespace NetOffice.ExcelApi.Tools.Utils
 {
     /// <summary>
     /// Various helper for common tasks
     /// </summary>
-    public class CommonUtils : NetOffice.OfficeApi.Tools.CommonUtils
+    public class CommonUtils : NetOffice.OfficeApi.Tools.Utils.CommonUtils
     {
         #region Fields
 
-        private WordApi.Application _ownerApplication;
-        private FileUtils _fileUtils;
-        private ApplicationUtils _applicationUtils;
+        private ExcelApi.Application _ownerApplication;
+        private FileUtils _fileUtils; 
 
         #endregion
 
@@ -28,7 +27,7 @@ namespace NetOffice.WordApi.Tools
         /// Creates an instance of the application
         /// </summary>
         /// <param name="application">owner application</param>
-        public CommonUtils(WordApi.Application application): base(application)
+        public CommonUtils(ExcelApi.Application application) : base(application)
         {
             _ownerApplication = application;
         }
@@ -38,7 +37,7 @@ namespace NetOffice.WordApi.Tools
         /// </summary>
         /// <param name="application">owner application</param>
         /// <param name="ownerAssembly">owner assembly</param>
-        public CommonUtils(WordApi.Application application, Assembly ownerAssembly) : base(application, ownerAssembly)
+        public CommonUtils(ExcelApi.Application application, Assembly ownerAssembly) : base(application, ownerAssembly)
         {
             if (null == application)
                 throw new ArgumentNullException("application");
@@ -62,7 +61,7 @@ namespace NetOffice.WordApi.Tools
         /// <param name="owner">addin owner</param>
         /// <param name="isAutomation">indicates the host application is currently in automation</param>
         /// <param name="ownerAssembly">owner application</param>
-        internal CommonUtils(NetOffice.Tools.COMAddinBase owner, bool isAutomation, Assembly ownerAssembly) : base(owner, isAutomation, ownerAssembly)
+        internal CommonUtils(NetOffice.Tools.COMAddinBase owner, bool isAutomation, Assembly ownerAssembly)  : base(owner, isAutomation, ownerAssembly)
         {
 
         }
@@ -70,7 +69,7 @@ namespace NetOffice.WordApi.Tools
         #endregion
 
         #region Properties
-
+        
         /// <summary>
         /// File related utils
         /// </summary>
@@ -81,30 +80,6 @@ namespace NetOffice.WordApi.Tools
                 if (null == _fileUtils)
                     _fileUtils = OnCreateFileUtils();
                 return _fileUtils;
-            }
-        }
-
-        /// <summary>
-        /// Application related utils
-        /// </summary>
-        public ApplicationUtils Application
-        {
-            get 
-            {
-                if (null == _applicationUtils)
-                    _applicationUtils = OnCreateApplicationUtils();
-                return _applicationUtils;
-            }
-        }
-
-        /// <summary>
-        /// Encapsulate the owner application to make accessible for child utils
-        /// </summary>
-        internal COMObject WordApplication
-        {
-            get
-            {
-                return base.OwnerApplication;
             }
         }
 
@@ -119,15 +94,6 @@ namespace NetOffice.WordApi.Tools
         protected internal virtual FileUtils OnCreateFileUtils()
         {
             return new FileUtils(this);
-        }
-
-        /// <summary>
-        /// Creates an instance of ApplicationUtils
-        /// </summary>
-        /// <returns>instance of ApplicationUtils</returns>
-        protected internal virtual ApplicationUtils OnCreateApplicationUtils()
-        {
-            return new ApplicationUtils(this);
         }
 
         #endregion

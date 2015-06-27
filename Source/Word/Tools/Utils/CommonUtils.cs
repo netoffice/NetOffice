@@ -5,18 +5,20 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Security.Principal;
+using NetOffice.WordApi.Tools.Utils;
 
-namespace NetOffice.OutlookApi.Tools
+namespace NetOffice.WordApi.Tools.Utils
 {
     /// <summary>
     /// Various helper for common tasks
     /// </summary>
-    public class CommonUtils : NetOffice.OfficeApi.Tools.CommonUtils
+    public class CommonUtils : NetOffice.OfficeApi.Tools.Utils.CommonUtils
     {
         #region Fields
 
-        private OutlookApi.Application _ownerApplication;
-        private ApplicationUtils _application;
+        private WordApi.Application _ownerApplication;
+        private FileUtils _fileUtils;
+        private ApplicationUtils _applicationUtils;
 
         #endregion
 
@@ -26,7 +28,7 @@ namespace NetOffice.OutlookApi.Tools
         /// Creates an instance of the application
         /// </summary>
         /// <param name="application">owner application</param>
-        public CommonUtils(OutlookApi.Application application) : base(application)
+        public CommonUtils(WordApi.Application application): base(application)
         {
             _ownerApplication = application;
         }
@@ -36,7 +38,7 @@ namespace NetOffice.OutlookApi.Tools
         /// </summary>
         /// <param name="application">owner application</param>
         /// <param name="ownerAssembly">owner assembly</param>
-        public CommonUtils(OutlookApi.Application application, Assembly ownerAssembly) : base(application, ownerAssembly)
+        public CommonUtils(WordApi.Application application, Assembly ownerAssembly) : base(application, ownerAssembly)
         {
             if (null == application)
                 throw new ArgumentNullException("application");
@@ -70,15 +72,39 @@ namespace NetOffice.OutlookApi.Tools
         #region Properties
 
         /// <summary>
+        /// File related utils
+        /// </summary>
+        public FileUtils File
+        {
+            get
+            {
+                if (null == _fileUtils)
+                    _fileUtils = OnCreateFileUtils();
+                return _fileUtils;
+            }
+        }
+
+        /// <summary>
         /// Application related utils
         /// </summary>
         public ApplicationUtils Application
         {
+            get 
+            {
+                if (null == _applicationUtils)
+                    _applicationUtils = OnCreateApplicationUtils();
+                return _applicationUtils;
+            }
+        }
+
+        /// <summary>
+        /// Encapsulate the owner application to make accessible for child utils
+        /// </summary>
+        internal COMObject WordApplication
+        {
             get
             {
-                if (null == _application)
-                    _application = OnCreateApplicationUtils();
-                return _application;
+                return base.OwnerApplication;
             }
         }
 
@@ -87,25 +113,21 @@ namespace NetOffice.OutlookApi.Tools
         #region Methods
 
         /// <summary>
+        /// Creates an instance of FileUtils
+        /// </summary>
+        /// <returns>instance of FileUtils</returns>
+        protected internal virtual FileUtils OnCreateFileUtils()
+        {
+            return new FileUtils(this);
+        }
+
+        /// <summary>
         /// Creates an instance of ApplicationUtils
         /// </summary>
         /// <returns>instance of ApplicationUtils</returns>
         protected internal virtual ApplicationUtils OnCreateApplicationUtils()
         {
             return new ApplicationUtils(this);
-        }
-
-        #endregion
-
-        #region Overrides
-
-        /// <summary>
-        /// Creates an instance of DialogUtils
-        /// </summary>
-        /// <returns>instance of DialogUtils</returns>
-        protected override OfficeApi.Tools.Utils.DialogUtils OnCreateDialogUtils()
-        {
-            return new OutlookDialogUtils(this);
         }
 
         #endregion
