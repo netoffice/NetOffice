@@ -1855,6 +1855,133 @@
             </summary>
             <param name="apiVersion"></param>
         </member>
+        <member name="T:NetOffice.PerformanceTraceSetting">
+            <summary>
+            Performance Trace Options
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTraceSetting.IntervalMS">
+            <summary>
+            Alert limit in milliseconds. Default:1000
+            If a calling method or property need more(or equal) time as specified here, the alert event is fired
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTraceSetting.Enabled">
+            <summary>
+            Enable or disable trace alert
+            </summary>
+        </member>
+        <member name="T:NetOffice.PerformanceTrace">
+            <summary>
+            Call Level Performance Tracer
+            </summary>
+        </member>
+        <member name="M:NetOffice.PerformanceTrace.Clear">
+            <summary>
+            Clear all performance trace settings
+            </summary>
+        </member>
+        <member name="E:NetOffice.PerformanceTrace.Alert">
+            <summary>
+            Occurs if a method or property need more time as specified
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.Item(System.String)">
+            <summary>
+            Returns performances settings instance for a NetOffice component
+            </summary>
+            <param name="componentName">name of the component. for example:ExcelApi</param>
+            <returns>settings instance</returns>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.Item(System.String,System.String)">
+            <summary>
+            Returns performance settings instance for a NetOffice wrapper class
+            </summary>
+            <param name="componentName">name of the component. for example:ExcelApi</param>
+            <param name="entityName">name of the class. for example:Range or Application</param>
+            <returns>settings instance</returns>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.Item(System.String,System.String,System.String)">
+            <summary>
+            Returns performance settings instance for a NetOffice wrapper class
+            </summary>
+            <param name="componentName">name of the component. for example:ExcelApi</param>
+            <param name="entityName">name of the class. for example:Range or Application</param>
+            <param name="methodName">method or property name. for example: Visible or Activate</param>
+            <returns>settings instance</returns>
+        </member>
+        <member name="T:NetOffice.PerformanceTrace.CallType">
+            <summary>
+            Specify the kind of call
+            </summary>
+        </member>
+        <member name="F:NetOffice.PerformanceTrace.CallType.Method">
+            <summary>
+            Method without return value
+            </summary>
+        </member>
+        <member name="F:NetOffice.PerformanceTrace.CallType.Function">
+            <summary>
+            Method with return value
+            </summary>
+        </member>
+        <member name="F:NetOffice.PerformanceTrace.CallType.PropertyGet">
+            <summary>
+            Property Get
+            </summary>
+        </member>
+        <member name="F:NetOffice.PerformanceTrace.CallType.PropertySet">
+            <summary>
+            Property Set
+            </summary>
+        </member>
+        <member name="T:NetOffice.PerformanceTrace.PerformanceAlertEventArgs">
+            <summary>
+            Alert event arguments
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.ComponentName">
+            <summary>
+            Name of the corresponding NetOffice component
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.EntityName">
+            <summary>
+            Class name of the NetOffice wrapper
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.MethodName">
+            <summary>
+            Method or property name
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.TimeElapsedMS">
+            <summary>
+            The time in milliseconds totaly
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.Ticks">
+            <summary>
+            The ticks totaly its need
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.CallType">
+            <summary>
+            Calling type
+            </summary>
+        </member>
+        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.Arguments">
+            <summary>
+            Given arguments as any
+            </summary>
+        </member>
+        <member name="T:NetOffice.PerformanceTrace.PerformanceAlertEventHandler">
+            <summary>
+            PerformanceTrace alert event handler
+            </summary>
+            <param name="sender">sender instance</param>
+            <param name="args">alert information arguments</param>
+        </member>
         <member name="T:NetOffice.DebugConsole">
             <summary>
             offers various debug, log and diagnostic functionality
@@ -2921,133 +3048,6 @@
             <summary>
             This enumerator is not supported from the com proxy instance, its a custom service from NetOffice
             </summary>
-        </member>
-        <member name="T:NetOffice.PerformanceTraceSetting">
-            <summary>
-            Performance Trace Options
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTraceSetting.IntervalMS">
-            <summary>
-            Alert limit in milliseconds. Default:1000
-            If a calling method or property need more(or equal) time as specified here, the alert event is fired
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTraceSetting.Enabled">
-            <summary>
-            Enable or disable trace alert
-            </summary>
-        </member>
-        <member name="T:NetOffice.PerformanceTrace">
-            <summary>
-            Call Level Performance Tracer
-            </summary>
-        </member>
-        <member name="M:NetOffice.PerformanceTrace.Clear">
-            <summary>
-            Clear all performance trace settings
-            </summary>
-        </member>
-        <member name="E:NetOffice.PerformanceTrace.Alert">
-            <summary>
-            Occurs if a method or property need more time as specified
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.Item(System.String)">
-            <summary>
-            Returns performances settings instance for a NetOffice component
-            </summary>
-            <param name="componentName">name of the component. for example:ExcelApi</param>
-            <returns>settings instance</returns>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.Item(System.String,System.String)">
-            <summary>
-            Returns performance settings instance for a NetOffice wrapper class
-            </summary>
-            <param name="componentName">name of the component. for example:ExcelApi</param>
-            <param name="entityName">name of the class. for example:Range or Application</param>
-            <returns>settings instance</returns>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.Item(System.String,System.String,System.String)">
-            <summary>
-            Returns performance settings instance for a NetOffice wrapper class
-            </summary>
-            <param name="componentName">name of the component. for example:ExcelApi</param>
-            <param name="entityName">name of the class. for example:Range or Application</param>
-            <param name="methodName">method or property name. for example: Visible or Activate</param>
-            <returns>settings instance</returns>
-        </member>
-        <member name="T:NetOffice.PerformanceTrace.CallType">
-            <summary>
-            Specify the kind of call
-            </summary>
-        </member>
-        <member name="F:NetOffice.PerformanceTrace.CallType.Method">
-            <summary>
-            Method without return value
-            </summary>
-        </member>
-        <member name="F:NetOffice.PerformanceTrace.CallType.Function">
-            <summary>
-            Method with return value
-            </summary>
-        </member>
-        <member name="F:NetOffice.PerformanceTrace.CallType.PropertyGet">
-            <summary>
-            Property Get
-            </summary>
-        </member>
-        <member name="F:NetOffice.PerformanceTrace.CallType.PropertySet">
-            <summary>
-            Property Set
-            </summary>
-        </member>
-        <member name="T:NetOffice.PerformanceTrace.PerformanceAlertEventArgs">
-            <summary>
-            Alert event arguments
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.ComponentName">
-            <summary>
-            Name of the corresponding NetOffice component
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.EntityName">
-            <summary>
-            Class name of the NetOffice wrapper
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.MethodName">
-            <summary>
-            Method or property name
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.TimeElapsedMS">
-            <summary>
-            The time in milliseconds totaly
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.Ticks">
-            <summary>
-            The ticks totaly its need
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.CallType">
-            <summary>
-            Calling type
-            </summary>
-        </member>
-        <member name="P:NetOffice.PerformanceTrace.PerformanceAlertEventArgs.Arguments">
-            <summary>
-            Given arguments as any
-            </summary>
-        </member>
-        <member name="T:NetOffice.PerformanceTrace.PerformanceAlertEventHandler">
-            <summary>
-            PerformanceTrace alert event handler
-            </summary>
-            <param name="sender">sender instance</param>
-            <param name="e">alert information arguments</param>
         </member>
     </members>
 </doc>
