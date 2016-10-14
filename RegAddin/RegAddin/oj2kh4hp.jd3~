@@ -1,0 +1,105 @@
+﻿using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Linq;
+using System.Text;
+
+namespace RegAddin
+{
+    /// <summary>
+    /// Handle the syntax check/validation for all commandline arguments. This must be called at first.
+    /// The validator want create a validated command line arguments copy and try to fix some possible minor errors at this time.
+    /// Moreover the validator add missing optional arguments in the argument string(s) with its default value.
+    /// </summary>
+    internal class CommandLineValidator
+    {
+        #region Internal Methods
+
+        /// <summary>
+        /// Validate arguments from command line
+        /// </summary>
+        /// <param name="args">command line arguments - the method want create the arguments array</param>
+        internal void ValidateCommandLineArguments(ref string[] args)
+        {
+            if (null == args || args.Length == 0)
+                throw new RegAddinException("NoArguments");
+
+            List<string> list = CreateListCopy(args);
+            RemoveEmptySpaceFromList(list);
+            RemovePreQuotesFromList(list);
+            CheckCommandOptionsIsKnown(list);
+            CheckCommandCombination(list);
+            CheckAssemblyExistsIfNecessary(list);
+            CheckOptionSyntax(list);
+            AddMissingDefaultArguments(list);
+            args = CreateValidateArrayFromList(list);
+        }
+
+        #endregion
+
+        #region Private Methods
+
+        private void AddMissingDefaultArguments(List<string> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                string item = list[i];
+                Command itemCommand = GetTargetCommand(item, false);
+                if (null == itemCommand)
+                    continue;
+
+                foreach (CommandOptionDescription description in itemCommand.Description)
+                {
+
+                }
+                // itemCommand.Description.Count
+
+                throw new NotSupportedException();             
+            }
+        }
+
+        private string TryGetCommandOptionArgument(string fullCommandOption, int argumentIndex)
+        {
+            int validatedIndex = argumentIndex + 1;
+            string[] array = fullCommandOption.Split(new string[] { ":" }, StringSplitOptions.None);
+            if (array.Length > validatedIndex)
+                return array[validatedIndex];
+            else
+                return null;
+        } 
+
+        private void CheckOptionSyntax(List<string> list)
+        {
+            foreach (string item in list)
+            {
+                Command command = GetTargetCommand(item, false);
+                if (null != command && null != command.Description)
+                {
+                    int index = 0;
+                    foreach (CommandOptionDescription description in command.Description)
+                    {
+                        string argument = TryGetCommandOptionArgument(item, index);
+                        if (null == argument && false == description.IsOptional)
+                            throw new RegAddinException("MissingArgument");
+                        else if (null != argument && description.IsEnumOption && false == description.IsValueValid(argument))
+                            throw new RegAddinException("InvalidArgumentValue");
+                        index++;
+                    }
+                }
+            }
+        }
+          
+        private void CheckAssemblyExistsIfNecessary(List<string> list)
+        {
+            bool isNecessary = false;
+            Commands commands = new Commands();
+            foreach (string item in list)
+            {
+                foreach (Command command in commands)
+                {
+                    if (item.StartsWith(command.Name, StringComparison.InvariantCultureIgnoreCase) && command.NeedAssemblyPath)
+                    { 
+                        isNecessary = true;
+                        break;
+        
