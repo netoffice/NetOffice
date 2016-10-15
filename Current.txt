@@ -1,0 +1,42 @@
+﻿[Regular Commit]
+
+- fix issue #22037 - Excel.GetActiveInstances
+- fix issue #21998 - CustomUIAttribute
+- fix issue #21959 - InlineResponseClose DispID
+- improve Excel=>Names.Item (optionals)
+- fix PowerPoint _Application.HWND (instead of Microsoft)
+- fix a lot of compiler warnings in main source
+- add TimeSpan COMAddinBase.LoadingTimeElapsed{get;}
+- add TimeSpan Core.InitializedTime{get;}
+- add Settings.EnableUnknownProxies{get;set;}
+- add Concept Tests\ProxyView application
+- improve COMAddin Tweaks
+- improve COMAddin utils again
+- add Lockback, Programmable, Codebase attribute
+- Add RegistrySaveLocation=>InstallScope
+- recreate addin Register/Unregister logic
+- delete/move a lot of duplicate code in different 
+  COMAddin base classes to 1 central point  
+- add Deployment\RegAddin application
+- update office 2016 support meta informations
+- update assemblies
+
+Todo:
+Utils Test ?? 
+REF PARAMETER !!!
+GetActiveInstances und via desktop fenster tests schreiben bzw. ProxyView fertig stellen
+VSTO schauen irgendwas mit EnableVisualStyles - was und warum
+Assembly version file version regasm prüfen
+RegAddin.exe schreiben
+RegAddin test mit regfile export ergebniss vergleichen (hat sich erledigt, regexport lügt)
+SysWowNode verhalten validieren
+
+Example Idee - 
+Taskpane zeigt als Farbe die CPU Auslastung der Office Anwendung an - Vertikal
+Taskpane zeigt als Farbe die Speicher Auslastung der Office Anwendung an - Horizontal
+
+Wie stehts eigentlich um die anderen Addins Wikipedia, Twitter, Google ???
+
+Outlook Form Regions ?
+
+Register Rollback method nicht vergessen
