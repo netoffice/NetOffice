@@ -27,8 +27,9 @@ to see how to use NetOffice to automate Office applications or create add-ins an
 
 NetOffice source code is licensed under [MIT License](LICENSE.txt).
 
-Copyright &copy; 2011-2018 Sebastian Lange
-Copyright &copy; 2015-2018 Erika LeBlanc
+> Copyright &copy; 2011-2018 Sebastian Lange
+> 
+> Copyright &copy; 2015-2020 Erika LeBlanc
 
 
 [VSTO]: http://msdn.microsoft.com/en-us/library/jj620922.aspx
